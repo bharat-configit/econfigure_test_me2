@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_03AkkNsuEeeMOsgsRY5GHw" name="column_panel_rear_tbbs"
+    toaPrefix="column_panel_rear" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_03AlONsuEeeMOsgsRY5GHw"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_03AlOdsuEeeMOsgsRY5GHw"
+        name="switchboard_rear_open_blind_toa" visibility="800">
+      <domain uuid="_03AlPtsuEeeMOsgsRY5GHw" name="local"
+          visibility="300">
+        <typeSet uuid="_03AlQdsuEeeMOsgsRY5GHw" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wAHEULZqEeiCPs4S_QsEGw"
+        name="switchboard_IP_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_oyaSQIOkEem-Y4AeJsb5EQ" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wAHEVbZqEeiCPs4S_QsEGw" name="local"
+          visibility="300">
+        <typeSet uuid="_wAHEWLZqEeiCPs4S_QsEGw" bitSet="393226"/>
+        <values uuid="_wAHEWbZqEeiCPs4S_QsEGw" name="30"
+            visibility="300">
+          <displayName uuid="_bGEzGf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_wAHEWrZqEeiCPs4S_QsEGw" name="31"
+            visibility="300">
+          <displayName uuid="_bGEzG_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_wAHEW7ZqEeiCPs4S_QsEGw" name="40"
+            visibility="300">
+          <displayName uuid="_bGEzHf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_wAHEXLZqEeiCPs4S_QsEGw" name="41"
+            visibility="300">
+          <displayName uuid="_bGEzH_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_wAHEXbZqEeiCPs4S_QsEGw" name="65"
+            visibility="300">
+          <displayName uuid="_bGEzIf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_2ABqcLaNEeiDaKL6bHiFUg"
+        name="switchboard_arc_fault_toa" visibility="800">
+      <domain uuid="_2ABqdraNEeiDaKL6bHiFUg" name="local"
+          visibility="300">
+        <typeSet uuid="_2ABqebaNEeiDaKL6bHiFUg" bitSet="393220"/>
+        <values uuid="_2ABqeraNEeiDaKL6bHiFUg" name="Yes"
+            visibility="300">
+          <displayName uuid="_bGEzJv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_2ABqe7aNEeiDaKL6bHiFUg" name="No"
+            visibility="300">
+          <displayName uuid="_bGEzKP7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_iovT0L1rEeifRMPmbfZHgQ"
+        name="column_width_chain" visibility="800" initValue="300">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_Ix9zoH4JEemPcqRC9KqwXg" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" flow="IN">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_iovT0b1rEeifRMPmbfZHgQ" name="local"
+          visibility="300">
+        <typeSet uuid="_iovT0r1rEeifRMPmbfZHgQ" bitSet="393226"/>
+        <values uuid="_lS3-0L1rEeifRMPmbfZHgQ" name="250"
+            visibility="300">
+          <displayName uuid="_bGEzLf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-0b1rEeifRMPmbfZHgQ" name="300"
+            visibility="300">
+          <displayName uuid="_bGEzL_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-0r1rEeifRMPmbfZHgQ" name="400"
+            visibility="300">
+          <displayName uuid="_bGEzMf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-071rEeifRMPmbfZHgQ" name="500"
+            visibility="300">
+          <displayName uuid="_bGEzM_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-1L1rEeifRMPmbfZHgQ" name="600"
+            visibility="300">
+          <displayName uuid="_bGEzNf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-1b1rEeifRMPmbfZHgQ" name="700"
+            visibility="300">
+          <displayName uuid="_bGEzN_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-1r1rEeifRMPmbfZHgQ" name="750"
+            visibility="300">
+          <displayName uuid="_bGEzOf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-171rEeifRMPmbfZHgQ" name="800"
+            visibility="300">
+          <displayName uuid="_bGEzO_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-2L1rEeifRMPmbfZHgQ" name="900"
+            visibility="300">
+          <displayName uuid="_bGEzPf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-2b1rEeifRMPmbfZHgQ" name="1000"
+            visibility="300">
+          <displayName uuid="_bGEzP_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-2r1rEeifRMPmbfZHgQ" name="1100"
+            visibility="300">
+          <displayName uuid="_bGEzQf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_lS3-271rEeifRMPmbfZHgQ" name="1250"
+            visibility="300">
+          <displayName uuid="_bGEzQ_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_mggPkL1rEeifRMPmbfZHgQ"
+        name="switchboard_height_toa" visibility="800">
+      <domain uuid="_mggPkb1rEeifRMPmbfZHgQ" name="local"
+          visibility="300">
+        <typeSet uuid="_mggPkr1rEeifRMPmbfZHgQ" bitSet="393226"/>
+        <values uuid="_oFG14L1rEeifRMPmbfZHgQ" name="1800"
+            visibility="300">
+          <displayName uuid="_bGEzSP7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_oFG14b1rEeifRMPmbfZHgQ" name="2000"
+            visibility="300">
+          <displayName uuid="_bGEzSv7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_e74MwM1fEeijvKIEOg5Z8A"
+        name="column_with_grates_toa" visibility="800">
+      <domain uuid="_e74Mwc1fEeijvKIEOg5Z8A" name="local"
+          visibility="300">
+        <typeSet uuid="_e74Mws1fEeijvKIEOg5Z8A" bitSet="393227"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_03AlTNsuEeeMOsgsRY5GHw"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_Iqgf0NvVEee2apDU-fWu3g"
+        name="height" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_oclU4NvWEee2apDU-fWu3g" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" select="CLOSEST"
+          priority="900"/>
+      <domain uuid="_Iqgf0dvVEee2apDU-fWu3g" name="local"
+          visibility="300">
+        <typeSet uuid="_Iqgf0tvVEee2apDU-fWu3g" bitSet="393230"/>
+        <values uuid="_1-l90NvVEee2apDU-fWu3g" name="1800"
+            visibility="300">
+          <displayName uuid="_bGEzVP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_2oAuQNvVEee2apDU-fWu3g" name="2000"
+            visibility="300">
+          <displayName uuid="_bGEzVv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_KhiS4NvVEee2apDU-fWu3g"
+        name="width" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_p7-rENvWEee2apDU-fWu3g" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" select="CLOSEST"
+          priority="500"/>
+      <domain uuid="_KhiS5dvVEee2apDU-fWu3g" name="local"
+          visibility="300">
+        <typeSet uuid="_KhiS6NvVEee2apDU-fWu3g" bitSet="393230"/>
+        <values uuid="_4LO0gNvVEee2apDU-fWu3g" name="300"
+            visibility="300">
+          <displayName uuid="_bGEzXP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_4osMkNvVEee2apDU-fWu3g" name="400"
+            visibility="300">
+          <displayName uuid="_bGEzXv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_5B3hkNvVEee2apDU-fWu3g" name="600"
+            visibility="300">
+          <displayName uuid="_bGEzYP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_5dlNMNvVEee2apDU-fWu3g" name="800"
+            visibility="300">
+          <displayName uuid="_bGEzYv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_6i52gNvVEee2apDU-fWu3g" name="1000"
+            visibility="300">
+          <displayName uuid="_bGEzZP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_7ZybMNvVEee2apDU-fWu3g" name="1250"
+            visibility="300">
+          <displayName uuid="_bGEzZv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_LXg4oNvVEee2apDU-fWu3g"
+        name="panel_type_rear" visibility="800" initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_IXUHwM1sEeijvKIEOg5Z8A" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw">
+        <priorities href="../product_model.xml#_llygIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_LXg4pdvVEee2apDU-fWu3g" name="local"
+          visibility="300">
+        <typeSet uuid="_LXg4qNvVEee2apDU-fWu3g" bitSet="393230"/>
+        <values uuid="_wXZr0NvVEee2apDU-fWu3g" name="blind_with_gasket"
+            visibility="300">
+          <displayName uuid="_bGEzbf7nEeiskp2v5nXzHA"
+              value="Blind With Gasket"/>
+        </values>
+        <values uuid="_xwOf8NvVEee2apDU-fWu3g" name="blind_without_gasket"
+            visibility="300">
+          <displayName uuid="_bGEzb_7nEeiskp2v5nXzHA"
+              value="Blind Without Gasket"/>
+        </values>
+        <values uuid="_ye3HkNvVEee2apDU-fWu3g" name="vented"
+            visibility="300">
+          <displayName uuid="_bGEzcf7nEeiskp2v5nXzHA"
+              value="Vented"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_NqPwQNvVEee2apDU-fWu3g"
+        name="type_code" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wkkIoNvWEee2apDU-fWu3g" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" select="CLOSEST"
+          flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_NqPwQdvVEee2apDU-fWu3g" name="local"
+          visibility="300">
+        <typeSet uuid="_NqPwQtvVEee2apDU-fWu3g" bitSet="393231"/>
+        <values uuid="_MRy6INvWEee2apDU-fWu3g" name="PPEB1836"
+            visibility="300">
+          <displayName uuid="_bGEzev7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6IdvWEee2apDU-fWu3g" name="PPEB1846"
+            visibility="300">
+          <displayName uuid="_bGEzfP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6ItvWEee2apDU-fWu3g" name="PPEB1866"
+            visibility="300">
+          <displayName uuid="_bGEzfv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6I9vWEee2apDU-fWu3g" name="PPEB1886"
+            visibility="300">
+          <displayName uuid="_bGEzgP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6JNvWEee2apDU-fWu3g" name="PPEB1816"
+            visibility="300">
+          <displayName uuid="_bGEzgv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6JdvWEee2apDU-fWu3g" name="PPEB2036"
+            visibility="300">
+          <displayName uuid="_bGEzhP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6JtvWEee2apDU-fWu3g" name="PPEB2046"
+            visibility="300">
+          <displayName uuid="_bGEzhv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6J9vWEee2apDU-fWu3g" name="PPEB2066"
+            visibility="300">
+          <displayName uuid="_bGEziP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6KNvWEee2apDU-fWu3g" name="PPEB2086"
+            visibility="300">
+          <displayName uuid="_bGEziv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6KdvWEee2apDU-fWu3g" name="PPEB2016"
+            visibility="300">
+          <displayName uuid="_bGEzjP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6KtvWEee2apDU-fWu3g" name="PPEB1830"
+            visibility="300">
+          <displayName uuid="_bGEzjv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6K9vWEee2apDU-fWu3g" name="PPEB1840"
+            visibility="300">
+          <displayName uuid="_bGEzkP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6LNvWEee2apDU-fWu3g" name="PPEB1860"
+            visibility="300">
+          <displayName uuid="_bGEzkv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6LdvWEee2apDU-fWu3g" name="PPEB1880"
+            visibility="300">
+          <displayName uuid="_bGEzlP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6LtvWEee2apDU-fWu3g" name="PPEB1810"
+            visibility="300">
+          <displayName uuid="_bGEzlv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6L9vWEee2apDU-fWu3g" name="PPRB1820"
+            visibility="300">
+          <displayName uuid="_bGEzmP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6MNvWEee2apDU-fWu3g" name="PPEB2030"
+            visibility="300">
+          <displayName uuid="_bGEzmv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6MdvWEee2apDU-fWu3g" name="PPEB2040"
+            visibility="300">
+          <displayName uuid="_bGEznP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6MtvWEee2apDU-fWu3g" name="PPEB2060"
+            visibility="300">
+          <displayName uuid="_bGEznv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6M9vWEee2apDU-fWu3g" name="PPEB2080"
+            visibility="300">
+          <displayName uuid="_bGEzoP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6NNvWEee2apDU-fWu3g" name="PPEB2010"
+            visibility="300">
+          <displayName uuid="_bGEzov7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6NdvWEee2apDU-fWu3g" name="PPRB2020"
+            visibility="300">
+          <displayName uuid="_bGEzpP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6NtvWEee2apDU-fWu3g" name="PPEA1830"
+            visibility="300">
+          <displayName uuid="_bGEzpv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6N9vWEee2apDU-fWu3g" name="PPEA1840"
+            visibility="300">
+          <displayName uuid="_bGEzqP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6ONvWEee2apDU-fWu3g" name="PPEA1860"
+            visibility="300">
+          <displayName uuid="_bGEzqv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6OdvWEee2apDU-fWu3g" name="PPEA1880"
+            visibility="300">
+          <displayName uuid="_bGEzrP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6OtvWEee2apDU-fWu3g" name="PPEA1810"
+            visibility="300">
+          <displayName uuid="_bGEzrv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6O9vWEee2apDU-fWu3g" name="PPRA1820"
+            visibility="300">
+          <displayName uuid="_bGFaIf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6PNvWEee2apDU-fWu3g" name="PPEA2030"
+            visibility="300">
+          <displayName uuid="_bGFaI_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6PdvWEee2apDU-fWu3g" name="PPEA2040"
+            visibility="300">
+          <displayName uuid="_bGFaJf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6PtvWEee2apDU-fWu3g" name="PPEA2060"
+            visibility="300">
+          <displayName uuid="_bGFaJ_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6P9vWEee2apDU-fWu3g" name="PPEA2080"
+            visibility="300">
+          <displayName uuid="_bGFaKf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6QNvWEee2apDU-fWu3g" name="PPEA2010"
+            visibility="300">
+          <displayName uuid="_bGFaK_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_MRy6QdvWEee2apDU-fWu3g" name="PPRA2020"
+            visibility="300">
+          <displayName uuid="_bGFaLf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_NIqkULZqEeiCPs4S_QsEGw"
+        name="IP" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_7K5FcIOkEem-Y4AeJsb5EQ" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw">
+        <priorities href="../product_model.xml#_qKNGgAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_NIqkVbZqEeiCPs4S_QsEGw" name="local"
+          visibility="300">
+        <typeSet uuid="_NIqkWLZqEeiCPs4S_QsEGw" bitSet="393226"/>
+        <values uuid="_NIqkWbZqEeiCPs4S_QsEGw" name="30"
+            visibility="300">
+          <displayName uuid="_bGFaMv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_NIqkWrZqEeiCPs4S_QsEGw" name="31"
+            visibility="300">
+          <displayName uuid="_bGFaNP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_NIqkW7ZqEeiCPs4S_QsEGw" name="40"
+            visibility="300">
+          <displayName uuid="_bGFaNv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_NIqkXLZqEeiCPs4S_QsEGw" name="41"
+            visibility="300">
+          <displayName uuid="_bGFaOP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_NIqkXbZqEeiCPs4S_QsEGw" name="65"
+            visibility="300">
+          <displayName uuid="_bGFaOv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_xNwFkLf-EeiVxeDD_jTICA"
+        name="delete_mode" visibility="800">
+      <domain uuid="_xNwFlbf-EeiVxeDD_jTICA" name="local"
+          visibility="300">
+        <typeSet uuid="_xNwFmLf-EeiVxeDD_jTICA" bitSet="393217"/>
+        <values uuid="_xNwFmbf-EeiVxeDD_jTICA" name="0"
+            visibility="300">
+          <displayName uuid="_bGFaP_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_btBcAM0bEeicfbIGHsbr2g"
+        name="with_grates" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_cT85IM0bEeicfbIGHsbr2g" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_btBcBc0bEeicfbIGHsbr2g" name="local"
+          visibility="300">
+        <typeSet uuid="_btBcCM0bEeicfbIGHsbr2g" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_4m_4YM1lEeijvKIEOg5Z8A"
+        name="is_vented" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_FicbIM1mEeijvKIEOg5Z8A" declared="true"
+          model="_03AlV9suEeeMOsgsRY5GHw" flow="OUT">
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_4m_4Zc1lEeijvKIEOg5Z8A" name="local"
+          visibility="300">
+        <typeSet uuid="_4m_4aM1lEeijvKIEOg5Z8A" bitSet="393226"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="___Kn0HvEEem7IZeAcTJktQ"
+        name="number_of_grates" visibility="800">
+      <domain uuid="___Kn0XvEEem7IZeAcTJktQ" name="local"
+          visibility="300">
+        <typeSet uuid="___Kn0nvEEem7IZeAcTJktQ" bitSet="393231"/>
+        <values uuid="_EM2wQHvFEem7IZeAcTJktQ" name="0"
+            visibility="300">
+          <displayName uuid="_EM2wQXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_EWsBsHvFEem7IZeAcTJktQ" name="1"
+            visibility="300">
+          <displayName uuid="_EWsBsXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_EdjesHvFEem7IZeAcTJktQ" name="2"
+            visibility="300">
+          <displayName uuid="_EdjesXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_EkqMQHvFEem7IZeAcTJktQ" name="3"
+            visibility="300">
+          <displayName uuid="_EkqMQXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_Et9SMHvFEem7IZeAcTJktQ" name="4"
+            visibility="300">
+          <displayName uuid="_Et9SMXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_E06OwHvFEem7IZeAcTJktQ" name="5"
+            visibility="300">
+          <displayName uuid="_E06OwXvFEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_FCpv0HvFEem7IZeAcTJktQ" name="6"
+            visibility="300">
+          <displayName uuid="_FCpv0XvFEem7IZeAcTJktQ"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_l6jAoHvKEem7IZeAcTJktQ"
+        name="ip" visibility="800">
+      <domain uuid="_l6jApHvKEem7IZeAcTJktQ" name="local"
+          visibility="300">
+        <typeSet uuid="_l6jApnvKEem7IZeAcTJktQ" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_WtYsgA3rEeasGKXEZ95g1A"/>
+    </children>
+  </variables>
+  <logic uuid="_03AlV9suEeeMOsgsRY5GHw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_03AlYtsuEeeMOsgsRY5GHw"
+        name="ip" visibility="800" expression="//ip >= switchboard_ip_selection_toa"/>
+    <children xsi:type="array:Expression" uuid="_cVNd8NvXEee2apDU-fWu3g"
+        name="with_grates" visibility="800" expression="//panel_type_rear(vented)->is_vented(1);&#xD;&#xA;//!panel_type_rear(vented)->is_vented(0);&#xD;&#xA;//!panel_type_rear(vented) -> with_grates(0);&#xD;&#xA;//panel_type_rear(vented) -> with_grates(1,0);&#xD;&#xA;//panel_type_rear(vented) and column_with_grates_toa(1)-> with_grates(1);&#xD;&#xA;//column_with_grates_toa(0)-> with_grates(0);&#xD;&#xA;//number_of_grates(0)->with_grates(0);&#xD;&#xA;//!number_of_grates(0)->with_grates(1);&#xD;&#xA;&#xD;&#xA;panel_type_rear(vented)->with_grates(0,1);&#xD;&#xA;!panel_type_rear(vented)->with_grates(0);"/>
+    <children xsi:type="array:TableRelation" uuid="_6RiK4L-sEeiyFKpHlnOvDg"
+        name="IP_relation_SB" visibility="800">
+      <columns uuid="_6RiK4b-sEeiyFKpHlnOvDg" name="switchboard_arc_fault_toa"
+          visibility="100" databaseAlias="switchboard_arc_fault_toa">
+        <cells uuid="_6RiK4r-sEeiyFKpHlnOvDg" value="'No'"/>
+        <cells uuid="_6RiK47-sEeiyFKpHlnOvDg" value="'No'"/>
+        <cells uuid="_6RiK5L-sEeiyFKpHlnOvDg" value="'No'"/>
+        <cells uuid="_6RiK5b-sEeiyFKpHlnOvDg" value="'No'"/>
+        <cells uuid="_6RiK5r-sEeiyFKpHlnOvDg" value="'No'"/>
+        <cells uuid="_6RiK57-sEeiyFKpHlnOvDg" value="'Yes'"/>
+      </columns>
+      <columns uuid="_6RiK6L-sEeiyFKpHlnOvDg" name="switchboard_IP_toa"
+          visibility="100" databaseAlias="switchboard_IP_toa">
+        <cells uuid="_6RiK6b-sEeiyFKpHlnOvDg" value="30"/>
+        <cells uuid="_6RiK6r-sEeiyFKpHlnOvDg" value="31"/>
+        <cells uuid="_6RiK67-sEeiyFKpHlnOvDg" value="40"/>
+        <cells uuid="_6RiK7L-sEeiyFKpHlnOvDg" value="41"/>
+        <cells uuid="_6RiK7b-sEeiyFKpHlnOvDg" value="65"/>
+        <cells uuid="_6RiK7r-sEeiyFKpHlnOvDg" value="?"/>
+      </columns>
+      <columns uuid="_6RiK77-sEeiyFKpHlnOvDg" name="IP"
+          visibility="100" databaseAlias="IP">
+        <cells uuid="_6RiK8L-sEeiyFKpHlnOvDg" value="30,31,40,41,65"/>
+        <cells uuid="_6RiK8b-sEeiyFKpHlnOvDg" value="31,40,41,65"/>
+        <cells uuid="_6RiK8r-sEeiyFKpHlnOvDg" value="40,41,65"/>
+        <cells uuid="_6RiK87-sEeiyFKpHlnOvDg" value="41,65"/>
+        <cells uuid="_6RiK9L-sEeiyFKpHlnOvDg" value="65"/>
+        <cells uuid="_6RiK9b-sEeiyFKpHlnOvDg" value="65"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_6RiLKL-sEeiyFKpHlnOvDg"
+        name="SOFT_IP" visibility="800">
+      <columns uuid="_6RiLKb-sEeiyFKpHlnOvDg" name="switchboard_IP_toa"
+          visibility="100" databaseAlias="switchboard_IP_toa">
+        <cells uuid="_6RiLKr-sEeiyFKpHlnOvDg" value="30"/>
+        <cells uuid="_6RiLK7-sEeiyFKpHlnOvDg" value="31"/>
+        <cells uuid="_6RiLLL-sEeiyFKpHlnOvDg" value="40"/>
+        <cells uuid="_6RiLLb-sEeiyFKpHlnOvDg" value="41"/>
+        <cells uuid="_6RiLLr-sEeiyFKpHlnOvDg" value="65"/>
+      </columns>
+      <columns uuid="_6RiLL7-sEeiyFKpHlnOvDg" name="SOFT.IP"
+          visibility="100" databaseAlias="SOFT.IP">
+        <cells uuid="_6RiLML-sEeiyFKpHlnOvDg" value="30"/>
+        <cells uuid="_6RiLMb-sEeiyFKpHlnOvDg" value="31"/>
+        <cells uuid="_6RiLMr-sEeiyFKpHlnOvDg" value="40"/>
+        <cells uuid="_6RiLM7-sEeiyFKpHlnOvDg" value="41"/>
+        <cells uuid="_6RiLNL-sEeiyFKpHlnOvDg" value="65"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_C_fhEHvMEem7IZeAcTJktQ"
+        name="ip_relation" visibility="800">
+      <columns uuid="_GNiKYHvMEem7IZeAcTJktQ" name="panel_type_rear"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74HMYOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HMoOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HM4OmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HNIOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HNYOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HNoOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HN4OmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HOIOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HOYOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HOoOmEem-Y4AeJsb5EQ" value="'blind_with_gasket'"/>
+        <cells uuid="_O74HO4OmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HPIOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HPYOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HPoOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HP4OmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HQIOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HQYOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HQoOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HQ4OmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HRIOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HRYOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HRoOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HR4OmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HSIOmEem-Y4AeJsb5EQ" value="'blind_without_gasket'"/>
+        <cells uuid="_O74HSYOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HSoOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HS4OmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HTIOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HTYOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HToOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HT4OmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HUIOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HUYOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HUoOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HU4OmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HVIOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HVYOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_O74HVoOmEem-Y4AeJsb5EQ" value="'vented'"/>
+        <cells uuid="_UjBV4IOmEem-Y4AeJsb5EQ" value="?"/>
+      </columns>
+      <columns uuid="_Vew4wHvMEem7IZeAcTJktQ" name="IP"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74HWIOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HWYOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HWoOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HW4OmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HXIOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HXYOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HXoOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HX4OmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HYIOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HYYOmEem-Y4AeJsb5EQ" value="65"/>
+        <cells uuid="_O74HYoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HY4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HZIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HZYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HZoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HZ4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HaIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HaYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HaoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74Ha4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HbIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HbYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HboOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74Hb4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HcIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HcYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HcoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74Hc4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HdIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HdYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HdoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74Hd4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HeIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HeYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HeoOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74He4OmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HfIOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_O74HfYOmEem-Y4AeJsb5EQ" value="30,31,40,41"/>
+        <cells uuid="_UjBV4YOmEem-Y4AeJsb5EQ" value="?"/>
+      </columns>
+      <columns uuid="_IvRHUHvMEem7IZeAcTJktQ" name="number_of_grates"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74Hf4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HgIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HgYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HgoOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hg4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HhIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HhYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HhoOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hh4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HiIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HiYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HioOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hi4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HjIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HjYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HjoOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hj4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HkIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HkYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HkoOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hk4OmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HlIOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HlYOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74HloOmEem-Y4AeJsb5EQ" value="0"/>
+        <cells uuid="_O74Hl4OmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74HmIOmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74HmYOmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74HmoOmEem-Y4AeJsb5EQ" value="4"/>
+        <cells uuid="_O74Hm4OmEem-Y4AeJsb5EQ" value="6"/>
+        <cells uuid="_O74HnIOmEem-Y4AeJsb5EQ" value="6"/>
+        <cells uuid="_O74HnYOmEem-Y4AeJsb5EQ" value="6"/>
+        <cells uuid="_O74HnoOmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74Hn4OmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74HoIOmEem-Y4AeJsb5EQ" value="2"/>
+        <cells uuid="_O74HoYOmEem-Y4AeJsb5EQ" value="4"/>
+        <cells uuid="_O74HooOmEem-Y4AeJsb5EQ" value="6"/>
+        <cells uuid="_O74Ho4OmEem-Y4AeJsb5EQ" value="4"/>
+        <cells uuid="_O74HpIOmEem-Y4AeJsb5EQ" value="4"/>
+        <cells uuid="_UjBV4oOmEem-Y4AeJsb5EQ" value="?"/>
+      </columns>
+      <columns uuid="_HM6jwHvMEem7IZeAcTJktQ" name="switchboard_height_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74HpoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Hp4OmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HqIOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HqYOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HqoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Hq4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HrIOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HrYOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HroOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74Hr4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HsIOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HsYOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HsoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Hs4OmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HtIOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HtYOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HtoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Ht4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HuIOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HuYOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HuoOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74Hu4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HvIOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HvYOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HvoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Hv4OmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HwIOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HwYOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HwoOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74Hw4OmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HxIOmEem-Y4AeJsb5EQ" value="1800"/>
+        <cells uuid="_O74HxYOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HxoOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74Hx4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HyIOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HyYOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74HyoOmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_O74Hy4OmEem-Y4AeJsb5EQ" value="2000"/>
+        <cells uuid="_UjBV44OmEem-Y4AeJsb5EQ" value="?"/>
+      </columns>
+      <columns uuid="_LrIbgHvMEem7IZeAcTJktQ" name="column_width_chain"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74HzYOmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74HzoOmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74Hz4OmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H0IOmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H0YOmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H0oOmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74H04OmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74H1IOmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H1YOmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H1oOmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H14OmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74H2IOmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74H2YOmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H2oOmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H24OmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H3IOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H3YOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H3oOmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74H34OmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74H4IOmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H4YOmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H4oOmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H44OmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H5IOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H5YOmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74H5oOmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74H54OmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H6IOmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H6YOmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H6oOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H64OmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H7IOmEem-Y4AeJsb5EQ" value="300"/>
+        <cells uuid="_O74H7YOmEem-Y4AeJsb5EQ" value="400"/>
+        <cells uuid="_O74H7oOmEem-Y4AeJsb5EQ" value="600"/>
+        <cells uuid="_O74H74OmEem-Y4AeJsb5EQ" value="800"/>
+        <cells uuid="_O74H8IOmEem-Y4AeJsb5EQ" value="1000"/>
+        <cells uuid="_O74H8YOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_O74H8oOmEem-Y4AeJsb5EQ" value="1250"/>
+        <cells uuid="_UjBV5IOmEem-Y4AeJsb5EQ" value="500,700,900"/>
+      </columns>
+      <columns uuid="_KNy60HvMEem7IZeAcTJktQ" name="type_code"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_O74H9IOmEem-Y4AeJsb5EQ" value="'PPEB1836'"/>
+        <cells uuid="_O74H9YOmEem-Y4AeJsb5EQ" value="'PPEB1846'"/>
+        <cells uuid="_O74H9oOmEem-Y4AeJsb5EQ" value="'PPEB1866'"/>
+        <cells uuid="_O74H94OmEem-Y4AeJsb5EQ" value="'PPEB1886'"/>
+        <cells uuid="_O74H-IOmEem-Y4AeJsb5EQ" value="'PPEB1816'"/>
+        <cells uuid="_O74H-YOmEem-Y4AeJsb5EQ" value="'PPEB2036'"/>
+        <cells uuid="_O74H-oOmEem-Y4AeJsb5EQ" value="'PPEB2046'"/>
+        <cells uuid="_O74H-4OmEem-Y4AeJsb5EQ" value="'PPEB2066'"/>
+        <cells uuid="_O74H_IOmEem-Y4AeJsb5EQ" value="'PPEB2086'"/>
+        <cells uuid="_O74H_YOmEem-Y4AeJsb5EQ" value="'PPEB2016'"/>
+        <cells uuid="_O74H_oOmEem-Y4AeJsb5EQ" value="'PPEB1830'"/>
+        <cells uuid="_O74H_4OmEem-Y4AeJsb5EQ" value="'PPEB1840'"/>
+        <cells uuid="_O74IAIOmEem-Y4AeJsb5EQ" value="'PPEB1860'"/>
+        <cells uuid="_O74IAYOmEem-Y4AeJsb5EQ" value="'PPEB1880'"/>
+        <cells uuid="_O74IAoOmEem-Y4AeJsb5EQ" value="'PPEB1810'"/>
+        <cells uuid="_O74IA4OmEem-Y4AeJsb5EQ" value="'PPRB1820'"/>
+        <cells uuid="_O74IBIOmEem-Y4AeJsb5EQ" value="'PPLB1820'"/>
+        <cells uuid="_O74IBYOmEem-Y4AeJsb5EQ" value="'PPEB2030'"/>
+        <cells uuid="_O74IBoOmEem-Y4AeJsb5EQ" value="'PPEB2040'"/>
+        <cells uuid="_O74IB4OmEem-Y4AeJsb5EQ" value="'PPEB2060'"/>
+        <cells uuid="_O74ICIOmEem-Y4AeJsb5EQ" value="'PPEB2080'"/>
+        <cells uuid="_O74ICYOmEem-Y4AeJsb5EQ" value="'PPEB2010'"/>
+        <cells uuid="_O74ICoOmEem-Y4AeJsb5EQ" value="'PPRB2020'"/>
+        <cells uuid="_O74IC4OmEem-Y4AeJsb5EQ" value="'PPLB2020'"/>
+        <cells uuid="_O74IDIOmEem-Y4AeJsb5EQ" value="'PPEA1830'"/>
+        <cells uuid="_O74IDYOmEem-Y4AeJsb5EQ" value="'PPEA1840'"/>
+        <cells uuid="_O74IDoOmEem-Y4AeJsb5EQ" value="'PPEA1860'"/>
+        <cells uuid="_O74ID4OmEem-Y4AeJsb5EQ" value="'PPEA1880'"/>
+        <cells uuid="_O74IEIOmEem-Y4AeJsb5EQ" value="'PPEA1810'"/>
+        <cells uuid="_O74IEYOmEem-Y4AeJsb5EQ" value="'PPRA1820'"/>
+        <cells uuid="_O74IEoOmEem-Y4AeJsb5EQ" value="'PPLA1820'"/>
+        <cells uuid="_O74IE4OmEem-Y4AeJsb5EQ" value="'PPEA2030'"/>
+        <cells uuid="_O74IFIOmEem-Y4AeJsb5EQ" value="'PPEA2040'"/>
+        <cells uuid="_O74IFYOmEem-Y4AeJsb5EQ" value="'PPEA2060'"/>
+        <cells uuid="_O74IFoOmEem-Y4AeJsb5EQ" value="'PPEA2080'"/>
+        <cells uuid="_O74IF4OmEem-Y4AeJsb5EQ" value="'PPEA2010'"/>
+        <cells uuid="_O74IGIOmEem-Y4AeJsb5EQ" value="'PPRA2020'"/>
+        <cells uuid="_O74IGYOmEem-Y4AeJsb5EQ" value="'PPLA2020'"/>
+        <cells uuid="_UjBV5YOmEem-Y4AeJsb5EQ" value="?"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_-8TDMNvWEee2apDU-fWu3g" name="Calculation_Rules"
+      visibility="800"/>
+  <template href="_gO5AYL3sEemu44w8miOspg.xml#_gO5AYL3sEemu44w8miOspg"/>
+  <geometry uuid="_03AlY9suEeeMOsgsRY5GHw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_03AlZNsuEeeMOsgsRY5GHw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bGGBWP7nEeiskp2v5nXzHA" value="Rear Panel"/>
+</comp:Component>

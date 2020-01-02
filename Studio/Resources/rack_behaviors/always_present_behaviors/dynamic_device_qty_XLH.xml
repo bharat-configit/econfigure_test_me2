@@ -1,0 +1,53 @@
+<behaviors>
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="dynamic_device_quantity" order="107" />
+  </actionBehavior>
+  
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="single_self_exporter" order="106" />
+  </actionBehavior>
+  
+  <constraintBehavior>
+	<toaCondition>
+		<toa>device_SlimLine_50</toa>
+	</toaCondition>		
+	<sizeDependentVariableConstraint varid="number_of_poles">
+	<value height="1">3</value>
+	<value height="2">4</value>
+	</sizeDependentVariableConstraint>
+</constraintBehavior>
+
+  <constraintBehavior>
+	<toaCondition>
+		<toa>device_SlimLine_100</toa>
+	</toaCondition>		
+	<sizeDependentVariableConstraint varid="number_of_poles">
+	<value height="2">3</value>
+	<value height="3">4</value>
+	</sizeDependentVariableConstraint>
+</constraintBehavior>
+
+<constraintBehavior>
+	<toaCondition>
+		<toa>device_SlimLine_200_XR2</toa>
+	</toaCondition>		
+	<sizeDependentVariableConstraint varid="number_of_poles">
+	<value height="4">3</value>
+	<value height="5">4</value>
+	</sizeDependentVariableConstraint>
+</constraintBehavior>
+
+  <constraintBehavior>
+	<toaCondition>
+		<toa>device_SlimLine_200_XR3</toa>
+	</toaCondition>		
+	<sizeDependentVariableConstraint varid="number_of_poles">
+	<value height="4">3</value>
+	<value height="5">4</value>
+	</sizeDependentVariableConstraint>
+</constraintBehavior>
+  
+  
+</behaviors>

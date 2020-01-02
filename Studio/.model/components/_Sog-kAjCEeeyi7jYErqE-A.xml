@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Sog-kAjCEeeyi7jYErqE-A" name="device_E22"
+    componentClass="LINK" toaPrefix="device" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_Soi7UwjCEeeyi7jYErqE-A"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7VAjCEeeyi7jYErqE-A"
+        name="world_show_devices_toa" visibility="800"
+        initValue="1">
+      <domain uuid="_Soi7WQjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7XAjCEeeyi7jYErqE-A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7XQjCEeeyi7jYErqE-A"
+        name="column_height_outside_chain" visibility="800">
+      <domain uuid="_Soi7YgjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7ZQjCEeeyi7jYErqE-A" bitSet="262154"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_Soi7ZgjCEeeyi7jYErqE-A"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_BNb1YLf_EeiVxeDD_jTICA"
+        name="delete_mode" visibility="800">
+      <domain uuid="_BNb1Zbf_EeiVxeDD_jTICA" name="local"
+          visibility="300">
+        <typeSet uuid="_BNb1aLf_EeiVxeDD_jTICA" bitSet="393217"/>
+        <values uuid="_BNb1abf_EeiVxeDD_jTICA" name="0"
+            visibility="300">
+          <displayName uuid="_bMDfRf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Gqal4MW9EeiXFqPf-ROahg"
+        name="device_type" visibility="800" initValue="E22">
+      <domain uuid="_Gqal5cW9EeiXFqPf-ROahg" name="local"
+          visibility="300">
+        <typeSet uuid="_Gqal6MW9EeiXFqPf-ROahg" bitSet="393220"/>
+        <values uuid="_Gqal6cW9EeiXFqPf-ROahg" deletable="false"
+            name="E12" visibility="300">
+          <displayName uuid="_bMDfSv7nEeiskp2v5nXzHA"
+              value="E1.2"/>
+        </values>
+        <values uuid="_Gqal6sW9EeiXFqPf-ROahg" deletable="false"
+            name="E22" visibility="300">
+          <displayName uuid="_bMDfTP7nEeiskp2v5nXzHA"
+              value="E2.2"/>
+        </values>
+        <values uuid="_Gqal68W9EeiXFqPf-ROahg" deletable="false"
+            name="E42" visibility="300">
+          <displayName uuid="_bMDfTv7nEeiskp2v5nXzHA"
+              value="E4.2"/>
+        </values>
+        <values uuid="_Gqal7MW9EeiXFqPf-ROahg" deletable="false"
+            name="E62" visibility="300">
+          <displayName uuid="_bMDfUP7nEeiskp2v5nXzHA"
+              value="E6.2"/>
+        </values>
+        <values uuid="_Gqal7cW9EeiXFqPf-ROahg" deletable="false"
+            name="T5" visibility="300">
+          <displayName uuid="_bMDfUv7nEeiskp2v5nXzHA"
+              value="T5"/>
+        </values>
+        <values uuid="_Gqal7sW9EeiXFqPf-ROahg" deletable="false"
+            name="T6" visibility="300">
+          <displayName uuid="_bMDfVP7nEeiskp2v5nXzHA"
+              value="T6"/>
+        </values>
+        <values uuid="_Gqal78W9EeiXFqPf-ROahg" deletable="false"
+            name="T7" visibility="300">
+          <displayName uuid="_bMDfVv7nEeiskp2v5nXzHA"
+              value="T7"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_Soi7cQjCEeeyi7jYErqE-A"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7cgjCEeeyi7jYErqE-A"
+        name="display_E22" visibility="800" initValue="">
+      <domain uuid="_Soi7dwjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7egjCEeeyi7jYErqE-A" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7fQjCEeeyi7jYErqE-A"
+        name="height" visibility="800" initValue="325">
+      <domain uuid="_Soi7ggjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7hQjCEeeyi7jYErqE-A" bitSet="2"/>
+        <values uuid="_Soi7hgjCEeeyi7jYErqE-A" name="425"
+            visibility="300">
+          <displayName uuid="_bMDfYP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_Soi7hwjCEeeyi7jYErqE-A" name="325"
+            visibility="300">
+          <displayName uuid="_bMDfYv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7iAjCEeeyi7jYErqE-A"
+        name="width" visibility="800" initValue="407">
+      <domain uuid="_Soi7jQjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7kAjCEeeyi7jYErqE-A" bitSet="2"/>
+        <values uuid="_Soi7kQjCEeeyi7jYErqE-A" name="407"
+            visibility="300">
+          <displayName uuid="_bMDfZ_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_Soi7kgjCEeeyi7jYErqE-A" name="317"
+            visibility="300">
+          <displayName uuid="_bMDfaf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_Soi7kwjCEeeyi7jYErqE-A" name="366"
+            visibility="300">
+          <displayName uuid="_bMDfa_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_Soi7lAjCEeeyi7jYErqE-A" name="276"
+            visibility="300">
+          <displayName uuid="_bMDfbf7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7lQjCEeeyi7jYErqE-A"
+        name="move_y_device" visibility="800" initValue="0">
+      <domain uuid="_Soi7mgjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7nQjCEeeyi7jYErqE-A" bitSet="8"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Soi7qQjCEeeyi7jYErqE-A"
+        name="move_x_breakerFront" visibility="800"
+        initValue="0">
+      <domain uuid="_Soi7rgjCEeeyi7jYErqE-A" name="local"
+          visibility="300">
+        <typeSet uuid="_Soi7sQjCEeeyi7jYErqE-A" bitSet="8"/>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_Soi9pQjCEeeyi7jYErqE-A" name="logic"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_umweQN9HEeizM4G9X_dNeQ"
+        name="frame_size" visibility="800" expression="frame_size('E2.2');&#xD;&#xA;device_type(E22);"/>
+    <children xsi:type="array:TableRelation" uuid="_oQTxUOA-EeixTcVx_Qb4mA"
+        name="frame_size_current" visibility="800">
+      <columns uuid="_tZOy8OA-EeixTcVx_Qb4mA" name="frame_size_current_chain"
+          visibility="100" databaseAlias="frame_size_current_chain">
+        <cells uuid="_5X3vMuA-EeixTcVx_Qb4mA" value="100,150,160,225,250"/>
+        <cells uuid="_5X3vM-A-EeixTcVx_Qb4mA" value="320,400,600,630,800"/>
+        <cells uuid="_5X3vNeA-EeixTcVx_Qb4mA" value="1000"/>
+        <cells uuid="_5X3vNuA-EeixTcVx_Qb4mA" value="1200,1250"/>
+        <cells uuid="_5X3vN-A-EeixTcVx_Qb4mA" value="1600"/>
+        <cells uuid="_5X3vOOA-EeixTcVx_Qb4mA" value="2000"/>
+        <cells uuid="_EAKjkuA_EeixTcVx_Qb4mA" value="2500"/>
+        <cells uuid="_EhSTouA_EeixTcVx_Qb4mA" value="!"/>
+      </columns>
+      <columns uuid="_twIQAOA-EeixTcVx_Qb4mA" name="frame_size_current"
+          visibility="100" databaseAlias="frame_size_current">
+        <cells uuid="_5X3vOeA-EeixTcVx_Qb4mA" value="250"/>
+        <cells uuid="_5X3vOuA-EeixTcVx_Qb4mA" value="800"/>
+        <cells uuid="_5X3vPOA-EeixTcVx_Qb4mA" value="1000"/>
+        <cells uuid="_5X3vPeA-EeixTcVx_Qb4mA" value="1250"/>
+        <cells uuid="_5X3vPuA-EeixTcVx_Qb4mA" value="1600"/>
+        <cells uuid="_5X3vP-A-EeixTcVx_Qb4mA" value="2000"/>
+        <cells uuid="_EAKjkeA_EeixTcVx_Qb4mA" value="2500"/>
+        <cells uuid="_EhSToeA_EeixTcVx_Qb4mA" value="?"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_Soi9sAjCEeeyi7jYErqE-A" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************product rules here*******************************************&#xD;
+&#xD;
+//***************************svg area - Start*******************************************&#xD;
+if (kit_version==&quot;W&quot; &amp;&amp; number_of_poles==&quot;4&quot; ) width=407;&#xD;
+else if (kit_version==&quot;W&quot; &amp;&amp; number_of_poles!=&quot;4&quot; )  width=317;&#xD;
+else if (kit_version!=&quot;W&quot; &amp;&amp; number_of_poles==&quot;4&quot; )  width=366;&#xD;
+else width=276;&#xD;
+if (kit_version==&quot;W&quot;) height=425;&#xD;
+else height=325;&#xD;
+&#xD;
+height_rearbreaker1 = height;&#xD;
+&#xD;
+if (kit_version==&quot;W&quot;) {&#xD;
+	move_x_breakerFront=-326.5-276/2+width-158.5;//276 is from brekerFront in svg&#xD;
+	move_y_breakerFront=0;//331 is from brekerFront in svg&#xD;
+	visibility_operationGroup=&quot;visible&quot;;&#xD;
+	}&#xD;
+else {&#xD;
+	   move_x_breakerFront=-326.5-276/2+width-138;//+(width-276/2)-138;&#xD;
+   move_y_breakerFront=-64-325+height;&#xD;
+   visibility_operationGroup=&quot;hidden&quot;;&#xD;
+	}&#xD;
+&#xD;
+	if (world_show_devices_toa) {&#xD;
+		display_E22=&quot;inline&quot;; &#xD;
+		show_box=1;&#xD;
+	}&#xD;
+else {display_E22=&quot;none&quot;;&#xD;
+	show_box=0;&#xD;
+}&#xD;
+&#xD;
+move_x_flanges = move_x_breakerFront + 326.5 - 29.85;&#xD;
+move_y_flanges = move_y_breakerFront + 64 - 29.5;&#xD;
+&#xD;
+//***************************svg area - End*******************************************&#xD;
+&#xD;
+//PDC LocationX and Y&#xD;
+pdc_locationX_device = kit_pdc_center_X + kit_width/2 - width/2;&#xD;
+pdc_locationY_device = kit_pdc_center_Y + kit_height/2- height/2;&#xD;
+&#xD;
+pdc_locationX_copper_connection = pdc_locationX_device + 17;&#xD;
+pdc_locationY_copper_connection = pdc_locationY_device - 70;&#xD;
+pdc_locationX_cable_connection = pdc_locationX_device + 17;&#xD;
+pdc_locationY_cable_connection = pdc_locationY_device + 32;</text>
+  </calculation>
+  <template href="_Wp9_4N9FEeizM4G9X_dNeQ.xml#_Wp9_4N9FEeizM4G9X_dNeQ"/>
+  <cursorTwoD uuid="_Soi9sQjCEeeyi7jYErqE-A" name="Cursor_E22"
+      twoDElementsColor="_Soi9wgjCEeeyi7jYErqE-A" twoDElementsBgColor="_Soi9wgjCEeeyi7jYErqE-A">
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_Soi9sgjCEeeyi7jYErqE-A" deletable="false"
+      name="root">
+    <units uuid="_Soi9swjCEeeyi7jYErqE-A" name="device">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_Soi9tAjCEeeyi7jYErqE-A" variable="move_y_device">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4EtHslp6Eei01OQ0VFIZlw"
+            z="-1.0"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_Soi9tQjCEeeyi7jYErqE-A" name="E22_svg"
+          checksum="c1ee2809e3a77299a9086eb2702177be9ffefd10">
+        <translation uuid="_4EtHtFp6Eei01OQ0VFIZlw"/>
+        <file href="../../model.build#_J1ge0EeiEeeCdZeXpyir0Q"/>
+        <handles uuid="_Soi9tgjCEeeyi7jYErqE-A" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_Soi9twjCEeeyi7jYErqE-A"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_E22" target="xml"/>
+        </handles>
+        <handles uuid="_Soi9uwjCEeeyi7jYErqE-A" name="breakerRear"
+            visualId="breakerRear">
+          <fields xsi:type="comp:Field" uuid="_Soi9vAjCEeeyi7jYErqE-A"
+              name="heightManipulation" fieldId="height"
+              variableReference="height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Soi9vQjCEeeyi7jYErqE-A"
+              name="widthManipulation" fieldId="width"
+              variableReference="width" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Soi9vgjCEeeyi7jYErqE-A"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_rearbreaker"
+              target="css"/>
+        </handles>
+        <handles uuid="_Soi9vwjCEeeyi7jYErqE-A" name="operationGroup"
+            visualId="operationGroup">
+          <fields xsi:type="comp:Field" uuid="_kQ-4EEeiEeeCdZeXpyir0Q"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_breakerFront"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_lCd_YUeiEeeCdZeXpyir0Q"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_breakerFront"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_ewD-cEeoEeeCdZeXpyir0Q"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_operationGroup"
+              target="css"/>
+        </handles>
+        <handles uuid="_kQ8b0UeiEeeCdZeXpyir0Q" name="frontRear"
+            visualId="frontRear">
+          <fields xsi:type="comp:Field" uuid="_kQ8b0EeiEeeCdZeXpyir0Q"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_breakerFront"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_lCd_YEeiEeeCdZeXpyir0Q"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_breakerFront"
+              target="transform"/>
+        </handles>
+        <handles uuid="_BY1ikEekEeeCdZeXpyir0Q" name="path5199"
+            visualId="path5199">
+          <fields xsi:type="comp:Field" uuid="_BY1ikUekEeeCdZeXpyir0Q"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_hidden"
+              target="css"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_Soi9wgjCEeeyi7jYErqE-A"
+          name="Box_E22" order="1" cursorsUsingMeForBgColor="_Soi9sQjCEeeyi7jYErqE-A"
+          cursorsUsingMeForColor="_Soi9sQjCEeeyi7jYErqE-A"
+          strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_Soi9wwjCEeeyi7jYErqE-A" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_Soi9xAjCEeeyi7jYErqE-A" scaleDynamic="show_box"/>
+        <translation uuid="_4EtHyFp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_W7tgABoDEeecof12HlSVxg"
+          name="Box_E22_highlighter" strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_W7tgARoDEeecof12HlSVxg" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_W7tgAhoDEeecof12HlSVxg" scaleDynamic="scale_highlighter"/>
+        <translation uuid="_4EtHzlp6Eei01OQ0VFIZlw"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_Soi9xQjCEeeyi7jYErqE-A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bMfko_7nEeiskp2v5nXzHA" value="Circuit Breaker E2.2"/>
+</comp:Component>

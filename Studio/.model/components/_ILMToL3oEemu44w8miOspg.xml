@@ -1,0 +1,2187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_ILMToL3oEemu44w8miOspg" name="column_panel_bottom_empty"
+    toaPrefix="column_top_bottom_panel" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_ILOx6r3oEemu44w8miOspg"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOx673oEemu44w8miOspg"
+        name="display_cap" visibility="800">
+      <domain uuid="_ILOx7r3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOx8L3oEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOx8b3oEemu44w8miOspg"
+        name="display_L1_L3_R1_R3" visibility="800">
+      <domain uuid="_ILOx9L3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOx9r3oEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOx973oEemu44w8miOspg"
+        name="display_T1_T3_B1_B3" visibility="800">
+      <domain uuid="_ILOx-r3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOx_L3oEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOx_b3oEemu44w8miOspg"
+        name="display_screwRB_LB" visibility="800">
+      <domain uuid="_ILOyAL3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyAr3oEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_ILOyA73oEemu44w8miOspg"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyBL3oEemu44w8miOspg"
+        name="cable_entry" visibility="800">
+      <domain uuid="_ILOyB73oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyCb3oEemu44w8miOspg" bitSet="10"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_AY1-EApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyCr3oEemu44w8miOspg"
+        name="open_blind" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ILOyDb3oEemu44w8miOspg" declared="true"
+          model="_ILPYc73oEemu44w8miOspg" select="CLOSEST"
+          priority="99">
+        <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_ILOyDr3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyEL3oEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_ILOyEb3oEemu44w8miOspg" deletable="false"
+            name="Blind" visibility="300">
+          <displayName uuid="_ILOyE73oEemu44w8miOspg"
+              value="Blind Panel"/>
+        </values>
+        <values uuid="_ILOyFL3oEemu44w8miOspg" deletable="false"
+            name="Open_flange" visibility="300">
+          <displayName uuid="_ILOyFr3oEemu44w8miOspg"
+              value="Open with flange"/>
+        </values>
+        <values uuid="_ILOyF73oEemu44w8miOspg" name="Open_blind_flange"
+            visibility="300">
+          <displayName uuid="_ILOyGb3oEemu44w8miOspg"
+              value="Open with blind flange"/>
+        </values>
+        <values uuid="_ILOyGr3oEemu44w8miOspg" name="without panel"
+            visibility="300">
+          <displayName uuid="_ILOyHL3oEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyHb3oEemu44w8miOspg"
+        name="delete_mode" visibility="800">
+      <domain uuid="_ILOyIL3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyIr3oEemu44w8miOspg" bitSet="393217"/>
+        <values uuid="_ILOyI73oEemu44w8miOspg" name="0"
+            visibility="300">
+          <displayName uuid="_ILOyJb3oEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_ILOyJr3oEemu44w8miOspg"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyJ73oEemu44w8miOspg"
+        name="column_type_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ILOyKr3oEemu44w8miOspg" declared="true"
+          model="_ILPYc73oEemu44w8miOspg" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_ILOyK73oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyLb3oEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_CpAOsL3uEemu44w8miOspg" name="empty"
+            visibility="300">
+          <displayName uuid="_CpAOsb3uEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyLr3oEemu44w8miOspg"
+        name="column_width_chain" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ILOyMb3oEemu44w8miOspg" declared="true"
+          select="CLOSEST" priority="1000"/>
+      <domain uuid="_ILOyMr3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyNL3oEemu44w8miOspg" bitSet="10"/>
+        <values uuid="_ILOyNb3oEemu44w8miOspg" deletable="false"
+            name="250" visibility="300">
+          <displayName uuid="_ILOyN73oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyOL3oEemu44w8miOspg" deletable="false"
+            name="300" visibility="300">
+          <displayName uuid="_ILOyOr3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyO73oEemu44w8miOspg" deletable="false"
+            name="400" visibility="300">
+          <displayName uuid="_ILOyPb3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyPr3oEemu44w8miOspg" deletable="false"
+            name="500" visibility="300">
+          <displayName uuid="_ILOyQL3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyQb3oEemu44w8miOspg" deletable="false"
+            name="700" visibility="300">
+          <displayName uuid="_ILOyQ73oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyRL3oEemu44w8miOspg" deletable="false"
+            name="750" visibility="300">
+          <displayName uuid="_ILOyRr3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyR73oEemu44w8miOspg" deletable="false"
+            name="900" visibility="300">
+          <displayName uuid="_ILOySb3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOySr3oEemu44w8miOspg" deletable="false"
+            name="1000" visibility="300">
+          <displayName uuid="_ILOyTL3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyTb3oEemu44w8miOspg" deletable="false"
+            name="1100" visibility="300">
+          <displayName uuid="_ILOyT73oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyUL3oEemu44w8miOspg" deletable="false"
+            name="1250" visibility="300">
+          <displayName uuid="_ILOyUr3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyU73oEemu44w8miOspg" name="600"
+            visibility="300">
+          <displayName uuid="_ILOyVb3oEemu44w8miOspg"/>
+        </values>
+        <values uuid="_ILOyVr3oEemu44w8miOspg" name="800"
+            visibility="300">
+          <displayName uuid="_ILOyWL3oEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyWb3oEemu44w8miOspg"
+        name="switchboard_product_line_toa" visibility="800">
+      <domain uuid="_ILOyXL3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyXr3oEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_ILOyX73oEemu44w8miOspg" deletable="false"
+            name="empty" visibility="300">
+          <displayName uuid="_ILOyYb3oEemu44w8miOspg"
+              value="Empty Enclosures"/>
+        </values>
+        <values uuid="_ILOyYr3oEemu44w8miOspg" deletable="false"
+            name="n185" visibility="300">
+          <displayName uuid="_ILOyZL3oEemu44w8miOspg"
+              value="pro E 185mm"/>
+        </values>
+        <values uuid="_ILOyZb3oEemu44w8miOspg" deletable="false"
+            name="rearbusbar" visibility="300">
+          <displayName uuid="_ILOyZ73oEemu44w8miOspg"
+              value="Rear Busbar"/>
+        </values>
+        <values uuid="_ILOyaL3oEemu44w8miOspg" name="tbbs"
+            visibility="300">
+          <displayName uuid="_ILOyar3oEemu44w8miOspg"
+              value="Top Busbar"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOya73oEemu44w8miOspg"
+        name="switchboard_ip_protection_toa" visibility="800"
+        initValue="40">
+      <domain uuid="_ILOybr3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOycL3oEemu44w8miOspg" bitSet="393218"/>
+        <values uuid="_ILOycb3oEemu44w8miOspg" name="0"
+            visibility="300">
+          <displayName uuid="_ILOyc73oEemu44w8miOspg"
+              value="IP00"/>
+        </values>
+        <values uuid="_ILOydL3oEemu44w8miOspg" name="30"
+            visibility="300">
+          <displayName uuid="_ILOydr3oEemu44w8miOspg"
+              value="IP30"/>
+        </values>
+        <values uuid="_ILOyd73oEemu44w8miOspg" name="31"
+            visibility="300">
+          <displayName uuid="_ILOyeb3oEemu44w8miOspg"
+              value="IP31"/>
+        </values>
+        <values uuid="_ILOyer3oEemu44w8miOspg" name="40"
+            visibility="300">
+          <displayName uuid="_ILOyfL3oEemu44w8miOspg"
+              value="IP40"/>
+        </values>
+        <values uuid="_ILOyfb3oEemu44w8miOspg" name="41"
+            visibility="300">
+          <displayName uuid="_ILOyf73oEemu44w8miOspg"
+              value="IP41"/>
+        </values>
+        <values uuid="_ILOygL3oEemu44w8miOspg" name="55"
+            visibility="300">
+          <displayName uuid="_ILOygr3oEemu44w8miOspg"
+              value="IP55"/>
+        </values>
+        <values uuid="_ILOyg73oEemu44w8miOspg" name="65"
+            visibility="300">
+          <displayName uuid="_ILOyhb3oEemu44w8miOspg"
+              value="IP65"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ILOyhr3oEemu44w8miOspg"
+        name="switchboard_ip_bottom_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ILOyib3oEemu44w8miOspg" declared="true"
+          model="_ILPYc73oEemu44w8miOspg" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_ILOyir3oEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_ILOyjL3oEemu44w8miOspg" bitSet="393218"/>
+        <values uuid="_ILOyjb3oEemu44w8miOspg" name="0"
+            visibility="300">
+          <displayName uuid="_ILOyj73oEemu44w8miOspg"
+              value="IP00"/>
+        </values>
+        <values uuid="_ILOykL3oEemu44w8miOspg" name="30"
+            visibility="300">
+          <displayName uuid="_ILOykr3oEemu44w8miOspg"
+              value="IP30"/>
+        </values>
+        <values uuid="_ILOyk73oEemu44w8miOspg" name="40"
+            visibility="300">
+          <displayName uuid="_ILOylb3oEemu44w8miOspg"
+              value="IP40"/>
+        </values>
+        <values uuid="_ILOylr3oEemu44w8miOspg" name="55"
+            visibility="300">
+          <displayName uuid="_ILOymL3oEemu44w8miOspg"
+              value="IP55"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ILOymb3oEemu44w8miOspg"
+      name="position" visibility="800">
+    <domain uuid="_ILOynL3oEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_ILOynr3oEemu44w8miOspg" bitSet="393220"/>
+      <values uuid="_ILOyn73oEemu44w8miOspg" deletable="false"
+          name="External" visibility="300">
+        <displayName uuid="_ILOyob3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILOyor3oEemu44w8miOspg" deletable="false"
+          name="Internal" visibility="300">
+        <displayName uuid="_ILOypL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILOypb3oEemu44w8miOspg" deletable="false"
+          name="NONE" visibility="300">
+        <displayName uuid="_ILOyp73oEemu44w8miOspg"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ILOyqL3oEemu44w8miOspg"
+      name="switchboard_connection_toa" visibility="800">
+    <domain uuid="_ILOyq73oEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_ILOyrb3oEemu44w8miOspg" bitSet="393220"/>
+      <values uuid="_ILOyrr3oEemu44w8miOspg" name="bottom"
+          visibility="300">
+        <displayName uuid="_ILOysL3oEemu44w8miOspg"
+            value="Bottom"/>
+      </values>
+      <values uuid="_ILOysb3oEemu44w8miOspg" name="top"
+          visibility="300">
+        <displayName uuid="_ILOys73oEemu44w8miOspg"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ILOytL3oEemu44w8miOspg"
+      name="column_connection_toa" visibility="800">
+    <domain uuid="_ILOyt73oEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_ILOyub3oEemu44w8miOspg" bitSet="393220"/>
+      <values uuid="_ILOyur3oEemu44w8miOspg" name="bottom"
+          visibility="300">
+        <displayName uuid="_ILOyvL3oEemu44w8miOspg"
+            value="Bottom"/>
+      </values>
+      <values uuid="_ILOyvb3oEemu44w8miOspg" name="top"
+          visibility="300">
+        <displayName uuid="_ILOyv73oEemu44w8miOspg"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ILOywL3oEemu44w8miOspg"
+      name="article_type" visibility="800">
+    <domain uuid="_ILPW8L3oEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_ILPW8r3oEemu44w8miOspg" bitSet="393220"/>
+      <values uuid="_ILPW873oEemu44w8miOspg" deletable="false"
+          name="PBWF1026" visibility="300">
+        <displayName uuid="_ILPW9b3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPW9r3oEemu44w8miOspg" deletable="false"
+          name="PBWF1036" visibility="300">
+        <displayName uuid="_ILPW-L3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPW-b3oEemu44w8miOspg" deletable="false"
+          name="PBWF1056" visibility="300">
+        <displayName uuid="_ILPW-73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPW_L3oEemu44w8miOspg" deletable="false"
+          name="PBWF1057" visibility="300">
+        <displayName uuid="_ILPW_r3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPW_73oEemu44w8miOspg" deletable="false"
+          name="PBWF1076" visibility="300">
+        <displayName uuid="_ILPXAb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXAr3oEemu44w8miOspg" deletable="false"
+          name="PBWF1077" visibility="300">
+        <displayName uuid="_ILPXBL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXBb3oEemu44w8miOspg" deletable="false"
+          name="PBWF1226" visibility="300">
+        <displayName uuid="_ILPXB73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXCL3oEemu44w8miOspg" deletable="false"
+          name="PBWF1236" visibility="300">
+        <displayName uuid="_ILPXCr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXC73oEemu44w8miOspg" deletable="false"
+          name="PBWF1256" visibility="300">
+        <displayName uuid="_ILPXDb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXDr3oEemu44w8miOspg" deletable="false"
+          name="PBWF1257" visibility="300">
+        <displayName uuid="_ILPXEL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXEb3oEemu44w8miOspg" deletable="false"
+          name="PBWF1276" visibility="300">
+        <displayName uuid="_ILPXE73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXFL3oEemu44w8miOspg" deletable="false"
+          name="PBWF1277" visibility="300">
+        <displayName uuid="_ILPXFr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXF73oEemu44w8miOspg" deletable="false"
+          name="PBWF2526" visibility="300">
+        <displayName uuid="_ILPXGb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXGr3oEemu44w8miOspg" deletable="false"
+          name="PBWF2536" visibility="300">
+        <displayName uuid="_ILPXHL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXHb3oEemu44w8miOspg" deletable="false"
+          name="PBWF2556" visibility="300">
+        <displayName uuid="_ILPXH73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXIL3oEemu44w8miOspg" deletable="false"
+          name="PBWF2557" visibility="300">
+        <displayName uuid="_ILPXIr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXI73oEemu44w8miOspg" deletable="false"
+          name="PBWF2576" visibility="300">
+        <displayName uuid="_ILPXJb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXJr3oEemu44w8miOspg" deletable="false"
+          name="PBWF2577" visibility="300">
+        <displayName uuid="_ILPXKL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXKb3oEemu44w8miOspg" deletable="false"
+          name="PBWF3056" visibility="300">
+        <displayName uuid="_ILPXK73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXLL3oEemu44w8miOspg" deletable="false"
+          name="PBWF5026" visibility="300">
+        <displayName uuid="_ILPXLr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXL73oEemu44w8miOspg" deletable="false"
+          name="PBWF5031" visibility="300">
+        <displayName uuid="_ILPXMb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXMr3oEemu44w8miOspg" deletable="false"
+          name="PBWF5050" visibility="300">
+        <displayName uuid="_ILPXNL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXNb3oEemu44w8miOspg" deletable="false"
+          name="PBWF5051" visibility="300">
+        <displayName uuid="_ILPXN73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXOL3oEemu44w8miOspg" deletable="false"
+          name="PBWF5057" visibility="300">
+        <displayName uuid="_ILPXOr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXO73oEemu44w8miOspg" deletable="false"
+          name="PBWF5076" visibility="300">
+        <displayName uuid="_ILPXPb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXPr3oEemu44w8miOspg" deletable="false"
+          name="PBWF5077" visibility="300">
+        <displayName uuid="_ILPXQL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXQb3oEemu44w8miOspg" deletable="false"
+          name="PBWF7526" visibility="300">
+        <displayName uuid="_ILPXQ73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXRL3oEemu44w8miOspg" deletable="false"
+          name="PBWF7536" visibility="300">
+        <displayName uuid="_ILPXRr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXR73oEemu44w8miOspg" deletable="false"
+          name="PBWF7556" visibility="300">
+        <displayName uuid="_ILPXSb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXSr3oEemu44w8miOspg" deletable="false"
+          name="PBWF7557" visibility="300">
+        <displayName uuid="_ILPXTL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXTb3oEemu44w8miOspg" deletable="false"
+          name="PBWF7576" visibility="300">
+        <displayName uuid="_ILPXT73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXUL3oEemu44w8miOspg" deletable="false"
+          name="PBWF7577" visibility="300">
+        <displayName uuid="_ILPXUr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXU73oEemu44w8miOspg" deletable="false"
+          name="PBWP1020" visibility="300">
+        <displayName uuid="_ILPXVb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXVr3oEemu44w8miOspg" deletable="false"
+          name="PBWP1030" visibility="300">
+        <displayName uuid="_ILPXWL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXWb3oEemu44w8miOspg" deletable="false"
+          name="PBWP1050" visibility="300">
+        <displayName uuid="_ILPXW73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXXL3oEemu44w8miOspg" deletable="false"
+          name="PBWP1070" visibility="300">
+        <displayName uuid="_ILPXXr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXX73oEemu44w8miOspg" deletable="false"
+          name="PBWP1220" visibility="300">
+        <displayName uuid="_ILPXYb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXYr3oEemu44w8miOspg" deletable="false"
+          name="PBWP1230" visibility="300">
+        <displayName uuid="_ILPXZL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXZb3oEemu44w8miOspg" deletable="false"
+          name="PBWP1250" visibility="300">
+        <displayName uuid="_ILPXZ73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXaL3oEemu44w8miOspg" deletable="false"
+          name="PBWP1270" visibility="300">
+        <displayName uuid="_ILPXar3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXa73oEemu44w8miOspg" deletable="false"
+          name="PBWP2520" visibility="300">
+        <displayName uuid="_ILPXbb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXbr3oEemu44w8miOspg" deletable="false"
+          name="PBWP2530" visibility="300">
+        <displayName uuid="_ILPXcL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXcb3oEemu44w8miOspg" deletable="false"
+          name="PBWP2550" visibility="300">
+        <displayName uuid="_ILPXc73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXdL3oEemu44w8miOspg" deletable="false"
+          name="PBWP2570" visibility="300">
+        <displayName uuid="_ILPXdr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXd73oEemu44w8miOspg" deletable="false"
+          name="PBWP3050" visibility="300">
+        <displayName uuid="_ILPXeb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXer3oEemu44w8miOspg" deletable="false"
+          name="PBWP5020" visibility="300">
+        <displayName uuid="_ILPXfL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXfb3oEemu44w8miOspg" deletable="false"
+          name="PBWP5050" visibility="300">
+        <displayName uuid="_ILPXf73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXgL3oEemu44w8miOspg" deletable="false"
+          name="PBWP5070" visibility="300">
+        <displayName uuid="_ILPXgr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXg73oEemu44w8miOspg" deletable="false"
+          name="PBWP7520" visibility="300">
+        <displayName uuid="_ILPXhb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXhr3oEemu44w8miOspg" deletable="false"
+          name="PBWP7530" visibility="300">
+        <displayName uuid="_ILPXiL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXib3oEemu44w8miOspg" deletable="false"
+          name="PBWP7550" visibility="300">
+        <displayName uuid="_ILPXi73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXjL3oEemu44w8miOspg" deletable="false"
+          name="PBWP7570" visibility="300">
+        <displayName uuid="_ILPXjr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXj73oEemu44w8miOspg" deletable="false"
+          name="PTBB1026" visibility="300">
+        <displayName uuid="_ILPXkb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXkr3oEemu44w8miOspg" deletable="false"
+          name="PTBB1036" visibility="300">
+        <displayName uuid="_ILPXlL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXlb3oEemu44w8miOspg" deletable="false"
+          name="PTBB1056" visibility="300">
+        <displayName uuid="_ILPXl73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXmL3oEemu44w8miOspg" deletable="false"
+          name="PTBB1076" visibility="300">
+        <displayName uuid="_ILPXmr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXm73oEemu44w8miOspg" deletable="false"
+          name="PTBB1226" visibility="300">
+        <displayName uuid="_ILPXnb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXnr3oEemu44w8miOspg" deletable="false"
+          name="PTBB1236" visibility="300">
+        <displayName uuid="_ILPXoL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXob3oEemu44w8miOspg" deletable="false"
+          name="PTBB1256" visibility="300">
+        <displayName uuid="_ILPXo73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXpL3oEemu44w8miOspg" deletable="false"
+          name="PTBB1276" visibility="300">
+        <displayName uuid="_ILPXpr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXp73oEemu44w8miOspg" deletable="false"
+          name="PTBB2526" visibility="300">
+        <displayName uuid="_ILPXqb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXqr3oEemu44w8miOspg" deletable="false"
+          name="PTBB2536" visibility="300">
+        <displayName uuid="_ILPXrL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXrb3oEemu44w8miOspg" deletable="false"
+          name="PTBB2556" visibility="300">
+        <displayName uuid="_ILPXr73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXsL3oEemu44w8miOspg" deletable="false"
+          name="PTBB2576" visibility="300">
+        <displayName uuid="_ILPXsr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXs73oEemu44w8miOspg" deletable="false"
+          name="PTBB3056" visibility="300">
+        <displayName uuid="_ILPXtb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXtr3oEemu44w8miOspg" deletable="false"
+          name="PTBB5026" visibility="300">
+        <displayName uuid="_ILPXuL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXub3oEemu44w8miOspg" deletable="false"
+          name="PTBB5050" visibility="300">
+        <displayName uuid="_ILPXu73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXvL3oEemu44w8miOspg" deletable="false"
+          name="PTBB5076" visibility="300">
+        <displayName uuid="_ILPXvr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXv73oEemu44w8miOspg" deletable="false"
+          name="PTBB7526" visibility="300">
+        <displayName uuid="_ILPXwb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXwr3oEemu44w8miOspg" deletable="false"
+          name="PTBB7536" visibility="300">
+        <displayName uuid="_ILPXxL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXxb3oEemu44w8miOspg" deletable="false"
+          name="PTBB7556" visibility="300">
+        <displayName uuid="_ILPXx73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXyL3oEemu44w8miOspg" deletable="false"
+          name="PTBB7576" visibility="300">
+        <displayName uuid="_ILPXyr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXy73oEemu44w8miOspg" deletable="false"
+          name="PTBO1030" visibility="300">
+        <displayName uuid="_ILPXzb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPXzr3oEemu44w8miOspg" deletable="false"
+          name="PTBO1050" visibility="300">
+        <displayName uuid="_ILPX0L3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX0b3oEemu44w8miOspg" deletable="false"
+          name="PTBO1070" visibility="300">
+        <displayName uuid="_ILPX073oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX1L3oEemu44w8miOspg" deletable="false"
+          name="PTBO1230" visibility="300">
+        <displayName uuid="_ILPX1r3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX173oEemu44w8miOspg" deletable="false"
+          name="PTBO1250" visibility="300">
+        <displayName uuid="_ILPX2b3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX2r3oEemu44w8miOspg" deletable="false"
+          name="PTBO1270" visibility="300">
+        <displayName uuid="_ILPX3L3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX3b3oEemu44w8miOspg" deletable="false"
+          name="PTBO2520" visibility="300">
+        <displayName uuid="_ILPX373oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX4L3oEemu44w8miOspg" deletable="false"
+          name="PTBO2530" visibility="300">
+        <displayName uuid="_ILPX4r3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX473oEemu44w8miOspg" deletable="false"
+          name="PTBO2550" visibility="300">
+        <displayName uuid="_ILPX5b3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX5r3oEemu44w8miOspg" deletable="false"
+          name="PTBO2570" visibility="300">
+        <displayName uuid="_ILPX6L3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX6b3oEemu44w8miOspg" deletable="false"
+          name="PTBO3050" visibility="300">
+        <displayName uuid="_ILPX673oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX7L3oEemu44w8miOspg" deletable="false"
+          name="PTBO5020" visibility="300">
+        <displayName uuid="_ILPX7r3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX773oEemu44w8miOspg" deletable="false"
+          name="PTBO5050" visibility="300">
+        <displayName uuid="_ILPX8b3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX8r3oEemu44w8miOspg" deletable="false"
+          name="PTBO5070" visibility="300">
+        <displayName uuid="_ILPX9L3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX9b3oEemu44w8miOspg" deletable="false"
+          name="PTBO7520" visibility="300">
+        <displayName uuid="_ILPX973oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX-L3oEemu44w8miOspg" deletable="false"
+          name="PTBO7530" visibility="300">
+        <displayName uuid="_ILPX-r3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX-73oEemu44w8miOspg" deletable="false"
+          name="PTBO7550" visibility="300">
+        <displayName uuid="_ILPX_b3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPX_r3oEemu44w8miOspg" deletable="false"
+          name="PTBO7570" visibility="300">
+        <displayName uuid="_ILPYAL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYAb3oEemu44w8miOspg" deletable="false"
+          name="PTBT1026" visibility="300">
+        <displayName uuid="_ILPYA73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYBL3oEemu44w8miOspg" deletable="false"
+          name="PTBT1036" visibility="300">
+        <displayName uuid="_ILPYBr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYB73oEemu44w8miOspg" deletable="false"
+          name="PTBT1056" visibility="300">
+        <displayName uuid="_ILPYCb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYCr3oEemu44w8miOspg" deletable="false"
+          name="PTBT1057" visibility="300">
+        <displayName uuid="_ILPYDL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYDb3oEemu44w8miOspg" deletable="false"
+          name="PTBT1076" visibility="300">
+        <displayName uuid="_ILPYD73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYEL3oEemu44w8miOspg" deletable="false"
+          name="PTBT1077" visibility="300">
+        <displayName uuid="_ILPYEr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYE73oEemu44w8miOspg" deletable="false"
+          name="PTBT1226" visibility="300">
+        <displayName uuid="_ILPYFb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYFr3oEemu44w8miOspg" deletable="false"
+          name="PTBT1236" visibility="300">
+        <displayName uuid="_ILPYGL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYGb3oEemu44w8miOspg" deletable="false"
+          name="PTBT1256" visibility="300">
+        <displayName uuid="_ILPYG73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYHL3oEemu44w8miOspg" deletable="false"
+          name="PTBT1257" visibility="300">
+        <displayName uuid="_ILPYHr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYH73oEemu44w8miOspg" deletable="false"
+          name="PTBT1276" visibility="300">
+        <displayName uuid="_ILPYIb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYIr3oEemu44w8miOspg" deletable="false"
+          name="PTBT1277" visibility="300">
+        <displayName uuid="_ILPYJL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYJb3oEemu44w8miOspg" deletable="false"
+          name="PTBT2526" visibility="300">
+        <displayName uuid="_ILPYJ73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYKL3oEemu44w8miOspg" deletable="false"
+          name="PTBT2536" visibility="300">
+        <displayName uuid="_ILPYKr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYK73oEemu44w8miOspg" deletable="false"
+          name="PTBT2556" visibility="300">
+        <displayName uuid="_ILPYLb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYLr3oEemu44w8miOspg" deletable="false"
+          name="PTBT2557" visibility="300">
+        <displayName uuid="_ILPYML3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYMb3oEemu44w8miOspg" deletable="false"
+          name="PTBT2576" visibility="300">
+        <displayName uuid="_ILPYM73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYNL3oEemu44w8miOspg" deletable="false"
+          name="PTBT2577" visibility="300">
+        <displayName uuid="_ILPYNr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYN73oEemu44w8miOspg" deletable="false"
+          name="PTBT3056" visibility="300">
+        <displayName uuid="_ILPYOb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYOr3oEemu44w8miOspg" deletable="false"
+          name="PTBT5026" visibility="300">
+        <displayName uuid="_ILPYPL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYPb3oEemu44w8miOspg" deletable="false"
+          name="PTBT5031" visibility="300">
+        <displayName uuid="_ILPYP73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYQL3oEemu44w8miOspg" deletable="false"
+          name="PTBT5050" visibility="300">
+        <displayName uuid="_ILPYQr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYQ73oEemu44w8miOspg" deletable="false"
+          name="PTBT5051" visibility="300">
+        <displayName uuid="_ILPYRb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYRr3oEemu44w8miOspg" deletable="false"
+          name="PTBT5057" visibility="300">
+        <displayName uuid="_ILPYSL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYSb3oEemu44w8miOspg" deletable="false"
+          name="PTBT5076" visibility="300">
+        <displayName uuid="_ILPYS73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYTL3oEemu44w8miOspg" deletable="false"
+          name="PTBT5077" visibility="300">
+        <displayName uuid="_ILPYTr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYT73oEemu44w8miOspg" deletable="false"
+          name="PTBT7526" visibility="300">
+        <displayName uuid="_ILPYUb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYUr3oEemu44w8miOspg" deletable="false"
+          name="PTBT7536" visibility="300">
+        <displayName uuid="_ILPYVL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYVb3oEemu44w8miOspg" deletable="false"
+          name="PTBT7556" visibility="300">
+        <displayName uuid="_ILPYV73oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYWL3oEemu44w8miOspg" deletable="false"
+          name="PTBT7557" visibility="300">
+        <displayName uuid="_ILPYWr3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYW73oEemu44w8miOspg" deletable="false"
+          name="PTBT7576" visibility="300">
+        <displayName uuid="_ILPYXb3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYXr3oEemu44w8miOspg" deletable="false"
+          name="PTBT7577" visibility="300">
+        <displayName uuid="_ILPYYL3oEemu44w8miOspg"/>
+      </values>
+      <values uuid="_ILPYYb3oEemu44w8miOspg" name="NONE"
+          visibility="300">
+        <displayName uuid="_ILPYY73oEemu44w8miOspg"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ILPYZL3oEemu44w8miOspg"
+      name="offset_n185" visibility="800" initValue="No">
+    <domain uuid="_ILPYZ73oEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_ILPYab3oEemu44w8miOspg" bitSet="393231"/>
+      <values uuid="_ILPYar3oEemu44w8miOspg" name="left"
+          visibility="300" preference="1">
+        <displayName uuid="_ILPYbL3oEemu44w8miOspg"
+            value="Left"/>
+      </values>
+      <values uuid="_ILPYbb3oEemu44w8miOspg" name="right"
+          visibility="300" preference="2">
+        <displayName uuid="_ILPYb73oEemu44w8miOspg"
+            value="Right"/>
+      </values>
+      <values uuid="_ILPYcL3oEemu44w8miOspg" name="No"
+          visibility="300" preference="3">
+        <displayName uuid="_ILPYcr3oEemu44w8miOspg"
+            value="No"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_ILPYc73oEemu44w8miOspg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_ILPYdb3oEemu44w8miOspg"
+        name="column_panel_bottom" visibility="800">
+      <columns uuid="_ILPY8r3oEemu44w8miOspg" name="panel_product_line"
+          visibility="100" databaseAlias="panel_product_line">
+        <cells uuid="_ILPY873oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPY9L3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPY9b3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPY9r3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPY973oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY-L3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY-b3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY-r3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY-73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY_L3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY_b3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY_r3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPY_73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZAL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZAb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZAr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZA73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZBL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZBb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZBr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZB73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZCL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZCb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZCr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZC73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZDL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZDb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZDr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZD73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZEL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZEb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZEr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZE73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZFL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZFb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZFr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZF73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZGL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZGb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZGr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZG73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZHL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZHb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZHr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZH73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZIL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZIb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZIr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZI73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZJL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZJb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZJr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZJ73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZKL3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZKb3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZKr3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZK73oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZLL3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZLb3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZLr3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZL73oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZML3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZMb3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZMr3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZM73oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZNL3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZNb3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZNr3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZN73oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZOL3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZOb3oEemu44w8miOspg" value="blind"/>
+        <cells uuid="_ILPZOr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZO73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZPL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZPb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZPr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZP73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZQL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZQb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZQr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZQ73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZRL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZRb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZRr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZR73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZSL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZSb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZSr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZS73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZTL3oEemu44w8miOspg" value="triline"/>
+        <cells uuid="_ILPZTb3oEemu44w8miOspg" value="triline"/>
+        <cells uuid="_ILPZTr3oEemu44w8miOspg" value="triline"/>
+        <cells uuid="_ILPZT73oEemu44w8miOspg" value="triline"/>
+        <cells uuid="_ILPZUL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZUb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZUr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZU73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZVL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZVb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZVr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZV73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZWL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZWb3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZWr3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZW73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZXL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZXb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZXr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZX73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZYL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZYb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZYr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZY73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZZL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZZb3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZZr3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZZ73oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZaL3oEemu44w8miOspg" value="twinline"/>
+        <cells uuid="_ILPZab3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZar3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZa73oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZbL3oEemu44w8miOspg" value="spep"/>
+        <cells uuid="_ILPZbb3oEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_ILPZbr3oEemu44w8miOspg" name="column_width_chain"
+          visibility="100" databaseAlias="column_width_chain">
+        <cells uuid="_ILPZb73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZcL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZcb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZcr3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZc73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZdL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZdb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZdr3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZd73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZeL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZeb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZer3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZe73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZfL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZfb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZfr3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZf73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZgL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZgb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZgr3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZg73oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZhL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZhb3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZhr3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZh73oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZiL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZib3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZir3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZi73oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZjL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZjb3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZjr3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZj73oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZkL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZkb3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZkr3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZk73oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZlL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZlb3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZlr3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZl73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZmL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZmb3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZmr3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZm73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZnL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZnb3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZnr3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZn73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZoL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZob3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZor3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZo73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZpL3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZpb3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZpr3oEemu44w8miOspg" value="1000"/>
+        <cells uuid="_ILPZp73oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZqL3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZqb3oEemu44w8miOspg" value="1250"/>
+        <cells uuid="_ILPZqr3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZq73oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZrL3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZrb3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZrr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZr73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZsL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZsb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZsr3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZs73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZtL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZtb3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZtr3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZt73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZuL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZub3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZur3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZu73oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZvL3oEemu44w8miOspg" value="750"/>
+        <cells uuid="_ILPZvb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZvr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZv73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZwL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZwb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZwr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZw73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZxL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZxb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZxr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZx73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZyL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZyb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZyr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZy73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZzL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZzb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZzr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZz73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ0L3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ0b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ0r3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ073oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ1L3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ1b3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ1r3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ173oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ2L3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ2b3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ2r3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ273oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ3L3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ3b3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ3r3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ373oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ4L3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ4b3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ4r3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ473oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ5L3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ5b3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ5r3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ573oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ6L3oEemu44w8miOspg" value="250"/>
+        <cells uuid="_ILPZ6b3oEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_ILPZ6r3oEemu44w8miOspg" name="switchboard_depth_toa"
+          visibility="100" databaseAlias="switchboard_depth_toa">
+        <cells uuid="_ILPZ673oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPZ7L3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPZ7b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ7r3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ773oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ8L3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ8b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ8r3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ873oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPZ9L3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPZ9b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ9r3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ973oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPZ-L3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPZ-b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ-r3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ-73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPZ_L3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPZ_b3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPZ_r3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPZ_73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaAL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaAb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaAr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaA73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaBL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaBb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaBr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaB73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaCL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaCb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaCr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaC73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaDL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaDb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaDr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaD73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaEL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaEb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaEr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaE73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaFL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaFb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaFr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaF73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaGL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaGb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaGr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaG73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaHL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaHb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaHr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaH73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaIL3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaIb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaIr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaI73oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaJL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaJb3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaJr3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaJ73oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaKL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaKb3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaKr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaK73oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaLL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaLb3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaLr3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaL73oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaML3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaMb3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaMr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaM73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaNL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaNb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaNr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaN73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaOL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaOb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaOr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaO73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaPL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaPb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaPr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaP73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaQL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaQb3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaQr3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaQ73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaRL3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaRb3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaRr3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaR73oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaSL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaSb3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaSr3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaS73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaTL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaTb3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaTr3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaT73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaUL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaUb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaUr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaU73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaVL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaVb3oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaVr3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaV73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaWL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaWb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaWr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaW73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaXL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaXb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaXr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaX73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaYL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaYb3oEemu44w8miOspg" value="200"/>
+        <cells uuid="_ILPaYr3oEemu44w8miOspg" value="300"/>
+        <cells uuid="_ILPaY73oEemu44w8miOspg" value="500"/>
+        <cells uuid="_ILPaZL3oEemu44w8miOspg" value="700"/>
+        <cells uuid="_ILPaZb3oEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_ILPaZr3oEemu44w8miOspg" name="switchboard_ip_bottom_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPaZ73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaaL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaab3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaar3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaa73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPabL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPabb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPabr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPab73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPacL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPacb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPacr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPac73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPadL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPadb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPadr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPad73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaeL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaeb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaer3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPae73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPafL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPafb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPafr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaf73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPagL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPagb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPagr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPag73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPahL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPahb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPahr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPah73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaiL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaib3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPair3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPai73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPajL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPajb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPajr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaj73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPakL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPakb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPakr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPak73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPalL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPalb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPalr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPal73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPamL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPamb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPamr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPam73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPanL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPanb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPanr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPan73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaoL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaob3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaor3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPao73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPapL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPapb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPapr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPap73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaqL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaqb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaqr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaq73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILParL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILParb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILParr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPar73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPasL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPasb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPasr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPas73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPatL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPatb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPatr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPat73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPauL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaub3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaur3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPau73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPavL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPavb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPavr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPav73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPawL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPawb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPawr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaw73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaxL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPaxb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaxr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPax73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPayL3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPayb3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPayr3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPay73oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPazL3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPazb3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPazr3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPaz73oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa0L3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa0b3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa0r3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa073oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa1L3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa1b3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa1r3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa173oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa2L3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa2b3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa2r3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa273oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa3L3oEemu44w8miOspg" value="0,30,55"/>
+        <cells uuid="_ILPa3b3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa3r3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa373oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa4L3oEemu44w8miOspg" value="0,30,40"/>
+        <cells uuid="_ILPa4b3oEemu44w8miOspg" value="0"/>
+      </columns>
+      <columns uuid="_ILPa4r3oEemu44w8miOspg" name="position"
+          visibility="100" databaseAlias="position">
+        <cells uuid="_ILPa473oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa5L3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa5b3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa5r3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa573oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa6L3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa6b3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa6r3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa673oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa7L3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa7b3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa7r3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa773oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa8L3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa8b3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa8r3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa873oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa9L3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa9b3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa9r3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa973oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa-L3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa-b3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa-r3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa-73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa_L3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPa_b3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa_r3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPa_73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbAL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbAb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbAr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbA73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbBL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbBb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbBr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbB73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbCL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbCb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbCr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbC73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbDL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbDb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbDr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbD73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbEL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbEb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbEr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbE73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbFL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbFb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbFr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbF73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbGL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbGb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbGr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbG73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbHL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbHb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbHr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbH73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbIL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbIb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbIr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbI73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbJL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbJb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbJr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbJ73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbKL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbKb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbKr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbK73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbLL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbLb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbLr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbL73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbML3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbMb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbMr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbM73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbNL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbNb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbNr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbN73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbOL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbOb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbOr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbO73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbPL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbPb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbPr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbP73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbQL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbQb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbQr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbQ73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbRL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbRb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbRr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbR73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbSL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbSb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbSr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbS73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbTL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbTb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbTr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbT73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbUL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbUb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbUr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbU73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbVL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbVb3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbVr3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbV73oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbWL3oEemu44w8miOspg" value="External"/>
+        <cells uuid="_ILPbWb3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbWr3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbW73oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbXL3oEemu44w8miOspg" value="Internal"/>
+        <cells uuid="_ILPbXb3oEemu44w8miOspg" value="'NONE'"/>
+      </columns>
+      <columns uuid="_ILPbXr3oEemu44w8miOspg" name="open_blind"
+          visibility="100" databaseAlias="open_blind">
+        <cells uuid="_ILPbX73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbYL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbYb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbYr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbY73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbZL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbZb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbZr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbZ73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbaL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbab3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbar3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPba73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbbL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbbb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbbr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbb73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbcL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbcb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbcr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbc73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbdL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbdb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbdr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbd73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbeL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbeb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPber3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbe73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbfL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbfb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbfr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbf73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbgL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbgb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbgr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbg73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbhL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbhb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbhr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbh73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbiL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbib3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbir3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbi73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbjL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbjb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbjr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbj73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbkL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbkb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbkr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbk73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPblL3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPblb3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPblr3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbl73oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbmL3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbmb3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbmr3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbm73oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbnL3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbnb3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbnr3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbn73oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPboL3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbob3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbor3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbo73oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbpL3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbpb3oEemu44w8miOspg" value="Open_blind_flange"/>
+        <cells uuid="_ILPbpr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbp73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbqL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbqb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbqr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbq73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbrL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbrb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbrr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbr73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbsL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbsb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbsr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbs73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbtL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbtb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbtr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbt73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbuL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbub3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbur3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbu73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbvL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbvb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbvr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbv73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbwL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbwb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbwr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbw73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbxL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbxb3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbxr3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbx73oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbyL3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPbyb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbyr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPby73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbzL3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbzb3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbzr3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPbz73oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb0L3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb0b3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb0r3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb073oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb1L3oEemu44w8miOspg" value="Open_flange"/>
+        <cells uuid="_ILPb1b3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPb1r3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPb173oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPb2L3oEemu44w8miOspg" value="Blind"/>
+        <cells uuid="_ILPb2b3oEemu44w8miOspg" value="'without panel'"/>
+      </columns>
+      <columns uuid="_ILPb2r3oEemu44w8miOspg" name="cable_entry"
+          visibility="100" databaseAlias="cable_entry">
+        <cells uuid="_ILPb273oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb3L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb3b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb3r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb373oEemu44w8miOspg" value="10"/>
+        <cells uuid="_ILPb4L3oEemu44w8miOspg" value="10"/>
+        <cells uuid="_ILPb4b3oEemu44w8miOspg" value="10"/>
+        <cells uuid="_ILPb4r3oEemu44w8miOspg" value="10"/>
+        <cells uuid="_ILPb473oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb5L3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb5b3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb5r3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb573oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb6L3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb6b3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb6r3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPb673oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb7L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb7b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb7r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb773oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb8L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb8b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb8r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPb873oEemu44w8miOspg" value="8"/>
+        <cells uuid="_ILPb9L3oEemu44w8miOspg" value="8"/>
+        <cells uuid="_ILPb9b3oEemu44w8miOspg" value="8"/>
+        <cells uuid="_ILPb9r3oEemu44w8miOspg" value="8"/>
+        <cells uuid="_ILPb973oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb-L3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb-b3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb-r3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb-73oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb_L3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb_b3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb_r3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPb_73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcAL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcAb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcAr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcA73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcBL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcBb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcBr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcB73oEemu44w8miOspg" value="6"/>
+        <cells uuid="_ILPcCL3oEemu44w8miOspg" value="6"/>
+        <cells uuid="_ILPcCb3oEemu44w8miOspg" value="6"/>
+        <cells uuid="_ILPcCr3oEemu44w8miOspg" value="6"/>
+        <cells uuid="_ILPcC73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcDL3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcDb3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcDr3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcD73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcEL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcEb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcEr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcE73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcFL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcFb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcFr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcF73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcGL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcGb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcGr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcG73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcHL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcHb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcHr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcH73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcIL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcIb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcIr3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcI73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcJL3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPcJb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcJr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcJ73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcKL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcKb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcKr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcK73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcLL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcLb3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPcLr3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPcL73oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPcML3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPcMb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcMr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcM73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcNL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcNb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcNr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcN73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcOL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcOb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcOr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcO73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcPL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcPb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcPr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcP73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcQL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcQb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcQr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcQ73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcRL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcRb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcRr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcR73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcSL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcSb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcSr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcS73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcTL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcTb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcTr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcT73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcUL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcUb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcUr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcU73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcVL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcVb3oEemu44w8miOspg" value="0"/>
+      </columns>
+      <columns uuid="_ILPcVr3oEemu44w8miOspg" name="cable_entry_rows"
+          visibility="100" databaseAlias="cable_entry_rows">
+        <cells uuid="_ILPcV73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcWL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcWb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcWr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcW73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcXL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcXb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcXr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcX73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcYL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcYb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcYr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcY73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcZL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcZb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcZr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcZ73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcaL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcab3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcar3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPca73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcbL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcbb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcbr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcb73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPccL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPccb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPccr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcc73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcdL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcdb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcdr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcd73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPceL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPceb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcer3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPce73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcfL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcfb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcfr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcf73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcgL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcgb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcgr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcg73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPchL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPchb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPchr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPch73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPciL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcib3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcir3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPci73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcjL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcjb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcjr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcj73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPckL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPckb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPckr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPck73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPclL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPclb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPclr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcl73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcmL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcmb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcmr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcm73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcnL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcnb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcnr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcn73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcoL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcob3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcor3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPco73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcpL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcpb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcpr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcp73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcqL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcqb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcqr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcq73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcrL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcrb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcrr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcr73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcsL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcsb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcsr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcs73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPctL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPctb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPctr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPct73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcuL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcub3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcur3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcu73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcvL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcvb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcvr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcv73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcwL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcwb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcwr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcw73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcxL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPcxb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcxr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcx73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcyL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcyb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcyr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPcy73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPczL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPczb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPczr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPcz73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc0L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc0b3oEemu44w8miOspg" value="0"/>
+      </columns>
+      <columns uuid="_ILPc0r3oEemu44w8miOspg" name="cable_entry_ratio"
+          visibility="100" databaseAlias="cable_entry_ratio">
+        <cells uuid="_ILPc073oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc1L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc1b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc1r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc173oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc2L3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc2b3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc2r3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc273oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc3L3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc3b3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc3r3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc373oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc4L3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc4b3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc4r3oEemu44w8miOspg" value="5"/>
+        <cells uuid="_ILPc473oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc5L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc5b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc5r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc573oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc6L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc6b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc6r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc673oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc7L3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc7b3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc7r3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc773oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc8L3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc8b3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc8r3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc873oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc9L3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc9b3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc9r3oEemu44w8miOspg" value="4"/>
+        <cells uuid="_ILPc973oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc-L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc-b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc-r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc-73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc_L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc_b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc_r3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPc_73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdAL3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdAb3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdAr3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdA73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdBL3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdBb3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdBr3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdB73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdCL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdCb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdCr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdC73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdDL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdDb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdDr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdD73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdEL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdEb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdEr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdE73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdFL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdFb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdFr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdF73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdGL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdGb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdGr3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdG73oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdHL3oEemu44w8miOspg" value="3"/>
+        <cells uuid="_ILPdHb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdHr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdH73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdIL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdIb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdIr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdI73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdJL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdJb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdJr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdJ73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdKL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdKb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdKr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdK73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdLL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdLb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdLr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdL73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdML3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdMb3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdMr3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdM73oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdNL3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPdNb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdNr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdN73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdOL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdOb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdOr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdO73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdPL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdPb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdPr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdP73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdQL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdQb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdQr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdQ73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdRL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdRb3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdRr3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdR73oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdSL3oEemu44w8miOspg" value="1"/>
+        <cells uuid="_ILPdSb3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdSr3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdS73oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdTL3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPdTb3oEemu44w8miOspg" value="0"/>
+      </columns>
+      <columns uuid="_ILPdTr3oEemu44w8miOspg" name="article_type"
+          visibility="100" databaseAlias="article_type">
+        <cells uuid="_ILPdT73oEemu44w8miOspg" value="PTBB1226"/>
+        <cells uuid="_ILPdUL3oEemu44w8miOspg" value="PTBB1236"/>
+        <cells uuid="_ILPdUb3oEemu44w8miOspg" value="PTBB1256"/>
+        <cells uuid="_ILPdUr3oEemu44w8miOspg" value="PTBB1276"/>
+        <cells uuid="_ILPdU73oEemu44w8miOspg" value="PBWF1257"/>
+        <cells uuid="_ILPdVL3oEemu44w8miOspg" value="PBWF1277"/>
+        <cells uuid="_ILPdVb3oEemu44w8miOspg" value="PTBT1257"/>
+        <cells uuid="_ILPdVr3oEemu44w8miOspg" value="PTBT1277"/>
+        <cells uuid="_ILPdV73oEemu44w8miOspg" value="PBWF1226"/>
+        <cells uuid="_ILPdWL3oEemu44w8miOspg" value="PBWF1236"/>
+        <cells uuid="_ILPdWb3oEemu44w8miOspg" value="PBWF1256"/>
+        <cells uuid="_ILPdWr3oEemu44w8miOspg" value="PBWF1276"/>
+        <cells uuid="_ILPdW73oEemu44w8miOspg" value="PTBT1226"/>
+        <cells uuid="_ILPdXL3oEemu44w8miOspg" value="PTBT1236"/>
+        <cells uuid="_ILPdXb3oEemu44w8miOspg" value="PTBT1256"/>
+        <cells uuid="_ILPdXr3oEemu44w8miOspg" value="PTBT1276"/>
+        <cells uuid="_ILPdX73oEemu44w8miOspg" value="PBWP1220"/>
+        <cells uuid="_ILPdYL3oEemu44w8miOspg" value="PBWP1230"/>
+        <cells uuid="_ILPdYb3oEemu44w8miOspg" value="PBWP1250"/>
+        <cells uuid="_ILPdYr3oEemu44w8miOspg" value="PBWP1270"/>
+        <cells uuid="_ILPdY73oEemu44w8miOspg" value="PTBB1026"/>
+        <cells uuid="_ILPdZL3oEemu44w8miOspg" value="PTBB1036"/>
+        <cells uuid="_ILPdZb3oEemu44w8miOspg" value="PTBB1056"/>
+        <cells uuid="_ILPdZr3oEemu44w8miOspg" value="PTBB1076"/>
+        <cells uuid="_ILPdZ73oEemu44w8miOspg" value="PBWF1057"/>
+        <cells uuid="_ILPdaL3oEemu44w8miOspg" value="PBWF1077"/>
+        <cells uuid="_ILPdab3oEemu44w8miOspg" value="PTBT1057"/>
+        <cells uuid="_ILPdar3oEemu44w8miOspg" value="PTBT1077"/>
+        <cells uuid="_ILPda73oEemu44w8miOspg" value="PBWF1026"/>
+        <cells uuid="_ILPdbL3oEemu44w8miOspg" value="PBWF1036"/>
+        <cells uuid="_ILPdbb3oEemu44w8miOspg" value="PBWF1056"/>
+        <cells uuid="_ILPdbr3oEemu44w8miOspg" value="PBWF1076"/>
+        <cells uuid="_ILPdb73oEemu44w8miOspg" value="PTBT1026"/>
+        <cells uuid="_ILPdcL3oEemu44w8miOspg" value="PTBT1036"/>
+        <cells uuid="_ILPdcb3oEemu44w8miOspg" value="PTBT1056"/>
+        <cells uuid="_ILPdcr3oEemu44w8miOspg" value="PTBT1076"/>
+        <cells uuid="_ILPdc73oEemu44w8miOspg" value="PBWP1020"/>
+        <cells uuid="_ILPddL3oEemu44w8miOspg" value="PBWP1030"/>
+        <cells uuid="_ILPddb3oEemu44w8miOspg" value="PBWP1050"/>
+        <cells uuid="_ILPddr3oEemu44w8miOspg" value="PBWP1070"/>
+        <cells uuid="_ILPdd73oEemu44w8miOspg" value="PTBB7526"/>
+        <cells uuid="_ILPdeL3oEemu44w8miOspg" value="PTBB7536"/>
+        <cells uuid="_ILPdeb3oEemu44w8miOspg" value="PTBB7556"/>
+        <cells uuid="_ILPder3oEemu44w8miOspg" value="PTBB7576"/>
+        <cells uuid="_ILPde73oEemu44w8miOspg" value="PBWF7557"/>
+        <cells uuid="_ILPdfL3oEemu44w8miOspg" value="PBWF7577"/>
+        <cells uuid="_ILPdfb3oEemu44w8miOspg" value="PTBT7557"/>
+        <cells uuid="_ILPdfr3oEemu44w8miOspg" value="PTBT7577"/>
+        <cells uuid="_ILPdf73oEemu44w8miOspg" value="PBWF7526"/>
+        <cells uuid="_ILPdgL3oEemu44w8miOspg" value="PBWF7536"/>
+        <cells uuid="_ILPdgb3oEemu44w8miOspg" value="PBWF7556"/>
+        <cells uuid="_ILPdgr3oEemu44w8miOspg" value="PBWF7576"/>
+        <cells uuid="_ILPdg73oEemu44w8miOspg" value="PTBT7526"/>
+        <cells uuid="_ILPdhL3oEemu44w8miOspg" value="PTBO1030"/>
+        <cells uuid="_ILPdhb3oEemu44w8miOspg" value="PTBO1050"/>
+        <cells uuid="_ILPdhr3oEemu44w8miOspg" value="PTBO1070"/>
+        <cells uuid="_ILPdh73oEemu44w8miOspg" value="PTBO1230"/>
+        <cells uuid="_ILPdiL3oEemu44w8miOspg" value="PTBO1250"/>
+        <cells uuid="_ILPdib3oEemu44w8miOspg" value="PTBO1270"/>
+        <cells uuid="_ILPdir3oEemu44w8miOspg" value="PTBO2520"/>
+        <cells uuid="_ILPdi73oEemu44w8miOspg" value="PTBO2530"/>
+        <cells uuid="_ILPdjL3oEemu44w8miOspg" value="PTBO2550"/>
+        <cells uuid="_ILPdjb3oEemu44w8miOspg" value="PTBO2570"/>
+        <cells uuid="_ILPdjr3oEemu44w8miOspg" value="PTBO3050"/>
+        <cells uuid="_ILPdj73oEemu44w8miOspg" value="PTBO5020"/>
+        <cells uuid="_ILPdkL3oEemu44w8miOspg" value="PTBO5050"/>
+        <cells uuid="_ILPdkb3oEemu44w8miOspg" value="PTBO5070"/>
+        <cells uuid="_ILPdkr3oEemu44w8miOspg" value="PTBO7520"/>
+        <cells uuid="_ILPdk73oEemu44w8miOspg" value="PTBO7530"/>
+        <cells uuid="_ILPdlL3oEemu44w8miOspg" value="PTBO7550"/>
+        <cells uuid="_ILPdlb3oEemu44w8miOspg" value="PTBO7570"/>
+        <cells uuid="_ILPdlr3oEemu44w8miOspg" value="PTBT7536"/>
+        <cells uuid="_ILPdl73oEemu44w8miOspg" value="PTBT7556"/>
+        <cells uuid="_ILPdmL3oEemu44w8miOspg" value="PTBT7576"/>
+        <cells uuid="_ILPdmb3oEemu44w8miOspg" value="PBWP7520"/>
+        <cells uuid="_ILPdmr3oEemu44w8miOspg" value="PBWP7530"/>
+        <cells uuid="_ILPdm73oEemu44w8miOspg" value="PBWP7550"/>
+        <cells uuid="_ILPdnL3oEemu44w8miOspg" value="PBWP7570"/>
+        <cells uuid="_ILPdnb3oEemu44w8miOspg" value="PTBB5026"/>
+        <cells uuid="_ILPdnr3oEemu44w8miOspg" value="PTBB3056"/>
+        <cells uuid="_ILPdn73oEemu44w8miOspg" value="PTBB5050"/>
+        <cells uuid="_ILPdoL3oEemu44w8miOspg" value="PTBB5076"/>
+        <cells uuid="_ILPdob3oEemu44w8miOspg" value="PBWF5057"/>
+        <cells uuid="_ILPdor3oEemu44w8miOspg" value="PBWF5077"/>
+        <cells uuid="_ILPdo73oEemu44w8miOspg" value="PTBT5057"/>
+        <cells uuid="_ILPdpL3oEemu44w8miOspg" value="PTBT5077"/>
+        <cells uuid="_ILPdpb3oEemu44w8miOspg" value="PBWF3056"/>
+        <cells uuid="_ILPdpr3oEemu44w8miOspg" value="PBWF5026"/>
+        <cells uuid="_ILPdp73oEemu44w8miOspg" value="PBWF5050"/>
+        <cells uuid="_ILPdqL3oEemu44w8miOspg" value="PTBT5051"/>
+        <cells uuid="_ILPdqb3oEemu44w8miOspg" value="PTBT5031"/>
+        <cells uuid="_ILPdqr3oEemu44w8miOspg" value="PBWF5051"/>
+        <cells uuid="_ILPdq73oEemu44w8miOspg" value="PBWF5031"/>
+        <cells uuid="_ILPdrL3oEemu44w8miOspg" value="PBWF5076"/>
+        <cells uuid="_ILPdrb3oEemu44w8miOspg" value="PTBT3056"/>
+        <cells uuid="_ILPdrr3oEemu44w8miOspg" value="PTBT5026"/>
+        <cells uuid="_ILPdr73oEemu44w8miOspg" value="PTBT5050"/>
+        <cells uuid="_ILPdsL3oEemu44w8miOspg" value="PTBT5076"/>
+        <cells uuid="_ILPdsb3oEemu44w8miOspg" value="PBWP3050"/>
+        <cells uuid="_ILPdsr3oEemu44w8miOspg" value="PBWP5020"/>
+        <cells uuid="_ILPds73oEemu44w8miOspg" value="PBWP5050"/>
+        <cells uuid="_ILPdtL3oEemu44w8miOspg" value="PBWP5070"/>
+        <cells uuid="_ILPdtb3oEemu44w8miOspg" value="PTBB2526"/>
+        <cells uuid="_ILPdtr3oEemu44w8miOspg" value="PTBB2536"/>
+        <cells uuid="_ILPdt73oEemu44w8miOspg" value="PTBB2556"/>
+        <cells uuid="_ILPduL3oEemu44w8miOspg" value="PTBB2576"/>
+        <cells uuid="_ILPdub3oEemu44w8miOspg" value="PBWF2557"/>
+        <cells uuid="_ILPdur3oEemu44w8miOspg" value="PBWF2577"/>
+        <cells uuid="_ILPdu73oEemu44w8miOspg" value="PTBT2557"/>
+        <cells uuid="_ILPdvL3oEemu44w8miOspg" value="PTBT2577"/>
+        <cells uuid="_ILPdvb3oEemu44w8miOspg" value="PBWF2526"/>
+        <cells uuid="_ILPdvr3oEemu44w8miOspg" value="PBWF2536"/>
+        <cells uuid="_ILPdv73oEemu44w8miOspg" value="PBWF2556"/>
+        <cells uuid="_ILPdwL3oEemu44w8miOspg" value="PBWF2576"/>
+        <cells uuid="_ILPdwb3oEemu44w8miOspg" value="PTBT2526"/>
+        <cells uuid="_ILPdwr3oEemu44w8miOspg" value="PTBT2536"/>
+        <cells uuid="_ILPdw73oEemu44w8miOspg" value="PTBT2556"/>
+        <cells uuid="_ILPdxL3oEemu44w8miOspg" value="PTBT2576"/>
+        <cells uuid="_ILPdxb3oEemu44w8miOspg" value="PBWP2520"/>
+        <cells uuid="_ILPdxr3oEemu44w8miOspg" value="PBWP2530"/>
+        <cells uuid="_ILPdx73oEemu44w8miOspg" value="PBWP2550"/>
+        <cells uuid="_ILPdyL3oEemu44w8miOspg" value="PBWP2570"/>
+        <cells uuid="_ILPdyb3oEemu44w8miOspg" value="'NONE'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_ILPdyr3oEemu44w8miOspg"
+        name="Expression" visibility="800" expression="switchboard_ip_bottom_toa(40) -> position(Internal);&#xD;&#xA;switchboard_ip_bottom_toa(55) -> position(External);&#xD;&#xA;switchboard_ip_bottom_toa(0) -> SOFT.open_blind('without panel'); "/>
+    <children xsi:type="array:TableRelation" uuid="_ILPdy73oEemu44w8miOspg"
+        name="flange_value_bottom" visibility="800">
+      <columns uuid="_ILPdzL3oEemu44w8miOspg" name="column_connection_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPdzb3oEemu44w8miOspg" value="'bottom'"/>
+        <cells uuid="_ILPdzr3oEemu44w8miOspg" value="'top'"/>
+        <cells uuid="_ILPdz73oEemu44w8miOspg" value="'bottom','top'"/>
+        <cells uuid="_ILPd0L3oEemu44w8miOspg" value="'bottom','top'"/>
+        <cells uuid="_ILPd0b3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd0r3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd073oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd1L3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd1b3oEemu44w8miOspg" value=""/>
+      </columns>
+      <columns uuid="_ILPd1r3oEemu44w8miOspg" name="switchboard_ip_bottom_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPd173oEemu44w8miOspg" value="30,40,55"/>
+        <cells uuid="_ILPd2L3oEemu44w8miOspg" value="30,40,55"/>
+        <cells uuid="_ILPd2b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPd2r3oEemu44w8miOspg" value="0,30,40,55"/>
+        <cells uuid="_ILPd273oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd3L3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd3b3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd3r3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd373oEemu44w8miOspg" value=""/>
+      </columns>
+      <columns uuid="_ILPd4L3oEemu44w8miOspg" name="SOFT.open_blind"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPd4b3oEemu44w8miOspg" value="'Open_flange'"/>
+        <cells uuid="_ILPd4r3oEemu44w8miOspg" value="'Blind'"/>
+        <cells uuid="_ILPd473oEemu44w8miOspg" value="'without panel'"/>
+        <cells uuid="_ILPd5L3oEemu44w8miOspg" value="'Open_flange'"/>
+        <cells uuid="_ILPd5b3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd5r3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd573oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd6L3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd6b3oEemu44w8miOspg" value=""/>
+      </columns>
+      <columns uuid="_ILPd6r3oEemu44w8miOspg" name="SOFT.cable_entry"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPd673oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPd7L3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPd7b3oEemu44w8miOspg" value="0"/>
+        <cells uuid="_ILPd7r3oEemu44w8miOspg" value="2"/>
+        <cells uuid="_ILPd773oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd8L3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd8b3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd8r3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd873oEemu44w8miOspg" value=""/>
+      </columns>
+      <columns uuid="_ILPd9L3oEemu44w8miOspg" name="offset_n185"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_ILPd9b3oEemu44w8miOspg" value="'No'"/>
+        <cells uuid="_ILPd9r3oEemu44w8miOspg" value="'No'"/>
+        <cells uuid="_ILPd973oEemu44w8miOspg" value="'No'"/>
+        <cells uuid="_ILPd-L3oEemu44w8miOspg" value="'left','right'"/>
+        <cells uuid="_ILPd-b3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd-r3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd-73oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd_L3oEemu44w8miOspg" value=""/>
+        <cells uuid="_ILPd_b3oEemu44w8miOspg" value=""/>
+      </columns>
+    </children>
+  </logic>
+  <template href="__SufUIK3EeeH5Id_vDQOyQ.xml#__SufUIK3EeeH5Id_vDQOyQ"/>
+  <geometry uuid="_ILPd_r3oEemu44w8miOspg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_ILPd_73oEemu44w8miOspg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_ILPeAL3oEemu44w8miOspg" value="Bottom Panel"/>
+</comp:Component>

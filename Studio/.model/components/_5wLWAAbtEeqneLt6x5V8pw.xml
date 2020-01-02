@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_5wLWAAbtEeqneLt6x5V8pw"
+    name="template_kit_blind_tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_DZwfYAbuEeqneLt6x5V8pw"
+      name="base_kit_code" visibility="800">
+    <domain uuid="_DZwfYQbuEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_DZwfYgbuEeqneLt6x5V8pw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_GAwW0AbuEeqneLt6x5V8pw"
+      name="kit_depth_blind" visibility="800">
+    <domain uuid="_GAwW0QbuEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_GAwW0gbuEeqneLt6x5V8pw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_IUwZwAbuEeqneLt6x5V8pw"
+      name="panel_type" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_Zko88CMYEeq4ru_gFUwNRw" declared="true"
+        model="_MEyV0AbuEeqneLt6x5V8pw">
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_IUwZwQbuEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_IUwZwgbuEeqneLt6x5V8pw" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_KK74QAbuEeqneLt6x5V8pw"
+      name="frame_type" visibility="800">
+    <domain uuid="_KK74QQbuEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_KK74QgbuEeqneLt6x5V8pw" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_FuDFkCzxEeiVIZOVIzBEhA"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_RxWdwAbzEeqneLt6x5V8pw"
+      name="display_PPFA1010" visibility="800">
+    <domain uuid="_RxWdwQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_RxWdwgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_TAFhwAbzEeqneLt6x5V8pw"
+      name="display_PPFA1040" visibility="800">
+    <domain uuid="_TAFhwQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_TAFhwgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_UC_JMAbzEeqneLt6x5V8pw"
+      name="display_PPFA1060" visibility="800">
+    <domain uuid="_UC_JMQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_UC_JMgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_U8gyMAbzEeqneLt6x5V8pw"
+      name="display_PPFA1080" visibility="800">
+    <domain uuid="_U8gyMQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_U8gyMgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_WOc7MAbzEeqneLt6x5V8pw"
+      name="display_PPFA2040" visibility="800">
+    <domain uuid="_WOc7MQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_WOc7MgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_YaXZIAbzEeqneLt6x5V8pw"
+      name="display_PPFA2010" visibility="800">
+    <domain uuid="_YaXZIQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_YaXZIgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_ZdWgIAbzEeqneLt6x5V8pw"
+      name="display_PPFA2060" visibility="800">
+    <domain uuid="_ZdWgIQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_ZdWgIgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_aqaJIAbzEeqneLt6x5V8pw"
+      name="display_PPFA2080" visibility="800">
+    <domain uuid="_aqaJIQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_aqaJIgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_btYpEAbzEeqneLt6x5V8pw"
+      name="display_blind_panel" visibility="800">
+    <domain uuid="_btYpEQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_btYpEgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_c0y9EAbzEeqneLt6x5V8pw"
+      name="display_line" visibility="800">
+    <domain uuid="_c0y9EQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_c0y9EgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_eBFxEAbzEeqneLt6x5V8pw"
+      name="display_recessed_blind" visibility="800">
+    <domain uuid="_eBFxEQbzEeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_eBFxEgbzEeqneLt6x5V8pw" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Njp40Ab0EeqneLt6x5V8pw"
+      name="hinges" visibility="800">
+    <domain uuid="_Njp40Qb0EeqneLt6x5V8pw" name="local"
+        visibility="300">
+      <typeSet uuid="_Njp40gb0EeqneLt6x5V8pw" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_thcX0OzpEeWeYsu20mIHlw"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_-gDUEBHmEeqpQ7BwvNK0zw"
+      name="kit_width_blind_vs" visibility="800">
+    <domain uuid="_-gDUERHmEeqpQ7BwvNK0zw" name="local"
+        visibility="300">
+      <typeSet uuid="_-gDUEhHmEeqpQ7BwvNK0zw" bitSet="10"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Oym8kBHnEeqpQ7BwvNK0zw"
+      name="switchboard_height_toa" visibility="800">
+    <domain uuid="_Oym8kRHnEeqpQ7BwvNK0zw" name="local"
+        visibility="300">
+      <typeSet uuid="_Oym8khHnEeqpQ7BwvNK0zw" bitSet="393230"/>
+      <values uuid="_SwXyoBHnEeqpQ7BwvNK0zw" name="1800"
+          visibility="300">
+        <displayName uuid="_SwXyoRHnEeqpQ7BwvNK0zw"/>
+      </values>
+      <values uuid="_TTixIBHnEeqpQ7BwvNK0zw" name="2000"
+          visibility="300">
+        <displayName uuid="_TTixIRHnEeqpQ7BwvNK0zw"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_iCiOECGeEeqdCY7druzOUQ"
+      name="height" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_3JKpkCGeEeqdCY7druzOUQ" declared="true"
+        model="_MEyV0AbuEeqneLt6x5V8pw">
+      <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+    </facets>
+    <facets xsi:type="comp:VariableCalculationConstraintFacet"
+        uuid="_ApzncCGhEeqdCY7druzOUQ" declared="true"
+        flow="IN"/>
+    <domain uuid="_iCiOESGeEeqdCY7druzOUQ" name="local"
+        visibility="300">
+      <typeSet uuid="_iCiOEiGeEeqdCY7druzOUQ" bitSet="2"/>
+      <values uuid="_iCiOEyGeEeqdCY7druzOUQ" deletable="false"
+          name="1" visibility="300">
+        <displayName uuid="_iCiOFCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOFSGeEeqdCY7druzOUQ" deletable="false"
+          name="2" visibility="300">
+        <displayName uuid="_iCiOFiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOFyGeEeqdCY7druzOUQ" deletable="false"
+          name="3" visibility="300">
+        <displayName uuid="_iCiOGCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOGSGeEeqdCY7druzOUQ" deletable="false"
+          name="4" visibility="300">
+        <displayName uuid="_iCiOGiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOGyGeEeqdCY7druzOUQ" deletable="false"
+          name="5" visibility="300">
+        <displayName uuid="_iCiOHCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOHSGeEeqdCY7druzOUQ" deletable="false"
+          name="6" visibility="300">
+        <displayName uuid="_iCiOHiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOHyGeEeqdCY7druzOUQ" deletable="false"
+          name="7" visibility="300">
+        <displayName uuid="_iCiOICGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOISGeEeqdCY7druzOUQ" deletable="false"
+          name="8" visibility="300">
+        <displayName uuid="_iCiOIiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOIyGeEeqdCY7druzOUQ" deletable="false"
+          name="9" visibility="300">
+        <displayName uuid="_iCiOJCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOJSGeEeqdCY7druzOUQ" deletable="false"
+          name="10" visibility="300">
+        <displayName uuid="_iCiOJiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOJyGeEeqdCY7druzOUQ" deletable="false"
+          name="11" visibility="300">
+        <displayName uuid="_iCiOKCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOKSGeEeqdCY7druzOUQ" deletable="false"
+          name="12" visibility="300">
+        <displayName uuid="_iCiOKiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOKyGeEeqdCY7druzOUQ" deletable="false"
+          name="13" visibility="300">
+        <displayName uuid="_iCiOLCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOLSGeEeqdCY7druzOUQ" deletable="false"
+          name="14" visibility="300">
+        <displayName uuid="_iCiOLiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOLyGeEeqdCY7druzOUQ" deletable="false"
+          name="16" visibility="300">
+        <displayName uuid="_iCiOMCGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOMSGeEeqdCY7druzOUQ" deletable="false"
+          name="36" visibility="300">
+        <displayName uuid="_iCiOMiGeEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_iCiOMyGeEeqdCY7druzOUQ" deletable="false"
+          name="40" visibility="300">
+        <displayName uuid="_iCiONCGeEeqdCY7druzOUQ"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_uvtZYCGgEeqdCY7druzOUQ"
+      name="kit_height_breaker" visibility="800">
+    <domain uuid="_uvtZYSGgEeqdCY7druzOUQ" name="local"
+        visibility="300">
+      <typeSet uuid="_uvtZYiGgEeqdCY7druzOUQ" bitSet="10"/>
+      <values uuid="_uvtZYyGgEeqdCY7druzOUQ" deletable="false"
+          name="50" visibility="300">
+        <displayName uuid="_uvtZZCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZZSGgEeqdCY7druzOUQ" deletable="false"
+          name="100" visibility="300">
+        <displayName uuid="_uvtZZiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZZyGgEeqdCY7druzOUQ" deletable="false"
+          name="150" visibility="300">
+        <displayName uuid="_uvtZaCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZaSGgEeqdCY7druzOUQ" deletable="false"
+          name="200" visibility="300">
+        <displayName uuid="_uvtZaiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZayGgEeqdCY7druzOUQ" deletable="false"
+          name="250" visibility="300">
+        <displayName uuid="_uvtZbCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZbSGgEeqdCY7druzOUQ" deletable="false"
+          name="300" visibility="300">
+        <displayName uuid="_uvtZbiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZbyGgEeqdCY7druzOUQ" deletable="false"
+          name="350" visibility="300">
+        <displayName uuid="_uvtZcCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZcSGgEeqdCY7druzOUQ" deletable="false"
+          name="400" visibility="300">
+        <displayName uuid="_uvtZciGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZcyGgEeqdCY7druzOUQ" deletable="false"
+          name="450" visibility="300">
+        <displayName uuid="_uvtZdCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZdSGgEeqdCY7druzOUQ" deletable="false"
+          name="500" visibility="300">
+        <displayName uuid="_uvtZdiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZdyGgEeqdCY7druzOUQ" deletable="false"
+          name="550" visibility="300">
+        <displayName uuid="_uvtZeCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZeSGgEeqdCY7druzOUQ" deletable="false"
+          name="600" visibility="300">
+        <displayName uuid="_uvtZeiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZeyGgEeqdCY7druzOUQ" deletable="false"
+          name="650" visibility="300">
+        <displayName uuid="_uvtZfCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZfSGgEeqdCY7druzOUQ" deletable="false"
+          name="700" visibility="300">
+        <displayName uuid="_uvtZfiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZfyGgEeqdCY7druzOUQ" deletable="false"
+          name="750" visibility="300">
+        <displayName uuid="_uvtZgCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZgSGgEeqdCY7druzOUQ" deletable="false"
+          name="800" visibility="300">
+        <displayName uuid="_uvtZgiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZgyGgEeqdCY7druzOUQ" deletable="false"
+          name="850" visibility="300">
+        <displayName uuid="_uvtZhCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZhSGgEeqdCY7druzOUQ" deletable="false"
+          name="900" visibility="300">
+        <displayName uuid="_uvtZhiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZhyGgEeqdCY7druzOUQ" deletable="false"
+          name="950" visibility="300">
+        <displayName uuid="_uvtZiCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZiSGgEeqdCY7druzOUQ" deletable="false"
+          name="1000" visibility="300">
+        <displayName uuid="_uvtZiiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZiyGgEeqdCY7druzOUQ" deletable="false"
+          name="1050" visibility="300">
+        <displayName uuid="_uvtZjCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZjSGgEeqdCY7druzOUQ" deletable="false"
+          name="1100" visibility="300">
+        <displayName uuid="_uvtZjiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZjyGgEeqdCY7druzOUQ" deletable="false"
+          name="1150" visibility="300">
+        <displayName uuid="_uvtZkCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZkSGgEeqdCY7druzOUQ" deletable="false"
+          name="1200" visibility="300">
+        <displayName uuid="_uvtZkiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZkyGgEeqdCY7druzOUQ" deletable="false"
+          name="1250" visibility="300">
+        <displayName uuid="_uvtZlCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZlSGgEeqdCY7druzOUQ" deletable="false"
+          name="1300" visibility="300">
+        <displayName uuid="_uvtZliGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZlyGgEeqdCY7druzOUQ" deletable="false"
+          name="1350" visibility="300">
+        <displayName uuid="_uvtZmCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZmSGgEeqdCY7druzOUQ" deletable="false"
+          name="1400" visibility="300">
+        <displayName uuid="_uvtZmiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZmyGgEeqdCY7druzOUQ" deletable="false"
+          name="1450" visibility="300">
+        <displayName uuid="_uvtZnCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZnSGgEeqdCY7druzOUQ" deletable="false"
+          name="1500" visibility="300">
+        <displayName uuid="_uvtZniGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZnyGgEeqdCY7druzOUQ" deletable="false"
+          name="1550" visibility="300">
+        <displayName uuid="_uvtZoCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZoSGgEeqdCY7druzOUQ" deletable="false"
+          name="1600" visibility="300">
+        <displayName uuid="_uvtZoiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZoyGgEeqdCY7druzOUQ" deletable="false"
+          name="1650" visibility="300">
+        <displayName uuid="_uvtZpCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZpSGgEeqdCY7druzOUQ" deletable="false"
+          name="1700" visibility="300">
+        <displayName uuid="_uvtZpiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZpyGgEeqdCY7druzOUQ" deletable="false"
+          name="1750" visibility="300">
+        <displayName uuid="_uvtZqCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZqSGgEeqdCY7druzOUQ" deletable="false"
+          name="1800" visibility="300">
+        <displayName uuid="_uvtZqiGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZqyGgEeqdCY7druzOUQ" deletable="false"
+          name="1850" visibility="300">
+        <displayName uuid="_uvtZrCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZrSGgEeqdCY7druzOUQ" deletable="false"
+          name="1900" visibility="300">
+        <displayName uuid="_uvtZriGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZryGgEeqdCY7druzOUQ" deletable="false"
+          name="1950" visibility="300">
+        <displayName uuid="_uvtZsCGgEeqdCY7druzOUQ"/>
+      </values>
+      <values uuid="_uvtZsSGgEeqdCY7druzOUQ" deletable="false"
+          name="2000" visibility="300">
+        <displayName uuid="_uvtZsiGgEeqdCY7druzOUQ"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_hz77kCioEeqPbcemTjvEtw"
+      name="kit_font_size" visibility="800" initValue="14">
+    <domain uuid="_hz77kyioEeqPbcemTjvEtw" name="local"
+        visibility="300">
+      <typeSet uuid="_hz77lSioEeqPbcemTjvEtw" bitSet="2"/>
+    </domain>
+  </variables>
+  <logic uuid="_MEyV0AbuEeqneLt6x5V8pw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_MrcGIAbuEeqneLt6x5V8pw"
+        name="Table_Relation" visibility="800">
+      <columns uuid="_Pv5VoAbuEeqneLt6x5V8pw" name="panel_type"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_eG2NEQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NGgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NGwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NHAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NHQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NHgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NHwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NIAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NIQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NIgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NIwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NJAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NJQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NJgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NJwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NKAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NKQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NKgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NKwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NLAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NLQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NLgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NLwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NMAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NMQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NMgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NMwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NNAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NNQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NNgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NNwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NOAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NOQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NOgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NOwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NPAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NPQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NPgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NPwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NQAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NQQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NQgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NQwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NRAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NRQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NRgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NRwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NSAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NSQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NSgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NSwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NTAbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NTQbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NTgbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NTwbuEeqneLt6x5V8pw" value="Blind"/>
+        <cells uuid="_eG2NUAbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NUQbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NUgbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NUwbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NVAbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NVQbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NVgbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NVwbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NWAbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NWQbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NWgbuEeqneLt6x5V8pw" value="Recessed"/>
+        <cells uuid="_eG2NWwbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NXAbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NXQbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NXgbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NXwbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NYAbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NYQbuEeqneLt6x5V8pw" value="Ventilated"/>
+        <cells uuid="_eG2NYgbuEeqneLt6x5V8pw" value="Ventilated"/>
+      </columns>
+      <columns uuid="_QrjFkAbuEeqneLt6x5V8pw" name="kit_height_breaker"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_eG2NEwbuEeqneLt6x5V8pw" value="50"/>
+        <cells uuid="_eG2NYwbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NZAbuEeqneLt6x5V8pw" value="150"/>
+        <cells uuid="_eG2NZQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NZgbuEeqneLt6x5V8pw" value="250"/>
+        <cells uuid="_eG2NZwbuEeqneLt6x5V8pw" value="300"/>
+        <cells uuid="_eG2NaAbuEeqneLt6x5V8pw" value="350"/>
+        <cells uuid="_eG2NaQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NagbuEeqneLt6x5V8pw" value="450"/>
+        <cells uuid="_eG2NawbuEeqneLt6x5V8pw" value="500"/>
+        <cells uuid="_eG2NbAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NbQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG2NbgbuEeqneLt6x5V8pw" value="1800"/>
+        <cells uuid="_eG2NbwbuEeqneLt6x5V8pw" value="2000"/>
+        <cells uuid="_eG2NcAbuEeqneLt6x5V8pw" value="50"/>
+        <cells uuid="_eG2NcQbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NcgbuEeqneLt6x5V8pw" value="150"/>
+        <cells uuid="_eG2NcwbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NdAbuEeqneLt6x5V8pw" value="250"/>
+        <cells uuid="_eG2NdQbuEeqneLt6x5V8pw" value="300"/>
+        <cells uuid="_eG2NdgbuEeqneLt6x5V8pw" value="350"/>
+        <cells uuid="_eG2NdwbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NeAbuEeqneLt6x5V8pw" value="450"/>
+        <cells uuid="_eG2NeQbuEeqneLt6x5V8pw" value="500"/>
+        <cells uuid="_eG2NegbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NewbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG2NfAbuEeqneLt6x5V8pw" value="1800"/>
+        <cells uuid="_eG2NfQbuEeqneLt6x5V8pw" value="2000"/>
+        <cells uuid="_eG2NfgbuEeqneLt6x5V8pw" value="50"/>
+        <cells uuid="_eG2NfwbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NgAbuEeqneLt6x5V8pw" value="150"/>
+        <cells uuid="_eG2NgQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NggbuEeqneLt6x5V8pw" value="250"/>
+        <cells uuid="_eG2NgwbuEeqneLt6x5V8pw" value="300"/>
+        <cells uuid="_eG2NhAbuEeqneLt6x5V8pw" value="350"/>
+        <cells uuid="_eG2NhQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NhgbuEeqneLt6x5V8pw" value="450"/>
+        <cells uuid="_eG2NhwbuEeqneLt6x5V8pw" value="500"/>
+        <cells uuid="_eG2NiAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NiQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG2NigbuEeqneLt6x5V8pw" value="1800"/>
+        <cells uuid="_eG2NiwbuEeqneLt6x5V8pw" value="2000"/>
+        <cells uuid="_eG2NjAbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NjQbuEeqneLt6x5V8pw" value="150"/>
+        <cells uuid="_eG2NjgbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NjwbuEeqneLt6x5V8pw" value="300"/>
+        <cells uuid="_eG2NkAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NkQbuEeqneLt6x5V8pw" value="500"/>
+        <cells uuid="_eG2NkgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NkwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG2NlAbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NlQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NlgbuEeqneLt6x5V8pw" value="250"/>
+        <cells uuid="_eG2NlwbuEeqneLt6x5V8pw" value="300"/>
+        <cells uuid="_eG2NmAbuEeqneLt6x5V8pw" value="350"/>
+        <cells uuid="_eG2NmQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NmgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NmwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NnAbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NnQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NngbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NnwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NoAbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NoQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NogbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG2NowbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG2NpAbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NpQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NpgbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NpwbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NqAbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NqQbuEeqneLt6x5V8pw" value="200"/>
+        <cells uuid="_eG2NqgbuEeqneLt6x5V8pw" value="100"/>
+        <cells uuid="_eG2NqwbuEeqneLt6x5V8pw" value="200"/>
+      </columns>
+      <columns uuid="_aKba0AbuEeqneLt6x5V8pw" name="kit_width_blind"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_eG2NFQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20IAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20IQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20IgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20IwbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20JAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20JQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20JgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20JwbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20KAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20KQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20KgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20KwbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20LAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20LQbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20LgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20LwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20MAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20MQbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20MgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20MwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20NAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20NQbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20NgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20NwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20OAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20OQbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20OgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20OwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20PAbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20PQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20PgbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20PwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20QAbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20QQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20QgbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20QwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20RAbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20RQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20RgbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20RwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20SAbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20SQbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20SgbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20SwbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20TAbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20TQbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20TgbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20TwbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20UAbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20UQbuEeqneLt6x5V8pw" value="1250"/>
+        <cells uuid="_eG20UgbuEeqneLt6x5V8pw" value="1250"/>
+        <cells uuid="_eG20UwbuEeqneLt6x5V8pw" value="1250"/>
+        <cells uuid="_eG20VAbuEeqneLt6x5V8pw" value="1250"/>
+        <cells uuid="_eG20VQbuEeqneLt6x5V8pw" value="1250"/>
+        <cells uuid="_eG20VgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20VwbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20WAbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20WQbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20WgbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20WwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20XAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20XQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20XgbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20XwbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20YAbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20YQbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20YgbuEeqneLt6x5V8pw" value="400"/>
+        <cells uuid="_eG20YwbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20ZAbuEeqneLt6x5V8pw" value="600"/>
+        <cells uuid="_eG20ZQbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20ZgbuEeqneLt6x5V8pw" value="800"/>
+        <cells uuid="_eG20ZwbuEeqneLt6x5V8pw" value="1000"/>
+        <cells uuid="_eG20aAbuEeqneLt6x5V8pw" value="1000"/>
+      </columns>
+      <columns uuid="_a_eMcAbuEeqneLt6x5V8pw" name="kit_depth_blind"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_eG2NFwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20aQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20agbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20awbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20bAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20bQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20bgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20bwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20cAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20cQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20cgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20cwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20dAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20dQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20dgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20dwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20eAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20eQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20egbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20ewbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20fAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20fQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20fgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20fwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20gAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20gQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20ggbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20gwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20hAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20hQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20hgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20hwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20iAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20iQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20igbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20iwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20jAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20jQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20jgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20jwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20kAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20kQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20kgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20kwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20lAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20lQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20lgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20lwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20mAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20mQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20mgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20mwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20nAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20nQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20ngbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20nwbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20oAbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20oQbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20ogbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20owbuEeqneLt6x5V8pw" value="80"/>
+        <cells uuid="_eG20pAbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20pQbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20pgbuEeqneLt6x5V8pw" value="80"/>
+        <cells uuid="_eG20pwbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20qAbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20qQbuEeqneLt6x5V8pw" value="30"/>
+        <cells uuid="_eG20qgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20qwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20rAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20rQbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20rgbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20rwbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20sAbuEeqneLt6x5V8pw" value="-"/>
+        <cells uuid="_eG20sQbuEeqneLt6x5V8pw" value="-"/>
+      </columns>
+      <columns uuid="_cUsS8AbuEeqneLt6x5V8pw" name="base_kit_code"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_eG2NGQbuEeqneLt6x5V8pw" value="PPFB5040"/>
+        <cells uuid="_eG20sgbuEeqneLt6x5V8pw" value="PPFB1040"/>
+        <cells uuid="_eG20swbuEeqneLt6x5V8pw" value="PPFB1540"/>
+        <cells uuid="_eG20tAbuEeqneLt6x5V8pw" value="PPFB2040"/>
+        <cells uuid="_eG20tQbuEeqneLt6x5V8pw" value="PPFB2540"/>
+        <cells uuid="_eG20tgbuEeqneLt6x5V8pw" value="PPFB3040"/>
+        <cells uuid="_eG20twbuEeqneLt6x5V8pw" value="PPFB3540"/>
+        <cells uuid="_eG20uAbuEeqneLt6x5V8pw" value="PPFB4040"/>
+        <cells uuid="_eG20uQbuEeqneLt6x5V8pw" value="PPFB4540"/>
+        <cells uuid="_eG20ugbuEeqneLt6x5V8pw" value="PPFB5004"/>
+        <cells uuid="_eG20uwbuEeqneLt6x5V8pw" value="PPFB6040"/>
+        <cells uuid="_eG20vAbuEeqneLt6x5V8pw" value="PPFB8040"/>
+        <cells uuid="_eG20vQbuEeqneLt6x5V8pw" value="PPFB1840"/>
+        <cells uuid="_eG20vgbuEeqneLt6x5V8pw" value="PPFB2004"/>
+        <cells uuid="_eG20vwbuEeqneLt6x5V8pw" value="PPFB5060"/>
+        <cells uuid="_eG20wAbuEeqneLt6x5V8pw" value="PPFB1060"/>
+        <cells uuid="_eG20wQbuEeqneLt6x5V8pw" value="PPFB1560"/>
+        <cells uuid="_eG20wgbuEeqneLt6x5V8pw" value="PPFB2060"/>
+        <cells uuid="_eG20wwbuEeqneLt6x5V8pw" value="PPFB2560"/>
+        <cells uuid="_eG20xAbuEeqneLt6x5V8pw" value="PPFB3060"/>
+        <cells uuid="_eG20xQbuEeqneLt6x5V8pw" value="PPFB3560"/>
+        <cells uuid="_eG20xgbuEeqneLt6x5V8pw" value="PPFB4060"/>
+        <cells uuid="_eG20xwbuEeqneLt6x5V8pw" value="PPFB4560"/>
+        <cells uuid="_eG20yAbuEeqneLt6x5V8pw" value="PPFB5006"/>
+        <cells uuid="_eG20yQbuEeqneLt6x5V8pw" value="PPFB6060"/>
+        <cells uuid="_eG20ygbuEeqneLt6x5V8pw" value="PPFB8060"/>
+        <cells uuid="_eG20ywbuEeqneLt6x5V8pw" value="PPFB1860"/>
+        <cells uuid="_eG20zAbuEeqneLt6x5V8pw" value="PPFB2006"/>
+        <cells uuid="_eG20zQbuEeqneLt6x5V8pw" value="PPFB5080"/>
+        <cells uuid="_eG20zgbuEeqneLt6x5V8pw" value="PPFB1080"/>
+        <cells uuid="_eG20zwbuEeqneLt6x5V8pw" value="PPFB1580"/>
+        <cells uuid="_eG200AbuEeqneLt6x5V8pw" value="PPFB2080"/>
+        <cells uuid="_eG200QbuEeqneLt6x5V8pw" value="PPFB2580"/>
+        <cells uuid="_eG200gbuEeqneLt6x5V8pw" value="PPFB3080"/>
+        <cells uuid="_eG200wbuEeqneLt6x5V8pw" value="PPFB3580"/>
+        <cells uuid="_eG201AbuEeqneLt6x5V8pw" value="PPFB4080"/>
+        <cells uuid="_eG201QbuEeqneLt6x5V8pw" value="PPFB4580"/>
+        <cells uuid="_eG201gbuEeqneLt6x5V8pw" value="PPFB5008"/>
+        <cells uuid="_eG201wbuEeqneLt6x5V8pw" value="PPFB6080"/>
+        <cells uuid="_eG202AbuEeqneLt6x5V8pw" value="PPFB8080"/>
+        <cells uuid="_eG202QbuEeqneLt6x5V8pw" value="PPFB1880"/>
+        <cells uuid="_eG202gbuEeqneLt6x5V8pw" value="PPFB2008"/>
+        <cells uuid="_eG202wbuEeqneLt6x5V8pw" value="PPFB1010"/>
+        <cells uuid="_eG203AbuEeqneLt6x5V8pw" value="PPFB1510"/>
+        <cells uuid="_eG203QbuEeqneLt6x5V8pw" value="PPFB2010"/>
+        <cells uuid="_eG203gbuEeqneLt6x5V8pw" value="PPFB3010"/>
+        <cells uuid="_eG203wbuEeqneLt6x5V8pw" value="PPFB4010"/>
+        <cells uuid="_eG204AbuEeqneLt6x5V8pw" value="PPFB5001"/>
+        <cells uuid="_eG204QbuEeqneLt6x5V8pw" value="PPFB6010"/>
+        <cells uuid="_eG204gbuEeqneLt6x5V8pw" value="PPFB8010"/>
+        <cells uuid="_eG204wbuEeqneLt6x5V8pw" value="PPFB1013"/>
+        <cells uuid="_eG205AbuEeqneLt6x5V8pw" value="PPFB2012"/>
+        <cells uuid="_eG205QbuEeqneLt6x5V8pw" value="PPFB2512"/>
+        <cells uuid="_eG205gbuEeqneLt6x5V8pw" value="PPFB3012"/>
+        <cells uuid="_eG205wbuEeqneLt6x5V8pw" value="PPFB3512"/>
+        <cells uuid="_eG206AbuEeqneLt6x5V8pw" value="PPBR2040"/>
+        <cells uuid="_eG206QbuEeqneLt6x5V8pw" value="PPBR4040"/>
+        <cells uuid="_eG206gbuEeqneLt6x5V8pw" value="PPBR6040"/>
+        <cells uuid="_eG206wbuEeqneLt6x5V8pw" value="PPBR2060"/>
+        <cells uuid="_eG207AbuEeqneLt6x5V8pw" value="PPBR2068"/>
+        <cells uuid="_eG207QbuEeqneLt6x5V8pw" value="PPBR4060"/>
+        <cells uuid="_eG207gbuEeqneLt6x5V8pw" value="PPBR6060"/>
+        <cells uuid="_eG207wbuEeqneLt6x5V8pw" value="PPBR2080"/>
+        <cells uuid="_eG208AbuEeqneLt6x5V8pw" value="PPBR2088"/>
+        <cells uuid="_eG208QbuEeqneLt6x5V8pw" value="PPBR4080"/>
+        <cells uuid="_eG208gbuEeqneLt6x5V8pw" value="PPBR6080"/>
+        <cells uuid="_eG208wbuEeqneLt6x5V8pw" value="PPFA1040"/>
+        <cells uuid="_eG209AbuEeqneLt6x5V8pw" value="PPFA2040"/>
+        <cells uuid="_eG209QbuEeqneLt6x5V8pw" value="PPFA1060"/>
+        <cells uuid="_eG209gbuEeqneLt6x5V8pw" value="PPFA2060"/>
+        <cells uuid="_eG209wbuEeqneLt6x5V8pw" value="PPFA1080"/>
+        <cells uuid="_eG20-AbuEeqneLt6x5V8pw" value="PPFA2080"/>
+        <cells uuid="_eG20-QbuEeqneLt6x5V8pw" value="PPFA1010"/>
+        <cells uuid="_eG20-gbuEeqneLt6x5V8pw" value="PPFA2010"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_UmK2oBHnEeqpQ7BwvNK0zw"
+        name="restriction" visibility="800">
+      <columns uuid="_amSmABHnEeqpQ7BwvNK0zw" name="switchboard_height_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_hErlwBHnEeqpQ7BwvNK0zw" value="1800"/>
+        <cells uuid="_hhI4QBHnEeqpQ7BwvNK0zw" value="2000"/>
+      </columns>
+      <columns uuid="_gXBOgBHnEeqpQ7BwvNK0zw" name="kit_height_breaker"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_hEsM0BHnEeqpQ7BwvNK0zw" value="? without 2000"/>
+        <cells uuid="_hhI4QRHnEeqpQ7BwvNK0zw" value="?"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_joCzUCGeEeqdCY7druzOUQ"
+        name="restriction_height" visibility="800">
+      <columns uuid="_qQd40CGeEeqdCY7druzOUQ" name="height"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_1WqKISGeEeqdCY7druzOUQ" value="1"/>
+        <cells uuid="_1WqKJCGeEeqdCY7druzOUQ" value="2"/>
+        <cells uuid="_1WqKJSGeEeqdCY7druzOUQ" value="3"/>
+        <cells uuid="_1WqKJiGeEeqdCY7druzOUQ" value="4"/>
+        <cells uuid="_1WqKJyGeEeqdCY7druzOUQ" value="5"/>
+        <cells uuid="_1WqKKCGeEeqdCY7druzOUQ" value="6"/>
+        <cells uuid="_1WqKKSGeEeqdCY7druzOUQ" value="7"/>
+        <cells uuid="_1WqKKiGeEeqdCY7druzOUQ" value="8"/>
+        <cells uuid="_1WqKKyGeEeqdCY7druzOUQ" value="9"/>
+        <cells uuid="_1WqKLCGeEeqdCY7druzOUQ" value="10"/>
+        <cells uuid="_1WqKLSGeEeqdCY7druzOUQ" value="11"/>
+        <cells uuid="_1WqKLiGeEeqdCY7druzOUQ" value="12"/>
+        <cells uuid="_1WqKLyGeEeqdCY7druzOUQ" value="13"/>
+        <cells uuid="_1WqKMCGeEeqdCY7druzOUQ" value="14"/>
+        <cells uuid="_1WqKMSGeEeqdCY7druzOUQ" value="15"/>
+        <cells uuid="_1WqKMiGeEeqdCY7druzOUQ" value="16"/>
+        <cells uuid="_1WqKMyGeEeqdCY7druzOUQ" value="17"/>
+        <cells uuid="_1WqKNCGeEeqdCY7druzOUQ" value="18"/>
+        <cells uuid="_1WqKNSGeEeqdCY7druzOUQ" value="19"/>
+        <cells uuid="_1WqKNiGeEeqdCY7druzOUQ" value="20"/>
+        <cells uuid="_1WqKNyGeEeqdCY7druzOUQ" value="21"/>
+        <cells uuid="_1WqKOCGeEeqdCY7druzOUQ" value="22"/>
+        <cells uuid="_1WqKOSGeEeqdCY7druzOUQ" value="23"/>
+        <cells uuid="_1WqKOiGeEeqdCY7druzOUQ" value="24"/>
+        <cells uuid="_1WqKOyGeEeqdCY7druzOUQ" value="25"/>
+        <cells uuid="_1WqKPCGeEeqdCY7druzOUQ" value="26"/>
+        <cells uuid="_1WqKPSGeEeqdCY7druzOUQ" value="27"/>
+        <cells uuid="_1WqKPiGeEeqdCY7druzOUQ" value="28"/>
+        <cells uuid="_1WqKPyGeEeqdCY7druzOUQ" value="29"/>
+        <cells uuid="_1WqKQCGeEeqdCY7druzOUQ" value="30"/>
+        <cells uuid="_1WqKQSGeEeqdCY7druzOUQ" value="31"/>
+        <cells uuid="_1WqKQiGeEeqdCY7druzOUQ" value="32"/>
+        <cells uuid="_1WqKQyGeEeqdCY7druzOUQ" value="33"/>
+        <cells uuid="_1WqKRCGeEeqdCY7druzOUQ" value="34"/>
+        <cells uuid="_1WqKRSGeEeqdCY7druzOUQ" value="35"/>
+        <cells uuid="_1WqKRiGeEeqdCY7druzOUQ" value="36"/>
+        <cells uuid="_1WqKRyGeEeqdCY7druzOUQ" value="37"/>
+        <cells uuid="_1WqKSCGeEeqdCY7druzOUQ" value="38"/>
+        <cells uuid="_1WqKSSGeEeqdCY7druzOUQ" value="39"/>
+        <cells uuid="_1WqKSiGeEeqdCY7druzOUQ" value="40"/>
+      </columns>
+      <columns uuid="_sGjQsCGeEeqdCY7druzOUQ" name="kit_height_breaker"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_1WqKIyGeEeqdCY7druzOUQ" value="50"/>
+        <cells uuid="_1WqKSyGeEeqdCY7druzOUQ" value="100"/>
+        <cells uuid="_1WqKTCGeEeqdCY7druzOUQ" value="150"/>
+        <cells uuid="_1WqKTSGeEeqdCY7druzOUQ" value="200"/>
+        <cells uuid="_1WqKTiGeEeqdCY7druzOUQ" value="250"/>
+        <cells uuid="_1WqKTyGeEeqdCY7druzOUQ" value="300"/>
+        <cells uuid="_1WqKUCGeEeqdCY7druzOUQ" value="350"/>
+        <cells uuid="_1WqKUSGeEeqdCY7druzOUQ" value="400"/>
+        <cells uuid="_1WqKUiGeEeqdCY7druzOUQ" value="450"/>
+        <cells uuid="_1WqKUyGeEeqdCY7druzOUQ" value="500"/>
+        <cells uuid="_1WqKVCGeEeqdCY7druzOUQ" value="550"/>
+        <cells uuid="_1WqKVSGeEeqdCY7druzOUQ" value="600"/>
+        <cells uuid="_1WqKViGeEeqdCY7druzOUQ" value="650"/>
+        <cells uuid="_1WqKVyGeEeqdCY7druzOUQ" value="700"/>
+        <cells uuid="_1WqKWCGeEeqdCY7druzOUQ" value="750"/>
+        <cells uuid="_1WqKWSGeEeqdCY7druzOUQ" value="800"/>
+        <cells uuid="_1WqKWiGeEeqdCY7druzOUQ" value="850"/>
+        <cells uuid="_1WqKWyGeEeqdCY7druzOUQ" value="900"/>
+        <cells uuid="_1WqKXCGeEeqdCY7druzOUQ" value="950"/>
+        <cells uuid="_1WqKXSGeEeqdCY7druzOUQ" value="1000"/>
+        <cells uuid="_1WqKXiGeEeqdCY7druzOUQ" value="1050"/>
+        <cells uuid="_1WqKXyGeEeqdCY7druzOUQ" value="1100"/>
+        <cells uuid="_1WqKYCGeEeqdCY7druzOUQ" value="1150"/>
+        <cells uuid="_1WqKYSGeEeqdCY7druzOUQ" value="1200"/>
+        <cells uuid="_1WqKYiGeEeqdCY7druzOUQ" value="1250"/>
+        <cells uuid="_1WqKYyGeEeqdCY7druzOUQ" value="1300"/>
+        <cells uuid="_1WqKZCGeEeqdCY7druzOUQ" value="1350"/>
+        <cells uuid="_1WqKZSGeEeqdCY7druzOUQ" value="1400"/>
+        <cells uuid="_1WqKZiGeEeqdCY7druzOUQ" value="1450"/>
+        <cells uuid="_1WqKZyGeEeqdCY7druzOUQ" value="1500"/>
+        <cells uuid="_1WqKaCGeEeqdCY7druzOUQ" value="1550"/>
+        <cells uuid="_1WqKaSGeEeqdCY7druzOUQ" value="1600"/>
+        <cells uuid="_1WqKaiGeEeqdCY7druzOUQ" value="1650"/>
+        <cells uuid="_1WqKayGeEeqdCY7druzOUQ" value="1700"/>
+        <cells uuid="_1WqKbCGeEeqdCY7druzOUQ" value="1750"/>
+        <cells uuid="_1WqKbSGeEeqdCY7druzOUQ" value="1800"/>
+        <cells uuid="_1WqKbiGeEeqdCY7druzOUQ" value="1850"/>
+        <cells uuid="_1WqKbyGeEeqdCY7druzOUQ" value="1900"/>
+        <cells uuid="_1WqKcCGeEeqdCY7druzOUQ" value="1950"/>
+        <cells uuid="_1WqKcSGeEeqdCY7druzOUQ" value="2000"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_6GFXwAbxEeqneLt6x5V8pw" name="Calculation_Rules"
+      visibility="800">
+    <text>// Kit TMax visual implementation&#xD;
+if (world_show_kits_toa)switch_kit_svg = 0;&#xD;
+else switch_kit_svg = -1;&#xD;
+&#xD;
+kit_width_blind_vs=kit_width_blind-57;&#xD;
+kit_height_breaker_vs=kit_height_breaker-2;&#xD;
+&#xD;
+&#xD;
+if (kit_height_breaker==50) {&#xD;
+move_y_BR =  kit_height_breaker-800+11;&#xD;
+move_x_TR = kit_width_blind -1200 -50;&#xD;
+move_y_TR= -11;&#xD;
+}&#xD;
+else if (kit_height_breaker==100){&#xD;
+	move_y_BR =  kit_height_breaker-800+22;&#xD;
+move_x_TR = kit_width_blind -1200-50;&#xD;
+move_y_TR= -22;&#xD;
+}&#xD;
+else{&#xD;
+&#xD;
+move_y_BR =  kit_height_breaker-800;&#xD;
+move_x_TR = kit_width_blind -1200-50;}&#xD;
+&#xD;
+display_blind_panel =&quot;none&quot;;&#xD;
+display_recessed_blind =&quot;none&quot;;&#xD;
+display_PPFA1010 =&quot;none&quot;;&#xD;
+display_PPFA1040=&quot;none&quot;;&#xD;
+display_PPFA1060=&quot;none&quot;;&#xD;
+display_PPFA1080=&quot;none&quot;;&#xD;
+display_PPFA2010=&quot;none&quot;;&#xD;
+display_PPFA2040=&quot;none&quot;;&#xD;
+display_PPFA2060=&quot;none&quot;;&#xD;
+display_PPFA2080=&quot;none&quot;;&#xD;
+display_line=&quot;none&quot;;&#xD;
+&#xD;
+if (panel_type == &quot;Blind&quot;) display_blind_panel = &quot;inline&quot;;&#xD;
+else if (panel_type == &quot;Recessed&quot;) display_recessed_blind =&quot;inline&quot;;&#xD;
+&#xD;
+&#xD;
+if (base_kit_code == &quot;PPFA1010&quot;) display_PPFA1010 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA1040&quot;)display_PPFA1040 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA1060&quot;)display_PPFA1060 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA1080&quot;)display_PPFA1080 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA2010&quot;)display_PPFA2010 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA2040&quot;)display_PPFA2040 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA2060&quot;)display_PPFA2060 =&quot;inline&quot;;&#xD;
+else if (base_kit_code == &quot;PPFA2080&quot;)display_PPFA2080 =&quot;inline&quot;;&#xD;
+&#xD;
+&#xD;
+if (frame_type != swing) hinges = &quot;yes&quot;;&#xD;
+else hinges = &quot;no&quot;;&#xD;
+&#xD;
+element_position=column_number_toa;&#xD;
+&#xD;
+//Handling display of text on kit&#xD;
+kit_element_position = column_number_toa;&#xD;
+x_kit_element_position = kit_width_toa/2;&#xD;
+y_kit_element_position = kit_height_breaker -58 ;&#xD;
+y_base_kit_code_text = -35;&#xD;
+&#xD;
+</text>
+  </calculation>
+  <template href="_NSoDgJvmEemplMdpNoX4ag.xml#_NSoDgJvmEemplMdpNoX4ag"/>
+  <geometry uuid="_5wLWAQbtEeqneLt6x5V8pw" deletable="false"
+      name="root">
+    <units uuid="__grNoAbwEeqneLt6x5V8pw" name="kit_blind"
+        position="(28.5,0,-50)">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_CdVMAAbxEeqneLt6x5V8pw" name="blind_panel"
+          checksum="7428671fa3ec8b04f9fee0bd079b9c739e713527">
+        <translation uuid="_CdVMAQbxEeqneLt6x5V8pw"/>
+        <file href="../../model.build#_ERdcEAbxEeqneLt6x5V8pw"/>
+        <handles uuid="_LSz-8AbxEeqneLt6x5V8pw" name="Blint_Panel"
+            visualId="Blint_Panel">
+          <fields xsi:type="comp:Field" uuid="_LS0mAAbxEeqneLt6x5V8pw"
+              name="widthManipulation" fieldId="width"
+              variableReference="kit_width_blind_vs"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_NYX9QAbxEeqneLt6x5V8pw"
+              name="heightManipulation" fieldId="height"
+              variableReference="kit_height_breaker_vs"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_gtv2gAbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_blind_panel"
+              target="xml"/>
+        </handles>
+        <handles uuid="_MLodUAbxEeqneLt6x5V8pw" name="Recessed_Blind_panel"
+            visualId="Recessed_Blind_panel">
+          <fields xsi:type="comp:Field" uuid="_MLodUQbxEeqneLt6x5V8pw"
+              name="widthManipulation" fieldId="width"
+              variableReference="kit_width_blind_vs"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_NYX9QQbxEeqneLt6x5V8pw"
+              name="heightManipulation" fieldId="height"
+              variableReference="kit_height_breaker_vs"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_h_E7gAbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_recessed_blind"
+              target="xml"/>
+        </handles>
+        <handles uuid="_StV20AbxEeqneLt6x5V8pw" name="SlotTR"
+            visualId="SlotTR">
+          <fields xsi:type="comp:Field" uuid="_StV20QbxEeqneLt6x5V8pw"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_TR" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_ZH77sAbxEeqneLt6x5V8pw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_TR" target="transform"/>
+        </handles>
+        <handles uuid="_StV20gbxEeqneLt6x5V8pw" name="SlotBR"
+            visualId="SlotBR">
+          <fields xsi:type="comp:Field" uuid="_StV20wbxEeqneLt6x5V8pw"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_TR" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_VXiMMgbxEeqneLt6x5V8pw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_BR" target="transform"/>
+        </handles>
+        <handles uuid="_VXiMMAbxEeqneLt6x5V8pw" name="SlotBL"
+            visualId="SlotBL">
+          <fields xsi:type="comp:Field" uuid="_VXiMMQbxEeqneLt6x5V8pw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_BR" target="transform"/>
+        </handles>
+        <handles uuid="_ZH77sQbxEeqneLt6x5V8pw" name="SlotTL"
+            visualId="SlotTL">
+          <fields xsi:type="comp:Field" uuid="_ZH77sgbxEeqneLt6x5V8pw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_TR" target="transform"/>
+        </handles>
+        <handles uuid="_d24XEAbxEeqneLt6x5V8pw" name="Recessed_Blind_panel_lineC1"
+            visualId="Recessed_Blind_panel_lineC1">
+          <fields xsi:type="comp:Field" uuid="_d24XEQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_line" target="xml"/>
+        </handles>
+        <handles uuid="_d24XEgbxEeqneLt6x5V8pw" name="Recessed_Blind_panel_lineC2"
+            visualId="Recessed_Blind_panel_lineC2">
+          <fields xsi:type="comp:Field" uuid="_d24XEwbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_line" target="xml"/>
+        </handles>
+        <handles uuid="_oDGTcAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA1010"
+            visualId="FrontPanel_ventilated_PPFA1010">
+          <fields xsi:type="comp:Field" uuid="_oDGTcQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA1010" target="xml"/>
+        </handles>
+        <handles uuid="_rdD44AbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA2010"
+            visualId="FrontPanel_ventilated_PPFA2010">
+          <fields xsi:type="comp:Field" uuid="_rdD44QbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA2010" target="xml"/>
+        </handles>
+        <handles uuid="_tmAiYAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA2080"
+            visualId="FrontPanel_ventilated_PPFA2080">
+          <fields xsi:type="comp:Field" uuid="_tmAiYQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA2080" target="xml"/>
+        </handles>
+        <handles uuid="_vsWj0AbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA1080"
+            visualId="FrontPanel_ventilated_PPFA1080">
+          <fields xsi:type="comp:Field" uuid="_vsWj0QbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA1080" target="xml"/>
+        </handles>
+        <handles uuid="_xKHiUAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA2060"
+            visualId="FrontPanel_ventilated_PPFA2060">
+          <fields xsi:type="comp:Field" uuid="_xKHiUQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA2060" target="xml"/>
+        </handles>
+        <handles uuid="_y3rQUAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA1060"
+            visualId="FrontPanel_ventilated_PPFA1060">
+          <fields xsi:type="comp:Field" uuid="_y3rQUQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA1060" target="xml"/>
+        </handles>
+        <handles uuid="_0sigMAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA2040"
+            visualId="FrontPanel_ventilated_PPFA2040">
+          <fields xsi:type="comp:Field" uuid="_0sigMQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA2040" target="xml"/>
+        </handles>
+        <handles uuid="_2MsEUAbxEeqneLt6x5V8pw" name="FrontPanel_ventilated_PPFA1040"
+            visualId="FrontPanel_ventilated_PPFA1040">
+          <fields xsi:type="comp:Field" uuid="_2MsEUQbxEeqneLt6x5V8pw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_PPFA1040" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <units uuid="_IKdnACioEeqPbcemTjvEtw" name="Geo_Unit"
+        order="20">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_IKdnASioEeqPbcemTjvEtw" variable="x_kit_element_position">
+        <vector xsi:type="appl:Coordinate3D" uuid="_IKdnAyioEeqPbcemTjvEtw"
+            x="1.0"/>
+      </facets>
+      <children uuid="_IKdnBCioEeqPbcemTjvEtw" name="Geo_Unit1">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_IKdnBSioEeqPbcemTjvEtw" variable="y_kit_element_position">
+          <vector xsi:type="appl:Coordinate3D" uuid="_IKdnByioEeqPbcemTjvEtw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDText" uuid="_IKdnCCioEeqPbcemTjvEtw"
+            name="element_position" text="1" fontSize="15">
+          <facets xsi:type="comp:TwoDDynamicTextFacet"
+              uuid="_IKdnCiioEeqPbcemTjvEtw" fontSizeDynamic="kit_font_size"
+              textDynamic="kit_element_position"/>
+          <translation uuid="_IKdnCyioEeqPbcemTjvEtw"/>
+        </twoDElement>
+      </children>
+      <children uuid="_IKdnDCioEeqPbcemTjvEtw" name="Geo_Unit2"
+          position="(-15,0,0)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_IKdnDSioEeqPbcemTjvEtw" variable="y_base_kit_code_text">
+          <vector xsi:type="appl:Coordinate3D" uuid="_IKdnDyioEeqPbcemTjvEtw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDText" uuid="_IKdnECioEeqPbcemTjvEtw"
+            name="base_kit_code" text="1">
+          <facets xsi:type="comp:TwoDDynamicTextFacet"
+              uuid="_IKdnEiioEeqPbcemTjvEtw" fontSizeDynamic="kit_font_size"
+              textDynamic="base_kit_code"/>
+          <translation uuid="_IKdnEyioEeqPbcemTjvEtw"/>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_5wLWAgbtEeqneLt6x5V8pw" name="ParentPlug"/>
+  </geometry>
+  <componentsUsingMe xsi:type="comp:Component" href="_9lrqQPuwEemFAe1tpvEhqw.xml#_9lrqQPuwEemFAe1tpvEhqw"/>
+  <componentsUsingMe xsi:type="comp:Component" href="_wZWZkPu1EemFAe1tpvEhqw.xml#_wZWZkPu1EemFAe1tpvEhqw"/>
+</comp:ComponentTemplate>

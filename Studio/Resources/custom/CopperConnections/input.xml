@@ -1,0 +1,65 @@
+<reportexport>
+  <report id="document" refid="eConfigure_rbbs_report.rptdesign">
+    <outputs>
+      <output name="eConfigure RBBS Report" orientation="portrait" type="pdf"/>
+    </outputs>
+    <blocks>
+      <block id="00_cover_letter" order="0" refid="00_cover_letter" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="01_introduction" order="1" refid="01_introduction" type="datablock">
+        <parameters>
+          <parameter id="date" value=" "/>
+          <parameter id="phone_customer" value=" "/>
+          <parameter id="address_customer" value=" "/>
+          <parameter id="validity_date" value=" "/>
+          <parameter id="description" value=" "/>
+          <parameter id="name_customer" value=" "/>
+          <parameter id="zip_code_customer" value=" "/>
+          <parameter id="country_customer" value=" "/>
+          <parameter id="mail_customer" value=" "/>
+          <parameter id="department_customer" value="Info from quotation system"/>
+          <parameter id="name_user" value=" "/>
+          <parameter id="mail_user" value=" "/>
+          <parameter id="city_customer" value=" "/>
+          <parameter id="phone_user" value=" "/>
+          <parameter id="name" value=" "/>
+          <parameter id="department_user" value=" "/>
+          <parameter id="currency" value="EUR"/>
+          <parameter id="validity" value=" "/>
+          <parameter id="country_price" value="Germany"/>
+		  <parameter id="name_project" value=" "/>
+		  <parameter id="project_id" value=" "/>
+        </parameters>
+      </block>
+      <block id="02_contents" order="2" refid="02_contents" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="column_number" order="0"/>
+              <column name="item" order="1"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="item" value="Column-1"/>
+                <datum id="column_number" value="1"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="03_summary" order="3" refid="03_summary" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="04_design_documentation" order="4" refid="04_design_documentation" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+    </blocks>
+  </report>
+</reportexport>

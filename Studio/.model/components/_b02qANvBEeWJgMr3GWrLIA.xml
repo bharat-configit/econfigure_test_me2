@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_b02qANvBEeWJgMr3GWrLIA" name="column_empty"
+    componentClass="LINK" cluster="true" toaPrefix="column.empty">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_06Y_0Ob2EeaOs4MJeyGGwA"
+      name="orientation" visibility="800">
+    <domain uuid="_06Y_1eb2EeaOs4MJeyGGwA" name="local"
+        visibility="300">
+      <typeSet uuid="_06Y_2Ob2EeaOs4MJeyGGwA" bitSet="393231"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_7bSZIGUTEeieRfqvIqQWRg"
+      name="switchboard_door_hinges_180_toa" visibility="800">
+    <domain uuid="_7bSZIWUTEeieRfqvIqQWRg" name="local"
+        visibility="300">
+      <typeSet uuid="_7bSZImUTEeieRfqvIqQWRg" bitSet="393217"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_z4d_YOa6EemCWOiNRMpL1A"
+      name="intermediate_wr_earth_qty" visibility="800">
+    <domain uuid="_z4d_Yea6EemCWOiNRMpL1A" name="local"
+        visibility="300">
+      <typeSet uuid="_z4d_Yua6EemCWOiNRMpL1A" bitSet="393230"/>
+      <values uuid="_1McvwOa6EemCWOiNRMpL1A" name="0"
+          visibility="300">
+        <displayName uuid="_1Mcvwea6EemCWOiNRMpL1A"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_t5dPsKizEem11KV_6sZZRw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_uTsUoKizEem11KV_6sZZRw"
+        name="column_type" visibility="800" expression="column_type(empty);"/>
+  </logic>
+  <template href="_ZBLEML3mEemu44w8miOspg.xml#_ZBLEML3mEemu44w8miOspg"/>
+  <geometry uuid="_b02qAdvBEeWJgMr3GWrLIA" deletable="false"
+      name="root"/>
+  <displayName uuid="_deqbHv7nEeiskp2v5nXzHA" value="Empty Section"/>
+</comp:Component>

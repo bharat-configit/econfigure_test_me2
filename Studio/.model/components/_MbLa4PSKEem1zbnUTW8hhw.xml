@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_MbLa4PSKEem1zbnUTW8hhw" name="column_xline_hor50_rbbs_backup"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <logic uuid="_hNORAPSLEem1zbnUTW8hhw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_hoNj4PSLEem1zbnUTW8hhw"
+        name="column_type" visibility="800" expression="column_type(xline_hor50);&#xD;&#xA;coupler(no);"/>
+    <children xsi:type="array:Expression" uuid="_c1dpwPSPEemNZ4I6glpu9g"
+        name="rating" visibility="800" expression="main_busbar_rating(1000)->rating(1250);&#xD;&#xA;!main_busbar_rating(1000)->rating&lt;=main_busbar_rating;"/>
+  </logic>
+  <calculation uuid="_gl1g4PSLEem1zbnUTW8hhw" name="Calculation_Rules"
+      visibility="800">
+    <text>if (world_user_group_toa==&quot;G&quot;){&#xD;
+	switch_rbbsCH_XLH=0;&#xD;
+}</text>
+  </calculation>
+  <template href="_QCEvcG5LEemUHvFbr0AMqw.xml#_QCEvcG5LEemUHvFbr0AMqw"/>
+  <geometry uuid="_MbLa4fSKEem1zbnUTW8hhw" deletable="false"
+      name="root">
+    <units uuid="_n58AoPSLEem1zbnUTW8hhw" name="xline_horRBBS_CH"
+        visualEffects="_Rcx3CyvUEeqJ7cfGAkHMWA" order="2">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_n58AofSLEem1zbnUTW8hhw" variable="height_column_outside">
+        <vector xsi:type="appl:Coordinate3D" uuid="_n58Ao_SLEem1zbnUTW8hhw"
+            z="-1.0"/>
+      </facets>
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_n58ApPSLEem1zbnUTW8hhw" variable="switch_rbbsCH_XLH">
+        <visualEffect uuid="_Rcx3CyvUEeqJ7cfGAkHMWA"
+            targets="_n58AoPSLEem1zbnUTW8hhw" variable="switch_rbbsCH_XLH"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_n58ApfSLEem1zbnUTW8hhw" name="rbbs_xLineHorizontal_CH"
+          checksum="36abe02ad1fb515e3a8c2bdbee0073ea7ac868a6">
+        <translation uuid="_n58Ap_SLEem1zbnUTW8hhw"/>
+        <file href="../../model.build#_b9-MECapEei5qq_yccCA9g"/>
+        <handles uuid="_n58AqPSLEem1zbnUTW8hhw" name="layer1"
+            visualId="layer1">
+          <fields xsi:type="comp:Field" uuid="_n58AqfSLEem1zbnUTW8hhw"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="rack_transition_x"
+              target="transform"/>
+        </handles>
+        <handles uuid="_n58AqvSLEem1zbnUTW8hhw" name="C3t"
+            visualId="C3t">
+          <fields xsi:type="comp:Field" uuid="_n58Aq_SLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58ArPSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58ArfSLEem1zbnUTW8hhw" name="C2t"
+            visualId="C2t">
+          <fields xsi:type="comp:Field" uuid="_n58ArvSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58Ar_SLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58AsPSLEem1zbnUTW8hhw" name="C1t"
+            visualId="C1t">
+          <fields xsi:type="comp:Field" uuid="_n58AsfSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AsvSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58As_SLEem1zbnUTW8hhw" name="C4t"
+            visualId="C4t">
+          <fields xsi:type="comp:Field" uuid="_n58AtPSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AtfSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_C4" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AtvSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58At_SLEem1zbnUTW8hhw" name="C4b"
+            visualId="C4b">
+          <fields xsi:type="comp:Field" uuid="_n58AuPSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AufSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_C4" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AuvSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58Au_SLEem1zbnUTW8hhw" name="C1b"
+            visualId="C1b">
+          <fields xsi:type="comp:Field" uuid="_n58AvPSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AvfSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58AvvSLEem1zbnUTW8hhw" name="C2b"
+            visualId="C2b">
+          <fields xsi:type="comp:Field" uuid="_n58Av_SLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58AwPSLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58AwfSLEem1zbnUTW8hhw" name="C3b"
+            visualId="C3b">
+          <fields xsi:type="comp:Field" uuid="_n58AwvSLEem1zbnUTW8hhw"
+              name="heightManipulation" fieldId="height"
+              variableReference="c_height" target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_n58Aw_SLEem1zbnUTW8hhw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_C" target="transform"/>
+        </handles>
+        <handles uuid="_n58AxPSLEem1zbnUTW8hhw" name="CBBS_bottom"
+            visualId="CBBS_bottom">
+          <fields xsi:type="comp:Field" uuid="_n58AxfSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_CBBS_bottom"
+              target="xml"/>
+        </handles>
+        <handles uuid="_n58AxvSLEem1zbnUTW8hhw" name="CBBS_top"
+            visualId="CBBS_top">
+          <fields xsi:type="comp:Field" uuid="_n58Ax_SLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_CBBS_top" target="xml"/>
+        </handles>
+        <handles uuid="_n58AyPSLEem1zbnUTW8hhw" name="DBBS"
+            visualId="DBBS">
+          <fields xsi:type="comp:Field" uuid="_n58AyfSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_DBB" target="xml"/>
+        </handles>
+        <handles uuid="_n58AyvSLEem1zbnUTW8hhw" name="D4"
+            visualId="D4">
+          <fields xsi:type="comp:Field" uuid="_n58Ay_SLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_D4" target="xml"/>
+        </handles>
+        <handles uuid="_n58AzPSLEem1zbnUTW8hhw" name="sideBar"
+            visualId="sideBar">
+          <fields xsi:type="comp:Field" uuid="_n58AzfSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_kit" target="xml"/>
+        </handles>
+        <handles uuid="_n58AzvSLEem1zbnUTW8hhw" name="frame"
+            visualId="frame">
+          <fields xsi:type="comp:Field" uuid="_n58Az_SLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_kit" target="xml"/>
+        </handles>
+        <handles uuid="_n58A0PSLEem1zbnUTW8hhw" name="segregation"
+            visualId="segregation">
+          <fields xsi:type="comp:Field" uuid="_n58A0fSLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_kit" target="xml"/>
+        </handles>
+        <handles uuid="_n58A0vSLEem1zbnUTW8hhw" name="upright"
+            visualId="upright">
+          <fields xsi:type="comp:Field" uuid="_n58A0_SLEem1zbnUTW8hhw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_upright" target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_MbLa4vSKEem1zbnUTW8hhw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_MbLa4_SKEem1zbnUTW8hhw" value="Xline Horizontal50 Section"/>
+</comp:Component>

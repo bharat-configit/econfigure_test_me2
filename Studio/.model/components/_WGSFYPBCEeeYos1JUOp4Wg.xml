@@ -1,0 +1,2220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_WGSFYPBCEeeYos1JUOp4Wg" name="kit_mountingplate_combilineN"
+    toaPrefix="kit.combilineN">
+  <variables xsi:type="comp:VariableGroup" uuid="_DWxv4PEfEee2x5NOLfdeuw"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_ESct8PEfEee2x5NOLfdeuw"
+        name="visual_height" visibility="800" initValue="150">
+      <domain uuid="_ESct9vEfEee2x5NOLfdeuw" name="local"
+          visibility="300">
+        <typeSet uuid="_ESct-fEfEee2x5NOLfdeuw" bitSet="393218"/>
+        <values uuid="_oaSwAAaCEei5vdTi6nJBiw" name="150"
+            visibility="300">
+          <displayName uuid="_bDBfFv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_olxAMAaCEei5vdTi6nJBiw" name="300"
+            visibility="300">
+          <displayName uuid="_bDBfGP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_o1Q0wAaCEei5vdTi6nJBiw" name="450"
+            visibility="300">
+          <displayName uuid="_bDBfGv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_pC0voAaCEei5vdTi6nJBiw" name="600"
+            visibility="300">
+          <displayName uuid="_bDBfHP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_pa-J4AaCEei5vdTi6nJBiw" name="750"
+            visibility="300">
+          <displayName uuid="_bDBfHv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_EwfU0PEfEee2x5NOLfdeuw"
+        name="visual_width" visibility="800" initValue="250">
+      <domain uuid="_EwfU1vEfEee2x5NOLfdeuw" name="local"
+          visibility="300">
+        <typeSet uuid="_EwfU2fEfEee2x5NOLfdeuw" bitSet="393218"/>
+        <values uuid="_rnUFoAaCEei5vdTi6nJBiw" name="250"
+            visibility="300">
+          <displayName uuid="_bDBfI_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_sFHb8AaCEei5vdTi6nJBiw" name="500"
+            visibility="300">
+          <displayName uuid="_bDBfJf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_sl-GQAaCEei5vdTi6nJBiw" name="750"
+            visibility="300">
+          <displayName uuid="_bDBfJ_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_HwYNYPEfEee2x5NOLfdeuw"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_hFlu4AwKEeiHDs9doUu2XQ"
+        name="height" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_k1uYoAwKEeiHDs9doUu2XQ" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_hFlu5QwKEeiHDs9doUu2XQ" name="local"
+          visibility="300">
+        <typeSet uuid="_hFlu6AwKEeiHDs9doUu2XQ" bitSet="393226"/>
+        <values uuid="_hFlu6QwKEeiHDs9doUu2XQ" deletable="false"
+            name="1" visibility="300">
+          <displayName uuid="_bDCGJf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu6gwKEeiHDs9doUu2XQ" deletable="false"
+            name="2" visibility="300">
+          <displayName uuid="_bDCGJ_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu6wwKEeiHDs9doUu2XQ" deletable="false"
+            name="3" visibility="300">
+          <displayName uuid="_bDCGKf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu7AwKEeiHDs9doUu2XQ" deletable="false"
+            name="4" visibility="300">
+          <displayName uuid="_bDCGK_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu7QwKEeiHDs9doUu2XQ" deletable="false"
+            name="5" visibility="300">
+          <displayName uuid="_bDCGLf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu7gwKEeiHDs9doUu2XQ" deletable="false"
+            name="6" visibility="300">
+          <displayName uuid="_bDCGL_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu7wwKEeiHDs9doUu2XQ" deletable="false"
+            name="7" visibility="300">
+          <displayName uuid="_bDCGMf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu8AwKEeiHDs9doUu2XQ" deletable="false"
+            name="8" visibility="300">
+          <displayName uuid="_bDCGM_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu8QwKEeiHDs9doUu2XQ" deletable="false"
+            name="9" visibility="300">
+          <displayName uuid="_bDCGNf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu8gwKEeiHDs9doUu2XQ" deletable="false"
+            name="10" visibility="300">
+          <displayName uuid="_bDCGN_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu8wwKEeiHDs9doUu2XQ" deletable="false"
+            name="11" visibility="300">
+          <displayName uuid="_bDCGOf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu9AwKEeiHDs9doUu2XQ" deletable="false"
+            name="12" visibility="300">
+          <displayName uuid="_bDCGO_7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu9QwKEeiHDs9doUu2XQ" deletable="false"
+            name="13" visibility="300">
+          <displayName uuid="_bDCGPf7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hFlu9gwKEeiHDs9doUu2XQ" deletable="false"
+            name="14" visibility="300">
+          <displayName uuid="_bDCGP_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hFoLIAwKEeiHDs9doUu2XQ"
+        name="width" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_x_SP4AwKEeiHDs9doUu2XQ" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_hFoLJQwKEeiHDs9doUu2XQ" name="local"
+          visibility="300">
+        <typeSet uuid="_hFoLKAwKEeiHDs9doUu2XQ" bitSet="393226"/>
+        <values uuid="_hFoLKQwKEeiHDs9doUu2XQ" deletable="false"
+            name="1" visibility="300">
+          <displayName uuid="_bDCGRf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_hFoLKgwKEeiHDs9doUu2XQ" deletable="false"
+            name="2" visibility="300">
+          <displayName uuid="_bDCGR_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_hFoLKwwKEeiHDs9doUu2XQ" deletable="false"
+            name="3" visibility="300">
+          <displayName uuid="_bDCGSf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_hFoLLAwKEeiHDs9doUu2XQ" deletable="false"
+            name="4" visibility="300">
+          <displayName uuid="_bDCGS_7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+        <values uuid="_hFoLLQwKEeiHDs9doUu2XQ" deletable="false"
+            name="5" visibility="300">
+          <displayName uuid="_bDCGTf7nEeiskp2v5nXzHA"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="__NErgLyxEeipRqkNr45J7A"
+        name="module_mounting_plate_height" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_SWR7kLyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varMountingPlateHeight"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="__NErgbyxEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="__NErgryxEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="__teC0LyxEeipRqkNr45J7A"
+        name="module_mounting_plate_width" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_y06xILyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varMountingPlateWidth"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="__teC0byxEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="__teC0ryxEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ARyQ0LyyEeipRqkNr45J7A"
+        name="article_type" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="__pKVILyyEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varArticleType"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_ARyQ0byyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_ARyQ0ryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_AzM70LyyEeipRqkNr45J7A"
+        name="module_adjustability" visibility="800"
+        initValue="Stepless">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_A8VNMLyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varAdjustability"
+          flow="IN" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_6YRQgPOrEei5NIoii3ZlTw"/>
+      </facets>
+      <domain uuid="_AzM70byyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_AzM70ryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_BU23YLyyEeipRqkNr45J7A"
+        name="module_DIN_place_units" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_E0fxkLyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varDINPlaceUnits"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_BU23YbyyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_BU23YryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_B0VBoLyyEeipRqkNr45J7A"
+        name="module_minimum_section_depth" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_RJuB0LyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varMinSectionDepth"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_B0VBobyyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_B0VBoryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_YFrj0LyyEeipRqkNr45J7A"
+        name="module_height" visibility="800" initValue="150">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_GLZ6ILyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varModuleHeight"
+          modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_WhzwsFdaEemLMpQNLTmEmg" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN"/>
+      <domain uuid="_YFrj0byyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_YFrj0ryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_bKFI8LyyEeipRqkNr45J7A"
+        name="module_width" visibility="800" initValue="250">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_V7hj8LyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varModuleWidth"
+          modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_YVDP8FdaEemLMpQNLTmEmg" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN"/>
+      <domain uuid="_bKFI8byyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_bKFI8ryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_d2Li0LyyEeipRqkNr45J7A"
+        name="product_ID" visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_gDZL0LyzEeipRqkNr45J7A" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varProductID"
+          flow="OUT" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_d2Li0byyEeipRqkNr45J7A" name="local"
+          visibility="300">
+        <typeSet uuid="_d2Li0ryyEeipRqkNr45J7A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_adYXwL1yEeisWux88tmNXQ"
+        name="module_height_int" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet"
+          uuid="_adYXxb1yEeisWux88tmNXQ" mirroredVariable="module_height"/>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_adYXxr1yEeisWux88tmNXQ" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_adYXx71yEeisWux88tmNXQ" name="local"
+          visibility="300">
+        <typeSet uuid="_adYXyr1yEeisWux88tmNXQ" bitSet="393220"/>
+        <values uuid="_adYXy71yEeisWux88tmNXQ" deletable="false"
+            name="150" visibility="300">
+          <displayName uuid="_bDCtTv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYXzL1yEeisWux88tmNXQ" deletable="false"
+            name="300" visibility="300">
+          <displayName uuid="_bDCtUP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYXzb1yEeisWux88tmNXQ" deletable="false"
+            name="450" visibility="300">
+          <displayName uuid="_bDCtUv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYXzr1yEeisWux88tmNXQ" deletable="false"
+            name="600" visibility="300">
+          <displayName uuid="_bDCtVP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYXz71yEeisWux88tmNXQ" deletable="false"
+            name="750" visibility="300">
+          <displayName uuid="_bDCtVv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_adYX6b1yEeisWux88tmNXQ"
+        name="module_width_int" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet"
+          uuid="_adYX7r1yEeisWux88tmNXQ" mirroredVariable="module_width"/>
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_adYX771yEeisWux88tmNXQ" declared="true"
+          model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_adYX8L1yEeisWux88tmNXQ" name="local"
+          visibility="300">
+        <typeSet uuid="_adYX871yEeisWux88tmNXQ" bitSet="393220"/>
+        <values uuid="_adYX9L1yEeisWux88tmNXQ" deletable="false"
+            name="250" visibility="300">
+          <displayName uuid="_bDCtXv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYX9b1yEeisWux88tmNXQ" deletable="false"
+            name="500" visibility="300">
+          <displayName uuid="_bDCtYP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_adYX9r1yEeisWux88tmNXQ" deletable="false"
+            name="750" visibility="300">
+          <displayName uuid="_bDCtYv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_fVmgcAWSEeiEx-FaIXo8Dw"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_fVmgcQWSEeiEx-FaIXo8Dw"
+        name="cabinet_mounting_frame_toa" visibility="800"
+        initValue="WR">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_b8vIUFdaEemLMpQNLTmEmg" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varMountingFrame"
+          flow="IN" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_fVmgdwWSEeiEx-FaIXo8Dw" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_fVmgegWSEeiEx-FaIXo8Dw" bitSet="4"/>
+        <values uuid="_fVmgewWSEeiEx-FaIXo8Dw" deletable="false"
+            name="EDF" visibility="300">
+          <displayName uuid="_bDCtaP7nEeiskp2v5nXzHA"
+              value="EDF"/>
+        </values>
+        <values uuid="_fVmgfAWSEeiEx-FaIXo8Dw" deletable="false"
+            name="WR" visibility="300">
+          <displayName uuid="_bDCtav7nEeiskp2v5nXzHA"
+              value="WR"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fVmgfQWSEeiEx-FaIXo8Dw"
+        name="switchboard_delivery_mounting_type_toa"
+        visibility="800">
+      <facets xsi:type="comp:VariableVTLogicConstraintFacet"
+          uuid="_dC5fIFdaEemLMpQNLTmEmg" declared="true"
+          overrides="_CzkpIPBDEeeYos1JUOp4Wg" logicVarID="GrpSelector.varMountingType"
+          flow="IN" modelVT="_CzkpIPBDEeeYos1JUOp4Wg">
+        <priorities href="../product_model.xml#_oixS0DFPEeaGIcyfTbRZLw"/>
+      </facets>
+      <domain uuid="_fVmggwWSEeiEx-FaIXo8Dw" name="local"
+          editable="false" visibility="300">
+        <typeSet uuid="_fVmghgWSEeiEx-FaIXo8Dw" bitSet="4"/>
+        <values uuid="_fVmghwWSEeiEx-FaIXo8Dw" deletable="false"
+            name="flatpack" visibility="300">
+          <displayName uuid="_bDCtb_7nEeiskp2v5nXzHA"
+              value="Flatpack"/>
+        </values>
+        <values uuid="_fVmgiAWSEeiEx-FaIXo8Dw" deletable="false"
+            name="mounted" visibility="300">
+          <displayName uuid="_bDCtcf7nEeiskp2v5nXzHA"
+              value="Mounted"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_8B2RYPxGEeiYtP1an2rtaA"
+      name="article_type_mirror" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_8b8zcPxGEeiYtP1an2rtaA" declared="true"
+        model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_9Dsv8PxGEeiYtP1an2rtaA" mirroredVariable="article_type"/>
+    <domain uuid="_8B2RYfxGEeiYtP1an2rtaA" name="local"
+        visibility="300">
+      <typeSet uuid="_8B2RYvxGEeiYtP1an2rtaA" bitSet="393220"/>
+      <values uuid="_8B2RY_xGEeiYtP1an2rtaA" deletable="false"
+          name="MBM111" visibility="300">
+        <displayName uuid="_bDCtef7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RZPxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM112" visibility="300">
+        <displayName uuid="_bDCte_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RZfxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM112K" visibility="300">
+        <displayName uuid="_bDCtff7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RZvxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM113" visibility="300">
+        <displayName uuid="_bDCtf_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RZ_xGEeiYtP1an2rtaA" deletable="false"
+          name="MBM113K" visibility="300">
+        <displayName uuid="_bDCtgf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RaPxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM114" visibility="300">
+        <displayName uuid="_bDCtg_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RafxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM114K" visibility="300">
+        <displayName uuid="_bDCthf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RavxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM115" visibility="300">
+        <displayName uuid="_bDCth_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Ra_xGEeiYtP1an2rtaA" deletable="false"
+          name="MBM211" visibility="300">
+        <displayName uuid="_bDCtif7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RbPxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM212" visibility="300">
+        <displayName uuid="_bDCti_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RbfxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM213" visibility="300">
+        <displayName uuid="_bDCtjf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RbvxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM214" visibility="300">
+        <displayName uuid="_bDCtj_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Rb_xGEeiYtP1an2rtaA" deletable="false"
+          name="MBM215" visibility="300">
+        <displayName uuid="_bDCtkf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RcPxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM311" visibility="300">
+        <displayName uuid="_bDCtk_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RcfxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM312" visibility="300">
+        <displayName uuid="_bDCtlf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RcvxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM313" visibility="300">
+        <displayName uuid="_bDCtl_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Rc_xGEeiYtP1an2rtaA" deletable="false"
+          name="MBM314" visibility="300">
+        <displayName uuid="_bDCtmf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RdPxGEeiYtP1an2rtaA" deletable="false"
+          name="MBM315" visibility="300">
+        <displayName uuid="_bDCtm_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RdfxGEeiYtP1an2rtaA" deletable="false"
+          name="MM111" visibility="300">
+        <displayName uuid="_bDCtnf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RdvxGEeiYtP1an2rtaA" deletable="false"
+          name="MM112" visibility="300">
+        <displayName uuid="_bDCtn_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Rd_xGEeiYtP1an2rtaA" deletable="false"
+          name="MM112K" visibility="300">
+        <displayName uuid="_bDCtof7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RePxGEeiYtP1an2rtaA" deletable="false"
+          name="MM113" visibility="300">
+        <displayName uuid="_bDCto_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RefxGEeiYtP1an2rtaA" deletable="false"
+          name="MM113K" visibility="300">
+        <displayName uuid="_bDCtpf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RevxGEeiYtP1an2rtaA" deletable="false"
+          name="MM114" visibility="300">
+        <displayName uuid="_bDDUQP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Re_xGEeiYtP1an2rtaA" deletable="false"
+          name="MM114K" visibility="300">
+        <displayName uuid="_bDDUQv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RfPxGEeiYtP1an2rtaA" deletable="false"
+          name="MM115" visibility="300">
+        <displayName uuid="_bDDURP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RffxGEeiYtP1an2rtaA" deletable="false"
+          name="MM211" visibility="300">
+        <displayName uuid="_bDDURv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RfvxGEeiYtP1an2rtaA" deletable="false"
+          name="MM212" visibility="300">
+        <displayName uuid="_bDDUSP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Rf_xGEeiYtP1an2rtaA" deletable="false"
+          name="MM213" visibility="300">
+        <displayName uuid="_bDDUSv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RgPxGEeiYtP1an2rtaA" deletable="false"
+          name="MM214" visibility="300">
+        <displayName uuid="_bDDUTP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RgfxGEeiYtP1an2rtaA" deletable="false"
+          name="MM215" visibility="300">
+        <displayName uuid="_bDDUTv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RgvxGEeiYtP1an2rtaA" deletable="false"
+          name="MM311" visibility="300">
+        <displayName uuid="_bDDUUP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2Rg_xGEeiYtP1an2rtaA" deletable="false"
+          name="MM312" visibility="300">
+        <displayName uuid="_bDDUUv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RhPxGEeiYtP1an2rtaA" deletable="false"
+          name="MM313" visibility="300">
+        <displayName uuid="_bDDUVP7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RhfxGEeiYtP1an2rtaA" deletable="false"
+          name="MM314" visibility="300">
+        <displayName uuid="_bDDUVv7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_8B2RhvxGEeiYtP1an2rtaA" deletable="false"
+          name="MM315" visibility="300">
+        <displayName uuid="_bDDUWP7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_-pnk4PxGEeiYtP1an2rtaA"
+      name="kit_mountingInstructions" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_-9TV4PxGEeiYtP1an2rtaA" declared="true"
+        model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="OUT">
+      <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+    </facets>
+    <domain uuid="_-pnk4fxGEeiYtP1an2rtaA" name="local"
+        visibility="300">
+      <typeSet uuid="_-pnk4vxGEeiYtP1an2rtaA" bitSet="393220"/>
+      <values uuid="_-pnk4_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041117R9999'" visibility="300">
+        <displayName uuid="_bDDUX_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk5PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041118R9999'" visibility="300">
+        <displayName uuid="_bDDUYf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk5fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041119R9999'" visibility="300">
+        <displayName uuid="_bDDUY_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk5vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041242R9999'" visibility="300">
+        <displayName uuid="_bDDUZf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk5_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041243R9999'" visibility="300">
+        <displayName uuid="_bDDUZ_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk6PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041244R9999'" visibility="300">
+        <displayName uuid="_bDDUaf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk6fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041245R9999'" visibility="300">
+        <displayName uuid="_bDDUa_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk6vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041246R9999'" visibility="300">
+        <displayName uuid="_bDDUbf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk6_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041247R9999'" visibility="300">
+        <displayName uuid="_bDDUb_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk7PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041248R9999'" visibility="300">
+        <displayName uuid="_bDDUcf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk7fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041249R9999'" visibility="300">
+        <displayName uuid="_bDDUc_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk7vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041250R9999'" visibility="300">
+        <displayName uuid="_bDDUdf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk7_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041251R9999'" visibility="300">
+        <displayName uuid="_bDDUd_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk8PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041252R9999'" visibility="300">
+        <displayName uuid="_bDDUef7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk8fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041253R9999'" visibility="300">
+        <displayName uuid="_bDDUe_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk8vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041254R9999'" visibility="300">
+        <displayName uuid="_bDDUff7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk8_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041255R9999'" visibility="300">
+        <displayName uuid="_bDDUf_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk9PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041256R9999'" visibility="300">
+        <displayName uuid="_bDDUgf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk9fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041640R9999'" visibility="300">
+        <displayName uuid="_bDDUg_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk9vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041641R9999'" visibility="300">
+        <displayName uuid="_bDDUhf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk9_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041642R9999'" visibility="300">
+        <displayName uuid="_bDDUh_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk-PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041707R9999'" visibility="300">
+        <displayName uuid="_bDDUif7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk-fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041708R9999'" visibility="300">
+        <displayName uuid="_bDDUi_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk-vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041709R9999'" visibility="300">
+        <displayName uuid="_bDDUjf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk-_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041710R9999'" visibility="300">
+        <displayName uuid="_bDDUj_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk_PxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041711R9999'" visibility="300">
+        <displayName uuid="_bDDUkf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk_fxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041712R9999'" visibility="300">
+        <displayName uuid="_bDDUk_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk_vxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041713R9999'" visibility="300">
+        <displayName uuid="_bDDUlf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnk__xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041714R9999'" visibility="300">
+        <displayName uuid="_bDDUl_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlAPxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041715R9999'" visibility="300">
+        <displayName uuid="_bDDUmf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlAfxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041716R9999'" visibility="300">
+        <displayName uuid="_bDDUm_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlAvxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041717R9999'" visibility="300">
+        <displayName uuid="_bDDUnf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlA_xGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041718R9999'" visibility="300">
+        <displayName uuid="_bDDUn_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlBPxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041719R9999'" visibility="300">
+        <displayName uuid="_bDDUof7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlBfxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041720R9999'" visibility="300">
+        <displayName uuid="_bDDUo_7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_-pnlBvxGEeiYtP1an2rtaA" deletable="false"
+          name="'2CPX041721R9999'" visibility="300">
+        <displayName uuid="_bDDUpf7nEeiskp2v5nXzHA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_c4HxcDX7EemhTYdIwrc9_Q"
+      name="mounting_restriction" visibility="800" initValue="0">
+    <domain uuid="_c4HxczX7EemhTYdIwrc9_Q" name="local"
+        visibility="300">
+      <typeSet uuid="_c4HxdTX7EemhTYdIwrc9_Q" bitSet="393218"/>
+      <values uuid="_c4HxdjX7EemhTYdIwrc9_Q" name="0"
+          visibility="300">
+        <displayName uuid="_c4HxeDX7EemhTYdIwrc9_Q"/>
+      </values>
+      <values uuid="_c4HxeTX7EemhTYdIwrc9_Q" name="1"
+          visibility="300">
+        <displayName uuid="_c4HxezX7EemhTYdIwrc9_Q"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_3MZ9kDX7EemhTYdIwrc9_Q"
+      name="flatpack_restriction" visibility="800" initValue="0">
+    <domain uuid="_3MZ9kzX7EemhTYdIwrc9_Q" name="local"
+        visibility="300">
+      <typeSet uuid="_3MZ9lTX7EemhTYdIwrc9_Q" bitSet="393218"/>
+      <values uuid="_3MZ9ljX7EemhTYdIwrc9_Q" name="0"
+          visibility="300">
+        <displayName uuid="_3MZ9mDX7EemhTYdIwrc9_Q"/>
+      </values>
+      <values uuid="_3MZ9mTX7EemhTYdIwrc9_Q" name="1"
+          visibility="300">
+        <displayName uuid="_3MZ9mzX7EemhTYdIwrc9_Q"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_w3w5YFHLEemGYrMzOvbz_g"
+      name="column_type_toa" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="__riPsFHLEemGYrMzOvbz_g" declared="true"
+        model="_BzWHAAWTEeiEx-FaIXo8Dw" flow="IN">
+      <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_w3w5YVHLEemGYrMzOvbz_g" name="local"
+        visibility="300">
+      <typeSet uuid="_w3w5YlHLEemGYrMzOvbz_g" bitSet="393220"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+  </variables>
+  <logic uuid="_BzWHAAWTEeiEx-FaIXo8Dw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_CN6jIAWTEeiEx-FaIXo8Dw"
+        name="height" visibility="800">
+      <columns uuid="_EUBUAAWTEeiEx-FaIXo8Dw" name="height"
+          visibility="100" databaseAlias="height">
+        <cells uuid="_5dAeI4aZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5dAeJIaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5dAeJYaZEei0J7ssmq29HQ" value="3"/>
+        <cells uuid="_5dAeJoaZEei0J7ssmq29HQ" value="4"/>
+        <cells uuid="_5dAeJ4aZEei0J7ssmq29HQ" value="5"/>
+      </columns>
+      <columns uuid="_GJ53kAWTEeiEx-FaIXo8Dw" name="module_height"
+          visibility="100" databaseAlias="module_height_int">
+        <cells uuid="_5dAeKYaZEei0J7ssmq29HQ" value="'150'"/>
+        <cells uuid="_5dAeKoaZEei0J7ssmq29HQ" value="'300'"/>
+        <cells uuid="_5dAeK4aZEei0J7ssmq29HQ" value="'450'"/>
+        <cells uuid="_5dAeLIaZEei0J7ssmq29HQ" value="'600'"/>
+        <cells uuid="_5dAeLYaZEei0J7ssmq29HQ" value="'750'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_J7aaUAWTEeiEx-FaIXo8Dw"
+        name="width" visibility="800">
+      <columns uuid="_MDN0UAWTEeiEx-FaIXo8Dw" name="width"
+          visibility="100" databaseAlias="width">
+        <cells uuid="_5dAeMIaZEei0J7ssmq29HQ" value="1"/>
+        <cells uuid="_5dAeMYaZEei0J7ssmq29HQ" value="2"/>
+        <cells uuid="_5dAeMoaZEei0J7ssmq29HQ" value="3"/>
+      </columns>
+      <columns uuid="_OLK_UAWTEeiEx-FaIXo8Dw" name="module_width"
+          visibility="100" databaseAlias="module_width_int">
+        <cells uuid="_5dAeNIaZEei0J7ssmq29HQ" value="'250'"/>
+        <cells uuid="_5dAeNYaZEei0J7ssmq29HQ" value="'500'"/>
+        <cells uuid="_5dAeNoaZEei0J7ssmq29HQ" value="'750'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_XUPhAPxGEeiYtP1an2rtaA"
+        name="mountingInstructions" visibility="800">
+      <columns uuid="_aqK7APxGEeiYtP1an2rtaA" name="article_type_mirror"
+          visibility="100" databaseAlias="article_type_mirror">
+        <cells uuid="_4ebN8vxGEeiYtP1an2rtaA" value="MM111"/>
+        <cells uuid="_4ebN8_xGEeiYtP1an2rtaA" value="MM112"/>
+        <cells uuid="_4ebN9PxGEeiYtP1an2rtaA" value="MM112K"/>
+        <cells uuid="_4ebN9fxGEeiYtP1an2rtaA" value="MM113"/>
+        <cells uuid="_4ebN9vxGEeiYtP1an2rtaA" value="MM113K"/>
+        <cells uuid="_4ebN9_xGEeiYtP1an2rtaA" value="MM114"/>
+        <cells uuid="_4ebN-PxGEeiYtP1an2rtaA" value="MM114K"/>
+        <cells uuid="_4ebN-fxGEeiYtP1an2rtaA" value="MM115"/>
+        <cells uuid="_4ebN-vxGEeiYtP1an2rtaA" value="MM211"/>
+        <cells uuid="_4ebN-_xGEeiYtP1an2rtaA" value="MM212"/>
+        <cells uuid="_4ebN_PxGEeiYtP1an2rtaA" value="MM213"/>
+        <cells uuid="_4ebN_fxGEeiYtP1an2rtaA" value="MM214"/>
+        <cells uuid="_4ebN_vxGEeiYtP1an2rtaA" value="MM215"/>
+        <cells uuid="_4ebN__xGEeiYtP1an2rtaA" value="MM311"/>
+        <cells uuid="_4ebOAPxGEeiYtP1an2rtaA" value="MM312"/>
+        <cells uuid="_4ebOAfxGEeiYtP1an2rtaA" value="MM313"/>
+        <cells uuid="_4ebOAvxGEeiYtP1an2rtaA" value="MM314"/>
+        <cells uuid="_4ebOA_xGEeiYtP1an2rtaA" value="MM315"/>
+        <cells uuid="_4ebOBPxGEeiYtP1an2rtaA" value="MBM111"/>
+        <cells uuid="_4ebOBfxGEeiYtP1an2rtaA" value="MBM112"/>
+        <cells uuid="_4ebOBvxGEeiYtP1an2rtaA" value="MBM112K"/>
+        <cells uuid="_4ebOB_xGEeiYtP1an2rtaA" value="MBM113"/>
+        <cells uuid="_4ebOCPxGEeiYtP1an2rtaA" value="MBM113K"/>
+        <cells uuid="_4ebOCfxGEeiYtP1an2rtaA" value="MBM114"/>
+        <cells uuid="_4ebOCvxGEeiYtP1an2rtaA" value="MBM114K"/>
+        <cells uuid="_4ebOC_xGEeiYtP1an2rtaA" value="MBM115"/>
+        <cells uuid="_4ebODPxGEeiYtP1an2rtaA" value="MBM211"/>
+        <cells uuid="_4ebODfxGEeiYtP1an2rtaA" value="MBM212"/>
+        <cells uuid="_4ebODvxGEeiYtP1an2rtaA" value="MBM213"/>
+        <cells uuid="_4ebOD_xGEeiYtP1an2rtaA" value="MBM214"/>
+        <cells uuid="_4ebOEPxGEeiYtP1an2rtaA" value="MBM215"/>
+        <cells uuid="_4ebOEfxGEeiYtP1an2rtaA" value="MBM311"/>
+        <cells uuid="_4ebOEvxGEeiYtP1an2rtaA" value="MBM312"/>
+        <cells uuid="_4ebOE_xGEeiYtP1an2rtaA" value="MBM313"/>
+        <cells uuid="_4ebOFPxGEeiYtP1an2rtaA" value="MBM314"/>
+        <cells uuid="_4ebOFfxGEeiYtP1an2rtaA" value="MBM315"/>
+      </columns>
+      <columns uuid="_cpSTEPxGEeiYtP1an2rtaA" name="kit_mountingInstructions"
+          visibility="100" databaseAlias="kit_mountingInstructions">
+        <cells uuid="_4ebOFvxGEeiYtP1an2rtaA" value="2CPX041242R9999"/>
+        <cells uuid="_4ebOF_xGEeiYtP1an2rtaA" value="2CPX041245R9999"/>
+        <cells uuid="_4ebOGPxGEeiYtP1an2rtaA" value="2CPX041117R9999"/>
+        <cells uuid="_4ebOGfxGEeiYtP1an2rtaA" value="2CPX041248R9999"/>
+        <cells uuid="_4ebOGvxGEeiYtP1an2rtaA" value="2CPX041118R9999"/>
+        <cells uuid="_4ebOG_xGEeiYtP1an2rtaA" value="2CPX041251R9999"/>
+        <cells uuid="_4ebOHPxGEeiYtP1an2rtaA" value="2CPX041119R9999"/>
+        <cells uuid="_4ebOHfxGEeiYtP1an2rtaA" value="2CPX041254R9999"/>
+        <cells uuid="_4ebOHvxGEeiYtP1an2rtaA" value="2CPX041243R9999"/>
+        <cells uuid="_4ebOH_xGEeiYtP1an2rtaA" value="2CPX041246R9999"/>
+        <cells uuid="_4ebOIPxGEeiYtP1an2rtaA" value="2CPX041249R9999"/>
+        <cells uuid="_4ebOIfxGEeiYtP1an2rtaA" value="2CPX041252R9999"/>
+        <cells uuid="_4ebOIvxGEeiYtP1an2rtaA" value="2CPX041255R9999"/>
+        <cells uuid="_4ebOI_xGEeiYtP1an2rtaA" value="2CPX041244R9999"/>
+        <cells uuid="_4ebOJPxGEeiYtP1an2rtaA" value="2CPX041247R9999"/>
+        <cells uuid="_4ebOJfxGEeiYtP1an2rtaA" value="2CPX041250R9999"/>
+        <cells uuid="_4ebOJvxGEeiYtP1an2rtaA" value="2CPX041253R9999"/>
+        <cells uuid="_4ebOJ_xGEeiYtP1an2rtaA" value="2CPX041256R9999"/>
+        <cells uuid="_4ebOKPxGEeiYtP1an2rtaA" value="2CPX041707R9999"/>
+        <cells uuid="_4ebOKfxGEeiYtP1an2rtaA" value="2CPX041710R9999"/>
+        <cells uuid="_4ebOKvxGEeiYtP1an2rtaA" value="2CPX041640R9999"/>
+        <cells uuid="_4ebOK_xGEeiYtP1an2rtaA" value="2CPX041713R9999"/>
+        <cells uuid="_4ebOLPxGEeiYtP1an2rtaA" value="2CPX041641R9999"/>
+        <cells uuid="_4ebOLfxGEeiYtP1an2rtaA" value="2CPX041716R9999"/>
+        <cells uuid="_4ebOLvxGEeiYtP1an2rtaA" value="2CPX041642R9999"/>
+        <cells uuid="_4ebOL_xGEeiYtP1an2rtaA" value="2CPX041719R9999"/>
+        <cells uuid="_4ebOMPxGEeiYtP1an2rtaA" value="2CPX041708R9999"/>
+        <cells uuid="_4ebOMfxGEeiYtP1an2rtaA" value="2CPX041711R9999"/>
+        <cells uuid="_4ebOMvxGEeiYtP1an2rtaA" value="2CPX041714R9999"/>
+        <cells uuid="_4ebOM_xGEeiYtP1an2rtaA" value="2CPX041717R9999"/>
+        <cells uuid="_4ebONPxGEeiYtP1an2rtaA" value="2CPX041720R9999"/>
+        <cells uuid="_4ebONfxGEeiYtP1an2rtaA" value="2CPX041709R9999"/>
+        <cells uuid="_4ebONvxGEeiYtP1an2rtaA" value="2CPX041712R9999"/>
+        <cells uuid="_4ebON_xGEeiYtP1an2rtaA" value="2CPX041715R9999"/>
+        <cells uuid="_4ebOOPxGEeiYtP1an2rtaA" value="2CPX041718R9999"/>
+        <cells uuid="_4ebOOfxGEeiYtP1an2rtaA" value="2CPX041721R9999"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_4fHL0Ng_EemUc-wSlRPR4Q"
+        name="hide_sensor" visibility="800">
+      <columns uuid="_6jeQQNg_EemUc-wSlRPR4Q" name="world_show_kits_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_7PgP0Ng_EemUc-wSlRPR4Q" value="1"/>
+        <cells uuid="_7lFeQNg_EemUc-wSlRPR4Q" value="0"/>
+      </columns>
+      <columns uuid="_64uukNg_EemUc-wSlRPR4Q" name="switch_dragsensor"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_7PgP0dg_EemUc-wSlRPR4Q" value="0"/>
+        <cells uuid="_7lFeQdg_EemUc-wSlRPR4Q" value="-1"/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_X7v_8PBHEeeYos1JUOp4Wg" name="Calculation_Rules"
+      visibility="800">
+    <text>//******************Svg**************************************&#xD;
+overflow=&quot;visible&quot;;&#xD;
+&#xD;
+height_frontPanel=visual_height;&#xD;
+width_frontPanel=visual_width;&#xD;
+resize_height=visual_height/2;&#xD;
+resize_width=visual_width/2;&#xD;
+&#xD;
+height_mountingPlate =visual_height-34;&#xD;
+width_mountingPlate=visual_width-62;&#xD;
+&#xD;
+&#xD;
+&#xD;
+move_x_right_fitting_edf=visual_width-750;&#xD;
+move_y_bottom_fitting_edf=visual_height-750;&#xD;
+move_x_textTop=move_x_right_fitting_edf/2;&#xD;
+&#xD;
+if(visual_width>=500)visibility_d500=&quot;visible&quot;;&#xD;
+else visibility_d500=&quot;hidden&quot;;&#xD;
+&#xD;
+if(visual_width==750)visibility_d750=&quot;visible&quot;;&#xD;
+else visibility_d750=&quot;hidden&quot;;&#xD;
+&#xD;
+move_y_dBottom=visual_height-750;&#xD;
+move_y_textBottom = visual_height-750;&#xD;
+&#xD;
+&#xD;
+&#xD;
+&#xD;
+if(column_type_toa==&quot;switch_disconnector_fuse&quot; || column_type_toa==&quot;breaker&quot; || column_type_toa==&quot;coupler&quot; || column_type_toa==&quot;fuse_switch_disconnector&quot;){n185_lock=0;}&#xD;
+	else n185_lock=1;</text>
+  </calculation>
+  <template href="_n_yPIP_8Eee_v4f-7gTCow.xml#_n_yPIP_8Eee_v4f-7gTCow"/>
+  <geometry uuid="_WGSFYfBCEeeYos1JUOp4Wg" deletable="false"
+      name="root">
+    <units uuid="_sTM2sPBGEeeYos1JUOp4Wg" name="Geo_kit_combiline"
+        order="1">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_SFACgAWREeiEx-FaIXo8Dw" variable="visual_height">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4inyslp6Eei01OQ0VFIZlw"
+            z="-1.0"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_W0u_wPFTEeedRoOc7KHzaQ" name="CN_kit_mmp_svg"
+          checksum="33bdd9dcca4c13ec5566cb624d9588216ffd1301">
+        <translation uuid="_4inytFp6Eei01OQ0VFIZlw"/>
+        <file href="../../model.build#_0kEvQKwYEeiNVdh9ZoI2rA"/>
+        <handles uuid="_W0u_wfFTEeedRoOc7KHzaQ" name="edfRightTop"
+            visualId="edfRightTop">
+          <fields xsi:type="comp:Field" uuid="_W0u_wvFTEeedRoOc7KHzaQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_right_fitting_edf"
+              target="transform"/>
+        </handles>
+        <handles uuid="_W0u_w_FTEeedRoOc7KHzaQ" name="edfRightBottom"
+            visualId="edfRightBottom">
+          <fields xsi:type="comp:Field" uuid="_W0u_xPFTEeedRoOc7KHzaQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_right_fitting_edf"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_W0u_xfFTEeedRoOc7KHzaQ"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_bottom_fitting_edf"
+              target="transform"/>
+        </handles>
+        <handles uuid="_W0u_xvFTEeedRoOc7KHzaQ" name="fittingRightTop"
+            visualId="fittingRightTop">
+          <fields xsi:type="comp:Field" uuid="_W0u_x_FTEeedRoOc7KHzaQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_right_fitting_edf"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_5eHnYKwYEeiNVdh9ZoI2rA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_W0u_yPFTEeedRoOc7KHzaQ" name="fittingRightBottom"
+            visualId="fittingRightBottom">
+          <fields xsi:type="comp:Field" uuid="_W0u_yfFTEeedRoOc7KHzaQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_right_fitting_edf"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_W0u_yvFTEeedRoOc7KHzaQ"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_bottom_fitting_edf"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_5eIOcKwYEeiNVdh9ZoI2rA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_W0u_y_FTEeedRoOc7KHzaQ" name="edfLeftBottom"
+            visualId="edfLeftBottom">
+          <fields xsi:type="comp:Field" uuid="_W0u_zPFTEeedRoOc7KHzaQ"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_bottom_fitting_edf"
+              target="transform"/>
+        </handles>
+        <handles uuid="_W0u_zfFTEeedRoOc7KHzaQ" name="fittingLeftBottom"
+            visualId="fittingLeftBottom">
+          <fields xsi:type="comp:Field" uuid="_W0u_zvFTEeedRoOc7KHzaQ"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_bottom_fitting_edf"
+              target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_5eIOcawYEeiNVdh9ZoI2rA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_W0u_z_FTEeedRoOc7KHzaQ" name="textBottom"
+            visualId="textBottom">
+          <fields xsi:type="comp:Field" uuid="_zvX6QC2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_zcbNoFdIEeiXUtTDB5WP_g"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_textTop" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_0lGs8FdIEeiXUtTDB5WP_g"
+              name="contentManipulation" fieldId="content"
+              variableReference="element_position" target="content"/>
+          <fields xsi:type="comp:Field" uuid="_JQ2AkFdnEeiycZsaT7hFqw"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_textBottom"
+              target="transform"/>
+        </handles>
+        <handles uuid="_W0u_0fFTEeedRoOc7KHzaQ" name="textTop"
+            visualId="textTop">
+          <fields xsi:type="comp:Field" uuid="_W0u_0vFTEeedRoOc7KHzaQ"
+              name="move_xManipulation" fieldId="move_x"
+              variableReference="move_x_textTop" target="transform"/>
+          <fields xsi:type="comp:Field" uuid="_u10wAAY1EeiYRtbu0xwpAg"
+              name="contentManipulation" fieldId="content"
+              variableReference="article_type" target="content"/>
+          <fields xsi:type="comp:Field" uuid="_zK238C2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_W0u_0_FTEeedRoOc7KHzaQ" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_M__9AP_-EeeufeNmFlbRMw"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_kit_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_togpsC2EEeik5apDnSXvVA" name="frontPanel"
+            visualId="frontPanel">
+          <fields xsi:type="comp:Field" uuid="_toh30C2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_Glo1oC2FEeik5apDnSXvVA"
+              name="heightManipulation" fieldId="height"
+              variableReference="height_frontPanel"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_OWIWcC2FEeik5apDnSXvVA"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_frontPanel" target="xml"/>
+        </handles>
+        <handles uuid="_vLLWUC2EEeik5apDnSXvVA" name="dTop250"
+            visualId="dTop250">
+          <fields xsi:type="comp:Field" uuid="_vLL9YC2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+        <handles uuid="_vvEtkC2EEeik5apDnSXvVA" name="dTop500"
+            visualId="dTop500">
+          <fields xsi:type="comp:Field" uuid="_vvEtkS2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_1mCPAC2GEeik5apDnSXvVA"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_d500" target="css"/>
+        </handles>
+        <handles uuid="_wUB0wC2EEeik5apDnSXvVA" name="dTop750"
+            visualId="dTop750">
+          <fields xsi:type="comp:Field" uuid="_wUB0wS2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_-afHMC2GEeik5apDnSXvVA"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_d750" target="css"/>
+        </handles>
+        <handles uuid="_w4OuAC2EEeik5apDnSXvVA" name="dBottom250"
+            visualId="dBottom250">
+          <fields xsi:type="comp:Field" uuid="_w4OuAS2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_4IxfQC2LEeiWpu1-3VyX4w"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_dBottom" target="transform"/>
+        </handles>
+        <handles uuid="_xYHvAC2EEeik5apDnSXvVA" name="dBottom500"
+            visualId="dBottom500">
+          <fields xsi:type="comp:Field" uuid="_xYIWEC2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_2e04MC2GEeik5apDnSXvVA"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_d500" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_4q4t0C2LEeiWpu1-3VyX4w"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_dBottom" target="transform"/>
+        </handles>
+        <handles uuid="_yMRv0C2EEeik5apDnSXvVA" name="dBottom750"
+            visualId="dBottom750">
+          <fields xsi:type="comp:Field" uuid="_yMSW4C2EEeik5apDnSXvVA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_-_vwYC2GEeik5apDnSXvVA"
+              name="visibilityManipulation" fieldId="visibility"
+              variableReference="visibility_d750" target="css"/>
+          <fields xsi:type="comp:Field" uuid="_5aRjYC2LEeiWpu1-3VyX4w"
+              name="move_yManipulation" fieldId="move_y"
+              variableReference="move_y_dBottom" target="transform"/>
+        </handles>
+        <handles uuid="_5eGZQKwYEeiNVdh9ZoI2rA" name="fittingLeftTop"
+            visualId="fittingLeftTop">
+          <fields xsi:type="comp:Field" uuid="_5eHAUKwYEeiNVdh9ZoI2rA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_front_covers_twinline"
+              target="xml"/>
+        </handles>
+      </twoDElement>
+      <children uuid="_S8Rp4NPcEemKe4dBywbV3A" name="resize_x_width">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_Va62kNPcEemKe4dBywbV3A" variable="visual_width">
+          <vector xsi:type="appl:Coordinate3D" uuid="_Va62kdPcEemKe4dBywbV3A"
+              x="1.0"/>
+        </facets>
+        <children uuid="_X1c_UNPcEemKe4dBywbV3A" name="resize_x_height"
+            visualEffects="_RIUpEyvUEeqJ7cfGAkHMWA"
+            position="(0,0,-25)">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_b9ytsNPcEemKe4dBywbV3A" variable="resize_height">
+            <vector xsi:type="appl:Coordinate3D" uuid="_b9ytsdPcEemKe4dBywbV3A"
+                z="1.0"/>
+          </facets>
+          <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+              uuid="_3OJ6QNg_EemUc-wSlRPR4Q" variable="switch_dragsensor">
+            <visualEffect uuid="_RIUpEyvUEeqJ7cfGAkHMWA"
+                targets="_X1c_UNPcEemKe4dBywbV3A" variable="switch_dragsensor"/>
+          </facets>
+        </children>
+      </children>
+      <children uuid="_maIJsNPcEemKe4dBywbV3A" name="resize_y_width"
+          visualEffects="_RIUpJCvUEeqJ7cfGAkHMWA" position="(-25,0,-50)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_qyZxgNPcEemKe4dBywbV3A" variable="resize_width">
+          <vector xsi:type="appl:Coordinate3D" uuid="_qyZxgdPcEemKe4dBywbV3A"
+              x="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_35YokNg_EemUc-wSlRPR4Q" variable="switch_dragsensor">
+          <visualEffect uuid="_RIUpJCvUEeqJ7cfGAkHMWA"
+              targets="_maIJsNPcEemKe4dBywbV3A" variable="switch_dragsensor"/>
+        </facets>
+      </children>
+      <children uuid="_ZvXRAPPKEemstIlW0glFow" name="resize_x_width_neg"
+          position="(-20,0,0)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_ZvXRAfPKEemstIlW0glFow" variable="visual_height">
+          <vector xsi:type="appl:Coordinate3D" uuid="_ZvXRA_PKEemstIlW0glFow"
+              z="1.0"/>
+        </facets>
+        <children uuid="_ZvXRBPPKEemstIlW0glFow" name="resize_x_height_neg"
+            visualEffects="_RIUpOyvUEeqJ7cfGAkHMWA"
+            position="(0,0,5)">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_ZvXRBfPKEemstIlW0glFow" variable="resize_width">
+            <vector xsi:type="appl:Coordinate3D" uuid="_ZvXRB_PKEemstIlW0glFow"
+                x="1.0"/>
+          </facets>
+          <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+              uuid="_ZvXRCPPKEemstIlW0glFow" variable="switch_dragsensor">
+            <visualEffect uuid="_RIUpOyvUEeqJ7cfGAkHMWA"
+                targets="_ZvXRBPPKEemstIlW0glFow" variable="switch_dragsensor"/>
+          </facets>
+        </children>
+      </children>
+      <children uuid="_ZvX4JvPKEemstIlW0glFow" name="resize_y_width_neg"
+          visualEffects="_RIUpTCvUEeqJ7cfGAkHMWA" position="(-50,0,-25)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_ZvX4J_PKEemstIlW0glFow" variable="resize_height">
+          <vector xsi:type="appl:Coordinate3D" uuid="_ZvX4KfPKEemstIlW0glFow"
+              z="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_ZvX4KvPKEemstIlW0glFow" variable="switch_dragsensor">
+          <visualEffect uuid="_RIUpTCvUEeqJ7cfGAkHMWA"
+              targets="_ZvX4JvPKEemstIlW0glFow" variable="switch_dragsensor"/>
+        </facets>
+      </children>
+    </units>
+    <units uuid="_-RrnkKwZEeiNVdh9ZoI2rA" name="Geo_kit_mmp_mount">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_-2XpAKwZEeiNVdh9ZoI2rA" variable="visual_height">
+        <vector xsi:type="appl:Coordinate3D" uuid="_-2XpAawZEeiNVdh9ZoI2rA"
+            z="-1.0"/>
+      </facets>
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_CSGJAKwaEeiNVdh9ZoI2rA" name="Cn_kit_mmp_mount"
+          checksum="646b6652f2da65abb2cde308d4e6230006b6035d">
+        <translation uuid="_CSGJAawaEeiNVdh9ZoI2rA"/>
+        <file href="../../model.build#_0kHykKwYEeiNVdh9ZoI2rA"/>
+        <handles uuid="_HHfKoKwaEeiNVdh9ZoI2rA" name="mountingPlate"
+            visualId="mountingPlate">
+          <fields xsi:type="comp:Field" uuid="_HHfKoawaEeiNVdh9ZoI2rA"
+              name="heightManipulation" fieldId="height"
+              variableReference="height_mountingPlate"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_HlsJkKwaEeiNVdh9ZoI2rA"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_mountingPlate"
+              target="xml"/>
+        </handles>
+        <handles uuid="_P7uAYKwaEeiNVdh9ZoI2rA" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_P7uAYawaEeiNVdh9ZoI2rA"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_kit_twinline"
+              target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_WGSFYvBCEeeYos1JUOp4Wg" name="ParentPlug"/>
+  </geometry>
+  <rulesVT uuid="_CzkpIPBDEeeYos1JUOp4Wg" name="combiline_mmp"
+      checksum="31510d37762001fde2971f61d59cd0e60b8a6aa3"
+      modelType="VT_Model" language="EN" variableVTLogicConstraintFacets="__pKVILyyEeipRqkNr45J7A _A8VNMLyzEeipRqkNr45J7A _E0fxkLyzEeipRqkNr45J7A _GLZ6ILyzEeipRqkNr45J7A _RJuB0LyzEeipRqkNr45J7A _SWR7kLyzEeipRqkNr45J7A _V7hj8LyzEeipRqkNr45J7A _gDZL0LyzEeipRqkNr45J7A _y06xILyzEeipRqkNr45J7A _b8vIUFdaEemLMpQNLTmEmg _dC5fIFdaEemLMpQNLTmEmg">
+    <fileVT href="../../model.build#_24xTALyxEeipRqkNr45J7A"/>
+    <rootElement uuid="_4et9ILyxEeipRqkNr45J7A" name="CN_MPM_V1_03_G1_0"
+        inUse="TRUE" fullyQualifiedName="CN_MPM_V1_03_G1_0"/>
+    <currentVariables xsi:type="comp:VTGroup" uuid="_4ey1oLyxEeipRqkNr45J7A"
+        name="GrpSelector" inUse="TRUE" fullyQualifiedName="GrpSelector">
+      <variables uuid="_4e3uLLyxEeipRqkNr45J7A" name="GrpSelector.varAdjustability"
+          inUse="TRUE" alias="module_adjustability">
+        <domain uuid="_4e3uLbyxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uL7yxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uMLyxEeipRqkNr45J7A"
+              name="Fixed" editable="false">
+            <displayName uuid="_bDD7nf7nEeiskp2v5nXzHA"
+                value="Fixed" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uMLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="Fixed"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uMbyxEeipRqkNr45J7A"
+              name="Stepless" editable="false">
+            <displayName uuid="_bDD7n_7nEeiskp2v5nXzHA"
+                value="Stepless" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uMbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="Stepless"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[Fixed, Stepless]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Adjustability"/>
+      </variables>
+      <variables uuid="_4e6KYbyxEeipRqkNr45J7A" name="GrpSelector.varArticleType"
+          inUse="TRUE" alias="article_type">
+        <domain uuid="_4e6KYryxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e6KZLyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KZbyxEeipRqkNr45J7A"
+              name="MBM111" editable="false">
+            <displayName uuid="_bDD7pP7nEeiskp2v5nXzHA"
+                value="MBM111" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KZbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM111"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KZryxEeipRqkNr45J7A"
+              name="MBM112" editable="false">
+            <displayName uuid="_bDD7pv7nEeiskp2v5nXzHA"
+                value="MBM112" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KZryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM112"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KZ7yxEeipRqkNr45J7A"
+              name="MBM112K" editable="false">
+            <displayName uuid="_bDD7qP7nEeiskp2v5nXzHA"
+                value="MBM112K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KZ7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM112K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KaLyxEeipRqkNr45J7A"
+              name="MBM113" editable="false">
+            <displayName uuid="_bDD7qv7nEeiskp2v5nXzHA"
+                value="MBM113" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KaLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM113"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KabyxEeipRqkNr45J7A"
+              name="MBM113K" editable="false">
+            <displayName uuid="_bDD7rP7nEeiskp2v5nXzHA"
+                value="MBM113K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KabyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM113K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KaryxEeipRqkNr45J7A"
+              name="MBM114" editable="false">
+            <displayName uuid="_bDD7rv7nEeiskp2v5nXzHA"
+                value="MBM114" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KaryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM114"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Ka7yxEeipRqkNr45J7A"
+              name="MBM114K" editable="false">
+            <displayName uuid="_bDD7sP7nEeiskp2v5nXzHA"
+                value="MBM114K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Ka7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM114K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KbLyxEeipRqkNr45J7A"
+              name="MBM115" editable="false">
+            <displayName uuid="_bDD7sv7nEeiskp2v5nXzHA"
+                value="MBM115" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KbLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM115"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KbbyxEeipRqkNr45J7A"
+              name="MBM211" editable="false">
+            <displayName uuid="_bDD7tP7nEeiskp2v5nXzHA"
+                value="MBM211" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KbbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM211"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KbryxEeipRqkNr45J7A"
+              name="MBM212" editable="false">
+            <displayName uuid="_bDD7tv7nEeiskp2v5nXzHA"
+                value="MBM212" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KbryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM212"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kb7yxEeipRqkNr45J7A"
+              name="MBM213" editable="false">
+            <displayName uuid="_bDD7uP7nEeiskp2v5nXzHA"
+                value="MBM213" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kb7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM213"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KcLyxEeipRqkNr45J7A"
+              name="MBM214" editable="false">
+            <displayName uuid="_bDD7uv7nEeiskp2v5nXzHA"
+                value="MBM214" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KcLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM214"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KcbyxEeipRqkNr45J7A"
+              name="MBM215" editable="false">
+            <displayName uuid="_bDD7vP7nEeiskp2v5nXzHA"
+                value="MBM215" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KcbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM215"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KcryxEeipRqkNr45J7A"
+              name="MBM311" editable="false">
+            <displayName uuid="_bDD7vv7nEeiskp2v5nXzHA"
+                value="MBM311" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KcryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM311"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kc7yxEeipRqkNr45J7A"
+              name="MBM312" editable="false">
+            <displayName uuid="_bDD7wP7nEeiskp2v5nXzHA"
+                value="MBM312" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kc7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM312"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KdLyxEeipRqkNr45J7A"
+              name="MBM313" editable="false">
+            <displayName uuid="_bDD7wv7nEeiskp2v5nXzHA"
+                value="MBM313" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KdLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM313"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KdbyxEeipRqkNr45J7A"
+              name="MBM314" editable="false">
+            <displayName uuid="_bDD7xP7nEeiskp2v5nXzHA"
+                value="MBM314" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KdbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM314"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KdryxEeipRqkNr45J7A"
+              name="MBM315" editable="false">
+            <displayName uuid="_bDD7xv7nEeiskp2v5nXzHA"
+                value="MBM315" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KdryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM315"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kd7yxEeipRqkNr45J7A"
+              name="MM111" editable="false">
+            <displayName uuid="_bDD7yP7nEeiskp2v5nXzHA"
+                value="MM111" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kd7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM111"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KeLyxEeipRqkNr45J7A"
+              name="MM112" editable="false">
+            <displayName uuid="_bDD7yv7nEeiskp2v5nXzHA"
+                value="MM112" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KeLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM112"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KebyxEeipRqkNr45J7A"
+              name="MM112K" editable="false">
+            <displayName uuid="_bDD7zP7nEeiskp2v5nXzHA"
+                value="MM112K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KebyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM112K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KeryxEeipRqkNr45J7A"
+              name="MM113" editable="false">
+            <displayName uuid="_bDD7zv7nEeiskp2v5nXzHA"
+                value="MM113" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KeryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM113"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Ke7yxEeipRqkNr45J7A"
+              name="MM113K" editable="false">
+            <displayName uuid="_bDEiYP7nEeiskp2v5nXzHA"
+                value="MM113K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Ke7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM113K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KfLyxEeipRqkNr45J7A"
+              name="MM114" editable="false">
+            <displayName uuid="_bDEiYv7nEeiskp2v5nXzHA"
+                value="MM114" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KfLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM114"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KfbyxEeipRqkNr45J7A"
+              name="MM114K" editable="false">
+            <displayName uuid="_bDEiZP7nEeiskp2v5nXzHA"
+                value="MM114K" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KfbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM114K"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KfryxEeipRqkNr45J7A"
+              name="MM115" editable="false">
+            <displayName uuid="_bDEiZv7nEeiskp2v5nXzHA"
+                value="MM115" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KfryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM115"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kf7yxEeipRqkNr45J7A"
+              name="MM211" editable="false">
+            <displayName uuid="_bDEiaP7nEeiskp2v5nXzHA"
+                value="MM211" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kf7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM211"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KgLyxEeipRqkNr45J7A"
+              name="MM212" editable="false">
+            <displayName uuid="_bDEiav7nEeiskp2v5nXzHA"
+                value="MM212" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KgLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM212"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KgbyxEeipRqkNr45J7A"
+              name="MM213" editable="false">
+            <displayName uuid="_bDEibP7nEeiskp2v5nXzHA"
+                value="MM213" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KgbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM213"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KgryxEeipRqkNr45J7A"
+              name="MM214" editable="false">
+            <displayName uuid="_bDEibv7nEeiskp2v5nXzHA"
+                value="MM214" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KgryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM214"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kg7yxEeipRqkNr45J7A"
+              name="MM215" editable="false">
+            <displayName uuid="_bDEicP7nEeiskp2v5nXzHA"
+                value="MM215" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kg7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM215"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KhLyxEeipRqkNr45J7A"
+              name="MM311" editable="false">
+            <displayName uuid="_bDEicv7nEeiskp2v5nXzHA"
+                value="MM311" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KhLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM311"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KhbyxEeipRqkNr45J7A"
+              name="MM312" editable="false">
+            <displayName uuid="_bDEidP7nEeiskp2v5nXzHA"
+                value="MM312" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KhbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM312"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KhryxEeipRqkNr45J7A"
+              name="MM313" editable="false">
+            <displayName uuid="_bDEidv7nEeiskp2v5nXzHA"
+                value="MM313" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KhryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM313"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6Kh7yxEeipRqkNr45J7A"
+              name="MM314" editable="false">
+            <displayName uuid="_bDEieP7nEeiskp2v5nXzHA"
+                value="MM314" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6Kh7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM314"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KiLyxEeipRqkNr45J7A"
+              name="MM315" editable="false">
+            <displayName uuid="_bDEiev7nEeiskp2v5nXzHA"
+                value="MM315" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KiLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM315"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[MBM111, MBM112, MBM112K, MBM113, MBM113K, MBM114, MBM114K, MBM115, MBM211, MBM212, MBM213, MBM214, MBM215, MBM311, MBM312, MBM313, MBM314, MBM315, MM111, MM112, MM112K, MM113, MM113K, MM114, MM114K, MM115, MM211, MM212, MM213, MM214, MM215, MM311, MM312, MM313, MM314, MM315]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="ReadOnly" value="true"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Article type"/>
+      </variables>
+      <variables uuid="_4e3uWbyxEeipRqkNr45J7A" name="GrpSelector.varDINPlaceUnits"
+          inUse="TRUE" alias="module_DIN_place_units">
+        <domain uuid="_4e3uWryxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uXLyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uXbyxEeipRqkNr45J7A"
+              name="12" editable="false">
+            <displayName uuid="_bDEif_7nEeiskp2v5nXzHA"
+                value="12" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uXbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="12"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uXryxEeipRqkNr45J7A"
+              name="24" editable="false">
+            <displayName uuid="_bDEigf7nEeiskp2v5nXzHA"
+                value="24" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uXryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="24"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uX7yxEeipRqkNr45J7A"
+              name="36" editable="false">
+            <displayName uuid="_bDEig_7nEeiskp2v5nXzHA"
+                value="36" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uX7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="36"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uYLyxEeipRqkNr45J7A"
+              name="48" editable="false">
+            <displayName uuid="_bDEihf7nEeiskp2v5nXzHA"
+                value="48" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uYLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="48"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uYbyxEeipRqkNr45J7A"
+              name="60" editable="false">
+            <displayName uuid="_bDEih_7nEeiskp2v5nXzHA"
+                value="60" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uYbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="60"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uYryxEeipRqkNr45J7A"
+              name="72" editable="false">
+            <displayName uuid="_bDEiif7nEeiskp2v5nXzHA"
+                value="72" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uYryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="72"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uY7yxEeipRqkNr45J7A"
+              name="96" editable="false">
+            <displayName uuid="_bDEii_7nEeiskp2v5nXzHA"
+                value="96" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uY7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="96"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uZLyxEeipRqkNr45J7A"
+              name="108" editable="false">
+            <displayName uuid="_bDEijf7nEeiskp2v5nXzHA"
+                value="108" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uZLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="108"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uZbyxEeipRqkNr45J7A"
+              name="120" editable="false">
+            <displayName uuid="_bDEij_7nEeiskp2v5nXzHA"
+                value="120" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uZbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="120"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uZryxEeipRqkNr45J7A"
+              name="144" editable="false">
+            <displayName uuid="_bDEikf7nEeiskp2v5nXzHA"
+                value="144" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uZryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="144"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e6KYLyxEeipRqkNr45J7A"
+              name="180" editable="false">
+            <displayName uuid="_bDEik_7nEeiskp2v5nXzHA"
+                value="180" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e6KYLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="180"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[12, 24, 36, 48, 60, 72, 96, 108, 120, 144, 180]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="ReadOnly" value="true"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="DIN place units"/>
+      </variables>
+      <variables uuid="_4e3uU7yxEeipRqkNr45J7A" name="GrpSelector.varMinSectionDepth"
+          inUse="TRUE" alias="module_minimum_section_depth">
+        <domain uuid="_4e3uVLyxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uVryxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uV7yxEeipRqkNr45J7A"
+              name="120" editable="false">
+            <displayName uuid="_bDEimP7nEeiskp2v5nXzHA"
+                value="120" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uV7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="120"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uWLyxEeipRqkNr45J7A"
+              name="200" editable="false">
+            <displayName uuid="_bDEimv7nEeiskp2v5nXzHA"
+                value="200" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uWLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="200"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[120, 200]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="ReadOnly" value="true"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Minimum section depth &amp;#40;mm&amp;#41;"/>
+      </variables>
+      <variables uuid="_4e3uMryxEeipRqkNr45J7A" name="GrpSelector.varModuleHeight"
+          inUse="TRUE" alias="module_height">
+        <domain uuid="_4e3uM7yxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uNbyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uNryxEeipRqkNr45J7A"
+              name="150" editable="false">
+            <displayName uuid="_bDEin_7nEeiskp2v5nXzHA"
+                value="150" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uNryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="150"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uN7yxEeipRqkNr45J7A"
+              name="300" editable="false">
+            <displayName uuid="_bDEiof7nEeiskp2v5nXzHA"
+                value="300" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uN7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="300"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uOLyxEeipRqkNr45J7A"
+              name="450" editable="false">
+            <displayName uuid="_bDEio_7nEeiskp2v5nXzHA"
+                value="450" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uOLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="450"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uObyxEeipRqkNr45J7A"
+              name="600" editable="false">
+            <displayName uuid="_bDEipf7nEeiskp2v5nXzHA"
+                value="600" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uObyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="600"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uOryxEeipRqkNr45J7A"
+              name="750" editable="false">
+            <displayName uuid="_bDEip_7nEeiskp2v5nXzHA"
+                value="750" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uOryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="750"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[150, 300, 450, 600, 750]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Module height &amp;#40;mm&amp;#41;"/>
+      </variables>
+      <variables uuid="_4e3uO7yxEeipRqkNr45J7A" name="GrpSelector.varModuleWidth"
+          inUse="TRUE" alias="module_width">
+        <domain uuid="_4e3uPLyxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uPryxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uP7yxEeipRqkNr45J7A"
+              name="250" editable="false">
+            <displayName uuid="_bDEirP7nEeiskp2v5nXzHA"
+                value="250" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uP7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="250"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uQLyxEeipRqkNr45J7A"
+              name="500" editable="false">
+            <displayName uuid="_bDEirv7nEeiskp2v5nXzHA"
+                value="500" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uQLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="500"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uQbyxEeipRqkNr45J7A"
+              name="750" editable="false">
+            <displayName uuid="_bDEisP7nEeiskp2v5nXzHA"
+                value="750" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uQbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="750"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[250, 500, 750]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Module width &amp;#40;mm&amp;#41;"/>
+      </variables>
+      <variables uuid="_4e3uJryxEeipRqkNr45J7A" name="GrpSelector.varMountingFrame"
+          inUse="TRUE" alias="cabinet_mounting_frame_toa">
+        <domain uuid="_4e3uJ7yxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uKbyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uKryxEeipRqkNr45J7A"
+              name="EDF" editable="false">
+            <displayName uuid="_bDEitf7nEeiskp2v5nXzHA"
+                value="EDF" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uKryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="EDF"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uK7yxEeipRqkNr45J7A"
+              name="WR" editable="false">
+            <displayName uuid="_bDEit_7nEeiskp2v5nXzHA"
+                value="WR" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uK7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="WR"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[EDF, WR]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Mounting frame"/>
+      </variables>
+      <variables uuid="_4e3uQryxEeipRqkNr45J7A" name="GrpSelector.varMountingPlateHeight"
+          inUse="TRUE" alias="module_mounting_plate_height">
+        <domain uuid="_4e3uQ7yxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uRbyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uRryxEeipRqkNr45J7A"
+              name="116" editable="false">
+            <displayName uuid="_bDEivP7nEeiskp2v5nXzHA"
+                value="116" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uRryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="116"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uR7yxEeipRqkNr45J7A"
+              name="266" editable="false">
+            <displayName uuid="_bDEivv7nEeiskp2v5nXzHA"
+                value="266" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uR7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="266"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uSLyxEeipRqkNr45J7A"
+              name="416" editable="false">
+            <displayName uuid="_bDEiwP7nEeiskp2v5nXzHA"
+                value="416" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uSLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="416"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uSbyxEeipRqkNr45J7A"
+              name="566" editable="false">
+            <displayName uuid="_bDEiwv7nEeiskp2v5nXzHA"
+                value="566" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uSbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="566"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uSryxEeipRqkNr45J7A"
+              name="716" editable="false">
+            <displayName uuid="_bDEixP7nEeiskp2v5nXzHA"
+                value="716" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uSryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="716"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[116, 266, 416, 566, 716]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="ReadOnly" value="true"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Mounting plate height &amp;#40;mm&amp;#41;"/>
+      </variables>
+      <variables uuid="_4e3uS7yxEeipRqkNr45J7A" name="GrpSelector.varMountingPlateWidth"
+          inUse="TRUE" alias="module_mounting_plate_width">
+        <domain uuid="_4e3uTLyxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uTryxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uT7yxEeipRqkNr45J7A"
+              name="188" editable="false">
+            <displayName uuid="_bDEiyf7nEeiskp2v5nXzHA"
+                value="188" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uT7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="188"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uULyxEeipRqkNr45J7A"
+              name="200" editable="false">
+            <displayName uuid="_bDEiy_7nEeiskp2v5nXzHA"
+                value="200" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uULyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="200"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uUbyxEeipRqkNr45J7A"
+              name="438" editable="false">
+            <displayName uuid="_bDEizf7nEeiskp2v5nXzHA"
+                value="438" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uUbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="438"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uUryxEeipRqkNr45J7A"
+              name="688" editable="false">
+            <displayName uuid="_bDEiz_7nEeiskp2v5nXzHA"
+                value="688" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uUryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="688"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[188, 200, 438, 688]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="ReadOnly" value="true"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Mounting plate width &amp;#40;mm&amp;#41;"/>
+      </variables>
+      <variables uuid="_4e3uILyxEeipRqkNr45J7A" name="GrpSelector.varMountingType"
+          inUse="TRUE" alias="switchboard_delivery_mounting_type_toa">
+        <domain uuid="_4e3uIbyxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4e3uI7yxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uJLyxEeipRqkNr45J7A"
+              name="flatpack" editable="false">
+            <displayName uuid="_bDEi1P7nEeiskp2v5nXzHA"
+                value="flatpack" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uJLyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="flatpack"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e3uJbyxEeipRqkNr45J7A"
+              name="mounted" editable="false">
+            <displayName uuid="_bDEi1v7nEeiskp2v5nXzHA"
+                value="mounted" vtRule="_CzkpIPBDEeeYos1JUOp4Wg"
+                vtDomainValue="_4e3uJbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="mounted"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[flatpack, mounted]"/>
+        <properties key="IsBomItem" value="false"/>
+        <properties key="Show" value="true"/>
+        <properties key="EN" value="Mounting type"/>
+      </variables>
+      <variables uuid="_4ey1obyxEeipRqkNr45J7A" name="GrpSelector.varProductID"
+          inUse="TRUE" alias="product_ID">
+        <domain uuid="_4ey1oryxEeipRqkNr45J7A" name="local"
+            editable="false" visibility="300">
+          <typeSet uuid="_4ey1pLyxEeipRqkNr45J7A" bitSet="4"/>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R4LyxEeipRqkNr45J7A"
+              name="2CPX041117R9999" editable="false">
+            <displayName uuid="_bDFJc_7nEeiskp2v5nXzHA"
+                value="MM112K     Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R4LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM112K     Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R4byxEeipRqkNr45J7A"
+              name="2CPX041118R9999" editable="false">
+            <displayName uuid="_bDFJdf7nEeiskp2v5nXzHA"
+                value="MM113K     Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R4byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM113K     Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R4ryxEeipRqkNr45J7A"
+              name="2CPX041119R9999" editable="false">
+            <displayName uuid="_bDFJd_7nEeiskp2v5nXzHA"
+                value="MM114K     Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R4ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM114K     Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R47yxEeipRqkNr45J7A"
+              name="2CPX041242R9999" editable="false">
+            <displayName uuid="_bDFJef7nEeiskp2v5nXzHA"
+                value="MM111      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R47yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM111      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R5LyxEeipRqkNr45J7A"
+              name="2CPX041243R9999" editable="false">
+            <displayName uuid="_bDFJe_7nEeiskp2v5nXzHA"
+                value="MM211      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R5LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM211      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R5byxEeipRqkNr45J7A"
+              name="2CPX041244R9999" editable="false">
+            <displayName uuid="_bDFJff7nEeiskp2v5nXzHA"
+                value="MM311      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R5byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM311      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R5ryxEeipRqkNr45J7A"
+              name="2CPX041245R9999" editable="false">
+            <displayName uuid="_bDFJf_7nEeiskp2v5nXzHA"
+                value="MM112      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R5ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM112      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R57yxEeipRqkNr45J7A"
+              name="2CPX041246R9999" editable="false">
+            <displayName uuid="_bDFJgf7nEeiskp2v5nXzHA"
+                value="MM212      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R57yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM212      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R6LyxEeipRqkNr45J7A"
+              name="2CPX041247R9999" editable="false">
+            <displayName uuid="_bDFJg_7nEeiskp2v5nXzHA"
+                value="MM312      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R6LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM312      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R6byxEeipRqkNr45J7A"
+              name="2CPX041248R9999" editable="false">
+            <displayName uuid="_bDFJhf7nEeiskp2v5nXzHA"
+                value="MM113      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R6byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM113      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R6ryxEeipRqkNr45J7A"
+              name="2CPX041249R9999" editable="false">
+            <displayName uuid="_bDFJh_7nEeiskp2v5nXzHA"
+                value="MM213      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R6ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM213      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R67yxEeipRqkNr45J7A"
+              name="2CPX041250R9999" editable="false">
+            <displayName uuid="_bDFJif7nEeiskp2v5nXzHA"
+                value="MM313      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R67yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM313      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R7LyxEeipRqkNr45J7A"
+              name="2CPX041251R9999" editable="false">
+            <displayName uuid="_bDFJi_7nEeiskp2v5nXzHA"
+                value="MM114      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R7LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM114      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R7byxEeipRqkNr45J7A"
+              name="2CPX041252R9999" editable="false">
+            <displayName uuid="_bDFJjf7nEeiskp2v5nXzHA"
+                value="MM214      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R7byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM214      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R7ryxEeipRqkNr45J7A"
+              name="2CPX041253R9999" editable="false">
+            <displayName uuid="_bDFJj_7nEeiskp2v5nXzHA"
+                value="MM314      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R7ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM314      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R77yxEeipRqkNr45J7A"
+              name="2CPX041254R9999" editable="false">
+            <displayName uuid="_bDFJkf7nEeiskp2v5nXzHA"
+                value="MM115      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R77yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM115      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R8LyxEeipRqkNr45J7A"
+              name="2CPX041255R9999" editable="false">
+            <displayName uuid="_bDFJk_7nEeiskp2v5nXzHA"
+                value="MM215      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R8LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM215      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R8byxEeipRqkNr45J7A"
+              name="2CPX041256R9999" editable="false">
+            <displayName uuid="_bDFJlf7nEeiskp2v5nXzHA"
+                value="MM315      Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R8byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MM315      Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R8ryxEeipRqkNr45J7A"
+              name="2CPX041640R9999" editable="false">
+            <displayName uuid="_bDFJl_7nEeiskp2v5nXzHA"
+                value="MBM112K    Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R8ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM112K    Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R87yxEeipRqkNr45J7A"
+              name="2CPX041641R9999" editable="false">
+            <displayName uuid="_bDFJmf7nEeiskp2v5nXzHA"
+                value="MBM113K    Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R87yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM113K    Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R9LyxEeipRqkNr45J7A"
+              name="2CPX041642R9999" editable="false">
+            <displayName uuid="_bDFJm_7nEeiskp2v5nXzHA"
+                value="MBM114K    Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R9LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM114K    Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R9byxEeipRqkNr45J7A"
+              name="2CPX041707R9999" editable="false">
+            <displayName uuid="_bDFJnf7nEeiskp2v5nXzHA"
+                value="MBM111     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R9byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM111     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R9ryxEeipRqkNr45J7A"
+              name="2CPX041708R9999" editable="false">
+            <displayName uuid="_bDFJn_7nEeiskp2v5nXzHA"
+                value="MBM211     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R9ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM211     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R97yxEeipRqkNr45J7A"
+              name="2CPX041709R9999" editable="false">
+            <displayName uuid="_bDFJof7nEeiskp2v5nXzHA"
+                value="MBM311     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R97yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM311     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R-LyxEeipRqkNr45J7A"
+              name="2CPX041710R9999" editable="false">
+            <displayName uuid="_bDFJo_7nEeiskp2v5nXzHA"
+                value="MBM112     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R-LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM112     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R-byxEeipRqkNr45J7A"
+              name="2CPX041711R9999" editable="false">
+            <displayName uuid="_bDFJpf7nEeiskp2v5nXzHA"
+                value="MBM212     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R-byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM212     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R-ryxEeipRqkNr45J7A"
+              name="2CPX041712R9999" editable="false">
+            <displayName uuid="_bDFJp_7nEeiskp2v5nXzHA"
+                value="MBM312     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R-ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM312     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R-7yxEeipRqkNr45J7A"
+              name="2CPX041713R9999" editable="false">
+            <displayName uuid="_bDFJqf7nEeiskp2v5nXzHA"
+                value="MBM113     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R-7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM113     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R_LyxEeipRqkNr45J7A"
+              name="2CPX041714R9999" editable="false">
+            <displayName uuid="_bDFJq_7nEeiskp2v5nXzHA"
+                value="MBM213     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R_LyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM213     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R_byxEeipRqkNr45J7A"
+              name="2CPX041715R9999" editable="false">
+            <displayName uuid="_bDFJrf7nEeiskp2v5nXzHA"
+                value="MBM313     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R_byxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM313     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R_ryxEeipRqkNr45J7A"
+              name="2CPX041716R9999" editable="false">
+            <displayName uuid="_bDFJr_7nEeiskp2v5nXzHA"
+                value="MBM114     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R_ryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM114     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1R_7yxEeipRqkNr45J7A"
+              name="2CPX041717R9999" editable="false">
+            <displayName uuid="_bDFJsf7nEeiskp2v5nXzHA"
+                value="MBM214     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1R_7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM214     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1SALyxEeipRqkNr45J7A"
+              name="2CPX041718R9999" editable="false">
+            <displayName uuid="_bDFJs_7nEeiskp2v5nXzHA"
+                value="MBM314     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1SALyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM314     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1SAbyxEeipRqkNr45J7A"
+              name="2CPX041719R9999" editable="false">
+            <displayName uuid="_bDFJtf7nEeiskp2v5nXzHA"
+                value="MBM115     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1SAbyxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM115     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1SAryxEeipRqkNr45J7A"
+              name="2CPX041720R9999" editable="false">
+            <displayName uuid="_bDFJt_7nEeiskp2v5nXzHA"
+                value="MBM215     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1SAryxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM215     Set Mounting Plate Module"/>
+          </values>
+          <values xsi:type="appl:VTDomainValue" uuid="_4e1SA7yxEeipRqkNr45J7A"
+              name="2CPX041721R9999" editable="false">
+            <displayName uuid="_bDFJuf7nEeiskp2v5nXzHA"
+                value="MBM315     Set Mounting Plate Module"
+                vtRule="_CzkpIPBDEeeYos1JUOp4Wg" vtDomainValue="_4e1SA7yxEeipRqkNr45J7A"/>
+            <displayNames key="EN" value="MBM315     Set Mounting Plate Module"/>
+          </values>
+        </domain>
+        <properties key="VT type" value="String"/>
+        <properties key="Build type" value="string"/>
+        <properties key="Domain" value="[2CPX041117R9999, 2CPX041118R9999, 2CPX041119R9999, 2CPX041242R9999, 2CPX041243R9999, 2CPX041244R9999, 2CPX041245R9999, 2CPX041246R9999, 2CPX041247R9999, 2CPX041248R9999, 2CPX041249R9999, 2CPX041250R9999, 2CPX041251R9999, 2CPX041252R9999, 2CPX041253R9999, 2CPX041254R9999, 2CPX041255R9999, 2CPX041256R9999, 2CPX041640R9999, 2CPX041641R9999, 2CPX041642R9999, 2CPX041707R9999, 2CPX041708R9999, 2CPX041709R9999, 2CPX041710R9999, 2CPX041711R9999, 2CPX041712R9999, 2CPX041713R9999, 2CPX041714R9999, 2CPX041715R9999, 2CPX041716R9999, 2CPX041717R9999, 2CPX041718R9999, 2CPX041719R9999, 2CPX041720R9999, 2CPX041721R9999]"/>
+        <properties key="IsBomItem" value="true"/>
+        <properties key="Show" value="false"/>
+        <properties key="EN" value="Product ID "/>
+      </variables>
+    </currentVariables>
+    <languages>BG</languages>
+    <languages>DA</languages>
+    <languages>DE</languages>
+    <languages>EN</languages>
+    <languages>ES</languages>
+    <languages>FI</languages>
+    <languages>FR</languages>
+    <languages>IT</languages>
+    <languages>NB</languages>
+    <languages>NL</languages>
+    <languages>PL</languages>
+    <languages>PT</languages>
+    <languages>RU</languages>
+    <languages>SV</languages>
+    <languages>ZH</languages>
+    <properties>VT type</properties>
+    <properties>Build type</properties>
+    <properties>Domain</properties>
+    <properties>IsBomItem</properties>
+    <properties>Show</properties>
+    <properties>EN</properties>
+    <properties>ReadOnly</properties>
+  </rulesVT>
+  <viewerControls uuid="_7vVCINPbEemKe4dBywbV3A">
+    <controls xsi:type="comp:DragSensor" uuid="_9GDkgNPbEemKe4dBywbV3A"
+        name="Drag_Sensor_x" geoUnit="_X1c_UNPcEemKe4dBywbV3A">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_6qK7cNPcEemKe4dBywbV3A" key="">
+        <variables uuid="_6qK7cdPcEemKe4dBywbV3A" step="250.0"
+            variable="module_width"/>
+      </groups>
+    </controls>
+    <controls xsi:type="comp:DragSensor" uuid="_xCEYwNPcEemKe4dBywbV3A"
+        name="Drag_Sensor_y" geoUnit="_maIJsNPcEemKe4dBywbV3A">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_z0h5UNPcEemKe4dBywbV3A" key="">
+        <variables uuid="_z0h5UdPcEemKe4dBywbV3A" axis="y"
+            scale="-1.0" step="150.0" variable="module_height"/>
+      </groups>
+    </controls>
+    <controls xsi:type="comp:DragSensor" uuid="_cCa4wPPKEemstIlW0glFow"
+        name="Drag_Sensor_x_neg" geoUnit="_ZvX4JvPKEemstIlW0glFow">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_cCa4wfPKEemstIlW0glFow" key="drag-xx"
+          inverseAxis="x">
+        <variables uuid="_cCa4wvPKEemstIlW0glFow" order="1"
+            scale="-1.0" step="250.0" variable="module_width"/>
+        <variables uuid="_cCa4w_PKEemstIlW0glFow" order="2"
+            scale="250.0" step="250.0" variable="posx"/>
+      </groups>
+    </controls>
+    <controls xsi:type="comp:DragSensor" uuid="_cCa4xPPKEemstIlW0glFow"
+        name="Drag_Sensor_y_neg" geoUnit="_ZvXRBPPKEemstIlW0glFow">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_cCa4xfPKEemstIlW0glFow" key="drag-yy"
+          inverseAxis="y">
+        <variables uuid="_cCa4xvPKEemstIlW0glFow" axis="y"
+            order="1" step="150.0" variable="module_height"/>
+        <variables uuid="_cCa4x_PKEemstIlW0glFow" axis="y"
+            order="2" scale="-150.0" step="150.0" variable="posy"/>
+      </groups>
+    </controls>
+  </viewerControls>
+  <displayName uuid="_bDFJuv7nEeiskp2v5nXzHA" value="Mounting Plate CombiLine N"/>
+</comp:Component>

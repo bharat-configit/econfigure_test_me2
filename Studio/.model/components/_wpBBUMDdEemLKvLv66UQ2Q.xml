@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_wpBBUMDdEemLKvLv66UQ2Q" name="door_tbbs"
+    toaPrefix="door" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_wpBFucDdEemLKvLv66UQ2Q"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBFusDdEemLKvLv66UQ2Q"
+        name="column_next_column_toa" visibility="800">
+      <domain uuid="_wpBFvcDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBFv8DdEemLKvLv66UQ2Q" bitSet="393231"/>
+        <values uuid="_wpBFwMDdEemLKvLv66UQ2Q" name="NONE"
+            visibility="300">
+          <displayName uuid="_wpBFwsDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBFw8DdEemLKvLv66UQ2Q"
+        name="column_prev_column_toa" visibility="800">
+      <domain uuid="_wpBFxsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBFyMDdEemLKvLv66UQ2Q" bitSet="393231"/>
+        <values uuid="_wpBFycDdEemLKvLv66UQ2Q" name="NONE"
+            visibility="300">
+          <displayName uuid="_wpBFy8DdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBFzMDdEemLKvLv66UQ2Q"
+        name="world_user_group_toa" visibility="800">
+      <domain uuid="_wpBFz8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBF0cDdEemLKvLv66UQ2Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_cKhnUCE4Eei4tsyYl9kWtQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBF0sDdEemLKvLv66UQ2Q"
+        name="column_width_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_5ImHcO8ZEemC_P5WQPmeWA" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBF1cDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBF18DdEemLKvLv66UQ2Q" bitSet="393231"/>
+        <values uuid="_wpBF2MDdEemLKvLv66UQ2Q" name="250"
+            visibility="300">
+          <displayName uuid="_wpBF2sDdEemLKvLv66UQ2Q"
+              value="250"/>
+        </values>
+        <values uuid="_wpBF28DdEemLKvLv66UQ2Q" name="500"
+            visibility="300">
+          <displayName uuid="_wpBF3cDdEemLKvLv66UQ2Q"
+              value="500"/>
+        </values>
+        <values uuid="_wpBF3sDdEemLKvLv66UQ2Q" name="750"
+            visibility="300">
+          <displayName uuid="_wpBF4MDdEemLKvLv66UQ2Q"
+              value="750"/>
+        </values>
+        <values uuid="_wpBF4cDdEemLKvLv66UQ2Q" name="1000"
+            visibility="300">
+          <displayName uuid="_wpBF48DdEemLKvLv66UQ2Q"
+              value="1000"/>
+        </values>
+        <values uuid="_wpBF5MDdEemLKvLv66UQ2Q" name="1250"
+            visibility="300">
+          <displayName uuid="_wpBF5sDdEemLKvLv66UQ2Q"
+              value="1250"/>
+        </values>
+        <values uuid="_wpBF58DdEemLKvLv66UQ2Q" name="300"
+            visibility="300">
+          <displayName uuid="_wpBF6cDdEemLKvLv66UQ2Q"
+              value="300"/>
+        </values>
+        <values uuid="_wpBF6sDdEemLKvLv66UQ2Q" name="400"
+            visibility="300">
+          <displayName uuid="_wpBF7MDdEemLKvLv66UQ2Q"
+              value="400"/>
+        </values>
+        <values uuid="_wpBF7cDdEemLKvLv66UQ2Q" name="600"
+            visibility="300">
+          <displayName uuid="_wpBF78DdEemLKvLv66UQ2Q"
+              value="600"/>
+        </values>
+        <values uuid="_wpBF8MDdEemLKvLv66UQ2Q" name="800"
+            visibility="300">
+          <displayName uuid="_wpBF8sDdEemLKvLv66UQ2Q"
+              value="800"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBF88DdEemLKvLv66UQ2Q"
+        name="column_door_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_z3CuQO8ZEemC_P5WQPmeWA" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBF9sDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBF-MDdEemLKvLv66UQ2Q" bitSet="393231"/>
+        <values uuid="_wpBF-cDdEemLKvLv66UQ2Q" name="Blind"
+            visibility="300">
+          <displayName uuid="_wpBF-8DdEemLKvLv66UQ2Q"
+              value="Blind"/>
+        </values>
+        <values uuid="_wpBF_MDdEemLKvLv66UQ2Q" name="BlindDouble"
+            visibility="300">
+          <displayName uuid="_wpBF_sDdEemLKvLv66UQ2Q"
+              value="BlindDouble"/>
+        </values>
+        <values uuid="_wpBF_8DdEemLKvLv66UQ2Q" name="Glazed"
+            visibility="300">
+          <displayName uuid="_wpBGAcDdEemLKvLv66UQ2Q"
+              value="Glazed"/>
+        </values>
+        <values uuid="_wpBGAsDdEemLKvLv66UQ2Q" name="GlazedDouble"
+            visibility="300">
+          <displayName uuid="_wpBGBMDdEemLKvLv66UQ2Q"
+              value="GlazedDouble"/>
+        </values>
+        <values uuid="_wpBGBcDdEemLKvLv66UQ2Q" name="No"
+            visibility="300">
+          <displayName uuid="_wpBGB8DdEemLKvLv66UQ2Q"
+              value="No"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGCMDdEemLKvLv66UQ2Q"
+        name="ip_door_toa" visibility="800">
+      <domain uuid="_wpBGC8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGDcDdEemLKvLv66UQ2Q" bitSet="393231"/>
+        <values uuid="_wpBGDsDdEemLKvLv66UQ2Q" name="30"
+            visibility="300">
+          <displayName uuid="_wpBGEMDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGEcDdEemLKvLv66UQ2Q" name="40"
+            visibility="300">
+          <displayName uuid="_wpBGE8DdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGFMDdEemLKvLv66UQ2Q" name="55"
+            visibility="300">
+          <displayName uuid="_wpBGFsDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGF8DdEemLKvLv66UQ2Q" name="65"
+            visibility="300">
+          <displayName uuid="_wpBGGcDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGGsDdEemLKvLv66UQ2Q"
+        name="column_type_toa" visibility="800">
+      <domain uuid="_wpBGHcDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGH8DdEemLKvLv66UQ2Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_P8200EHpEeap36VL3e_sUA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGIMDdEemLKvLv66UQ2Q"
+        name="lever_insert_toa" visibility="800" initValue="Included">
+      <domain uuid="_wpBGI8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGJcDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBGJsDdEemLKvLv66UQ2Q" deletable="false"
+            name="Included" visibility="300">
+          <displayName uuid="_wpBGKMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGKcDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA6200" visibility="300">
+          <displayName uuid="_wpBGK8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGLMDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA8004" visibility="300">
+          <displayName uuid="_wpBGLsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGL8DdEemLKvLv66UQ2Q" deletable="false"
+            name="PIFH0020" visibility="300">
+          <displayName uuid="_wpBGMcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGMsDdEemLKvLv66UQ2Q" deletable="false"
+            name="PITH0064" visibility="300">
+          <displayName uuid="_wpBGNMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGNcDdEemLKvLv66UQ2Q" deletable="false"
+            name="PISH0007" visibility="300">
+          <displayName uuid="_wpBGN8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGOMDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIEH0008" visibility="300">
+          <displayName uuid="_wpBGOsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGO8DdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH0405" visibility="300">
+          <displayName uuid="_wpBGPcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGPsDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH2432" visibility="300">
+          <displayName uuid="_wpBGQMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGQcDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH0455" visibility="300">
+          <displayName uuid="_wpBGQ8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGRMDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH1242" visibility="300">
+          <displayName uuid="_wpBGRsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGR8DdEemLKvLv66UQ2Q" deletable="false"
+            name="PIDH0010" visibility="300">
+          <displayName uuid="_wpBGScDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGSsDdEemLKvLv66UQ2Q" deletable="false"
+            name="ZH142" visibility="300">
+          <displayName uuid="_wpBGTMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGTcDdEemLKvLv66UQ2Q" name="-"
+            visibility="300">
+          <displayName uuid="_wpBGT8DdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGUMDdEemLKvLv66UQ2Q"
+        name="lever_key_toa" visibility="800" initValue="Included">
+      <domain uuid="_wpBGU8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGVcDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBGVsDdEemLKvLv66UQ2Q" deletable="false"
+            name="Included" visibility="300">
+          <displayName uuid="_wpBGWMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGWcDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA1570" visibility="300">
+          <displayName uuid="_wpBGW8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGXMDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA1560" visibility="300">
+          <displayName uuid="_wpBGXsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGX8DdEemLKvLv66UQ2Q" deletable="false"
+            name="-" visibility="300">
+          <displayName uuid="_wpBGYcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGYsDdEemLKvLv66UQ2Q" deletable="false"
+            name="AD1058" visibility="300">
+          <displayName uuid="_wpBGZMDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGZcDdEemLKvLv66UQ2Q"
+        name="lever_position_toa" visibility="800" initValue="left">
+      <domain uuid="_wpBGaMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGasDdEemLKvLv66UQ2Q" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_2Gb6IApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGa8DdEemLKvLv66UQ2Q"
+        name="lever_toa" visibility="800" initValue="PHLS0013">
+      <domain uuid="_wpBGbsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGcMDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBGccDdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0011'" visibility="300">
+          <displayName uuid="_wpBGc8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGdMDdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0012'" visibility="300">
+          <displayName uuid="_wpBGdsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGd8DdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0013'" visibility="300">
+          <displayName uuid="_wpBGecDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGesDdEemLKvLv66UQ2Q" name="'-'"
+            visibility="300">
+          <displayName uuid="_wpBGfMDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGfcDdEemLKvLv66UQ2Q"
+        name="switchboard_door_hinges_180_toa" visibility="800"
+        initValue="0">
+      <domain uuid="_wpBGgMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGgsDdEemLKvLv66UQ2Q" bitSet="393217"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGg8DdEemLKvLv66UQ2Q"
+        name="switchboard_height_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_2l79cO8ZEemC_P5WQPmeWA" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBGhsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGiMDdEemLKvLv66UQ2Q" bitSet="262158"/>
+        <values uuid="_wpBGicDdEemLKvLv66UQ2Q" name="1800"
+            visibility="300">
+          <displayName uuid="_wpBGi8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGjMDdEemLKvLv66UQ2Q" name="2000"
+            visibility="300">
+          <displayName uuid="_wpBGjsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGj8DdEemLKvLv66UQ2Q" name="2100"
+            visibility="300">
+          <displayName uuid="_wpBGkcDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGksDdEemLKvLv66UQ2Q"
+        name="switchboard_product_line_toa" visibility="800"
+        initValue="n185">
+      <domain uuid="_wpBGlcDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGl8DdEemLKvLv66UQ2Q" bitSet="262148"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_K3zXcKDcEea4y48WrJhC7A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGmMDdEemLKvLv66UQ2Q"
+        name="internal_cable_container_width_chain"
+        visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBGm8DdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" rollback="ILLEGAL">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBGnMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGnsDdEemLKvLv66UQ2Q" bitSet="393230"/>
+        <values uuid="_wpBGn8DdEemLKvLv66UQ2Q" name="0"
+            visibility="300">
+          <displayName uuid="_wpBGocDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGosDdEemLKvLv66UQ2Q" name="200"
+            visibility="300">
+          <displayName uuid="_wpBGpMDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGpcDdEemLKvLv66UQ2Q" name="250"
+            visibility="300">
+          <displayName uuid="_wpBGp8DdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBGqMDdEemLKvLv66UQ2Q" name="400"
+            visibility="300">
+          <displayName uuid="_wpBGqsDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGq8DdEemLKvLv66UQ2Q"
+        name="switchboard_arc_fault_toa" visibility="800">
+      <domain uuid="_wpBGrsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGsMDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBGscDdEemLKvLv66UQ2Q" name="Yes"
+            visibility="300">
+          <displayName uuid="_wpBGs8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGtMDdEemLKvLv66UQ2Q" name="No"
+            visibility="300">
+          <displayName uuid="_wpBGtsDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGt8DdEemLKvLv66UQ2Q"
+        name="switchboard_IP_toa" visibility="800">
+      <domain uuid="_wpBGusDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBGvMDdEemLKvLv66UQ2Q" bitSet="393226"/>
+        <values uuid="_wpBGvcDdEemLKvLv66UQ2Q" name="30"
+            visibility="300">
+          <displayName uuid="_wpBGv8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGwMDdEemLKvLv66UQ2Q" name="31"
+            visibility="300">
+          <displayName uuid="_wpBGwsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGw8DdEemLKvLv66UQ2Q" name="40"
+            visibility="300">
+          <displayName uuid="_wpBGxcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGxsDdEemLKvLv66UQ2Q" name="41"
+            visibility="300">
+          <displayName uuid="_wpBGyMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBGycDdEemLKvLv66UQ2Q" name="65"
+            visibility="300">
+          <displayName uuid="_wpBGy8DdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBGzMDdEemLKvLv66UQ2Q"
+        name="door_type" visibility="800">
+      <domain uuid="_wpBGz8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBG0cDdEemLKvLv66UQ2Q" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBG0sDdEemLKvLv66UQ2Q"
+        name="control" visibility="800">
+      <domain uuid="_wpBG1cDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBG18DdEemLKvLv66UQ2Q" bitSet="393218"/>
+        <values uuid="_wpBG2MDdEemLKvLv66UQ2Q" name="0"
+            visibility="300">
+          <displayName uuid="_wpBG2sDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+        <values uuid="_wpBG28DdEemLKvLv66UQ2Q" name="1"
+            visibility="300">
+          <displayName uuid="_wpBG3cDdEemLKvLv66UQ2Q"
+              value=""/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBG3sDdEemLKvLv66UQ2Q"
+        name="compartment_position_switch" visibility="800">
+      <domain uuid="_wpBG4cDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBG48DdEemLKvLv66UQ2Q" bitSet="393218"/>
+        <values uuid="_wpBG5MDdEemLKvLv66UQ2Q" name="0"
+            visibility="300">
+          <displayName uuid="_wpBG5sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBG58DdEemLKvLv66UQ2Q" name="1"
+            visibility="300">
+          <displayName uuid="_wpBG6cDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_rC1-gCF-Eeq7P423WcbMyA"
+        name="lever_restriction" visibility="800">
+      <domain uuid="_rC1-gyF-Eeq7P423WcbMyA" name="local"
+          visibility="300">
+        <typeSet uuid="_rC1-hSF-Eeq7P423WcbMyA" bitSet="393231"/>
+        <values uuid="_rC1-hiF-Eeq7P423WcbMyA" name="no_restriction"
+            visibility="300">
+          <displayName uuid="_rC1-iCF-Eeq7P423WcbMyA"/>
+        </values>
+        <values uuid="_rC1-iSF-Eeq7P423WcbMyA" name="right"
+            visibility="300">
+          <displayName uuid="_rC1-iyF-Eeq7P423WcbMyA"/>
+        </values>
+        <values uuid="_rC1-jCF-Eeq7P423WcbMyA" name="left"
+            visibility="300">
+          <displayName uuid="_rC1-jiF-Eeq7P423WcbMyA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_wpBG6sDdEemLKvLv66UQ2Q"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBG68DdEemLKvLv66UQ2Q"
+        name="lever" visibility="800" initValue="PHLS0013">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBG7sDdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" select="CLOSEST">
+        <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBG78DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBG8cDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBG8sDdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0011'" visibility="300">
+          <displayName uuid="_wpBG9MDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBG9cDdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0012'" visibility="300">
+          <displayName uuid="_wpBG98DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBG-MDdEemLKvLv66UQ2Q" deletable="false"
+            name="'PHLS0013'" visibility="300">
+          <displayName uuid="_wpBG-sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBG-8DdEemLKvLv66UQ2Q" name="'-'"
+            visibility="300">
+          <displayName uuid="_wpBG_cDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBG_sDdEemLKvLv66UQ2Q"
+        name="lever_insert" visibility="800" initValue="Included">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBHAcDdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" select="CLOSEST">
+        <priorities href="../product_model.xml#_llygIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBHAsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHBMDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBHBcDdEemLKvLv66UQ2Q" deletable="false"
+            name="Included" visibility="300">
+          <displayName uuid="_wpBHB8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHCMDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA6200" visibility="300">
+          <displayName uuid="_wpBHCsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHC8DdEemLKvLv66UQ2Q" deletable="false"
+            name="AA8004" visibility="300">
+          <displayName uuid="_wpBHDcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHDsDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIFH0020" visibility="300">
+          <displayName uuid="_wpBHEMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHEcDdEemLKvLv66UQ2Q" deletable="false"
+            name="PITH0064" visibility="300">
+          <displayName uuid="_wpBHE8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHFMDdEemLKvLv66UQ2Q" deletable="false"
+            name="PISH0007" visibility="300">
+          <displayName uuid="_wpBHFsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHF8DdEemLKvLv66UQ2Q" deletable="false"
+            name="PIEH0008" visibility="300">
+          <displayName uuid="_wpBHGcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHGsDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH0405" visibility="300">
+          <displayName uuid="_wpBHHMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHHcDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH2432" visibility="300">
+          <displayName uuid="_wpBHH8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHIMDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH0455" visibility="300">
+          <displayName uuid="_wpBHIsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHI8DdEemLKvLv66UQ2Q" deletable="false"
+            name="PIRH1242" visibility="300">
+          <displayName uuid="_wpBHJcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHJsDdEemLKvLv66UQ2Q" deletable="false"
+            name="PIDH0010" visibility="300">
+          <displayName uuid="_wpBHKMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHKcDdEemLKvLv66UQ2Q" deletable="false"
+            name="ZH142" visibility="300">
+          <displayName uuid="_wpBHK8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHLMDdEemLKvLv66UQ2Q" name="-"
+            visibility="300">
+          <displayName uuid="_wpBHLsDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHL8DdEemLKvLv66UQ2Q"
+        name="lever_key" visibility="800" initValue="Included">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBHMsDdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" select="CLOSEST">
+        <priorities href="../product_model.xml#_qKNGgAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBHM8DdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHNcDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBHNsDdEemLKvLv66UQ2Q" deletable="false"
+            name="Included" visibility="300">
+          <displayName uuid="_wpBHOMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHOcDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA1570" visibility="300">
+          <displayName uuid="_wpBHO8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHPMDdEemLKvLv66UQ2Q" deletable="false"
+            name="AA1560" visibility="300">
+          <displayName uuid="_wpBHPsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHP8DdEemLKvLv66UQ2Q" deletable="false"
+            name="-" visibility="300">
+          <displayName uuid="_wpBHQcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHQsDdEemLKvLv66UQ2Q" deletable="false"
+            name="AD1058" visibility="300">
+          <displayName uuid="_wpBHRMDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHRcDdEemLKvLv66UQ2Q"
+        name="lever_position" visibility="800" initValue="left">
+      <domain uuid="_wpBHSMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHSsDdEemLKvLv66UQ2Q" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_2Gb6IApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHS8DdEemLKvLv66UQ2Q"
+        name="orientation" visibility="800" initValue="vertical">
+      <domain uuid="_wpBHTsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHUMDdEemLKvLv66UQ2Q" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_32LR0J80Eea5nZoP83oc6Q"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHUcDdEemLKvLv66UQ2Q"
+        name="delete_mode" visibility="800">
+      <domain uuid="_wpBHVMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHVsDdEemLKvLv66UQ2Q" bitSet="393217"/>
+        <values uuid="_wpBHV8DdEemLKvLv66UQ2Q" name="0"
+            visibility="300">
+          <displayName uuid="_wpBHWcDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHWsDdEemLKvLv66UQ2Q"
+        name="IP" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBHXcDdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q">
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_wpBHXsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHYMDdEemLKvLv66UQ2Q" bitSet="393226"/>
+        <values uuid="_wpBHYcDdEemLKvLv66UQ2Q" name="30"
+            visibility="300">
+          <displayName uuid="_wpBHY8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHZMDdEemLKvLv66UQ2Q" name="31"
+            visibility="300">
+          <displayName uuid="_wpBHZsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHZ8DdEemLKvLv66UQ2Q" name="40"
+            visibility="300">
+          <displayName uuid="_wpBHacDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHasDdEemLKvLv66UQ2Q" name="41"
+            visibility="300">
+          <displayName uuid="_wpBHbMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHbcDdEemLKvLv66UQ2Q" name="65"
+            visibility="300">
+          <displayName uuid="_wpBHb8DdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBHcMDdEemLKvLv66UQ2Q"
+        name="BOM1" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBHc8DdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBHdMDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBHdsDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpBHd8DdEemLKvLv66UQ2Q" name="PDLG1846"
+            visibility="300">
+          <displayName uuid="_wpBHecDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHesDdEemLKvLv66UQ2Q" name="PDLG1866"
+            visibility="300">
+          <displayName uuid="_wpBHfMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHfcDdEemLKvLv66UQ2Q" name="PDLG1886"
+            visibility="300">
+          <displayName uuid="_wpBHf8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHgMDdEemLKvLv66UQ2Q" name="PDLG1816"
+            visibility="300">
+          <displayName uuid="_wpBHgsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHg8DdEemLKvLv66UQ2Q" name="PDLG2046"
+            visibility="300">
+          <displayName uuid="_wpBHhcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHhsDdEemLKvLv66UQ2Q" name="PDLG2066"
+            visibility="300">
+          <displayName uuid="_wpBHiMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHicDdEemLKvLv66UQ2Q" name="PDLG2086"
+            visibility="300">
+          <displayName uuid="_wpBHi8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHjMDdEemLKvLv66UQ2Q" name="PDLG2016"
+            visibility="300">
+          <displayName uuid="_wpBHjsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHj8DdEemLKvLv66UQ2Q" name="PDLG1842"
+            visibility="300">
+          <displayName uuid="_wpBHkcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHksDdEemLKvLv66UQ2Q" name="PDLG1844"
+            visibility="300">
+          <displayName uuid="_wpBHlMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHlcDdEemLKvLv66UQ2Q" name="PDLG1862"
+            visibility="300">
+          <displayName uuid="_wpBHl8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHmMDdEemLKvLv66UQ2Q" name="PDLG1864"
+            visibility="300">
+          <displayName uuid="_wpBHmsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHm8DdEemLKvLv66UQ2Q" name="PDLG1882"
+            visibility="300">
+          <displayName uuid="_wpBHncDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHnsDdEemLKvLv66UQ2Q" name="PDLG2042"
+            visibility="300">
+          <displayName uuid="_wpBHoMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHocDdEemLKvLv66UQ2Q" name="PDLG2044"
+            visibility="300">
+          <displayName uuid="_wpBHo8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHpMDdEemLKvLv66UQ2Q" name="PDLG2062"
+            visibility="300">
+          <displayName uuid="_wpBHpsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHp8DdEemLKvLv66UQ2Q" name="PDLG2064"
+            visibility="300">
+          <displayName uuid="_wpBHqcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHqsDdEemLKvLv66UQ2Q" name="PDLG2082"
+            visibility="300">
+          <displayName uuid="_wpBHrMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHrcDdEemLKvLv66UQ2Q" name="PDLG1840"
+            visibility="300">
+          <displayName uuid="_wpBHr8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHsMDdEemLKvLv66UQ2Q" name="PDLG1860"
+            visibility="300">
+          <displayName uuid="_wpBHssDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHs8DdEemLKvLv66UQ2Q" name="PDLG1880"
+            visibility="300">
+          <displayName uuid="_wpBHtcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHtsDdEemLKvLv66UQ2Q" name="PDLG1810"
+            visibility="300">
+          <displayName uuid="_wpBHuMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHucDdEemLKvLv66UQ2Q" name="PDLG2040"
+            visibility="300">
+          <displayName uuid="_wpBHu8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHvMDdEemLKvLv66UQ2Q" name="PDLG2060"
+            visibility="300">
+          <displayName uuid="_wpBHvsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHv8DdEemLKvLv66UQ2Q" name="PDLG2080"
+            visibility="300">
+          <displayName uuid="_wpBHwcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHwsDdEemLKvLv66UQ2Q" name="PDLG2010"
+            visibility="300">
+          <displayName uuid="_wpBHxMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHxcDdEemLKvLv66UQ2Q" name="PDLG8420"
+            visibility="300">
+          <displayName uuid="_wpBHx8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHyMDdEemLKvLv66UQ2Q" name="PDLG8440"
+            visibility="300">
+          <displayName uuid="_wpBHysDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHy8DdEemLKvLv66UQ2Q" name="PDLG8620"
+            visibility="300">
+          <displayName uuid="_wpBHzcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBHzsDdEemLKvLv66UQ2Q" name="PDLG8640"
+            visibility="300">
+          <displayName uuid="_wpBH0MDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH0cDdEemLKvLv66UQ2Q" name="PDLG8820"
+            visibility="300">
+          <displayName uuid="_wpBH08DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH1MDdEemLKvLv66UQ2Q" name="PDLG2420"
+            visibility="300">
+          <displayName uuid="_wpBH1sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH18DdEemLKvLv66UQ2Q" name="PDLG2440"
+            visibility="300">
+          <displayName uuid="_wpBH2cDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH2sDdEemLKvLv66UQ2Q" name="PDLG2620"
+            visibility="300">
+          <displayName uuid="_wpBH3MDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH3cDdEemLKvLv66UQ2Q" name="PDLG2640"
+            visibility="300">
+          <displayName uuid="_wpBH38DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH4MDdEemLKvLv66UQ2Q" name="PDLG2820"
+            visibility="300">
+          <displayName uuid="_wpBH4sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH48DdEemLKvLv66UQ2Q" name="PDLB1836"
+            visibility="300">
+          <displayName uuid="_wpBH5cDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH5sDdEemLKvLv66UQ2Q" name="PDLB1846"
+            visibility="300">
+          <displayName uuid="_wpBH6MDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH6cDdEemLKvLv66UQ2Q" name="PDLB1866"
+            visibility="300">
+          <displayName uuid="_wpBH68DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH7MDdEemLKvLv66UQ2Q" name="PDLB1886"
+            visibility="300">
+          <displayName uuid="_wpBH7sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH78DdEemLKvLv66UQ2Q" name="PDLB1816"
+            visibility="300">
+          <displayName uuid="_wpBH8cDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH8sDdEemLKvLv66UQ2Q" name="PDLB2036"
+            visibility="300">
+          <displayName uuid="_wpBH9MDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH9cDdEemLKvLv66UQ2Q" name="PDLB2046"
+            visibility="300">
+          <displayName uuid="_wpBH98DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH-MDdEemLKvLv66UQ2Q" name="PDLB2066"
+            visibility="300">
+          <displayName uuid="_wpBH-sDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH-8DdEemLKvLv66UQ2Q" name="PDLB2086"
+            visibility="300">
+          <displayName uuid="_wpBH_cDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBH_sDdEemLKvLv66UQ2Q" name="PDLB2016"
+            visibility="300">
+          <displayName uuid="_wpBIAMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIAcDdEemLKvLv66UQ2Q" name="PDLB1830"
+            visibility="300">
+          <displayName uuid="_wpBIA8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIBMDdEemLKvLv66UQ2Q" name="PDLB1840"
+            visibility="300">
+          <displayName uuid="_wpBIBsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIB8DdEemLKvLv66UQ2Q" name="PDLB1860"
+            visibility="300">
+          <displayName uuid="_wpBICcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBICsDdEemLKvLv66UQ2Q" name="PDLB1880"
+            visibility="300">
+          <displayName uuid="_wpBIDMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIDcDdEemLKvLv66UQ2Q" name="PDLB1810"
+            visibility="300">
+          <displayName uuid="_wpBID8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIEMDdEemLKvLv66UQ2Q" name="PDLB2030"
+            visibility="300">
+          <displayName uuid="_wpBIEsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIE8DdEemLKvLv66UQ2Q" name="PDLB2040"
+            visibility="300">
+          <displayName uuid="_wpBIFcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIFsDdEemLKvLv66UQ2Q" name="PDLB2060"
+            visibility="300">
+          <displayName uuid="_wpBIGMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIGcDdEemLKvLv66UQ2Q" name="PDLB2080"
+            visibility="300">
+          <displayName uuid="_wpBIG8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIHMDdEemLKvLv66UQ2Q" name="PDLB2010"
+            visibility="300">
+          <displayName uuid="_wpBIHsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIH8DdEemLKvLv66UQ2Q" name="PDLG8500"
+            visibility="300">
+          <displayName uuid="_wpBIIcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIIsDdEemLKvLv66UQ2Q" name="PDLG2500"
+            visibility="300">
+          <displayName uuid="_wpBIJMDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIJcDdEemLKvLv66UQ2Q" name="PDLB8500"
+            visibility="300">
+          <displayName uuid="_wpBIJ8DdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIKMDdEemLKvLv66UQ2Q" name="PDLB2500"
+            visibility="300">
+          <displayName uuid="_wpBIKsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpBIK8DdEemLKvLv66UQ2Q" name="NONE"
+            visibility="300">
+          <displayName uuid="_wpBILcDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_wpBILsDdEemLKvLv66UQ2Q"
+        name="BOM2" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_wpBIMcDdEemLKvLv66UQ2Q" declared="true"
+          model="_wpKyWcDdEemLKvLv66UQ2Q" flow="OUT">
+        <priorities href="../product_model.xml#_tKdygAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_wpBIMsDdEemLKvLv66UQ2Q" name="local"
+          visibility="300">
+        <typeSet uuid="_wpBINMDdEemLKvLv66UQ2Q" bitSet="393220"/>
+        <values uuid="_wpKyUMDdEemLKvLv66UQ2Q" name="NONE"
+            visibility="300">
+          <displayName uuid="_wpKyUsDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpKyU8DdEemLKvLv66UQ2Q" name="PDLB8120"
+            visibility="300">
+          <displayName uuid="_wpKyVcDdEemLKvLv66UQ2Q"/>
+        </values>
+        <values uuid="_wpKyVsDdEemLKvLv66UQ2Q" name="PDLB2120"
+            visibility="300">
+          <displayName uuid="_wpKyWMDdEemLKvLv66UQ2Q"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_wpKyWcDdEemLKvLv66UQ2Q" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_wpKyWsDdEemLKvLv66UQ2Q"
+        name="lever" visibility="800">
+      <columns uuid="_wpKyW8DdEemLKvLv66UQ2Q" name="lever"
+          visibility="100" databaseAlias="lever">
+        <cells uuid="_wpKyXMDdEemLKvLv66UQ2Q" value="PHLS0013"/>
+        <cells uuid="_wpKyXcDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyXsDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyX8DdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyYMDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyYcDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyYsDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyY8DdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyZMDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyZcDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyZsDdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyZ8DdEemLKvLv66UQ2Q" value="PHLS0013,PHLS0011"/>
+        <cells uuid="_wpKyaMDdEemLKvLv66UQ2Q" value="PHLS0012"/>
+      </columns>
+      <columns uuid="_wpKyacDdEemLKvLv66UQ2Q" name="lever_insert"
+          visibility="100" databaseAlias="lever_insert">
+        <cells uuid="_wpKyasDdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKya8DdEemLKvLv66UQ2Q" value="AA6200"/>
+        <cells uuid="_wpKybMDdEemLKvLv66UQ2Q" value="AA8004"/>
+        <cells uuid="_wpKybcDdEemLKvLv66UQ2Q" value="PIFH0020"/>
+        <cells uuid="_wpKybsDdEemLKvLv66UQ2Q" value="PITH0064"/>
+        <cells uuid="_wpKyb8DdEemLKvLv66UQ2Q" value="PISH0007"/>
+        <cells uuid="_wpKycMDdEemLKvLv66UQ2Q" value="PIEH0008"/>
+        <cells uuid="_wpKyccDdEemLKvLv66UQ2Q" value="PIRH0405"/>
+        <cells uuid="_wpKycsDdEemLKvLv66UQ2Q" value="PIRH2432"/>
+        <cells uuid="_wpKyc8DdEemLKvLv66UQ2Q" value="PIRH0455"/>
+        <cells uuid="_wpKydMDdEemLKvLv66UQ2Q" value="PIRH1242"/>
+        <cells uuid="_wpKydcDdEemLKvLv66UQ2Q" value="PIDH0010"/>
+        <cells uuid="_wpKydsDdEemLKvLv66UQ2Q" value="ZH142"/>
+      </columns>
+      <columns uuid="_wpKyd8DdEemLKvLv66UQ2Q" name="lever_key"
+          visibility="100" databaseAlias="lever_key">
+        <cells uuid="_wpKyeMDdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKyecDdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKyesDdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKye8DdEemLKvLv66UQ2Q" value="AA1570"/>
+        <cells uuid="_wpKyfMDdEemLKvLv66UQ2Q" value="AA1560"/>
+        <cells uuid="_wpKyfcDdEemLKvLv66UQ2Q" value="-"/>
+        <cells uuid="_wpKyfsDdEemLKvLv66UQ2Q" value="-"/>
+        <cells uuid="_wpKyf8DdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKygMDdEemLKvLv66UQ2Q" value="Included"/>
+        <cells uuid="_wpKygcDdEemLKvLv66UQ2Q" value="-"/>
+        <cells uuid="_wpKygsDdEemLKvLv66UQ2Q" value="-"/>
+        <cells uuid="_wpKyg8DdEemLKvLv66UQ2Q" value="AD1058"/>
+        <cells uuid="_wpKyhMDdEemLKvLv66UQ2Q" value="-"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_wpKy7cDdEemLKvLv66UQ2Q"
+        name="switchboard_door" visibility="800" expression="SOFT.lever_insert=lever_insert_toa;&#xD;&#xA;SOFT.lever_key=lever_key_toa;&#xD;&#xA;SOFT.lever_position=lever_position_toa;&#xD;&#xA;SOFT.lever=lever_toa;&#xD;&#xA;switchboard_door_hinges_180_toa(1) and lever_position_toa(left)->lever_position(left);&#xD;&#xA;switchboard_door_hinges_180_toa(1) and lever_position_toa(right)->lever_position(right);"/>
+    <children xsi:type="array:TableRelation" uuid="_wpKy7sDdEemLKvLv66UQ2Q"
+        name="IP_relation_SB_TBBS" visibility="800">
+      <columns uuid="_wpKy78DdEemLKvLv66UQ2Q" name="switchboard_arc_fault_toa"
+          visibility="100" databaseAlias="switchboard_arc_fault_toa">
+        <cells uuid="_wpKy8MDdEemLKvLv66UQ2Q" value="'No'"/>
+        <cells uuid="_wpKy8cDdEemLKvLv66UQ2Q" value="'No'"/>
+        <cells uuid="_wpKy8sDdEemLKvLv66UQ2Q" value="'No'"/>
+        <cells uuid="_wpKy88DdEemLKvLv66UQ2Q" value="'No'"/>
+        <cells uuid="_wpKy9MDdEemLKvLv66UQ2Q" value="'No'"/>
+        <cells uuid="_wpKy9cDdEemLKvLv66UQ2Q" value="'Yes'"/>
+      </columns>
+      <columns uuid="_wpKy_8DdEemLKvLv66UQ2Q" name="switchboard_IP_toa"
+          visibility="100" databaseAlias="switchboard_IP_toa">
+        <cells uuid="_wpKzAMDdEemLKvLv66UQ2Q" value="30"/>
+        <cells uuid="_wpKzAcDdEemLKvLv66UQ2Q" value="31"/>
+        <cells uuid="_wpKzAsDdEemLKvLv66UQ2Q" value="40"/>
+        <cells uuid="_wpKzA8DdEemLKvLv66UQ2Q" value="41"/>
+        <cells uuid="_wpKzBMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpKzBcDdEemLKvLv66UQ2Q" value="?"/>
+      </columns>
+      <columns uuid="_wpKzB8DdEemLKvLv66UQ2Q" name="IP"
+          visibility="100" databaseAlias="IP">
+        <cells uuid="_wpKzCMDdEemLKvLv66UQ2Q" value="30,31,40,41,65"/>
+        <cells uuid="_wpKzCcDdEemLKvLv66UQ2Q" value="31,40,41,65"/>
+        <cells uuid="_wpKzCsDdEemLKvLv66UQ2Q" value="40,41,65"/>
+        <cells uuid="_wpKzC8DdEemLKvLv66UQ2Q" value="41,65"/>
+        <cells uuid="_wpKzDMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpKzDcDdEemLKvLv66UQ2Q" value="65"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_wpKzD8DdEemLKvLv66UQ2Q"
+        name="SOFT_IP_TBBS" visibility="800">
+      <columns uuid="_wpKzEMDdEemLKvLv66UQ2Q" name="switchboard_IP_toa"
+          visibility="100" databaseAlias="switchboard_IP_toa">
+        <cells uuid="_wpKzEcDdEemLKvLv66UQ2Q" value="30"/>
+        <cells uuid="_wpKzEsDdEemLKvLv66UQ2Q" value="31"/>
+        <cells uuid="_wpKzE8DdEemLKvLv66UQ2Q" value="40"/>
+        <cells uuid="_wpKzFMDdEemLKvLv66UQ2Q" value="41"/>
+        <cells uuid="_wpKzFcDdEemLKvLv66UQ2Q" value="65"/>
+      </columns>
+      <columns uuid="_wpKzHsDdEemLKvLv66UQ2Q" name="SOFT.IP"
+          visibility="100" databaseAlias="SOFT.IP">
+        <cells uuid="_wpKzH8DdEemLKvLv66UQ2Q" value="30"/>
+        <cells uuid="_wpKzIMDdEemLKvLv66UQ2Q" value="31"/>
+        <cells uuid="_wpKzIcDdEemLKvLv66UQ2Q" value="40"/>
+        <cells uuid="_wpKzIsDdEemLKvLv66UQ2Q" value="41"/>
+        <cells uuid="_wpKzI8DdEemLKvLv66UQ2Q" value="65"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_wpKzJcDdEemLKvLv66UQ2Q"
+        name="TBBS_relation1" visibility="800">
+      <columns uuid="_wpKzecDdEemLKvLv66UQ2Q" name="column_door_toa"
+          visibility="100" databaseAlias="column_door_toa">
+        <cells uuid="_wpKzesDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKze8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzfMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzfcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzfsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzf8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzgMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzgcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzgsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzg8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzhMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzhcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzhsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzh8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKziMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzicDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzisDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzi8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzjMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzjcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzjsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzj8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzkMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzkcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzksDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzk8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzlMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzlcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzlsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzl8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzmMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzmcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzmsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzm8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKznMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzncDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKznsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzn8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzoMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzocDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzosDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzo8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzpMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzpcDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzpsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzp8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzqMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzqcDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzqsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzq8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzrMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzrcDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzrsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzr8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzsMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzscDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzssDdEemLKvLv66UQ2Q" value="'GlazedDouble'"/>
+        <cells uuid="_wpKzs8DdEemLKvLv66UQ2Q" value="'GlazedDouble'"/>
+        <cells uuid="_wpKztMDdEemLKvLv66UQ2Q" value="'BlindDouble'"/>
+        <cells uuid="_wpKztcDdEemLKvLv66UQ2Q" value="'BlindDouble'"/>
+        <cells uuid="_wpKztsDdEemLKvLv66UQ2Q" value="No"/>
+        <cells uuid="_wpKzt8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzuMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzucDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzusDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzu8DdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzvMDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzvcDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzvsDdEemLKvLv66UQ2Q" value="Glazed"/>
+        <cells uuid="_wpKzv8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzwMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzwcDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzwsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzw8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzxMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzxcDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzxsDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzx8DdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzyMDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzycDdEemLKvLv66UQ2Q" value="Blind"/>
+        <cells uuid="_wpKzysDdEemLKvLv66UQ2Q" value="Blind"/>
+      </columns>
+      <columns uuid="_wpKzzMDdEemLKvLv66UQ2Q" name="switchboard_height_toa"
+          visibility="100" databaseAlias="switchboard_height_toa">
+        <cells uuid="_wpKzzcDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKzzsDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKzz8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz0MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz0cDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz0sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz08DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz1MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz1cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz1sDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz18DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz2MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz2cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz2sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz28DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz3MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz3cDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz3sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz38DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz4MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz4cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz4sDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz48DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz5MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz5cDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz5sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz58DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz6MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz6cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz6sDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz68DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz7MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz7cDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz7sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz78DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz8MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz8cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz8sDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz88DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz9MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz9cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz9sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz98DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz-MDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz-cDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz-sDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpKz-8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz_MDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz_cDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz_sDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpKz_8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0AMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0AcDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0AsDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0A8DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0BMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0BcDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0BsDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0B8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0CMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0CcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0CsDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0C8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0DMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0DcDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0DsDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0D8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0EMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0EcDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0EsDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0E8DdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0FMDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0FcDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0FsDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0F8DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0GMDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0GcDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0GsDdEemLKvLv66UQ2Q" value="1800"/>
+        <cells uuid="_wpK0G8DdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0HMDdEemLKvLv66UQ2Q" value="2000"/>
+        <cells uuid="_wpK0HcDdEemLKvLv66UQ2Q" value="2000"/>
+      </columns>
+      <columns uuid="_wpK0H8DdEemLKvLv66UQ2Q" name="column_width_toa"
+          visibility="100" databaseAlias="column_width_toa">
+        <cells uuid="_wpK0IMDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0IcDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0IsDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0I8DdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0JMDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0JcDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0JsDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0J8DdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0KMDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0KcDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0KsDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0K8DdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0LMDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0LcDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0LsDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0L8DdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0MMDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0McDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0MsDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0M8DdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0NMDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0NcDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0NsDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0N8DdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0OMDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0OcDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0OsDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0O8DdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0PMDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0PcDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0PsDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0P8DdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0QMDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0QcDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0QsDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0Q8DdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0RMDdEemLKvLv66UQ2Q" value="300"/>
+        <cells uuid="_wpK0RcDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0RsDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0R8DdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0SMDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0ScDdEemLKvLv66UQ2Q" value="300"/>
+        <cells uuid="_wpK0SsDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0S8DdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0TMDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0TcDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0TsDdEemLKvLv66UQ2Q" value="300"/>
+        <cells uuid="_wpK0T8DdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0UMDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0UcDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0UsDdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0U8DdEemLKvLv66UQ2Q" value="300"/>
+        <cells uuid="_wpK0VMDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0VcDdEemLKvLv66UQ2Q" value="600"/>
+        <cells uuid="_wpK0VsDdEemLKvLv66UQ2Q" value="800"/>
+        <cells uuid="_wpK0V8DdEemLKvLv66UQ2Q" value="1000"/>
+        <cells uuid="_wpK0WMDdEemLKvLv66UQ2Q" value="1250"/>
+        <cells uuid="_wpK0WcDdEemLKvLv66UQ2Q" value="1250"/>
+        <cells uuid="_wpK0WsDdEemLKvLv66UQ2Q" value="1250"/>
+        <cells uuid="_wpK0W8DdEemLKvLv66UQ2Q" value="1250"/>
+        <cells uuid="_wpK0XMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0XcDdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0XsDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0X8DdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0YMDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0YcDdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0YsDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0Y8DdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0ZMDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0ZcDdEemLKvLv66UQ2Q" value="250"/>
+        <cells uuid="_wpK0ZsDdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0Z8DdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0aMDdEemLKvLv66UQ2Q" value="250"/>
+        <cells uuid="_wpK0acDdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0asDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0a8DdEemLKvLv66UQ2Q" value="250"/>
+        <cells uuid="_wpK0bMDdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0bcDdEemLKvLv66UQ2Q" value="750"/>
+        <cells uuid="_wpK0bsDdEemLKvLv66UQ2Q" value="250"/>
+        <cells uuid="_wpK0b8DdEemLKvLv66UQ2Q" value="500"/>
+        <cells uuid="_wpK0cMDdEemLKvLv66UQ2Q" value="750"/>
+      </columns>
+      <columns uuid="_wpK0csDdEemLKvLv66UQ2Q" name="internal_cable_container_width_chain"
+          visibility="100" databaseAlias="internal_cable_container_width_chain">
+        <cells uuid="_wpK0c8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0dMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0dcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0dsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0d8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0eMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0ecDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0esDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0e8DdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0fMDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0fcDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0fsDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0f8DdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0gMDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0gcDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0gsDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0g8DdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0hMDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0hcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0hsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0h8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0iMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0icDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0isDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0i8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0jMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0jcDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0jsDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0j8DdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0kMDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0kcDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0ksDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0k8DdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0lMDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0lcDdEemLKvLv66UQ2Q" value="400"/>
+        <cells uuid="_wpK0lsDdEemLKvLv66UQ2Q" value="200"/>
+        <cells uuid="_wpK0l8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0mMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0mcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0msDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0m8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0nMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0ncDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0nsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0n8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0oMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0ocDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0osDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0o8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0pMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0pcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0psDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0p8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0qMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0qcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0qsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0q8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0rMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0rcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0rsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0r8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0sMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0scDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0ssDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0s8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0tMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0tcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0tsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0t8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0uMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0ucDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0usDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0u8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0vMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0vcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0vsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0v8DdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0wMDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0wcDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0wsDdEemLKvLv66UQ2Q" value="0"/>
+        <cells uuid="_wpK0w8DdEemLKvLv66UQ2Q" value="0"/>
+      </columns>
+      <columns uuid="_wpK0xcDdEemLKvLv66UQ2Q" name="IP"
+          visibility="100" databaseAlias="IP">
+        <cells uuid="_wpK0xsDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0x8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0yMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0ycDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0ysDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0y8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0zMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0zcDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0zsDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK0z8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK00MDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK00cDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK00sDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK008DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK01MDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK01cDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK01sDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK018DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK02MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK02cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK02sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK028DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK03MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK03cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK03sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK038DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK04MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK04cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK04sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK048DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK05MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK05cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK05sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK058DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK06MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK06cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK06sDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK068DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK07MDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK07cDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK07sDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK078DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK08MDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK08cDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK08sDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK088DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK09MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK09cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK09sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK098DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0-MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0-cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0-sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0-8DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0_MDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0_cDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0_sDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK0_8DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1AMDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1AcDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1AsDdEemLKvLv66UQ2Q" value="30,31"/>
+        <cells uuid="_wpK1A8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1BMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1BcDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1BsDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1B8DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1CMDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1CcDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1CsDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1C8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1DMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1DcDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1DsDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1D8DdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1EMDdEemLKvLv66UQ2Q" value="65"/>
+        <cells uuid="_wpK1EcDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1EsDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1E8DdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1FMDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1FcDdEemLKvLv66UQ2Q" value="40,41"/>
+        <cells uuid="_wpK1FsDdEemLKvLv66UQ2Q" value="40,41"/>
+      </columns>
+      <columns uuid="_wpK1GMDdEemLKvLv66UQ2Q" name="BOM1"
+          visibility="100" databaseAlias="BOM1">
+        <cells uuid="_wpK1GcDdEemLKvLv66UQ2Q" value="PDLG1846"/>
+        <cells uuid="_wpK1GsDdEemLKvLv66UQ2Q" value="PDLG1866"/>
+        <cells uuid="_wpK1G8DdEemLKvLv66UQ2Q" value="PDLG1886"/>
+        <cells uuid="_wpK1HMDdEemLKvLv66UQ2Q" value="PDLG1816"/>
+        <cells uuid="_wpK1HcDdEemLKvLv66UQ2Q" value="PDLG2046"/>
+        <cells uuid="_wpK1HsDdEemLKvLv66UQ2Q" value="PDLG2066"/>
+        <cells uuid="_wpK1H8DdEemLKvLv66UQ2Q" value="PDLG2086"/>
+        <cells uuid="_wpK1IMDdEemLKvLv66UQ2Q" value="PDLG2016"/>
+        <cells uuid="_wpK1IcDdEemLKvLv66UQ2Q" value="PDLG1842"/>
+        <cells uuid="_wpK1IsDdEemLKvLv66UQ2Q" value="PDLG1844"/>
+        <cells uuid="_wpK1I8DdEemLKvLv66UQ2Q" value="PDLG1862"/>
+        <cells uuid="_wpK1JMDdEemLKvLv66UQ2Q" value="PDLG1864"/>
+        <cells uuid="_wpK1JcDdEemLKvLv66UQ2Q" value="PDLG1882"/>
+        <cells uuid="_wpK1JsDdEemLKvLv66UQ2Q" value="PDLG2042"/>
+        <cells uuid="_wpK1J8DdEemLKvLv66UQ2Q" value="PDLG2044"/>
+        <cells uuid="_wpK1KMDdEemLKvLv66UQ2Q" value="PDLG2062"/>
+        <cells uuid="_wpK1KcDdEemLKvLv66UQ2Q" value="PDLG2064"/>
+        <cells uuid="_wpK1KsDdEemLKvLv66UQ2Q" value="PDLG2082"/>
+        <cells uuid="_wpK1K8DdEemLKvLv66UQ2Q" value="PDLG1840"/>
+        <cells uuid="_wpK1LMDdEemLKvLv66UQ2Q" value="PDLG1860"/>
+        <cells uuid="_wpK1LcDdEemLKvLv66UQ2Q" value="PDLG1880"/>
+        <cells uuid="_wpK1LsDdEemLKvLv66UQ2Q" value="PDLG1810"/>
+        <cells uuid="_wpK1L8DdEemLKvLv66UQ2Q" value="PDLG2040"/>
+        <cells uuid="_wpK1MMDdEemLKvLv66UQ2Q" value="PDLG2060"/>
+        <cells uuid="_wpK1McDdEemLKvLv66UQ2Q" value="PDLG2080"/>
+        <cells uuid="_wpK1MsDdEemLKvLv66UQ2Q" value="PDLG2010"/>
+        <cells uuid="_wpK1M8DdEemLKvLv66UQ2Q" value="PDLG8420"/>
+        <cells uuid="_wpK1NMDdEemLKvLv66UQ2Q" value="PDLG8440"/>
+        <cells uuid="_wpK1NcDdEemLKvLv66UQ2Q" value="PDLG8620"/>
+        <cells uuid="_wpK1NsDdEemLKvLv66UQ2Q" value="PDLG8640"/>
+        <cells uuid="_wpK1N8DdEemLKvLv66UQ2Q" value="PDLG8820"/>
+        <cells uuid="_wpK1OMDdEemLKvLv66UQ2Q" value="PDLG2420"/>
+        <cells uuid="_wpK1OcDdEemLKvLv66UQ2Q" value="PDLG2440"/>
+        <cells uuid="_wpK1OsDdEemLKvLv66UQ2Q" value="PDLG2620"/>
+        <cells uuid="_wpK1O8DdEemLKvLv66UQ2Q" value="PDLG2640"/>
+        <cells uuid="_wpK1PMDdEemLKvLv66UQ2Q" value="PDLG2820"/>
+        <cells uuid="_wpK1PcDdEemLKvLv66UQ2Q" value="PDLB1836"/>
+        <cells uuid="_wpK1PsDdEemLKvLv66UQ2Q" value="PDLB1846"/>
+        <cells uuid="_wpK1P8DdEemLKvLv66UQ2Q" value="PDLB1866"/>
+        <cells uuid="_wpK1QMDdEemLKvLv66UQ2Q" value="PDLB1886"/>
+        <cells uuid="_wpK1QcDdEemLKvLv66UQ2Q" value="PDLB1816"/>
+        <cells uuid="_wpK1QsDdEemLKvLv66UQ2Q" value="PDLB2036"/>
+        <cells uuid="_wpK1Q8DdEemLKvLv66UQ2Q" value="PDLB2046"/>
+        <cells uuid="_wpK1RMDdEemLKvLv66UQ2Q" value="PDLB2066"/>
+        <cells uuid="_wpK1RcDdEemLKvLv66UQ2Q" value="PDLB2086"/>
+        <cells uuid="_wpK1RsDdEemLKvLv66UQ2Q" value="PDLB2016"/>
+        <cells uuid="_wpK1R8DdEemLKvLv66UQ2Q" value="PDLB1830"/>
+        <cells uuid="_wpK1SMDdEemLKvLv66UQ2Q" value="PDLB1840"/>
+        <cells uuid="_wpK1ScDdEemLKvLv66UQ2Q" value="PDLB1860"/>
+        <cells uuid="_wpK1SsDdEemLKvLv66UQ2Q" value="PDLB1880"/>
+        <cells uuid="_wpK1S8DdEemLKvLv66UQ2Q" value="PDLB1810"/>
+        <cells uuid="_wpK1TMDdEemLKvLv66UQ2Q" value="PDLB2030"/>
+        <cells uuid="_wpK1TcDdEemLKvLv66UQ2Q" value="PDLB2040"/>
+        <cells uuid="_wpK1TsDdEemLKvLv66UQ2Q" value="PDLB2060"/>
+        <cells uuid="_wpK1T8DdEemLKvLv66UQ2Q" value="PDLB2080"/>
+        <cells uuid="_wpK1UMDdEemLKvLv66UQ2Q" value="PDLB2010"/>
+        <cells uuid="_wpK1UcDdEemLKvLv66UQ2Q" value="PDLG8500"/>
+        <cells uuid="_wpK1UsDdEemLKvLv66UQ2Q" value="PDLG2500"/>
+        <cells uuid="_wpK1U8DdEemLKvLv66UQ2Q" value="PDLB8500"/>
+        <cells uuid="_wpK1VMDdEemLKvLv66UQ2Q" value="PDLB2500"/>
+        <cells uuid="_wpK1VcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1VsDdEemLKvLv66UQ2Q" value="PDLG1856"/>
+        <cells uuid="_wpK1V8DdEemLKvLv66UQ2Q" value="PDLG1876"/>
+        <cells uuid="_wpK1WMDdEemLKvLv66UQ2Q" value="PDLG2056"/>
+        <cells uuid="_wpK1WcDdEemLKvLv66UQ2Q" value="PDLG2066"/>
+        <cells uuid="_wpK1WsDdEemLKvLv66UQ2Q" value="PDLG1850"/>
+        <cells uuid="_wpK1W8DdEemLKvLv66UQ2Q" value="PDLG1870"/>
+        <cells uuid="_wpK1XMDdEemLKvLv66UQ2Q" value="PDLG2050"/>
+        <cells uuid="_wpK1XcDdEemLKvLv66UQ2Q" value="PDLG2070"/>
+        <cells uuid="_wpK1XsDdEemLKvLv66UQ2Q" value="PDLB1826"/>
+        <cells uuid="_wpK1X8DdEemLKvLv66UQ2Q" value="PDLB1856"/>
+        <cells uuid="_wpK1YMDdEemLKvLv66UQ2Q" value="PDLB1876"/>
+        <cells uuid="_wpK1YcDdEemLKvLv66UQ2Q" value="PDLB2026"/>
+        <cells uuid="_wpK1YsDdEemLKvLv66UQ2Q" value="PDLB2056"/>
+        <cells uuid="_wpK1Y8DdEemLKvLv66UQ2Q" value="PDLB2076"/>
+        <cells uuid="_wpK1ZMDdEemLKvLv66UQ2Q" value="PDLB1825"/>
+        <cells uuid="_wpK1ZcDdEemLKvLv66UQ2Q" value="PDLB1850"/>
+        <cells uuid="_wpK1ZsDdEemLKvLv66UQ2Q" value="PDLB1875"/>
+        <cells uuid="_wpK1Z8DdEemLKvLv66UQ2Q" value="PDLB2025"/>
+        <cells uuid="_wpK1aMDdEemLKvLv66UQ2Q" value="PDLB2050"/>
+        <cells uuid="_wpK1acDdEemLKvLv66UQ2Q" value="PDLB2075"/>
+      </columns>
+      <columns uuid="_wpK1a8DdEemLKvLv66UQ2Q" name="BOM2"
+          visibility="100" databaseAlias="BOM2">
+        <cells uuid="_wpK1bMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1bcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1bsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1b8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1cMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ccDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1csDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1c8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1dMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1dcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1dsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1d8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1eMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ecDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1esDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1e8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1fMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1fcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1fsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1f8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1gMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1gcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1gsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1g8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1hMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1hcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1hsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1h8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1iMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1icDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1isDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1i8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1jMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1jcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1jsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1j8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1kMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1kcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ksDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1k8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1lMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1lcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1lsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1l8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1mMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1mcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1msDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1m8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1nMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ncDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1nsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1n8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1oMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ocDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1osDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1o8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1pMDdEemLKvLv66UQ2Q" value="PDLB8120"/>
+        <cells uuid="_wpK1pcDdEemLKvLv66UQ2Q" value="PDLB2120"/>
+        <cells uuid="_wpK1psDdEemLKvLv66UQ2Q" value="PDLB8120"/>
+        <cells uuid="_wpK1p8DdEemLKvLv66UQ2Q" value="PDLB2120"/>
+        <cells uuid="_wpK1qMDdEemLKvLv66UQ2Q" value="'NONE'"/>
+        <cells uuid="_wpK1qcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1qsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1q8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1rMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1rcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1rsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1r8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1sMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1scDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ssDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1s8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1tMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1tcDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1tsDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1t8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1uMDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1ucDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1usDdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1u8DdEemLKvLv66UQ2Q" value="NONE"/>
+        <cells uuid="_wpK1vMDdEemLKvLv66UQ2Q" value="NONE"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_sTTg0CF-Eeq7P423WcbMyA"
+        name="hinge_position" visibility="800" expression="lever_restriction('no_restriction') -> lever_position('left','right');&#xD;&#xA;lever_restriction('left') -> lever_position('left');&#xD;&#xA;lever_restriction('right') -> lever_position('right');"/>
+  </logic>
+  <geometry uuid="_wpK1vsDdEemLKvLv66UQ2Q" deletable="false"
+      name="root">
+    <parentPlugs uuid="_wpK1v8DdEemLKvLv66UQ2Q" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_wpK1wMDdEemLKvLv66UQ2Q" value="Door"/>
+</comp:Component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Zy0EkLzKEemFkuLvjkLDBQ" name="kit_ACB_width1000"
+    toaPrefix="kit.acb">
+  <logic uuid="_Zy0tSbzKEemFkuLvjkLDBQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_Zy0tSrzKEemFkuLvjkLDBQ"
+        name="Expression" visibility="800" expression="kit_width_toa(1000) ->SOFT.device_type_acb('E1.2');&#xD;&#xA;kit_width_toa(1000) ->SOFT.installation_type('Vertical');&#xD;&#xA;kit_width_toa(1000) ->SOFT.number_of_poles(3);&#xD;&#xA;kit_width_toa(1000) ->SOFT.device_version('W');&#xD;&#xA;kit_width_toa(1000) ->SOFT.accessory('Toggle');&#xD;&#xA;kit_width_toa(1000) ->SOFT.number_of_breakers(2);&#xD;&#xA;kit_width_toa(1000) ->SOFT.kit_height_breaker(500);"/>
+  </logic>
+  <template href="_GeBPkLzJEemFkuLvjkLDBQ.xml#_GeBPkLzJEemFkuLvjkLDBQ"/>
+  <geometry uuid="_Zy0tS7zKEemFkuLvjkLDBQ" deletable="false"
+      name="root"/>
+  <displayName uuid="_Zy1SsLzKEemFkuLvjkLDBQ" value="ACB"/>
+</comp:Component>

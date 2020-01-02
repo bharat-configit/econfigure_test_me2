@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_nn9E4LzJEemFkuLvjkLDBQ" name="kit_MCCB_width1000"
+    toaPrefix="kit.mccb">
+  <logic uuid="_noCk6LzJEemFkuLvjkLDBQ" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_noCk6bzJEemFkuLvjkLDBQ"
+        name="Expression" visibility="800" expression="//Setting up the default values of the variables so that when a kit a inserted, by default it should have height of 350. &#xD;&#xA;//(350 is the minimum height possible for width 1000)&#xD;&#xA;kit_width_toa(1000) ->SOFT.device_type_mccb('T5');&#xD;&#xA;kit_width_toa(1000) ->SOFT.installation_type('Vertical');&#xD;&#xA;kit_width_toa(1000) ->SOFT.number_of_poles(3);&#xD;&#xA;kit_width_toa(1000) ->SOFT.device_version('W');&#xD;&#xA;kit_width_toa(1000) ->SOFT.accessory('Toggle');&#xD;&#xA;kit_width_toa(1000) ->SOFT.number_of_breakers(3);&#xD;&#xA;kit_width_toa(1000) ->SOFT.kit_height_breaker(350);"/>
+  </logic>
+  <template href="_3KvIMLzHEemFkuLvjkLDBQ.xml#_3KvIMLzHEemFkuLvjkLDBQ"/>
+  <geometry uuid="_noCk6rzJEemFkuLvjkLDBQ" deletable="false"
+      name="root">
+    <parentPlugs uuid="_noCk67zJEemFkuLvjkLDBQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_noCk7LzJEemFkuLvjkLDBQ" value="MCCB"/>
+</comp:Component>

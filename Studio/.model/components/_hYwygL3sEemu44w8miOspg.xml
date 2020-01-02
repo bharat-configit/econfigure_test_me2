@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_hYwygL3sEemu44w8miOspg"
+    name="template_column_panel_rear_rbbs">
+  <variables xsi:type="comp:VariableGroup" uuid="_hYwzTb3sEemu44w8miOspg"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzTr3sEemu44w8miOspg"
+        name="switchboard_height_toa" visibility="800">
+      <domain uuid="_hYwzUb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzU73sEemu44w8miOspg" bitSet="393230"/>
+        <values uuid="_hYwzVL3sEemu44w8miOspg" name="1800"
+            visibility="300">
+          <displayName uuid="_hYwzVr3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_hYwzV73sEemu44w8miOspg" name="2000"
+            visibility="300">
+          <displayName uuid="_hYwzWb3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_hYwzWr3sEemu44w8miOspg" name="2100"
+            visibility="300">
+          <displayName uuid="_hYwzXL3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzXb3sEemu44w8miOspg"
+        name="switchboard_product_line_toa" visibility="800">
+      <domain uuid="_hYwzYL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzYr3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_K3zXcKDcEea4y48WrJhC7A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzY73sEemu44w8miOspg"
+        name="column_type_toa" visibility="800">
+      <domain uuid="_hYwzZr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzaL3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_OYNOcLKCEemh1aOjJa60HQ"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzab3sEemu44w8miOspg"
+        name="column_width_chain" visibility="800">
+      <domain uuid="_hYwzbL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzbr3sEemu44w8miOspg" bitSet="393218"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzb73sEemu44w8miOspg"
+        name="column_name" visibility="800" initValue=" ">
+      <domain uuid="_hYwzcr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzdL3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_hYwzdb3sEemu44w8miOspg"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzdr3sEemu44w8miOspg"
+        name="height_rear_panel" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet"
+          uuid="_hYwzeb3sEemu44w8miOspg" mirroredVariable="switchboard_height_toa"/>
+      <domain uuid="_hYwzer3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzfL3sEemu44w8miOspg" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzfb3sEemu44w8miOspg"
+        name="width_rear_panel" visibility="800">
+      <facets xsi:type="comp:VariableMirrorConstraintFacet"
+          uuid="_hYwzgL3sEemu44w8miOspg" mirroredVariable="column_width_chain"/>
+      <domain uuid="_hYwzgb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzg73sEemu44w8miOspg" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzhL3sEemu44w8miOspg"
+        name="orientation" visibility="800">
+      <domain uuid="_hYwzh73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzib3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzir3sEemu44w8miOspg"
+        name="open_blind" visibility="800">
+      <domain uuid="_hYwzjb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwzj73sEemu44w8miOspg" bitSet="393231"/>
+        <values uuid="_hYwzkL3sEemu44w8miOspg" name="Aerated"
+            visibility="300">
+          <displayName uuid="_hYwzkr3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_hYwzk73sEemu44w8miOspg" name="Blind"
+            visibility="300">
+          <displayName uuid="_hYwzlb3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_hYwzlr3sEemu44w8miOspg" name="Open"
+            visibility="300">
+          <displayName uuid="_hYwzmL3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="__bwTYPDhEemtOvEkPNQ_AQ" name=""
+            visibility="300">
+          <displayName uuid="__bwTYfDhEemtOvEkPNQ_AQ"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hYwzmb3sEemu44w8miOspg"
+        name="ip" visibility="800">
+      <domain uuid="_hYwznL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_hYwznr3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_WtYsgA3rEeasGKXEZ95g1A"/>
+    </children>
+  </variables>
+  <geometry uuid="_hYwzn73sEemu44w8miOspg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_hYwzoL3sEemu44w8miOspg" name="ParentPlug"/>
+  </geometry>
+  <componentsUsingMe xsi:type="comp:Component" href="_D0QsYINeEeePKcISb7c9TA.xml#_D0QsYINeEeePKcISb7c9TA"/>
+</comp:ComponentTemplate>

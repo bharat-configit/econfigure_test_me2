@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_AMKy8BzwEeqBRJ4t-B2qJQ" name="device_XLP_NH2_trimcover">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_l_vF0BzwEeqBRJ4t-B2qJQ"
+      name="display_xlp_NH2_trimcover" visibility="800">
+    <domain uuid="_l_vF0RzwEeqBRJ4t-B2qJQ" name="local"
+        visibility="300">
+      <typeSet uuid="_l_vF0hzwEeqBRJ4t-B2qJQ" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <calculation uuid="_AMLaFxzwEeqBRJ4t-B2qJQ" name="Calculation_Rules"
+      visibility="800">
+    <text>width_xlp_NH2_trimcover=238;&#xD;
+height_xlp_NH2_trimcover=264;</text>
+  </calculation>
+  <geometry uuid="_AMLaGBzwEeqBRJ4t-B2qJQ" deletable="false"
+      name="root">
+    <units uuid="_AMLaGRzwEeqBRJ4t-B2qJQ" name="geo_device_XLP_NH2_trimcover">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_NNZNkBzwEeqBRJ4t-B2qJQ" name="device_XLP_NH2_trimcover"
+          checksum="d60ab71aaabef3df2d27dfd485b2d9ca2fd87a0f">
+        <translation uuid="_NNZNkRzwEeqBRJ4t-B2qJQ"/>
+        <file href="../../model.build#_LM3gQBzwEeqBRJ4t-B2qJQ"/>
+        <handles uuid="_WssZkBzwEeqBRJ4t-B2qJQ" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_WssZkRzwEeqBRJ4t-B2qJQ"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_xlp_NH2_trimcover"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_XWu1EBzwEeqBRJ4t-B2qJQ"
+              name="heightManipulation" fieldId="height"
+              variableReference="height_xlp_NH2_trimcover"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_X65SEBzwEeqBRJ4t-B2qJQ"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_xlp_NH2_trimcover"
+              target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_AMMBFhzwEeqBRJ4t-B2qJQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_AMMBFxzwEeqBRJ4t-B2qJQ" value="device_XLP_NH1_trimcover"/>
+</comp:Component>

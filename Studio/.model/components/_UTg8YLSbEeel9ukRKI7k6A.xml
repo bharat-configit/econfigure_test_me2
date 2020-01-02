@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_UTg8YLSbEeel9ukRKI7k6A" name="kit_xline_comp_blind_rbbs"
+    toaPrefix="kit.rbbs.comp">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Y7L_gFH2EeiC6vV8sdwTMg"
+      name="kit_position_str1" visibility="800">
+    <facets xsi:type="comp:VariableMirrorConstraintFacet"
+        uuid="_bwicAFH2EeiC6vV8sdwTMg" mirroredVariable="device_pos_x_str"/>
+    <domain uuid="_Y7L_gVH2EeiC6vV8sdwTMg" name="local"
+        visibility="300">
+      <typeSet uuid="_Y7L_glH2EeiC6vV8sdwTMg" bitSet="393220"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_oOrA0GyfEem6l4eiey0GYg"
+      name="height" visibility="800">
+    <domain uuid="_oOrA0WyfEem6l4eiey0GYg" name="local"
+        visibility="300">
+      <typeSet uuid="_oOrA0myfEem6l4eiey0GYg" bitSet="10"/>
+      <values uuid="_qsBNAGyfEem6l4eiey0GYg" name="550"
+          visibility="300">
+        <displayName uuid="_qsBNAWyfEem6l4eiey0GYg"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_SZeWQL3MEemrgdQdkVAlBw"
+      name="fix_element" visibility="800">
+    <domain uuid="_SZeWQ73MEemrgdQdkVAlBw" name="local"
+        visibility="300">
+      <typeSet uuid="_SZeWRb3MEemrgdQdkVAlBw" bitSet="393217"/>
+      <values uuid="_SZeWRr3MEemrgdQdkVAlBw" name="1"
+          visibility="300">
+        <displayName uuid="_SZeWSL3MEemrgdQdkVAlBw"/>
+      </values>
+      <values uuid="_SZeWSb3MEemrgdQdkVAlBw" name="0"
+          visibility="300">
+        <displayName uuid="_SZeWS73MEemrgdQdkVAlBw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_ddpJoLSbEeel9ukRKI7k6A" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_dw9HMLSbEeel9ukRKI7k6A"
+        name="compartment_type" visibility="800" expression="compartment_type(blind);"/>
+  </logic>
+  <calculation uuid="_d9olsFH2EeiC6vV8sdwTMg" name="Calculation_Rules"
+      visibility="800">
+    <text>kit_position_str=kit_position_str1 + &quot;.&quot;;&#xD;
+&#xD;
+if (fix_element == false )  fix_kit_lock=-1;&#xD;
+else  fix_kit_lock=0;&#xD;
+&#xD;
+if (column_type_toa == &quot;switch_disconnector_fuse&quot; || column_type_toa == &quot;xline_ver&quot; || column_type_toa == &quot;fuse_switch_disconnector&quot;)&#xD;
+{&#xD;
+	lock_translation_x = 27 - (50*device_width/2);&#xD;
+	lock_translation_y =125;&#xD;
+}&#xD;
+else if (column_type_toa == &quot;xline_hor&quot; || column_type_toa == &quot;xline_hor50&quot;)&#xD;
+{&#xD;
+	lock_translation_x = 10;&#xD;
+	lock_translation_y =100 - (50*device_width/2);&#xD;
+} </text>
+  </calculation>
+  <template href="_HZm8oLSZEeel9ukRKI7k6A.xml#_HZm8oLSZEeel9ukRKI7k6A"/>
+  <geometry uuid="_UTg8YbSbEeel9ukRKI7k6A" deletable="false"
+      name="root">
+    <units uuid="_puC8MMiREemdz7oBY6EETQ" name="Lock"
+        order="100">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_puC8MciREemdz7oBY6EETQ" variable="lock_translation_y">
+        <vector xsi:type="appl:Coordinate3D" uuid="_puC8M8iREemdz7oBY6EETQ"
+            z="1.0"/>
+      </facets>
+      <children uuid="_puC8NMiREemdz7oBY6EETQ" name="Lock_Symbol"
+          visualEffects="_RFk3AivUEeqJ7cfGAkHMWA">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_puC8NciREemdz7oBY6EETQ" variable="fix_kit_lock">
+          <visualEffect uuid="_RFk3AivUEeqJ7cfGAkHMWA"
+              targets="_puC8NMiREemdz7oBY6EETQ" variable="fix_kit_lock"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_puC8NsiREemdz7oBY6EETQ" variable="lock_translation_x">
+          <vector xsi:type="appl:Coordinate3D" uuid="_puC8OMiREemdz7oBY6EETQ"
+              x="-1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_puC8OciREemdz7oBY6EETQ"
+            name="Box" height="12.0" width="20.0">
+          <translation uuid="_puC8O8iREemdz7oBY6EETQ"
+              x="20.0" z="-110.0"/>
+          <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+          <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+        </twoDElement>
+        <twoDElement xsi:type="comp:TwoDEllipse" uuid="_puC8PMiREemdz7oBY6EETQ"
+            name="Ellipse">
+          <translation uuid="_puC8PsiREemdz7oBY6EETQ"
+              x="25.0" z="-115.0"/>
+          <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+          <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_UTg8YrSbEeel9ukRKI7k6A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bIRLe_7nEeiskp2v5nXzHA" value="Blind Kit"/>
+</comp:Component>

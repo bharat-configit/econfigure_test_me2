@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_0SgrECuaEeqPAP4J7KmR-w" name="column_combiline_empty"
+    componentClass="LINK" cluster="true" toaPrefix="column.empty">
+  <logic uuid="_hUAQgCvYEeqJ7cfGAkHMWA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_hvwYYCvYEeqJ7cfGAkHMWA"
+        name="column_type" visibility="800" expression="column_type(combiline_empty);"/>
+  </logic>
+  <template href="_JduwMCveEeqJ7cfGAkHMWA.xml#_JduwMCveEeqJ7cfGAkHMWA"/>
+  <geometry uuid="_0SgrESuaEeqPAP4J7KmR-w" deletable="false"
+      name="root">
+    <parentPlugs uuid="_0SgrEiuaEeqPAP4J7KmR-w" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_0SgrEyuaEeqPAP4J7KmR-w" value="CombiLine Section"/>
+</comp:Component>

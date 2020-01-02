@@ -1,0 +1,3175 @@
+<reportexport>
+  <report id="document" refid="eConfigure_rbbs_report.rptdesign">
+    <outputs>
+      <output name="eConfigure RBBS Report" orientation="portrait" type="pdf"/>
+    </outputs>
+    <blocks>
+      <block id="00_cover_letter" order="0" refid="00_cover_letter" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="01_introduction" order="1" refid="01_introduction" type="datablock">
+        <parameters>
+          <parameter id="date" value="23.05.2019"/>
+          <parameter id="phone_customer" value=""/>
+          <parameter id="address_customer" value=" "/>
+          <parameter id="validity" value=" "/>
+          <parameter id="description" value=" "/>
+          <parameter id="name_customer" value="Elektro Essel GmbH &amp; Co.KG"/>
+          <parameter id="zip_code_customer" value=" "/>
+          <parameter id="country_customer" value=" "/>
+          <parameter id="mail_customer" value=""/>
+          <parameter id="department_customer" value="Info from quotation system"/>
+          <parameter id="name_user" value="Stephan Hauß"/>
+          <parameter id="mail_user" value=""/>
+          <parameter id="city_customer" value=" "/>
+          <parameter id="phone_user" value=""/>
+          <parameter id="name" value="Stephan Hauß"/>
+          <parameter id="department_user" value="LT"/>
+          <parameter id="currency" value=""/>
+          <parameter id="validity" value=" "/>
+          <parameter id="country_price" value=""/>
+        </parameters>
+      </block>
+      <block id="02_contents" order="2" refid="02_contents" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="column_number" order="0"/>
+              <column name="item" order="1"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="item" value="Column-1"/>
+                <datum id="column_number" value="1"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="03_summary" order="3" refid="03_summary" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="04_design_documentation" order="4" refid="04_design_documentation" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="05_unique_materials" order="5" refid="05_unique_materials" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="Weight" order="9"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="null"/>
+                <datum id="Length" value="8718.0"/>
+                <datum id="PDFLink" value="null"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="null"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="null"/>
+                <datum id="DXFLink" value="null"/>
+                <datum id="Weight" value="31.04"/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="null"/>
+                <datum id="Length" value="35510.0"/>
+                <datum id="PDFLink" value="null"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="null"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="null"/>
+                <datum id="DXFLink" value="null"/>
+                <datum id="Weight" value="252.83"/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="null"/>
+                <datum id="Length" value="8710.0"/>
+                <datum id="PDFLink" value="null"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="null"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="null"/>
+                <datum id="DXFLink" value="null"/>
+                <datum id="Weight" value="23.26"/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="null"/>
+                <datum id="Length" value="19800.0"/>
+                <datum id="PDFLink" value="null"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="null"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="null"/>
+                <datum id="DXFLink" value="null"/>
+                <datum id="Weight" value="88.11"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="06_unique_materials_standard" order="6" refid="06_unique_materials_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="308"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="622"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="202"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="5,588"/>
+                <datum id="Description" value="Hex nut nominal height - 0,8d"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="4,032"/>
+                <datum id="DIN" value="934"/>
+                <datum id="Quantity" value="60"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="6,874"/>
+                <datum id="Description" value="Spring pins (clamping sleeves), light version"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="13,337"/>
+                <datum id="DIN" value="7,346"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="4"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M8x40mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="40"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="null"/>
+                <datum id="Description" value="null"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="null"/>
+                <datum id="DIN" value="null"/>
+                <datum id="Quantity" value="0"/>
+                <datum id="L" value="null"/>
+                <datum id="M" value="null"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="null"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="72"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="07_specific_material" order="7" refid="07_specific_material" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_column" order="8.1" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="1"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.2" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128997.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC218"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value="http://www.shiyam.com"/>
+                <datum id="InsManText1" value="1STS100283R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100283R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129072.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC218"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100262R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100262R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128708.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000183&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC2583"/>
+                <datum id="LibraryText" value="1STD000183"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100326R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100326R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="6">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128997.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC218"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100283R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100283R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="7">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129072.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC218"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100262R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100262R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="8">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="9">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="10">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="ZXMVC1543"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100311R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100311R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=" 1STS100312R0001"/>
+                <datum id="InsManLink2" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100312R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+              </row>
+              <row order="11">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128708.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000183&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC2583"/>
+                <datum id="LibraryText" value="1STD000183"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100326R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100326R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.3" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="56"/>
+                <datum id="L" value="30"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="104"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="5,588"/>
+                <datum id="Description" value="Hex nut nominal height - 0,8d"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,032"/>
+                <datum id="DIN" value="934"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="70"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="6,874"/>
+                <datum id="Description" value="Spring pins (clamping sleeves), light version"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="13,337"/>
+                <datum id="DIN" value="7,346"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="4"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="18">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="19">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="20">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="21">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="22">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="23">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="24">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC218"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="25">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="26">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="56"/>
+                <datum id="L" value="30"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="27">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="104"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="28">
+                <datum id="UNI" value="5,588"/>
+                <datum id="Description" value="Hex nut nominal height - 0,8d"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,032"/>
+                <datum id="DIN" value="934"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="29">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="70"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="30">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC1543"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="24"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="31">
+                <datum id="UNI" value="6,874"/>
+                <datum id="Description" value="Spring pins (clamping sleeves), light version"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="13,337"/>
+                <datum id="DIN" value="7,346"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="4"/>
+              </row>
+              <row order="32">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="33">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMHC2583"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_column" order="8.4" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="2"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.5" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128982.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000200&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC238"/>
+                <datum id="LibraryText" value="1STD000200"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100285R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100285R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128628.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC23783"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100259R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100259R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128632.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC23783"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100259R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100259R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128664.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128666.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128667.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="6">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128671.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="7">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128672.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="8">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128673.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="9">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="10">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="11">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="12">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/804"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="13">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/805"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="14">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/806"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="15">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128976.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000197&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC238"/>
+                <datum id="LibraryText" value="1STD000197"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100265R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100265R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="16">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128982.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000200&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC238"/>
+                <datum id="LibraryText" value="1STD000200"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100285R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100285R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="17">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128628.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC23783"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100259R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100259R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="18">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128632.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC23783"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100259R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100259R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="19">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128664.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="20">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128666.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="21">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128667.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="22">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128671.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="23">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128672.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="24">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128673.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="25">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="26">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="27">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="28">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/804"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="29">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/805"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="30">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/806"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMVC3783"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100226R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100226R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="31">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128976.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000197&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC238"/>
+                <datum id="LibraryText" value="1STD000197"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100265R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100265R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.6" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC238"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC238"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMHC23783"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMHC23783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M8x40mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="20"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="26"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="5,588"/>
+                <datum id="Description" value="Hex nut nominal height - 0,8d"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="4,032"/>
+                <datum id="DIN" value="934"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="null"/>
+                <datum id="Description" value="null"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="null"/>
+                <datum id="DIN" value="null"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="null"/>
+                <datum id="M" value="null"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="12"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC238"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC238"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC238"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC238"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMHC23783"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMHC23783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M8x40mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="20"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="26"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="5,588"/>
+                <datum id="Description" value="Hex nut nominal height - 0,8d"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="4,032"/>
+                <datum id="DIN" value="934"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="18">
+                <datum id="UNI" value="null"/>
+                <datum id="Description" value="null"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="null"/>
+                <datum id="DIN" value="null"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="null"/>
+                <datum id="M" value="null"/>
+              </row>
+              <row order="19">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMVC3783"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="12"/>
+              </row>
+              <row order="20">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC238"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="21">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC238"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_column" order="8.7" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="3"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.8" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129000.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC318"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100287R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100287R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129076.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC318"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100268R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100268R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128750.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC3483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100337R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100337R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129000.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC318"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100287R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100287R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129076.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC318"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100268R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100268R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128750.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC3483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100337R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100337R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.9" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="11"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="11"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC3483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="11"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC318"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="11"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC3483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_column" order="8.10" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="4"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.11" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129080.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC418"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100271R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100271R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129003.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC418"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100289R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100289R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128754.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC4483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100238R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100238R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129080.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC418"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100271R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100271R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129003.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC418"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100289R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100289R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128754.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC4483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100238R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100238R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.12" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC4483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC4483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_column" order="8.13" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="5"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.14" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129080.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC418"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100271R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100271R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129003.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC418"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100289R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100289R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128754.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC4483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100238R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100238R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129080.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC418"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100271R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100271R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129003.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC418"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100289R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100289R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128754.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC4483"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100238R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100238R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.15" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC4483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC418"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="14"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC4483"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="12"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_column" order="8.16" refid="08_specific_material_column" type="datablock">
+        <parameters>
+          <parameter id="order" value="6"/>
+        </parameters>
+      </block>
+      <block id="08_specific_material_copper" order="8.17" refid="08_specific_material_copper" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+              <column name="InsManText1" order="10"/>
+              <column name="InsManLink1" order="11"/>
+              <column name="InsManText2" order="12"/>
+              <column name="InsManLink2" order="13"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128744.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC2463"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100233R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100233R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129070.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000211&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC216"/>
+                <datum id="LibraryText" value="1STD000211"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100260R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100260R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128996.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC217"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100282R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100282R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128744.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMHC2463"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100233R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100233R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129070.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000211&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMNHC216"/>
+                <datum id="LibraryText" value="1STD000211"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100260R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100260R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128996.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="1"/>
+                <datum id="8 Digit Code" value="ZXMPHC217"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value=""/>
+                <datum id="InsManText1" value="1STS100282R0001"/>
+                <datum id="InsManLink1" value="http://search.abb.com/library/Download.aspx?DocumentID=1STS100282R0001&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="InsManText2" value=""/>
+                <datum id="InsManLink2" value=""/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="08_specific_material_standard" order="8.18" refid="08_specific_material_standard" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8_Digit_Code" order="0"/>
+              <column name="DIN" order="1"/>
+              <column name="Description" order="2"/>
+              <column name="ISO" order="3"/>
+              <column name="L" order="4"/>
+              <column name="M" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="UNI" order="7"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC2463"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="1">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="2">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="3">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="4">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="5">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="6">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="7">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="8">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="9">
+                <datum id="UNI" value="10,642"/>
+                <datum id="Description" value="Hexagon socket countersunk head screws (fully threaded)"/>
+                <datum id="8_Digit_Code" value="ZXMHC2463"/>
+                <datum id="ISO" value="10,642"/>
+                <datum id="DIN" value="7,991"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="20"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="10">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="11">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="12">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="13">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMNHC216"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="6"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+              <row order="14">
+                <datum id="UNI" value="5,739"/>
+                <datum id="Description" value="Hex cap screws"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="4,017"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="25"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="15">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="8"/>
+              </row>
+              <row order="16">
+                <datum id="UNI" value="MISSING"/>
+                <datum id="Description" value="Sechskantschraube M10x35mm DIN933 8.8 vz"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="MISSING"/>
+                <datum id="DIN" value="933"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="35"/>
+                <datum id="M" value="19"/>
+              </row>
+              <row order="17">
+                <datum id="UNI" value="8737A"/>
+                <datum id="Description" value="Disc springs"/>
+                <datum id="8_Digit_Code" value="ZXMPHC217"/>
+                <datum id="ISO" value="NULL"/>
+                <datum id="DIN" value="6,796"/>
+                <datum id="Quantity" value="7"/>
+                <datum id="L" value="NULL"/>
+                <datum id="M" value="10"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+      <block id="09_summary_header" order="9" refid="09_summary_header" type="datablock">
+        <parameters>
+          <parameter id="Property" value="empty"/>
+        </parameters>
+      </block>
+      <block id="010_summary_table" order="10" refid="010_summary_table" type="datablock">
+        <datatables>
+          <datatable>
+            <columns>
+              <column name="8 Digit Code" order="0"/>
+              <column name="D" order="1"/>
+              <column name="DXFLink" order="2"/>
+              <column name="Length" order="3"/>
+              <column name="LibraryText" order="4"/>
+              <column name="PDFLink" order="5"/>
+              <column name="Quantity" order="6"/>
+              <column name="SAP IT Component" order="7"/>
+              <column name="W" order="8"/>
+            </columns>
+            <rows>
+              <row order="0">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128997.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="1">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129072.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="2">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="3">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="4">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864808/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000168&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000168"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="5">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128708.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000183&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000183"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="6">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128982.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000200&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000200"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="7">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128628.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="8">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128632.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000169&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000169"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="9">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128664.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="10">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128666.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="11">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128667.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="12">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128671.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="13">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128672.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="14">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128673.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000179&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000179"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="15">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/801"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="16">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/802"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="17">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/803"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="18">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/804"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="19">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/805"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="20">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="864666/806"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000181&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000181"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="21">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128976.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000197&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000197"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="22">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129000.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="23">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129076.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="24">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128750.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="25">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129080.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000210&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000210"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="26">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129003.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="40"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="27">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128754.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="80"/>
+                <datum id="Quantity" value="4"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="28">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128744.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000184&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000184"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="29">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="129070.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000211&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="50"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000211"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+              <row order="30">
+                <datum id="D" value="10"/>
+                <datum id="SAP IT Component" value="128996.0"/>
+                <datum id="Length" value="null"/>
+                <datum id="PDFLink" value="http://search.abb.com/library/Download.aspx?DocumentID=1STD000202&amp;LanguageCode=de&amp;LanguageCode=en&amp;LanguageCode=it&amp;DocumentPartId=pdf&amp;Action=Launch"/>
+                <datum id="W" value="30"/>
+                <datum id="Quantity" value="2"/>
+                <datum id="8 Digit Code" value="null"/>
+                <datum id="LibraryText" value="1STD000202"/>
+                <datum id="DXFLink" value="null"/>
+              </row>
+            </rows>
+          </datatable>
+        </datatables>
+      </block>
+    </blocks>
+  </report>
+</reportexport>

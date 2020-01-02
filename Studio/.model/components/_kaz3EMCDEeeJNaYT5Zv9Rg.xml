@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_kaz3EMCDEeeJNaYT5Zv9Rg" name="device_compensator_50"
+    componentClass="LINK" toaPrefix="device.com">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_cF2m4L3KEemrgdQdkVAlBw"
+      name="fix_element" visibility="800">
+    <domain uuid="_cF2m473KEemrgdQdkVAlBw" name="local"
+        visibility="300">
+      <typeSet uuid="_cF2m5b3KEemrgdQdkVAlBw" bitSet="393217"/>
+      <values uuid="_cF2m5r3KEemrgdQdkVAlBw" name="1"
+          visibility="300">
+        <displayName uuid="_cF2m6L3KEemrgdQdkVAlBw"/>
+      </values>
+      <values uuid="_cF2m6b3KEemrgdQdkVAlBw" name="0"
+          visibility="300">
+        <displayName uuid="_cF2m673KEemrgdQdkVAlBw"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_kaz6u8CDEeeJNaYT5Zv9Rg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_kaz6vMCDEeeJNaYT5Zv9Rg"
+        name="device_width" visibility="800" expression="device_width(1);"/>
+  </logic>
+  <calculation uuid="_VPQAQMTBEemfvZM8523mDA" name="Calculation_Rules"
+      visibility="800">
+    <text>if (fix_element == false )  fix_kit_lock=-1;&#xD;
+else  fix_kit_lock=0;&#xD;
+&#xD;
+if (column_type_toa == &quot;switch_disconnector_fuse&quot; || column_type_toa == &quot;xline_ver&quot; || column_type_toa == &quot;fuse_switch_disconnector&quot;)&#xD;
+{&#xD;
+	lock_translation_x = 10;&#xD;
+	lock_translation_y =125;&#xD;
+}&#xD;
+else if (column_type_toa == &quot;xline_hor&quot; || column_type_toa == &quot;xline_hor50&quot;)&#xD;
+{&#xD;
+	lock_translation_x = 10;&#xD;
+	lock_translation_y =80;&#xD;
+} &#xD;
+else if (column_type_toa == &quot;inline&quot;)&#xD;
+{&#xD;
+	lock_translation_x = 10;&#xD;
+	lock_translation_y =125;&#xD;
+} </text>
+  </calculation>
+  <template href="_eVdpcML0EeeHtOmYDMn_TA.xml#_eVdpcML0EeeHtOmYDMn_TA"/>
+  <geometry uuid="_kaz6vcCDEeeJNaYT5Zv9Rg" deletable="false"
+      name="root">
+    <units uuid="_TnxFEMTBEemfvZM8523mDA" name="Lock"
+        order="100">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_TnxFEcTBEemfvZM8523mDA" variable="lock_translation_y">
+        <vector xsi:type="appl:Coordinate3D" uuid="_TnxFE8TBEemfvZM8523mDA"
+            z="1.0"/>
+      </facets>
+      <children uuid="_TnxFFMTBEemfvZM8523mDA" name="Geo_Unit"
+          visualEffects="_RFohcivUEeqJ7cfGAkHMWA">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_TnxFFcTBEemfvZM8523mDA" variable="fix_kit_lock">
+          <visualEffect uuid="_RFohcivUEeqJ7cfGAkHMWA"
+              targets="_TnxFFMTBEemfvZM8523mDA" variable="fix_kit_lock"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_TnxFFsTBEemfvZM8523mDA" variable="lock_translation_x">
+          <vector xsi:type="appl:Coordinate3D" uuid="_TnxFGMTBEemfvZM8523mDA"
+              x="-1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_TnxFGcTBEemfvZM8523mDA"
+            name="Box" height="12.0" width="20.0">
+          <translation uuid="_TnxFG8TBEemfvZM8523mDA"
+              x="20.0" z="-110.0"/>
+          <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+          <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+        </twoDElement>
+        <twoDElement xsi:type="comp:TwoDEllipse" uuid="_TnxFHMTBEemfvZM8523mDA"
+            name="Ellipse">
+          <translation uuid="_TnxFHsTBEemfvZM8523mDA"
+              x="25.0" z="-115.0"/>
+          <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+          <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_kaz6vsCDEeeJNaYT5Zv9Rg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_bH_eo_7nEeiskp2v5nXzHA" value="50 mm compensator"/>
+</comp:Component>

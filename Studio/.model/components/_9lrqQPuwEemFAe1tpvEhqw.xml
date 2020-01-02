@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_9lrqQPuwEemFAe1tpvEhqw" name="kit_blindpanel_tbbs"
+    toaPrefix="kit.tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_GzT3cPuxEemFAe1tpvEhqw"
+      name="width" visibility="800">
+    <domain uuid="_GzT3cfuxEemFAe1tpvEhqw" name="local"
+        visibility="300">
+      <typeSet uuid="_GzT3cvuxEemFAe1tpvEhqw" bitSet="393226"/>
+    </domain>
+  </variables>
+  <template href="_5wLWAAbtEeqneLt6x5V8pw.xml#_5wLWAAbtEeqneLt6x5V8pw"/>
+  <geometry uuid="_9lrqQfuwEemFAe1tpvEhqw" deletable="false"
+      name="root">
+    <parentPlugs uuid="_9lrqQvuwEemFAe1tpvEhqw" name="ParentPlug"/>
+  </geometry>
+  <viewerControls uuid="_MH_RkCetEeqEtJCYsc16CQ">
+    <controls xsi:type="comp:DragSensor" uuid="_MH_RkSetEeqEtJCYsc16CQ"
+        name="Drag_Sensor_y">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <geoUnit xsi:type="comp:GeoUnit" href="_NSoDgJvmEemplMdpNoX4ag.xml#_ki6iABH5EeqWt4h_9j4rbg"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_MH_RkietEeqEtJCYsc16CQ" key="drag-yy"
+          inverseAxis="y">
+        <variables uuid="_MH_RkyetEeqEtJCYsc16CQ" axis="y"
+            order="1" scale="-1.0" variable="height"/>
+        <variables uuid="_MH_RlCetEeqEtJCYsc16CQ" axis="y"
+            order="2" variable="pos.y"/>
+      </groups>
+    </controls>
+    <controls xsi:type="comp:DragSensor" uuid="_MH_RlSetEeqEtJCYsc16CQ"
+        name="Drag_Sensor_y_neg">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <geoUnit xsi:type="comp:GeoUnit" href="_NSoDgJvmEemplMdpNoX4ag.xml#_tdwWEBH5EeqWt4h_9j4rbg"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_MH_RlietEeqEtJCYsc16CQ" key="drag-yy"
+          inverseAxis="y">
+        <variables uuid="_MH_RlyetEeqEtJCYsc16CQ" axis="y"
+            order="1" variable="height"/>
+      </groups>
+    </controls>
+  </viewerControls>
+  <displayName uuid="_9lrqQ_uwEemFAe1tpvEhqw" value="Blind Kit"/>
+</comp:Component>

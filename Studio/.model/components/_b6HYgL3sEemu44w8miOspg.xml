@@ -1,0 +1,3262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_b6HYgL3sEemu44w8miOspg"
+    name="template_column_panel_bottom_n185">
+  <variables xsi:type="comp:VariableGroup" uuid="_b6IpmL3sEemu44w8miOspg"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6Ipmb3sEemu44w8miOspg"
+        name="column_type_toa" visibility="800" initValue="">
+      <domain uuid="_b6JNsL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JNsr3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_j8iC0LUEEemqvcKtx-_tpg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JNs73sEemu44w8miOspg"
+        name="switchboard_depth_toa" visibility="800">
+      <domain uuid="_b6JNtr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JNuL3sEemu44w8miOspg" bitSet="393226"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_m0ILYP9CEearRL6Z9LV5qg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JNub3sEemu44w8miOspg"
+        name="switchboard_product_line_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JNvL3sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" select="CLOSEST"
+          priority="1000"/>
+      <domain uuid="_b6JNvb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JNv73sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_K3zXcKDcEea4y48WrJhC7A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JNwL3sEemu44w8miOspg"
+        name="column_width_chain" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JNw73sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" select="CLOSEST"
+          priority="100">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_b6JNxL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JNxr3sEemu44w8miOspg" bitSet="393230"/>
+        <values uuid="_b6JNx73sEemu44w8miOspg" deletable="false"
+            name="250" visibility="300">
+          <displayName uuid="_b6JNyb3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JNyr3sEemu44w8miOspg" deletable="false"
+            name="300" visibility="300">
+          <displayName uuid="_b6JNzL3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JNzb3sEemu44w8miOspg" deletable="false"
+            name="400" visibility="300">
+          <displayName uuid="_b6JNz73sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN0L3sEemu44w8miOspg" deletable="false"
+            name="500" visibility="300">
+          <displayName uuid="_b6JN0r3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN073sEemu44w8miOspg" deletable="false"
+            name="700" visibility="300">
+          <displayName uuid="_b6JN1b3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN1r3sEemu44w8miOspg" deletable="false"
+            name="750" visibility="300">
+          <displayName uuid="_b6JN2L3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN2b3sEemu44w8miOspg" deletable="false"
+            name="900" visibility="300">
+          <displayName uuid="_b6JN273sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN3L3sEemu44w8miOspg" deletable="false"
+            name="1000" visibility="300">
+          <displayName uuid="_b6JN3r3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN373sEemu44w8miOspg" deletable="false"
+            name="1100" visibility="300">
+          <displayName uuid="_b6JN4b3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN4r3sEemu44w8miOspg" deletable="false"
+            name="1250" visibility="300">
+          <displayName uuid="_b6JN5L3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN5b3sEemu44w8miOspg" name="600"
+            visibility="300">
+          <displayName uuid="_b6JN573sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN6L3sEemu44w8miOspg" name="800"
+            visibility="300">
+          <displayName uuid="_b6JN6r3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JN673sEemu44w8miOspg"
+        name="switchboard_base_height_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JN7r3sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" select="CLOSEST"
+          priority="100" rollback="ILLEGAL"/>
+      <domain uuid="_b6JN773sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JN8b3sEemu44w8miOspg" bitSet="393226"/>
+        <values uuid="_b6JN8r3sEemu44w8miOspg" name="0"
+            visibility="300">
+          <displayName uuid="_b6JN9L3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN9b3sEemu44w8miOspg" name="100"
+            visibility="300">
+          <displayName uuid="_b6JN973sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN-L3sEemu44w8miOspg" name="200"
+            visibility="300">
+          <displayName uuid="_b6JN-r3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JN-73sEemu44w8miOspg" name="300"
+            visibility="300">
+          <displayName uuid="_b6JN_b3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JN_r3sEemu44w8miOspg"
+        name="colour_fill" visibility="800" initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JOAb3sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" flow="IN">
+        <priorities href="../product_model.xml#_cqseUXSwEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_b6JOAr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOBL3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Lg-BcBtfEeapHPoUarFNjg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOBb3sEemu44w8miOspg"
+        name="colour_fill_bottom" visibility="800" initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JOCL3sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" flow="OUT">
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_b6JOCb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOC73sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Lg-BcBtfEeapHPoUarFNjg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JODL3sEemu44w8miOspg"
+        name="switchboard_style_toa" visibility="800"
+        initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JOD73sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_b6JOEL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOEr3sEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_b6JOE73sEemu44w8miOspg" deletable="false"
+            name="Smooth" visibility="300">
+          <displayName uuid="_b6JOFb3sEemu44w8miOspg"
+              value="Smooth"/>
+        </values>
+        <values uuid="_b6JOFr3sEemu44w8miOspg" deletable="false"
+            name="Textured" visibility="300">
+          <displayName uuid="_b6JOGL3sEemu44w8miOspg"
+              value="Textured"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOGb3sEemu44w8miOspg"
+        name="style" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_b6JOHL3sEemu44w8miOspg" declared="true"
+          model="_b6JPsr3sEemu44w8miOspg" flow="OUT">
+        <priorities href="../product_model.xml#_BYJdsXSxEeO0QL2ZiJsN_Q"/>
+      </facets>
+      <domain uuid="_b6JOHb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOH73sEemu44w8miOspg" bitSet="393231"/>
+        <values uuid="_b6JOIL3sEemu44w8miOspg" name="Smooth"
+            visibility="300">
+          <displayName uuid="_b6JOIr3sEemu44w8miOspg"
+              value="Smooth"/>
+        </values>
+        <values uuid="_b6JOI73sEemu44w8miOspg" name="Textured"
+            visibility="300">
+          <displayName uuid="_b6JOJb3sEemu44w8miOspg"
+              value="Textured"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOJr3sEemu44w8miOspg"
+        name="column_name" visibility="800" initValue=" ">
+      <domain uuid="_b6JOKb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOK73sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOLL3sEemu44w8miOspg"
+        name="flange1_toa" visibility="800">
+      <domain uuid="_b6JOL73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOMb3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_b6JOMr3sEemu44w8miOspg"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOM73sEemu44w8miOspg"
+        name="display_twinline_open_blind" visibility="800">
+      <domain uuid="_b6JONr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOOL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOOb3sEemu44w8miOspg"
+        name="display_blind" visibility="800">
+      <domain uuid="_b6JOPL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOPr3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOP73sEemu44w8miOspg"
+        name="display_spep_open" visibility="800" initValue="none">
+      <domain uuid="_b6JOQr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JORL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JORb3sEemu44w8miOspg"
+        name="scale_highlighter" visibility="800">
+      <domain uuid="_b6JOSL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOSr3sEemu44w8miOspg" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOS73sEemu44w8miOspg"
+        name="show_scale_highlighter" visibility="800">
+      <domain uuid="_b6JOTr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOUL3sEemu44w8miOspg" bitSet="393217"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOUb3sEemu44w8miOspg"
+        name="display_spep_open_D300" visibility="800">
+      <domain uuid="_b6JOVL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOVr3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOV73sEemu44w8miOspg"
+        name="display_grid600" visibility="800">
+      <domain uuid="_b6JOWr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOXL3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOXb3sEemu44w8miOspg"
+        name="display_grid800" visibility="800">
+      <domain uuid="_b6JOYL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOYr3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOY73sEemu44w8miOspg"
+        name="display_grid1000" visibility="800">
+      <domain uuid="_b6JOZr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOaL3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOab3sEemu44w8miOspg"
+        name="display_rbbs_open_aerated" visibility="800">
+      <domain uuid="_b6JObL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JObr3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOb73sEemu44w8miOspg"
+        name="display_rbbs_open_W400" visibility="800">
+      <domain uuid="_b6JOcr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOdL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOdb3sEemu44w8miOspg"
+        name="display_rbbs_open_W500" visibility="800">
+      <domain uuid="_b6JOeL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOer3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOe73sEemu44w8miOspg"
+        name="display_rbbs_open_W600" visibility="800">
+      <domain uuid="_b6JOfr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOgL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOgb3sEemu44w8miOspg"
+        name="display_rbbs_open_W800" visibility="800">
+      <domain uuid="_b6JOhL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOhr3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOh73sEemu44w8miOspg"
+        name="display_rbbs_open_W1000" visibility="800">
+      <domain uuid="_b6JOir3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOjL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOjb3sEemu44w8miOspg"
+        name="display_rbbs_open_W1200" visibility="800">
+      <domain uuid="_b6JOkL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOkr3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JOk73sEemu44w8miOspg"
+        name="display_rbbs_open_W1350" visibility="800">
+      <domain uuid="_b6JOlr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JOmL3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:VariableGroup" uuid="_b6JOmb3sEemu44w8miOspg"
+        name="rbbs_open_aerated_grids" visibility="800">
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOmr3sEemu44w8miOspg"
+          name="display_grid1_500" visibility="800">
+        <domain uuid="_b6JOnb3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOn73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOoL3sEemu44w8miOspg"
+          name="display_grid1_600" visibility="800">
+        <domain uuid="_b6JOo73sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOpb3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOpr3sEemu44w8miOspg"
+          name="display_grid1_800" visibility="800">
+        <domain uuid="_b6JOqb3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOq73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOrL3sEemu44w8miOspg"
+          name="display_grid1_1000" visibility="800">
+        <domain uuid="_b6JOr73sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOsb3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOsr3sEemu44w8miOspg"
+          name="display_grid1_1200" visibility="800">
+        <domain uuid="_b6JOtb3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOt73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOuL3sEemu44w8miOspg"
+          name="display_grid1_1350" visibility="800">
+        <domain uuid="_b6JOu73sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOvb3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOvr3sEemu44w8miOspg"
+          name="display_grid2_500" visibility="800">
+        <domain uuid="_b6JOwb3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOw73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOxL3sEemu44w8miOspg"
+          name="display_grid2_600" visibility="800">
+        <domain uuid="_b6JOx73sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOyb3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JOyr3sEemu44w8miOspg"
+          name="display_grid2_800" visibility="800">
+        <domain uuid="_b6JOzb3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JOz73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO0L3sEemu44w8miOspg"
+          name="display_grid2_1000" visibility="800">
+        <domain uuid="_b6JO073sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO1b3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO1r3sEemu44w8miOspg"
+          name="display_grid2_1200" visibility="800">
+        <domain uuid="_b6JO2b3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO273sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO3L3sEemu44w8miOspg"
+          name="display_grid2_1350" visibility="800">
+        <domain uuid="_b6JO373sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO4b3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO4r3sEemu44w8miOspg"
+          name="display_grid3_500" visibility="800">
+        <domain uuid="_b6JO5b3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO573sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO6L3sEemu44w8miOspg"
+          name="display_grid3_600" visibility="800">
+        <domain uuid="_b6JO673sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO7b3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO7r3sEemu44w8miOspg"
+          name="display_grid3_800" visibility="800">
+        <domain uuid="_b6JO8b3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO873sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO9L3sEemu44w8miOspg"
+          name="display_grid3_1000" visibility="800">
+        <domain uuid="_b6JO973sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO-b3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JO-r3sEemu44w8miOspg"
+          name="display_grid3_1200" visibility="800">
+        <domain uuid="_b6JO_b3sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JO_73sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+      <children xsi:type="comp:DeclaredVariable" uuid="_b6JPAL3sEemu44w8miOspg"
+          name="display_grid3_1350" visibility="800">
+        <domain uuid="_b6JPA73sEemu44w8miOspg" name="local"
+            visibility="300">
+          <typeSet uuid="_b6JPBb3sEemu44w8miOspg" bitSet="393231"/>
+        </domain>
+        <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+      </children>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPBr3sEemu44w8miOspg"
+        name="display_rbbs_open_W400_internal" visibility="800">
+      <domain uuid="_b6JPCb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPC73sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPDL3sEemu44w8miOspg"
+        name="display_rbbs_withoutPanel" visibility="800">
+      <domain uuid="_b6JPD73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPEb3sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPEr3sEemu44w8miOspg"
+        name="dispaly_rbbs_XLH_Bottom_Panel" visibility="800"
+        initValue="none">
+      <domain uuid="_b6JPFb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPF73sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPGL3sEemu44w8miOspg"
+        name="display_openPanel_triline" visibility="800">
+      <domain uuid="_b6JPG73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPHb3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPHr3sEemu44w8miOspg"
+        name="display_screwRB_LB" visibility="800">
+      <domain uuid="_b6JPIb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPI73sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPJL3sEemu44w8miOspg"
+        name="display_cap" visibility="800">
+      <domain uuid="_b6JPJ73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPKb3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPKr3sEemu44w8miOspg"
+        name="display_L1_L3_R1_R3" visibility="800">
+      <domain uuid="_b6JPLb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPL73sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPML3sEemu44w8miOspg"
+        name="display_T1_T3_B1_B3" visibility="800">
+      <domain uuid="_b6JPM73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPNb3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPNr3sEemu44w8miOspg"
+        name="display_blind_rear" visibility="800">
+      <domain uuid="_b6JPOb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPO73sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPPL3sEemu44w8miOspg"
+        name="display_rear_ext_cable_plinth_tbbs" visibility="800"
+        initValue="none">
+      <domain uuid="_b6JPP73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPQb3sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPQr3sEemu44w8miOspg"
+        name="display_screws_bottom_panel" visibility="800">
+      <domain uuid="_b6JPRb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPR73sEemu44w8miOspg" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPSL3sEemu44w8miOspg"
+        name="visibility_ext_plinth_left_right" visibility="800"
+        initValue="hidden">
+      <domain uuid="_b6JPS73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPTb3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_rVeTUN5LEea2xdweQ60krA"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPTr3sEemu44w8miOspg"
+        name="display_rbbs_XLH_bottom_withoutpanel"
+        visibility="800">
+      <domain uuid="_b6JPUb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPU73sEemu44w8miOspg" bitSet="4"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_b6JPVL3sEemu44w8miOspg"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPVb3sEemu44w8miOspg"
+        name="open_blind" visibility="800">
+      <domain uuid="_b6JPWL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPWr3sEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_b6JPW73sEemu44w8miOspg" deletable="false"
+            name="Blind" visibility="300">
+          <displayName uuid="_b6JPXb3sEemu44w8miOspg"
+              value="Blind Panel"/>
+        </values>
+        <values uuid="_b6JPXr3sEemu44w8miOspg" deletable="false"
+            name="Open_flange" visibility="300">
+          <displayName uuid="_b6JPYL3sEemu44w8miOspg"
+              value="Open with flange"/>
+        </values>
+        <values uuid="_b6JPYb3sEemu44w8miOspg" name="Open_blind_flange"
+            visibility="300">
+          <displayName uuid="_b6JPY73sEemu44w8miOspg"
+              value="Open with blind flange"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPZL3sEemu44w8miOspg"
+        name="position" visibility="800">
+      <domain uuid="_b6JPZ73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPab3sEemu44w8miOspg" bitSet="393220"/>
+        <values uuid="_b6JPar3sEemu44w8miOspg" deletable="false"
+            name="External" visibility="300">
+          <displayName uuid="_b6JPbL3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPbb3sEemu44w8miOspg" deletable="false"
+            name="Internal" visibility="300">
+          <displayName uuid="_b6JPb73sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPcL3sEemu44w8miOspg"
+        name="cable_entry" visibility="800">
+      <domain uuid="_b6JPc73sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPdb3sEemu44w8miOspg" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_AY1-EApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPdr3sEemu44w8miOspg"
+        name="ip" visibility="800" initValue="65">
+      <domain uuid="_b6JPeb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPe73sEemu44w8miOspg" bitSet="393226"/>
+        <values uuid="_b6JPfL3sEemu44w8miOspg" name="30"
+            visibility="300">
+          <displayName uuid="_b6JPfr3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPf73sEemu44w8miOspg" name="40"
+            visibility="300">
+          <displayName uuid="_b6JPgb3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPgr3sEemu44w8miOspg" name="55"
+            visibility="300">
+          <displayName uuid="_b6JPhL3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPhb3sEemu44w8miOspg" name="65"
+            visibility="300">
+          <displayName uuid="_b6JPh73sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPiL3sEemu44w8miOspg" name="0"
+            visibility="300">
+          <displayName uuid="_b6JPir3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+      <domainGlobal href="../product_model.xml#_WtYsgA3rEeasGKXEZ95g1A"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPi73sEemu44w8miOspg"
+        name="orientation" visibility="800">
+      <domain uuid="_b6JPjr3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPkL3sEemu44w8miOspg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPkb3sEemu44w8miOspg"
+        name="panel_type" visibility="800">
+      <domain uuid="_b6JPlL3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPlr3sEemu44w8miOspg" bitSet="393231"/>
+        <values uuid="_b6JPl73sEemu44w8miOspg" name="bottom"
+            visibility="300">
+          <displayName uuid="_b6JPmb3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_b6JPmr3sEemu44w8miOspg"
+        name="cable_entry_ratio" visibility="800">
+      <domain uuid="_b6JPnb3sEemu44w8miOspg" name="local"
+          visibility="300">
+        <typeSet uuid="_b6JPn73sEemu44w8miOspg" bitSet="393226"/>
+        <values uuid="_b6JPoL3sEemu44w8miOspg" deletable="false"
+            name="0" visibility="300">
+          <displayName uuid="_b6JPor3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPo73sEemu44w8miOspg" deletable="false"
+            name="1" visibility="300">
+          <displayName uuid="_b6JPpb3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPpr3sEemu44w8miOspg" name="2"
+            visibility="300">
+          <displayName uuid="_b6JPqL3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPqb3sEemu44w8miOspg" name="3"
+            visibility="300">
+          <displayName uuid="_b6JPq73sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPrL3sEemu44w8miOspg" name="4"
+            visibility="300">
+          <displayName uuid="_b6JPrr3sEemu44w8miOspg"/>
+        </values>
+        <values uuid="_b6JPr73sEemu44w8miOspg" name="5"
+            visibility="300">
+          <displayName uuid="_b6JPsb3sEemu44w8miOspg"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_b6JPsr3sEemu44w8miOspg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_b6JPs73sEemu44w8miOspg"
+        name="twinline_flange_cutout_visibility_bottom"
+        visibility="800">
+      <columns uuid="_b6JPw73sEemu44w8miOspg" name="cable_entry"
+          visibility="100" databaseAlias="cable_entry">
+        <cells uuid="_b6JPxL3sEemu44w8miOspg" value="0"/>
+        <cells uuid="_b6JPxb3sEemu44w8miOspg" value="1"/>
+        <cells uuid="_b6JPxr3sEemu44w8miOspg" value="2"/>
+        <cells uuid="_b6JPx73sEemu44w8miOspg" value="2"/>
+        <cells uuid="_b6JPyL3sEemu44w8miOspg" value="3"/>
+        <cells uuid="_b6JPyb3sEemu44w8miOspg" value="4"/>
+        <cells uuid="_b6JPyr3sEemu44w8miOspg" value="4"/>
+        <cells uuid="_b6JPy73sEemu44w8miOspg" value="5"/>
+        <cells uuid="_b6JPzL3sEemu44w8miOspg" value="6"/>
+        <cells uuid="_b6JPzb3sEemu44w8miOspg" value="6"/>
+        <cells uuid="_b6JPzr3sEemu44w8miOspg" value="8"/>
+        <cells uuid="_b6JPz73sEemu44w8miOspg" value="8"/>
+        <cells uuid="_b6JP0L3sEemu44w8miOspg" value="10"/>
+      </columns>
+      <columns uuid="_b6JP0r3sEemu44w8miOspg" name="column_width_chain"
+          visibility="100" databaseAlias="column_width_chain">
+        <cells uuid="_b6JP073sEemu44w8miOspg" value="?"/>
+        <cells uuid="_b6JP1L3sEemu44w8miOspg" value="?"/>
+        <cells uuid="_b6JP1b3sEemu44w8miOspg" value="300,250"/>
+        <cells uuid="_b6JP1r3sEemu44w8miOspg" value="500,1250,900,1100"/>
+        <cells uuid="_b6JP173sEemu44w8miOspg" value="?"/>
+        <cells uuid="_b6JP2L3sEemu44w8miOspg" value="500"/>
+        <cells uuid="_b6JP2b3sEemu44w8miOspg" value="1000"/>
+        <cells uuid="_b6JP2r3sEemu44w8miOspg" value="?"/>
+        <cells uuid="_b6JP273sEemu44w8miOspg" value="!"/>
+        <cells uuid="_b6JP3L3sEemu44w8miOspg" value="750"/>
+        <cells uuid="_b6JP3b3sEemu44w8miOspg" value="!"/>
+        <cells uuid="_b6JP3r3sEemu44w8miOspg" value="1000"/>
+        <cells uuid="_b6JP373sEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_b6JP4b3sEemu44w8miOspg" name="visibility_co1"
+          visibility="100" databaseAlias="visibility_co1">
+        <cells uuid="_b6JP4r3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JP473sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP5L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP5b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP5r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP573sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP6L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP6b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP6r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP673sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP7L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP7b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP7r3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JP8L3sEemu44w8miOspg" name="visibility_co2"
+          visibility="100" databaseAlias="visibility_co2">
+        <cells uuid="_b6JP8b3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JP8r3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JP873sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JP9L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP9b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP9r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP973sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP-L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP-b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP-r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP-73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP_L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JP_b3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JP_73sEemu44w8miOspg" name="visibility_co3"
+          visibility="100" databaseAlias="visibility_co3">
+        <cells uuid="_b6JQAL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQAb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQAr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQA73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQBL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQBb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQBr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQB73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQCL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQCb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQCr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQC73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQDL3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQDr3sEemu44w8miOspg" name="visibility_co4"
+          visibility="100" databaseAlias="visibility_co4">
+        <cells uuid="_b6JQD73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQEL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQEb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQEr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQE73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQFL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQFb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQFr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQF73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQGL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQGb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQGr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQG73sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQHb3sEemu44w8miOspg" name="visibility_co5"
+          visibility="100" databaseAlias="visibility_co5">
+        <cells uuid="_b6JQHr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQH73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQIL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQIb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQIr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQI73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQJL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQJb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQJr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQJ73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQKL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQKb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQKr3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQLL3sEemu44w8miOspg" name="visibility_co6"
+          visibility="100" databaseAlias="visibility_co6">
+        <cells uuid="_b6JQLb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQLr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQL73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQML3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQMb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQMr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQM73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQNL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQNb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQNr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQN73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQOL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQOb3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQO73sEemu44w8miOspg" name="visibility_co7"
+          visibility="100" databaseAlias="visibility_co7">
+        <cells uuid="_b6JQPL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQPb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQPr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQP73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQQL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQQb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQQr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQQ73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQRL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQRb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQRr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQR73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQSL3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQSr3sEemu44w8miOspg" name="visibility_co8"
+          visibility="100" databaseAlias="visibility_co8">
+        <cells uuid="_b6JQS73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQTL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQTb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQTr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQT73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQUL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQUb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQUr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQU73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQVL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQVb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQVr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQV73sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQWb3sEemu44w8miOspg" name="visibility_co9"
+          visibility="100" databaseAlias="visibility_co9">
+        <cells uuid="_b6JQWr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQW73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQXL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQXb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQXr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQX73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQYL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQYb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQYr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQY73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQZL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQZb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQZr3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQaL3sEemu44w8miOspg" name="visibility_co10"
+          visibility="100" databaseAlias="visibility_co10">
+        <cells uuid="_b6JQab3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQar3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQa73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQbL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQbb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQbr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQb73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQcL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQcb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQcr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQc73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQdL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQdb3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_b6JQd73sEemu44w8miOspg"
+        name="flange_set_role" visibility="800" expression="!cable_entry(0) ->flange_set_role (flange_set_n185);&#xD;&#xA;cable_entry(0) ->flange_set_role (NONE);"/>
+    <children xsi:type="array:Expression" uuid="_b6JQeL3sEemu44w8miOspg"
+        name="position" visibility="800" expression="!open_blind('without panel') and switchboard_base_height_toa(0) ->position(Internal); &#xD;&#xA;//switchboard_product_line_toa(n185,empty) and  !open_blind('without panel') and !switchboard_base_height_toa(0) ->position(External);&#xD;&#xA;open_blind('without panel') -> position('NONE');"/>
+    <children xsi:type="array:TableRelation" uuid="_b6JQeb3sEemu44w8miOspg"
+        name="spep_open_screw_visibility_new" visibility="800">
+      <columns uuid="_b6JQh73sEemu44w8miOspg" name="switchboard_depth_toa"
+          visibility="100" databaseAlias="switchboard_depth_toa">
+        <cells uuid="_b6JQiL3sEemu44w8miOspg" value="200"/>
+        <cells uuid="_b6JQib3sEemu44w8miOspg" value="200"/>
+        <cells uuid="_b6JQir3sEemu44w8miOspg" value="300"/>
+        <cells uuid="_b6JQi73sEemu44w8miOspg" value="300"/>
+        <cells uuid="_b6JQjL3sEemu44w8miOspg" value="500,700"/>
+        <cells uuid="_b6JQjb3sEemu44w8miOspg" value="500,700,900"/>
+        <cells uuid="_b6JQjr3sEemu44w8miOspg" value="900"/>
+        <cells uuid="_b6JQj73sEemu44w8miOspg" value="500"/>
+        <cells uuid="_b6JQkL3sEemu44w8miOspg" value="200,300,700,900"/>
+        <cells uuid="_b6JQkb3sEemu44w8miOspg" value="!"/>
+      </columns>
+      <columns uuid="_b6JQlL3sEemu44w8miOspg" name="column_width_chain"
+          visibility="100" databaseAlias="column_width_chain">
+        <cells uuid="_b6JQlb3sEemu44w8miOspg" value="250,500"/>
+        <cells uuid="_b6JQlr3sEemu44w8miOspg" value="750,1000,1250"/>
+        <cells uuid="_b6JQl73sEemu44w8miOspg" value="250"/>
+        <cells uuid="_b6JQmL3sEemu44w8miOspg" value="500,700,750,900,1000,1100,1250"/>
+        <cells uuid="_b6JQmb3sEemu44w8miOspg" value="250"/>
+        <cells uuid="_b6JQmr3sEemu44w8miOspg" value="400,500,700,750,900,1000,1100,1250"/>
+        <cells uuid="_b6JQm73sEemu44w8miOspg" value="250"/>
+        <cells uuid="_b6JQnL3sEemu44w8miOspg" value="300"/>
+        <cells uuid="_b6JQnb3sEemu44w8miOspg" value="300"/>
+        <cells uuid="_b6JQnr3sEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_b6JQob3sEemu44w8miOspg" name="visibility_L1"
+          visibility="100" databaseAlias="visibility_L1">
+        <cells uuid="_b6JQor3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQo73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQpL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQpb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQpr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQp73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQqL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQqb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQqr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQq73sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQrr3sEemu44w8miOspg" name="visibility_L2"
+          visibility="100" databaseAlias="visibility_L2">
+        <cells uuid="_b6JQr73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQsL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQsb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQsr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQs73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQtL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQtb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQtr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQt73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQuL3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQu73sEemu44w8miOspg" name="visibility_L3"
+          visibility="100" databaseAlias="visibility_L3">
+        <cells uuid="_b6JQvL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQvb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQvr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQv73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQwL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQwb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQwr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQw73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQxL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQxb3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQyL3sEemu44w8miOspg" name="visibility_T1"
+          visibility="100" databaseAlias="visibility_T1">
+        <cells uuid="_b6JQyb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQyr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQy73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQzL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQzb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQzr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQz73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ0L3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ0b3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ0r3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQ1b3sEemu44w8miOspg" name="visibility_T2"
+          visibility="100" databaseAlias="visibility_T2">
+        <cells uuid="_b6JQ1r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ173sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ2L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ2b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ2r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ273sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ3L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ3b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ3r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ373sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQ4r3sEemu44w8miOspg" name="visibility_T3"
+          visibility="100" databaseAlias="visibility_T3">
+        <cells uuid="_b6JQ473sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ5L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ5b3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ5r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ573sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ6L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ6b3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ6r3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ673sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ7L3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQ773sEemu44w8miOspg" name="visibility_R1"
+          visibility="100" databaseAlias="visibility_R1">
+        <cells uuid="_b6JQ8L3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ8b3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ8r3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ873sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ9L3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ9b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ9r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ973sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ-L3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JQ-b3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JQ_L3sEemu44w8miOspg" name="visibility_R2"
+          visibility="100" databaseAlias="visibility_R2">
+        <cells uuid="_b6JQ_b3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ_r3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JQ_73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRAL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRAb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRAr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRA73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRBL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRBb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRBr3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JRCb3sEemu44w8miOspg" name="visibility_R3"
+          visibility="100" databaseAlias="visibility_R3">
+        <cells uuid="_b6JRCr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRC73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRDL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRDb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRDr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRD73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JREL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JREb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JREr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRE73sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JRFr3sEemu44w8miOspg" name="visibility_B1"
+          visibility="100" databaseAlias="visibility_B1">
+        <cells uuid="_b6JRF73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRGL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRGb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRGr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRG73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRHL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRHb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRHr3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRH73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRIL3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JRI73sEemu44w8miOspg" name="visibility_B2"
+          visibility="100" databaseAlias="visibility_B2">
+        <cells uuid="_b6JRJL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRJb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRJr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRJ73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRKL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRKb3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRKr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRK73sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRLL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRLb3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+      <columns uuid="_b6JRML3sEemu44w8miOspg" name="visibility_B3"
+          visibility="100" databaseAlias="visibility_B3">
+        <cells uuid="_b6JRMb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRMr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRM73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRNL3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRNb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JRNr3sEemu44w8miOspg" value="'visible'"/>
+        <cells uuid="_b6JRN73sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JROL3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JROb3sEemu44w8miOspg" value="'hidden'"/>
+        <cells uuid="_b6JROr3sEemu44w8miOspg" value="'visible'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_b6JRPb3sEemu44w8miOspg"
+        name="style_fill_new" visibility="800">
+      <columns uuid="_b6JRPr3sEemu44w8miOspg" name="colour_fill"
+          visibility="100" databaseAlias="colour_fill">
+        <cells uuid="_b6JRP73sEemu44w8miOspg" value="#d0b084"/>
+        <cells uuid="_b6JRQL3sEemu44w8miOspg" value="#d2aa6d"/>
+        <cells uuid="_b6JRQb3sEemu44w8miOspg" value="#e49e00"/>
+        <cells uuid="_b6JRQr3sEemu44w8miOspg" value="#e3d9c6"/>
+        <cells uuid="_b6JRQ73sEemu44w8miOspg" value="#ddc49a"/>
+        <cells uuid="_b6JRRL3sEemu44w8miOspg" value="#e6d2b5"/>
+        <cells uuid="_b6JRRb3sEemu44w8miOspg" value="#f1dd38"/>
+        <cells uuid="_b6JRRr3sEemu44w8miOspg" value="#faca30"/>
+        <cells uuid="_b6JRR73sEemu44w8miOspg" value="#a48f7a"/>
+        <cells uuid="_b6JRSL3sEemu44w8miOspg" value="#f6b600"/>
+        <cells uuid="_b6JRSb3sEemu44w8miOspg" value="#f7b500"/>
+        <cells uuid="_b6JRSr3sEemu44w8miOspg" value="#bf3922"/>
+        <cells uuid="_b6JRS73sEemu44w8miOspg" value="#e25303"/>
+        <cells uuid="_b6JRTL3sEemu44w8miOspg" value="#ed6b21"/>
+        <cells uuid="_b6JRTb3sEemu44w8miOspg" value="#de5307"/>
+        <cells uuid="_b6JRTr3sEemu44w8miOspg" value="#a72920"/>
+        <cells uuid="_b6JRT73sEemu44w8miOspg" value="#9b2321"/>
+        <cells uuid="_b6JRUL3sEemu44w8miOspg" value="#861a22"/>
+        <cells uuid="_b6JRUb3sEemu44w8miOspg" value="#6b1c23"/>
+        <cells uuid="_b6JRUr3sEemu44w8miOspg" value="#792423"/>
+        <cells uuid="_b6JRU73sEemu44w8miOspg" value="#bb1e10"/>
+        <cells uuid="_b6JRVL3sEemu44w8miOspg" value="#76689a"/>
+        <cells uuid="_b6JRVb3sEemu44w8miOspg" value="#314f6f"/>
+        <cells uuid="_b6JRVr3sEemu44w8miOspg" value="#00387b"/>
+        <cells uuid="_b6JRV73sEemu44w8miOspg" value="#1f3855"/>
+        <cells uuid="_b6JRWL3sEemu44w8miOspg" value="#225f78"/>
+        <cells uuid="_b6JRWb3sEemu44w8miOspg" value="#004f7c"/>
+        <cells uuid="_b6JRWr3sEemu44w8miOspg" value="#0089b6"/>
+        <cells uuid="_b6JRW73sEemu44w8miOspg" value="#007cb0"/>
+        <cells uuid="_b6JRXL3sEemu44w8miOspg" value="#005b8c"/>
+        <cells uuid="_b6JRXb3sEemu44w8miOspg" value="#058b8c"/>
+        <cells uuid="_b6JRXr3sEemu44w8miOspg" value="#366735"/>
+        <cells uuid="_b6JRX73sEemu44w8miOspg" value="#325928"/>
+        <cells uuid="_b6JRYL3sEemu44w8miOspg" value="#50533c"/>
+        <cells uuid="_b6JRYb3sEemu44w8miOspg" value="#27352a"/>
+        <cells uuid="_b6JRYr3sEemu44w8miOspg" value="#6c7c59"/>
+        <cells uuid="_b6JRY73sEemu44w8miOspg" value="#b9ceac"/>
+        <cells uuid="_b6JRZL3sEemu44w8miOspg" value="#37422f"/>
+        <cells uuid="_b6JRZb3sEemu44w8miOspg" value="#8a9977"/>
+        <cells uuid="_b6JRZr3sEemu44w8miOspg" value="#008351"/>
+        <cells uuid="_b6JRZ73sEemu44w8miOspg" value="#005f4e"/>
+        <cells uuid="_b6JRaL3sEemu44w8miOspg" value="#7ebab5"/>
+        <cells uuid="_b6JRab3sEemu44w8miOspg" value="#006f3d"/>
+        <cells uuid="_b6JRar3sEemu44w8miOspg" value="#7a888e"/>
+        <cells uuid="_b6JRa73sEemu44w8miOspg" value="#8c969d"/>
+        <cells uuid="_b6JRbL3sEemu44w8miOspg" value="#9b9b9b"/>
+        <cells uuid="_b6JRbb3sEemu44w8miOspg" value="#6c6e6b"/>
+        <cells uuid="_b6JRbr3sEemu44w8miOspg" value="#766a5e"/>
+        <cells uuid="_b6JRb73sEemu44w8miOspg" value="#52595d"/>
+        <cells uuid="_b6JRcL3sEemu44w8miOspg" value="#575d5e"/>
+        <cells uuid="_b6JRcb3sEemu44w8miOspg" value="#4f5358"/>
+        <cells uuid="_b6JRcr3sEemu44w8miOspg" value="#383e42"/>
+        <cells uuid="_b6JRc73sEemu44w8miOspg" value="#2f3234"/>
+        <cells uuid="_b6JRdL3sEemu44w8miOspg" value="#4c4a44"/>
+        <cells uuid="_b6JRdb3sEemu44w8miOspg" value="#45494e"/>
+        <cells uuid="_b6JRdr3sEemu44w8miOspg" value="#928e85"/>
+        <cells uuid="_b6JRd73sEemu44w8miOspg" value="#5b686d"/>
+        <cells uuid="_b6JReL3sEemu44w8miOspg" value="#b5b0a1"/>
+        <cells uuid="_b6JReb3sEemu44w8miOspg" value="#c5c7c4"/>
+        <cells uuid="_b6JRer3sEemu44w8miOspg" value="#979392"/>
+        <cells uuid="_b6JRe73sEemu44w8miOspg" value="#7a7b7a"/>
+        <cells uuid="_b6JRfL3sEemu44w8miOspg" value="#b0b0a9"/>
+        <cells uuid="_b6JRfb3sEemu44w8miOspg" value="#989ea1"/>
+        <cells uuid="_b6JRfr3sEemu44w8miOspg" value="#4f5250"/>
+        <cells uuid="_b6JRf73sEemu44w8miOspg" value="#b7b3a8"/>
+        <cells uuid="_b6JRgL3sEemu44w8miOspg" value="#8d9295"/>
+        <cells uuid="_b6JRgb3sEemu44w8miOspg" value="#7f868a"/>
+        <cells uuid="_b6JRgr3sEemu44w8miOspg" value="#c8c8c7"/>
+        <cells uuid="_b6JRg73sEemu44w8miOspg" value="#e9e0d2"/>
+        <cells uuid="_b6JRhL3sEemu44w8miOspg" value="#d7d5cb"/>
+        <cells uuid="_b6JRhb3sEemu44w8miOspg" value="#ecece7"/>
+        <cells uuid="_b6JRhr3sEemu44w8miOspg" value="#0e0e10"/>
+        <cells uuid="_b6JRh73sEemu44w8miOspg" value="#878581"/>
+        <cells uuid="_b6JRiL3sEemu44w8miOspg" value="#f1ece1"/>
+        <cells uuid="_b6JRib3sEemu44w8miOspg" value="#f1f0ea"/>
+        <cells uuid="_b6JRir3sEemu44w8miOspg" value="?"/>
+        <cells uuid="_b6JRi73sEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_b6JRjL3sEemu44w8miOspg" name="colour_fill_bottom"
+          visibility="100" databaseAlias="colour_fill_bottom">
+        <cells uuid="_b6JRjb3sEemu44w8miOspg" value="#d0b084"/>
+        <cells uuid="_b6JRjr3sEemu44w8miOspg" value="#d2aa6d"/>
+        <cells uuid="_b6JRj73sEemu44w8miOspg" value="#e49e00"/>
+        <cells uuid="_b6JRkL3sEemu44w8miOspg" value="#e3d9c6"/>
+        <cells uuid="_b6JRkb3sEemu44w8miOspg" value="#ddc49a"/>
+        <cells uuid="_b6JRkr3sEemu44w8miOspg" value="#e6d2b5"/>
+        <cells uuid="_b6JRk73sEemu44w8miOspg" value="#f1dd38"/>
+        <cells uuid="_b6JRlL3sEemu44w8miOspg" value="#faca30"/>
+        <cells uuid="_b6JRlb3sEemu44w8miOspg" value="#a48f7a"/>
+        <cells uuid="_b6JRlr3sEemu44w8miOspg" value="#f6b600"/>
+        <cells uuid="_b6JRl73sEemu44w8miOspg" value="#f7b500"/>
+        <cells uuid="_b6JRmL3sEemu44w8miOspg" value="#bf3922"/>
+        <cells uuid="_b6JRmb3sEemu44w8miOspg" value="#e25303"/>
+        <cells uuid="_b6JRmr3sEemu44w8miOspg" value="#ed6b21"/>
+        <cells uuid="_b6JRm73sEemu44w8miOspg" value="#de5307"/>
+        <cells uuid="_b6JRnL3sEemu44w8miOspg" value="#a72920"/>
+        <cells uuid="_b6JRnb3sEemu44w8miOspg" value="#9b2321"/>
+        <cells uuid="_b6JRnr3sEemu44w8miOspg" value="#861a22"/>
+        <cells uuid="_b6JRn73sEemu44w8miOspg" value="#6b1c23"/>
+        <cells uuid="_b6JRoL3sEemu44w8miOspg" value="#792423"/>
+        <cells uuid="_b6JRob3sEemu44w8miOspg" value="#bb1e10"/>
+        <cells uuid="_b6JRor3sEemu44w8miOspg" value="#76689a"/>
+        <cells uuid="_b6JRo73sEemu44w8miOspg" value="#314f6f"/>
+        <cells uuid="_b6JRpL3sEemu44w8miOspg" value="#00387b"/>
+        <cells uuid="_b6JRpb3sEemu44w8miOspg" value="#1f3855"/>
+        <cells uuid="_b6JRpr3sEemu44w8miOspg" value="#225f78"/>
+        <cells uuid="_b6JRp73sEemu44w8miOspg" value="#004f7c"/>
+        <cells uuid="_b6JRqL3sEemu44w8miOspg" value="#0089b6"/>
+        <cells uuid="_b6JRqb3sEemu44w8miOspg" value="#007cb0"/>
+        <cells uuid="_b6JRqr3sEemu44w8miOspg" value="#005b8c"/>
+        <cells uuid="_b6JRq73sEemu44w8miOspg" value="#058b8c"/>
+        <cells uuid="_b6JRrL3sEemu44w8miOspg" value="#366735"/>
+        <cells uuid="_b6JRrb3sEemu44w8miOspg" value="#325928"/>
+        <cells uuid="_b6JRrr3sEemu44w8miOspg" value="#50533c"/>
+        <cells uuid="_b6JRr73sEemu44w8miOspg" value="#27352a"/>
+        <cells uuid="_b6JRsL3sEemu44w8miOspg" value="#6c7c59"/>
+        <cells uuid="_b6JRsb3sEemu44w8miOspg" value="#b9ceac"/>
+        <cells uuid="_b6JRsr3sEemu44w8miOspg" value="#37422f"/>
+        <cells uuid="_b6JRs73sEemu44w8miOspg" value="#8a9977"/>
+        <cells uuid="_b6JRtL3sEemu44w8miOspg" value="#008351"/>
+        <cells uuid="_b6JRtb3sEemu44w8miOspg" value="#005f4e"/>
+        <cells uuid="_b6JRtr3sEemu44w8miOspg" value="#7ebab5"/>
+        <cells uuid="_b6JRt73sEemu44w8miOspg" value="#006f3d"/>
+        <cells uuid="_b6JRuL3sEemu44w8miOspg" value="#7a888e"/>
+        <cells uuid="_b6JRub3sEemu44w8miOspg" value="#8c969d"/>
+        <cells uuid="_b6JRur3sEemu44w8miOspg" value="#9b9b9b"/>
+        <cells uuid="_b6JRu73sEemu44w8miOspg" value="#6c6e6b"/>
+        <cells uuid="_b6JRvL3sEemu44w8miOspg" value="#766a5e"/>
+        <cells uuid="_b6JRvb3sEemu44w8miOspg" value="#52595d"/>
+        <cells uuid="_b6JRvr3sEemu44w8miOspg" value="#575d5e"/>
+        <cells uuid="_b6JRv73sEemu44w8miOspg" value="#4f5358"/>
+        <cells uuid="_b6JRwL3sEemu44w8miOspg" value="#383e42"/>
+        <cells uuid="_b6JRwb3sEemu44w8miOspg" value="#2f3234"/>
+        <cells uuid="_b6JRwr3sEemu44w8miOspg" value="#4c4a44"/>
+        <cells uuid="_b6JRw73sEemu44w8miOspg" value="#45494e"/>
+        <cells uuid="_b6JRxL3sEemu44w8miOspg" value="#928e85"/>
+        <cells uuid="_b6JRxb3sEemu44w8miOspg" value="#5b686d"/>
+        <cells uuid="_b6JRxr3sEemu44w8miOspg" value="#b5b0a1"/>
+        <cells uuid="_b6JRx73sEemu44w8miOspg" value="#c5c7c4"/>
+        <cells uuid="_b6JRyL3sEemu44w8miOspg" value="#979392"/>
+        <cells uuid="_b6JRyb3sEemu44w8miOspg" value="#7a7b7a"/>
+        <cells uuid="_b6JRyr3sEemu44w8miOspg" value="#b0b0a9"/>
+        <cells uuid="_b6JRy73sEemu44w8miOspg" value="#989ea1"/>
+        <cells uuid="_b6J0wL3sEemu44w8miOspg" value="#4f5250"/>
+        <cells uuid="_b6J0wb3sEemu44w8miOspg" value="#b7b3a8"/>
+        <cells uuid="_b6J0wr3sEemu44w8miOspg" value="#8d9295"/>
+        <cells uuid="_b6J0w73sEemu44w8miOspg" value="#7f868a"/>
+        <cells uuid="_b6J0xL3sEemu44w8miOspg" value="#c8c8c7"/>
+        <cells uuid="_b6J0xb3sEemu44w8miOspg" value="#e9e0d2"/>
+        <cells uuid="_b6J0xr3sEemu44w8miOspg" value="#d7d5cb"/>
+        <cells uuid="_b6J0x73sEemu44w8miOspg" value="#ecece7"/>
+        <cells uuid="_b6J0yL3sEemu44w8miOspg" value="#0e0e10"/>
+        <cells uuid="_b6J0yb3sEemu44w8miOspg" value="#878581"/>
+        <cells uuid="_b6J0yr3sEemu44w8miOspg" value="#f1ece1"/>
+        <cells uuid="_b6J0y73sEemu44w8miOspg" value="#f1f0ea"/>
+        <cells uuid="_b6J0zL3sEemu44w8miOspg" value="#c5c7c4"/>
+        <cells uuid="_b6J0zb3sEemu44w8miOspg" value="?"/>
+      </columns>
+      <columns uuid="_b6J0zr3sEemu44w8miOspg" name="position"
+          visibility="100" databaseAlias="position">
+        <cells uuid="_b6J0z73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J00L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J00b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J00r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0073sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J01L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J01b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J01r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0173sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J02L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J02b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J02r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0273sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J03L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J03b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J03r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0373sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J04L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J04b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J04r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0473sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J05L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J05b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J05r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0573sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J06L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J06b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J06r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0673sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J07L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J07b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J07r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0773sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J08L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J08b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J08r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0873sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J09L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J09b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J09r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0973sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0-L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0-b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0-r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0-73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0_L3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0_b3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0_r3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J0_73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1AL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Ab3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Ar3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1A73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1BL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Bb3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Br3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1B73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1CL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Cb3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Cr3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1C73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1DL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Db3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Dr3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1D73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1EL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Eb3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Er3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1E73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1FL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Fb3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Fr3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1F73sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1GL3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Gb3sEemu44w8miOspg" value="'External'"/>
+        <cells uuid="_b6J1Gr3sEemu44w8miOspg" value="'Internal'"/>
+        <cells uuid="_b6J1G73sEemu44w8miOspg" value="'NONE'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_b6J1HL3sEemu44w8miOspg"
+        name="Special Colour" visibility="800" expression="//position('Internal')->colour_fill_bottom('#c5c7c4') and style('Textured') ;&#xD;&#xA;//position('External')->colour_fill_bottom=colour_fill and style=switchboard_style_toa;&#xD;&#xA;position('Internal')-> style('Textured') ;&#xD;&#xA;position('External')->style=switchboard_style_toa;&#xD;&#xA;"/>
+  </logic>
+  <calculation uuid="_b6J1Hb3sEemu44w8miOspg" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************product rules here****************************************&#xD;
+//Concatinations needed for export dictionary mapping&#xD;
+posBlindCable = position + open_blind +cable_entry+&quot;&quot;;&#xD;
+//bom_top_bottom_panels = &quot;&quot;+panel_type+panel_product_line+column_width_chain+switchboard_depth_toa+position + open_blind +cable_entry+cable_entry_rows;&#xD;
+//***************************svg area - Start*******************************************&#xD;
+width_column_outside=column_width_chain+99;&#xD;
+depth_column_outside=switchboard_depth_toa+99;&#xD;
+&#xD;
+move_y_rear = depth_column_outside;&#xD;
+display_blind_rear = &quot;none&quot;;&#xD;
+&#xD;
+&#xD;
+if (switchboard_rear_cable_container_depth_toa == 300 &amp;&amp; switchboard_rear_cable_container_position_toa==&quot;external&quot;) &#xD;
+{depth_column_outside=switchboard_depth_toa+99;&#xD;
+	display_blind_rear = &quot;inline&quot;;&#xD;
+	rear_ext_height = 300;&#xD;
+	move_y_blind_rear =-750;&#xD;
+}&#xD;
+else if (switchboard_rear_cable_container_depth_toa == 500 &amp;&amp; switchboard_rear_cable_container_position_toa==&quot;external&quot;) &#xD;
+{depth_column_outside=switchboard_depth_toa+99;&#xD;
+		display_blind_rear = &quot;inline&quot;;&#xD;
+		rear_ext_height = 500;&#xD;
+		move_y_blind_rear =-550;}&#xD;
+&#xD;
+	//spep - open vs (twinline - open &amp; blind)&#xD;
+	if ((panel_product_line==&quot;blind&quot; &amp;&amp; open_blind==&quot;Open_blind_flange&quot;) || (switchboard_product_line_toa==&quot;tbbs&quot; &amp;&amp; panel_type_bottom==&quot;open_blind_flange&quot;) ) display_spep_open=&quot;inline&quot;;&#xD;
+	else display_spep_open=&quot;none&quot;;&#xD;
+&#xD;
+	&#xD;
+	//blind panel for spep and triline&#xD;
+	move_x_blind=width_column_outside-1349;&#xD;
+	move_y_blind=depth_column_outside-1047;&#xD;
+	&#xD;
+	//blind panel for empty enclosures&#xD;
+	move_x_spep_open_screws=width_column_outside-1349;&#xD;
+	&#xD;
+	//triline screw&#xD;
+	if (switchboard_product_line_toa==&quot;n185&quot; &amp;&amp; open_blind==&quot;Open_flange&quot; &amp;&amp; switchboard_depth_toa==300){&#xD;
+		display_screwRB_LB=&quot;none&quot;;&#xD;
+	}&#xD;
+	&#xD;
+	//empty enclosure screws visibility&#xD;
+	if (switchboard_product_line_toa==&quot;empty&quot; &amp;&amp; open_blind==&quot;Open_blind_flange&quot; &amp;&amp; column_width_chain==250)&#xD;
+		display_T1_T3_B1_B3=&quot;none&quot;;&#xD;
+	else &#xD;
+			display_T1_T3_B1_B3=&quot;inline&quot;;	&#xD;
+	&#xD;
+	if (switchboard_product_line_toa==&quot;empty&quot; &amp;&amp; open_blind==&quot;Open_blind_flange&quot; &amp;&amp; depth_column_outside==299)&#xD;
+		display_L1_L3_R1_R3=&quot;none&quot;;&#xD;
+	else &#xD;
+		display_L1_L3_R1_R3=&quot;inline&quot;;&#xD;
+	&#xD;
+	//triline cutout&#xD;
+	if (depth_column_outside==399) {&#xD;
+		width_cutout_triline=385;&#xD;
+		//move_y_cutout_triline=133.5;&#xD;
+		}&#xD;
+	else { &#xD;
+		width_cutout_triline=470;&#xD;
+		//move_y_cutout_triline=130;&#xD;
+	}&#xD;
+	&#xD;
+	move_x_cutout_triline=(column_width_chain/2)-(width_cutout_triline/2)-15;&#xD;
+	//triline cutout end&#xD;
+	&#xD;
+	if(panel_product_line==&quot;triline&quot; &amp;&amp; open_blind==&quot;Open_flange&quot; &amp;&amp; cable_entry==1 )  display_openPanel_triline =&quot;inline&quot;;&#xD;
+	else display_openPanel_triline =&quot;none&quot;;&#xD;
+	&#xD;
+	if ((panel_product_line==&quot;spep&quot; &amp;&amp; open_blind==&quot;Blind&quot;) || (panel_product_line==&quot;triline&quot; &amp;&amp; switchboard_product_line_toa == &quot;n185&quot;))&#xD;
+	display_blind=&quot;inline&quot;;&#xD;
+	else display_blind=&quot;none&quot;;&#xD;
+	&#xD;
+	if (panel_product_line==&quot;twinline&quot; &amp;&amp; open_blind==&quot;Open_flange&quot;) display_twinline_open_blind=&quot;inline&quot;;&#xD;
+	else display_twinline_open_blind=&quot;none&quot;;&#xD;
+	&#xD;
+	if(panel_product_line==&quot;blind&quot; &amp;&amp; open_blind==&quot;Open_blind_flange&quot; &amp;&amp; cable_entry >0 )  display_spep_open_D300 =&quot;inline&quot;;&#xD;
+	else display_spep_open_D300 =&quot;none&quot;;&#xD;
+	&#xD;
+	if(switchboard_product_line_toa==&quot;empty&quot; &amp;&amp; open_blind==&quot;Open_flange&quot; &amp;&amp; switchboard_depth_toa==200)  display_spep_open_D300 =&quot;inline&quot;;&#xD;
+	else display_spep_open_D300 =&quot;none&quot;;&#xD;
+	&#xD;
+	if ((panel_product_line==&quot;blind&quot; &amp;&amp; open_blind==&quot;Open_blind_flange&quot;) || (switchboard_product_line_toa==&quot;tbbs&quot; &amp;&amp; panel_type_bottom==&quot;open_blind_flange&quot;)  ) // &amp;&amp; switchboard_depth_toa!=200) &#xD;
+	{&#xD;
+		height_spep_open_cutout=depth_column_outside-110.5*2;&#xD;
+		width_spep_open_cutout=width_column_outside-110.5*2;&#xD;
+		move_x_spep_open_screws=width_column_outside-1349;&#xD;
+		move_y_spep_open_screws=depth_column_outside-1047;&#xD;
+		move_x_spep_open_screws_middle=move_x_spep_open_screws/2;&#xD;
+		move_y_spep_open_screws_middle=move_y_spep_open_screws/2;&#xD;
+		}&#xD;
+	else {&#xD;
+		move_x_twinline_screws=width_column_outside-1349;&#xD;
+		move_y_twinline_screws=depth_column_outside-847;&#xD;
+	}&#xD;
+	&#xD;
+		if (switchboard_depth_toa ==200)move_y_row1=-92+((299-91)/2);&#xD;
+		else move_y_row1=-105+depth_column_outside-226;&#xD;
+		move_y_row2=-355+depth_column_outside-476;&#xD;
+		&#xD;
+	if (show_scale_highlighter) scale_highlighter=1;&#xD;
+	else scale_highlighter=0;&#xD;
+	&#xD;
+	if (column_width_chain >= 250) visibility_D300_co1 = &quot;visible&quot;;&#xD;
+	else visibility_D300_co1 =&quot;hidden&quot;;&#xD;
+	if (column_width_chain >= 500) visibility_D300_co2 = &quot;visible&quot;;&#xD;
+	else visibility_D300_co2 =&quot;hidden&quot;;&#xD;
+	if (column_width_chain >= 750) visibility_D300_co3 = &quot;visible&quot;;&#xD;
+	else visibility_D300_co3 =&quot;hidden&quot;;&#xD;
+	if (column_width_chain >= 1000) visibility_D300_co4 = &quot;visible&quot;;&#xD;
+	else visibility_D300_co4 =&quot;hidden&quot;;&#xD;
+	if (column_width_chain >= 1250) visibility_D300_co5 = &quot;visible&quot;;&#xD;
+	else visibility_D300_co5 =&quot;hidden&quot;;&#xD;
+	&#xD;
+move_x_rbbs_cabinetFrameR = width_column_outside -599;&#xD;
+move_y_rbbs_cabinetFrameR =depth_column_outside -599;&#xD;
+if (switchboard_product_line_toa == &quot;rearbusbar&quot; &amp;&amp; (open_blind ==&quot;Open+Aerated&quot; || open_blind == &quot;Aerated&quot;) ) {&#xD;
+		if ( column_type_toa ==&quot;xline_hor&quot;)	&#xD;
+		{&#xD;
+			dispaly_rbbs_XLH_Bottom_Panel=&quot;inline&quot;;&#xD;
+				display_rbbs_open_aerated = &quot;none&quot;;&#xD;
+	display_rbbs_withoutPanel = &quot;none&quot;;&#xD;
+			display_rbbs_XLH_bottom_withoutpanel = &quot;none&quot;;&#xD;
+		}&#xD;
+		else&#xD;
+		{			&#xD;
+	display_rbbs_open_aerated = &quot;inline&quot;;&#xD;
+	display_rbbs_withoutPanel = &quot;none&quot;;&#xD;
+		display_rbbs_XLH_bottom_withoutpanel = &quot;none&quot;;&#xD;
+	move_y_rbbs_open_aerated_screws = depth_column_outside - 970 - 28.5;&#xD;
+	height_cutout_W400 = switchboard_depth_toa-140;&#xD;
+	if (width_column_outside == 399 &amp;&amp; position == &quot;External&quot;) display_rbbs_open_W400 =&quot;inline&quot;;	else display_rbbs_open_W400 =&quot;none&quot;;&#xD;
+	if( width_column_outside == 399 &amp;&amp; position == &quot;Internal&quot;) display_rbbs_open_W400_internal = &quot;inline&quot;;&#xD;
+	else display_rbbs_open_W400_internal = &quot;none&quot;;&#xD;
+	if (width_column_outside == 499) display_rbbs_open_W500 = &quot;inline&quot;; else display_rbbs_open_W500 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 599) display_rbbs_open_W600 = &quot;inline&quot;; else display_rbbs_open_W600 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 799) display_rbbs_open_W800 = &quot;inline&quot;; else display_rbbs_open_W800 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 999) display_rbbs_open_W1000 = &quot;inline&quot;; else display_rbbs_open_W1000 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1199) display_rbbs_open_W1200 = &quot;inline&quot;; else display_rbbs_open_W1200 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1349) display_rbbs_open_W1350 = &quot;inline&quot;; else display_rbbs_open_W1350 = &quot;none&quot;;&#xD;
+&#xD;
+	if (width_column_outside == 399 &amp;&amp; depth_column_outside == 999) display_grid1000 = &quot;inline&quot;; else display_grid1000 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 399 &amp;&amp; depth_column_outside == 799) display_grid800 = &quot;inline&quot;; else display_grid800 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 399 &amp;&amp; depth_column_outside == 599) display_grid600 = &quot;inline&quot;; else display_grid600 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 499 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_500 = &quot;inline&quot;; else display_grid3_500 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 499 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_500 = &quot;inline&quot;; else display_grid2_500 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 499 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_500 = &quot;inline&quot;; else display_grid1_500 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 599 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_600 = &quot;inline&quot;; else display_grid3_600 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 599 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_600 = &quot;inline&quot;; else display_grid2_600 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 599 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_600 = &quot;inline&quot;; else display_grid1_600 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 799 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_800 = &quot;inline&quot;; else display_grid3_800 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 799 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_800 = &quot;inline&quot;; else display_grid2_800 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 799 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_800 = &quot;inline&quot;; else display_grid1_800 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 999 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_1000 = &quot;inline&quot;; else display_grid3_1000 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 999 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_1000 = &quot;inline&quot;; else display_grid2_1000 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 999 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_1000 = &quot;inline&quot;; else display_grid1_1000 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 1199 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_1200 = &quot;inline&quot;; else display_grid3_1200 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1199 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_1200 = &quot;inline&quot;; else display_grid2_1200 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1199 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_1200 = &quot;inline&quot;; else display_grid1_1200 = &quot;none&quot;;&#xD;
+	&#xD;
+	if (width_column_outside == 1349 &amp;&amp; switchboard_depth_toa >= 500) display_grid3_1350 = &quot;inline&quot;; else display_grid3_1350 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1349 &amp;&amp; switchboard_depth_toa >= 700) display_grid2_1350 = &quot;inline&quot;; else display_grid2_1350 = &quot;none&quot;;&#xD;
+	if (width_column_outside == 1349 &amp;&amp; switchboard_depth_toa >= 900) display_grid1_1350 = &quot;inline&quot;; else display_grid1_1350 = &quot;none&quot;;&#xD;
+	}&#xD;
+	&#xD;
+}&#xD;
+else if ((switchboard_product_line_toa == &quot;rearbusbar&quot; ||  switchboard_product_line_toa == &quot;n185&quot;)&amp;&amp; open_blind ==&quot;without panel&quot;) {&#xD;
+	if ( column_type_toa ==&quot;xline_hor&quot;)	&#xD;
+		{&#xD;
+			display_rbbs_open_aerated = &quot;none&quot;;&#xD;
+			display_rbbs_withoutPanel = &quot;none&quot;;&#xD;
+			dispaly_rbbs_XLH_Bottom_Panel=&quot;none&quot;;&#xD;
+			display_rbbs_XLH_bottom_withoutpanel = &quot;inline&quot;;&#xD;
+		}&#xD;
+	else&#xD;
+		{&#xD;
+			display_rbbs_open_aerated = &quot;none&quot;;&#xD;
+			display_rbbs_withoutPanel = &quot;inline&quot;;&#xD;
+			dispaly_rbbs_XLH_Bottom_Panel=&quot;none&quot;;&#xD;
+			display_rbbs_XLH_bottom_withoutpanel = &quot;none&quot;;&#xD;
+		}&#xD;
+	&#xD;
+	}&#xD;
+else {&#xD;
+	display_rbbs_open_aerated = &quot;none&quot;;&#xD;
+	display_rbbs_withoutPanel = &quot;none&quot;;&#xD;
+	dispaly_rbbs_XLH_Bottom_Panel=&quot;none&quot;;&#xD;
+	display_rbbs_XLH_bottom_withoutpanel = &quot;none&quot;;&#xD;
+	}&#xD;
+	&#xD;
+//XLH_Bottom_Panel SVG Implimentation starts&#xD;
+&#xD;
+//Panel 1 Height&#xD;
+	if  (switchboard_depth_toa ==900) height_Panel1=511.20001-0;&#xD;
+	else if  (switchboard_depth_toa ==700) height_Panel1=511.20001-200;&#xD;
+	else if  (switchboard_depth_toa ==500) height_Panel1=511.20001-400;&#xD;
+	&#xD;
+	//Panel 5 Height&#xD;
+	if  (switchboard_depth_toa ==900) height_Panel5=511-0;&#xD;
+	else if  (switchboard_depth_toa ==700) height_Panel5=511-200;&#xD;
+	else if  (switchboard_depth_toa ==500) height_Panel5=511-400;&#xD;
+	&#xD;
+	//Panel4 Width&#xD;
+		if  (column_width_chain ==1100) width_Panel4=442.399-0;&#xD;
+	else if  (column_width_chain ==900) width_Panel4=442.399-200;&#xD;
+	&#xD;
+	//Panel 5 Width&#xD;
+			if  (column_width_chain ==1100) width_Panel5=442.20001-0;&#xD;
+	else if  (column_width_chain ==900) width_Panel5=442.20001-200;&#xD;
+	&#xD;
+	//Frame Elements width&#xD;
+	if  (column_width_chain ==1100) width_Frame_Top_Bottom=1199;&#xD;
+	else if  (column_width_chain ==900) width_Frame_Top_Bottom=999;&#xD;
+	else if  (column_width_chain ==600) width_Frame_Top_Bottom=699;&#xD;
+	&#xD;
+		//Frame Elements height&#xD;
+	if  (switchboard_depth_toa ==900)&#xD;
+	{&#xD;
+		height_Frame_Right_Centre_Left=999-0;&#xD;
+	} &#xD;
+	else if  (switchboard_depth_toa ==700)&#xD;
+	{&#xD;
+		 height_Frame_Right_Centre_Left=999-200;&#xD;
+	}&#xD;
+	else if  (switchboard_depth_toa ==500)&#xD;
+	{&#xD;
+		height_Frame_Right_Centre_Left=999-400;&#xD;
+	} &#xD;
+	&#xD;
+	//Visiblity&#xD;
+	if (column_width_chain==600){&#xD;
+		visiblity_grid_700_R=&quot;hidden&quot;;	&#xD;
+		visiblity_grid_900_R=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_R=&quot;hidden&quot;;&#xD;
+			if  (switchboard_depth_toa ==900){		&#xD;
+		visiblity_grid_700_L=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;visible&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+			}&#xD;
+		else if  (switchboard_depth_toa ==700){	&#xD;
+		visiblity_grid_700_L=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+		}&#xD;
+		else if  (switchboard_depth_toa ==500){	&#xD;
+		visiblity_grid_700_L=&quot;hidden&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+		}&#xD;
+		visibility_P4_P5_flange =&quot;hidden&quot;;&#xD;
+	}&#xD;
+	else{&#xD;
+		visibility_P4_P5_flange =&quot;visible&quot;;&#xD;
+			if  (switchboard_depth_toa ==900)&#xD;
+	{&#xD;
+		visiblity_grid_700_R=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_R=&quot;visible&quot;;&#xD;
+		visiblity_grid_500_R=&quot;visible&quot;;&#xD;
+		visiblity_grid_700_L=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;visible&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+	}&#xD;
+	else if  (switchboard_depth_toa ==700)&#xD;
+	{&#xD;
+		visiblity_grid_700_R=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_R=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_R=&quot;visible&quot;;&#xD;
+		visiblity_grid_700_L=&quot;visible&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+	} &#xD;
+	else if  (switchboard_depth_toa ==500)&#xD;
+	{&#xD;
+		visiblity_grid_700_R=&quot;hidden&quot;;	&#xD;
+		visiblity_grid_900_R=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_R=&quot;visible&quot;;&#xD;
+		visiblity_grid_700_L=&quot;hidden&quot;;	&#xD;
+		visiblity_grid_900_L=&quot;hidden&quot;;&#xD;
+		visiblity_grid_500_L=&quot;visible&quot;;&#xD;
+	 } &#xD;
+	}&#xD;
+&#xD;
+	&#xD;
+	if  (switchboard_depth_toa ==900) translate_y=0;&#xD;
+	else if  (switchboard_depth_toa ==700)translate_y=-200;&#xD;
+	else if  (switchboard_depth_toa ==500)translate_y=-400;&#xD;
+	&#xD;
+		if  (column_width_chain ==1100) translateX_Flange_GridR=0;&#xD;
+	else if  (column_width_chain ==900) translateX_Flange_GridR=-100;&#xD;
+	&#xD;
+			if  (column_width_chain ==1100) translateX_FrameRight=0;&#xD;
+	else if  (column_width_chain ==900) translateX_FrameRight=-200;&#xD;
+		else if  (column_width_chain ==600) translateX_FrameRight=-500;&#xD;
+	&#xD;
+//XLH_Bottom_Panel SVG Implimentation Ends&#xD;
+&#xD;
+move_y_plinth_bottom = switchboard_rear_cable_container_depth_toa-798;&#xD;
+if(switchboard_product_line_toa == &quot;tbbs&quot; &amp;&amp;  switchboard_rear_cable_container_position_toa == &quot;external&quot;) display_rear_ext_cable_plinth_tbbs = &quot;inline&quot;;&#xD;
+else display_rear_ext_cable_plinth_tbbs = &quot;none&quot;;&#xD;
+&#xD;
+//Inversion of bottom panel for n185 when cable entry=1 and open flange is available&#xD;
+if (switchboard_product_line_toa==&quot;n185&quot; &amp;&amp; open_blind==&quot;Open_flange&quot; &amp;&amp; cable_entry==1){&#xD;
+	switch_bottom_panel_inverted=0;&#xD;
+	switch_bottom_panel=-1;&#xD;
+}else {&#xD;
+	switch_bottom_panel_inverted=-1;&#xD;
+	switch_bottom_panel=0;&#xD;
+}&#xD;
+//Displaying screws on external rear cable compartment&#xD;
+if (switchboard_base_height_toa==0){&#xD;
+	display_screws_bottom_panel=&quot;none&quot;;&#xD;
+} else display_screws_bottom_panel=&quot;inline&quot;;&#xD;
+&#xD;
+if (switchboard_product_line_toa==&quot;n185&quot; &amp;&amp; switchboard_depth_toa==300)  move_y_cutout_triline=-200;&#xD;
+else  move_y_cutout_triline=0;</text>
+  </calculation>
+  <cursorTwoD uuid="_b6Kb0L3sEemu44w8miOspg" name="Cursor"
+      twoDElementsColor="_b6Kb073sEemu44w8miOspg">
+    <onColorBg href="../product_model.xml#N65562"/>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_b6Kb0b3sEemu44w8miOspg" deletable="false"
+      name="root">
+    <units uuid="_b6Kb0r3sEemu44w8miOspg" name="panel">
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_b6Kb073sEemu44w8miOspg"
+          name="Box_cursor" order="1" cursorsUsingMeForColor="_b6Kb0L3sEemu44w8miOspg"
+          strokeWidth="30">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_b6Kb1b3sEemu44w8miOspg" heightDynamic="depth_column_outside"
+            widthDynamic="width_column_outside"/>
+        <translation uuid="_b6Kb1r3sEemu44w8miOspg"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_b6Kb173sEemu44w8miOspg"
+          name="Box_hidden_dwg_export" height="800.0"
+          width="600.0">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_b6Kb2b3sEemu44w8miOspg" heightDynamic="depth_column_outside"
+            widthDynamic="width_column_outside"/>
+        <translation uuid="_b6Kb2r3sEemu44w8miOspg"
+            z="-200.0"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_b6Kb273sEemu44w8miOspg"
+          name="Box_cursor_highlighter" strokeWidth="30">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_b6Kb3b3sEemu44w8miOspg" heightDynamic="depth_column_outside"
+            widthDynamic="width_column_outside"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_b6Kb3r3sEemu44w8miOspg" scaleDynamic="scale_highlighter"/>
+        <translation uuid="_b6Kb373sEemu44w8miOspg"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      </twoDElement>
+      <children uuid="_b6Kb4L3sEemu44w8miOspg" name="place_flange"
+          order="3"/>
+      <children uuid="_b6Kb4b3sEemu44w8miOspg" name="bottom_svgs">
+        <children uuid="_b6Kb4r3sEemu44w8miOspg" name="rbbs">
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kb473sEemu44w8miOspg" name="rbbs_open_W1000"
+              checksum="656f00779af41d4bf6d153767619185241b5b722">
+            <translation uuid="_b6Kb5b3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4fWEJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6Kb5r3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6Kb573sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb6L3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6Kb6b3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W1000"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb6r3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6Kb673sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kb7L3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kb7b3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6Kb7r3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_1000"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb773sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6Kb8L3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_1000"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb8b3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6Kb8r3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_1000"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb873sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6Kb9L3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kb9b3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6Kb9r3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kb973sEemu44w8miOspg" name="rbbs_open_W1200"
+              checksum="330c57b5a74aa9dc981ef51af1d526fbc06861c4">
+            <translation uuid="_b6Kb-b3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4hyUJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6Kb-r3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6Kb-73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb_L3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6Kb_b3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W1200"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kb_r3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6Kb_73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcAL3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcAb3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6KcAr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_1200"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcA73sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6KcBL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_1200"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcBb3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6KcBr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_1200"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcB73sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcCL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcCb3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcCr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6KcC73sEemu44w8miOspg" name="rbbs_open_W1350"
+              checksum="54b689480da069b1db6606c8db33f2b9aa7f92d4">
+            <translation uuid="_b6KcDb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4jngJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6KcDr3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6KcD73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcEL3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6KcEb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W1350"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcEr3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6KcE73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcFL3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcFb3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6KcFr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_1350"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcF73sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6KcGL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_1350"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcGb3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6KcGr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_1350"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcG73sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcHL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcHb3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcHr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6KcH73sEemu44w8miOspg" name="rbbs_open_W500"
+              checksum="08f086c456b316835345851081d66f69046aabdf">
+            <translation uuid="_b6KcIb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4VlEJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6KcIr3sEemu44w8miOspg"
+                name="svg4215" visualId="svg4215">
+              <fields xsi:type="comp:Field" uuid="_b6KcI73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcJL3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6KcJb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W500"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcJr3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6KcJ73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_500"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcKL3sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6KcKb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_500"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcKr3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6KcK73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_500"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcLL3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcLb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcLr3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcL73sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcML3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6KcMb3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcMr3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6KcM73sEemu44w8miOspg" name="rbbs_open_W800"
+              checksum="06db28bd4b8a7471776d20a3e6f7cfc181b6e04c">
+            <translation uuid="_b6KcNb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4cSwJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6KcNr3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6KcN73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcOL3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6KcOb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W800"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcOr3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6KcO73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_800"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcPL3sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6KcPb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_800"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcPr3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6KcP73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_800"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcQL3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6KcQb3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcQr3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcQ73sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcRL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcRb3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcRr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6KcR73sEemu44w8miOspg" name="rbbs_open_W600"
+              checksum="272ae70349f7bc1f6db3b3481af206e71c27813c">
+            <translation uuid="_b6KcSb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4YoYJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6KcSr3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6KcS73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W600"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcTL3sEemu44w8miOspg"
+                name="grid1" visualId="grid1">
+              <fields xsi:type="comp:Field" uuid="_b6KcTb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1_600"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcTr3sEemu44w8miOspg"
+                name="grid2" visualId="grid2">
+              <fields xsi:type="comp:Field" uuid="_b6KcT73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid2_600"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcUL3sEemu44w8miOspg"
+                name="grid3" visualId="grid3">
+              <fields xsi:type="comp:Field" uuid="_b6KcUb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid3_600"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcUr3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6KcU73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcVL3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcVb3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcVr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcV73sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcWL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcWb3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6KcWr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6KcW73sEemu44w8miOspg" name="rbbs_open_W400_internal"
+              checksum="e4fdf7c984b82f44e6f3959f1a4bdc29c69a4802">
+            <translation uuid="_b6KcXb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_T4ShwJ4aEeebc-qbdL00kQ"/>
+            <handles uuid="_b6KcXr3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6KcX73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcYL3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6KcYb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W400_internal"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcYr3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6KcY73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcZL3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcZb3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcZr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6KcZ73sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6KcaL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kcab3sEemu44w8miOspg"
+                name="grid1000" visualId="grid1000">
+              <fields xsi:type="comp:Field" uuid="_b6Kcar3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid1000"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kca73sEemu44w8miOspg"
+                name="grid800" visualId="grid800">
+              <fields xsi:type="comp:Field" uuid="_b6KcbL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid800"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcbb3sEemu44w8miOspg"
+                name="grid600" visualId="grid600">
+              <fields xsi:type="comp:Field" uuid="_b6Kcbr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_grid600"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kcb73sEemu44w8miOspg" name="rbbs_open_W400"
+              order="-1" checksum="c7ad8d93a59faf8cae3f58a175c683482b7f355d">
+            <translation uuid="_b6Kccb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_UxvWoK9PEee82ZmBMGr7DA"/>
+            <handles uuid="_b6Kccr3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6Kcc73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcdL3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcdb3sEemu44w8miOspg"
+                name="cutOut" visualId="cutOut">
+              <fields xsi:type="comp:Field" uuid="_b6Kcdr3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_cutout_W400"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcd73sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6KceL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_aerated"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kceb3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6Kcer3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kce73sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6KcfL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_open_aerated_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kcfb3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6Kcfr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_open_W400"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kcf73sEemu44w8miOspg" name="rbbs_withoutPanel"
+              checksum="80d78e91cbcab9f1260722001e9bd9cab5773476">
+            <translation uuid="_b6Kcgb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_0g7T8K9JEee82ZmBMGr7DA"/>
+            <handles uuid="_b6Kcgr3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6Kcg73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_withoutPanel"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KchL3sEemu44w8miOspg"
+                name="cabinetFullRect" visualId="cabinetFullRect">
+              <fields xsi:type="comp:Field" uuid="_b6Kchb3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kchr3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kch73sEemu44w8miOspg"
+                name="frameLeftL" visualId="frameLeftL">
+              <fields xsi:type="comp:Field" uuid="_b6KciL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcib3sEemu44w8miOspg"
+                name="frameLeftR" visualId="frameLeftR">
+              <fields xsi:type="comp:Field" uuid="_b6Kcir3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kci73sEemu44w8miOspg"
+                name="frameRightL" visualId="frameRightL">
+              <fields xsi:type="comp:Field" uuid="_b6KcjL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcjb3sEemu44w8miOspg"
+                name="frameRightR" visualId="frameRightR">
+              <fields xsi:type="comp:Field" uuid="_b6Kcjr3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcj73sEemu44w8miOspg"
+                name="frameFrontT" visualId="frameFrontT">
+              <fields xsi:type="comp:Field" uuid="_b6KckL3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kckb3sEemu44w8miOspg"
+                name="frameRearT" visualId="frameRearT">
+              <fields xsi:type="comp:Field" uuid="_b6Kckr3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kck73sEemu44w8miOspg"
+                name="frameFrontB" visualId="frameFrontB">
+              <fields xsi:type="comp:Field" uuid="_b6KclL3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="column_width_chain"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kclb3sEemu44w8miOspg"
+                name="frameRearB" visualId="frameRearB">
+              <fields xsi:type="comp:Field" uuid="_b6Kclr3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="column_width_chain"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcl73sEemu44w8miOspg"
+                name="cabinetFrameRight" visualId="cabinetFrameRight">
+              <fields xsi:type="comp:Field" uuid="_b6KcmL3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_rbbs_cabinetFrameR"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kcmb3sEemu44w8miOspg"
+                name="cabinetFrameRear" visualId="cabinetFrameRear">
+              <fields xsi:type="comp:Field" uuid="_b6Kcmr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_rbbs_cabinetFrameR"
+                  target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kcm73sEemu44w8miOspg" name="rbbs_XLH_Bottom_Panel"
+              checksum="7a8f33a7d91ffe56e8271ef66af38313f96eb02b">
+            <translation uuid="_b6Kcnb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_MXlIUMX5EeegR_xGz8c3EQ"/>
+            <handles uuid="_b6Kcnr3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6Kcn73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="dispaly_rbbs_XLH_Bottom_Panel"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcoL3sEemu44w8miOspg"
+                name="frameLeft" visualId="frameLeft">
+              <fields xsi:type="comp:Field" uuid="_b6Kcob3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcor3sEemu44w8miOspg"
+                name="frameCenter" visualId="frameCenter">
+              <fields xsi:type="comp:Field" uuid="_b6Kco73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcpL3sEemu44w8miOspg"
+                name="frameRight" visualId="frameRight">
+              <fields xsi:type="comp:Field" uuid="_b6Kcpb3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcpr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_FrameRight"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kcp73sEemu44w8miOspg"
+                name="panel1" visualId="panel1">
+              <fields xsi:type="comp:Field" uuid="_b6KcqL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Panel1"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kcqb3sEemu44w8miOspg"
+                name="panel5" visualId="panel5">
+              <fields xsi:type="comp:Field" uuid="_b6Kcqr3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Panel5"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcq73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Panel5" target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcrL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_P4_P5_flange"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcrb3sEemu44w8miOspg"
+                name="flange" visualId="flange">
+              <fields xsi:type="comp:Field" uuid="_b6Kcrr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_Flange_GridR"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcr73sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_P4_P5_flange"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6KcsL3sEemu44w8miOspg"
+                name="grid500R" visualId="grid500R">
+              <fields xsi:type="comp:Field" uuid="_b6Kcsb3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_Flange_GridR"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcsr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_500_R"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcs73sEemu44w8miOspg"
+                name="grid700R" visualId="grid700R">
+              <fields xsi:type="comp:Field" uuid="_b6KctL3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_Flange_GridR"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kctb3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_700_R"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kctr3sEemu44w8miOspg"
+                name="grid900R" visualId="grid900R">
+              <fields xsi:type="comp:Field" uuid="_b6Kct73sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_Flange_GridR"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6KcuL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_900_R"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcub3sEemu44w8miOspg"
+                name="frameBottom" visualId="frameBottom">
+              <fields xsi:type="comp:Field" uuid="_b6Kcur3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="translate_y" target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcu73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Frame_Top_Bottom"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcvL3sEemu44w8miOspg"
+                name="panel2" visualId="panel2">
+              <fields xsi:type="comp:Field" uuid="_b6Kcvb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="translate_y" target="transform"/>
+            </handles>
+            <handles uuid="_b6Kcvr3sEemu44w8miOspg"
+                name="frameTop" visualId="frameTop">
+              <fields xsi:type="comp:Field" uuid="_b6Kcv73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Frame_Top_Bottom"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6KcwL3sEemu44w8miOspg"
+                name="panel4" visualId="panel4">
+              <fields xsi:type="comp:Field" uuid="_b6Kcwb3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Panel4" target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kcwr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_P4_P5_flange"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcw73sEemu44w8miOspg"
+                name="grid500L" visualId="grid500L">
+              <fields xsi:type="comp:Field" uuid="_b6KcxL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_500_L"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcxb3sEemu44w8miOspg"
+                name="grid700L" visualId="grid700L">
+              <fields xsi:type="comp:Field" uuid="_b6Kcxr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_700_L"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kcx73sEemu44w8miOspg"
+                name="grid900L" visualId="grid900L">
+              <fields xsi:type="comp:Field" uuid="_b6KcyL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visiblity_grid_900_L"
+                  target="css"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kcyb3sEemu44w8miOspg" name="rbbs_XLH_Bottom_WithoutPanel"
+              checksum="f37273f9f9c255ac2f4090d5714f6e593b941842">
+            <translation uuid="_b6Kcy73sEemu44w8miOspg"/>
+            <file href="../../model.build#_9hMloILMEemiaaHyHpAhNw"/>
+            <handles uuid="_b6KczL3sEemu44w8miOspg"
+                name="layer1" visualId="layer1">
+              <fields xsi:type="comp:Field" uuid="_b6Kczb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_rbbs_XLH_bottom_withoutpanel"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kczr3sEemu44w8miOspg"
+                name="frameLeft" visualId="frameLeft">
+              <fields xsi:type="comp:Field" uuid="_b6Kcz73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kc0L3sEemu44w8miOspg"
+                name="frameCenter" visualId="frameCenter">
+              <fields xsi:type="comp:Field" uuid="_b6Kc0b3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kc0r3sEemu44w8miOspg"
+                name="frameRight" visualId="frameRight">
+              <fields xsi:type="comp:Field" uuid="_b6Kc073sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_Frame_Right_Centre_Left"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kc1L3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="translateX_FrameRight"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6Kc1b3sEemu44w8miOspg"
+                name="frameBottom" visualId="frameBottom">
+              <fields xsi:type="comp:Field" uuid="_b6Kc1r3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="translate_y" target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kc173sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Frame_Top_Bottom"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6Kc2L3sEemu44w8miOspg"
+                name="panel2" visualId="panel2">
+              <fields xsi:type="comp:Field" uuid="_b6Kc2b3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="translate_y" target="transform"/>
+            </handles>
+            <handles uuid="_b6Kc2r3sEemu44w8miOspg"
+                name="frameTop" visualId="frameTop">
+              <fields xsi:type="comp:Field" uuid="_b6Kc273sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_Frame_Top_Bottom"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+        </children>
+        <children uuid="_b6Kc3L3sEemu44w8miOspg" name="general"
+            visualEffects="_QhpqkyvUEeqJ7cfGAkHMWA">
+          <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+              uuid="_b6Kc3b3sEemu44w8miOspg" variable="switch_bottom_panel">
+            <visualEffect uuid="_QhpqkyvUEeqJ7cfGAkHMWA"
+                targets="_b6Kc3L3sEemu44w8miOspg" variable="switch_bottom_panel"/>
+          </facets>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6Kc3r3sEemu44w8miOspg" name="0blind_svg"
+              checksum="706b3dda174bcb91874f07442a89c7b2b15dedb9">
+            <translation uuid="_b6Kc4L3sEemu44w8miOspg"/>
+            <file href="../../model.build#_004MkFZmEeeaW_LgsrMUpQ"/>
+            <handles uuid="_b6Kc4b3sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6Kc4r3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind" target="transform"/>
+            </handles>
+            <handles uuid="_b6Kc473sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6Kc5L3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind" target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kc5b3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind" target="transform"/>
+            </handles>
+            <handles uuid="_b6Kc5r3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6Kc573sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind" target="transform"/>
+            </handles>
+            <handles uuid="_b6Kc6L3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6Kc6b3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kc6r3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6Kc673sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6Kc7L3sEemu44w8miOspg"
+                name="svg4168" visualId="svg4168">
+              <fields xsi:type="comp:Field" uuid="_b6Kc7b3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_blind"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6LC4L3sEemu44w8miOspg" name="0spep_open_D300_svg"
+              checksum="258c6f31f78de27b59278dce8a0567dc289e6e5b">
+            <translation uuid="_b6LC4r3sEemu44w8miOspg"/>
+            <file href="../../model.build#_HGlTW2ulEee3XesYpXh51Q"/>
+            <handles uuid="_b6LC473sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6LC5L3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LC5b3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LC5r3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6LC573sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_spep_open_D300"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LC6L3sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6LC6b3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LC6r3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6LC673sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LC7L3sEemu44w8miOspg"
+                name="co1" visualId="co1">
+              <fields xsi:type="comp:Field" uuid="_b6LC7b3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_D300_co1"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LC7r3sEemu44w8miOspg"
+                name="co2" visualId="co2">
+              <fields xsi:type="comp:Field" uuid="_b6LC773sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_D300_co2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LC8L3sEemu44w8miOspg"
+                name="co3" visualId="co3">
+              <fields xsi:type="comp:Field" uuid="_b6LC8b3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_D300_co3"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LC8r3sEemu44w8miOspg"
+                name="co4" visualId="co4">
+              <fields xsi:type="comp:Field" uuid="_b6LC873sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_D300_co4"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LC9L3sEemu44w8miOspg"
+                name="co5" visualId="co5">
+              <fields xsi:type="comp:Field" uuid="_b6LC9b3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_D300_co5"
+                  target="css"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6LC9r3sEemu44w8miOspg" name="0spep_open_svg"
+              checksum="f34098cc9e31916942c908d45d4a329e42d81b46">
+            <translation uuid="_b6LC-L3sEemu44w8miOspg"/>
+            <file href="../../model.build#_2l4V8NAREeegBeljWtWUww"/>
+            <handles uuid="_b6LC-b3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6LC-r3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LC-73sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LC_L3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6LC_b3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_spep_open"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LC_r3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6LC_73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDAL3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDAb3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDAr3sEemu44w8miOspg"
+                name="cap" visualId="cap">
+              <fields xsi:type="comp:Field" uuid="_b6LDA73sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="height_spep_open_cutout"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDBL3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_spep_open_cutout"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDBb3sEemu44w8miOspg"
+                name="screwR1" visualId="screwR1">
+              <fields xsi:type="comp:Field" uuid="_b6LDBr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDB73sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_R1"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDCL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_L1_L3_R1_R3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDCb3sEemu44w8miOspg"
+                name="screwR2" visualId="screwR2">
+              <fields xsi:type="comp:Field" uuid="_b6LDCr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDC73sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws_middle"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDDL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_R2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDDb3sEemu44w8miOspg"
+                name="screwR3" visualId="screwR3">
+              <fields xsi:type="comp:Field" uuid="_b6LDDr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDD73sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDEL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_R3"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDEb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_L1_L3_R1_R3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDEr3sEemu44w8miOspg"
+                name="screwT3" visualId="screwT3">
+              <fields xsi:type="comp:Field" uuid="_b6LDE73sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDFL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_T3"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDFb3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_T1_T3_B1_B3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDFr3sEemu44w8miOspg"
+                name="screwB3" visualId="screwB3">
+              <fields xsi:type="comp:Field" uuid="_b6LDF73sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDGL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDGb3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_B3"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDGr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_T1_T3_B1_B3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDG73sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6LDHL3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDHb3sEemu44w8miOspg"
+                name="screwT2" visualId="screwT2">
+              <fields xsi:type="comp:Field" uuid="_b6LDHr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws_middle"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDH73sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_T2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDIL3sEemu44w8miOspg"
+                name="screwB2" visualId="screwB2">
+              <fields xsi:type="comp:Field" uuid="_b6LDIb3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_spep_open_screws_middle"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDIr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDI73sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_B2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDJL3sEemu44w8miOspg"
+                name="screwL3" visualId="screwL3">
+              <fields xsi:type="comp:Field" uuid="_b6LDJb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDJr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_L3"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDJ73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_L1_L3_R1_R3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDKL3sEemu44w8miOspg"
+                name="screwB1" visualId="screwB1">
+              <fields xsi:type="comp:Field" uuid="_b6LDKb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDKr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_B1"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDK73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_T1_T3_B1_B3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDLL3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6LDLb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDLr3sEemu44w8miOspg"
+                name="screwL2" visualId="screwL2">
+              <fields xsi:type="comp:Field" uuid="_b6LDL73sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_spep_open_screws_middle"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDML3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_L2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDMb3sEemu44w8miOspg"
+                name="screwL1" visualId="screwL1">
+              <fields xsi:type="comp:Field" uuid="_b6LDMr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_L1"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDM73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_L1_L3_R1_R3"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDNL3sEemu44w8miOspg"
+                name="screwT1" visualId="screwT1">
+              <fields xsi:type="comp:Field" uuid="_b6LDNb3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_T1"
+                  target="css"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDNr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_T1_T3_B1_B3"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6LDN73sEemu44w8miOspg" name="0twinline_open_blind_svg"
+              checksum="e98970d909a583ba965bfd8f277687698552ec5a">
+            <translation uuid="_b6LDOb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_s09T6mMLEeeyl8uf2AMvrA"/>
+            <handles uuid="_b6LDOr3sEemu44w8miOspg"
+                name="svg2" visualId="svg2">
+              <fields xsi:type="comp:Field" uuid="_b6LDO73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_twinline_open_blind"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDPL3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6LDPb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_twinline_screws"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDPr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_twinline_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDP73sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6LDQL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_twinline_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDQb3sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6LDQr3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_twinline_screws"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDQ73sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6LDRL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDRb3sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDRr3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDR73sEemu44w8miOspg"
+                name="co1" visualId="co1">
+              <fields xsi:type="comp:Field" uuid="_b6LDSL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co1"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDSb3sEemu44w8miOspg"
+                name="co2" visualId="co2">
+              <fields xsi:type="comp:Field" uuid="_b6LDSr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co2"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDS73sEemu44w8miOspg"
+                name="co3" visualId="co3">
+              <fields xsi:type="comp:Field" uuid="_b6LDTL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co3"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDTb3sEemu44w8miOspg"
+                name="co4" visualId="co4">
+              <fields xsi:type="comp:Field" uuid="_b6LDTr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co4"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDT73sEemu44w8miOspg"
+                name="co5" visualId="co5">
+              <fields xsi:type="comp:Field" uuid="_b6LDUL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co5"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDUb3sEemu44w8miOspg"
+                name="co6" visualId="co6">
+              <fields xsi:type="comp:Field" uuid="_b6LDUr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co6"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDU73sEemu44w8miOspg"
+                name="co7" visualId="co7">
+              <fields xsi:type="comp:Field" uuid="_b6LDVL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co7"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDVb3sEemu44w8miOspg"
+                name="co8" visualId="co8">
+              <fields xsi:type="comp:Field" uuid="_b6LDVr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co8"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDV73sEemu44w8miOspg"
+                name="co9" visualId="co9">
+              <fields xsi:type="comp:Field" uuid="_b6LDWL3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co9"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDWb3sEemu44w8miOspg"
+                name="co10" visualId="co10">
+              <fields xsi:type="comp:Field" uuid="_b6LDWr3sEemu44w8miOspg"
+                  name="visibilityManipulation" fieldId="visibility"
+                  variableReference="visibility_co10"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDW73sEemu44w8miOspg"
+                name="row1" visualId="row1">
+              <fields xsi:type="comp:Field" uuid="_b6LDXL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_row1" target="transform"/>
+            </handles>
+            <handles uuid="_b6LDXb3sEemu44w8miOspg"
+                name="row2" visualId="row2">
+              <fields xsi:type="comp:Field" uuid="_b6LDXr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_row2" target="transform"/>
+            </handles>
+          </twoDElement>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6LDX73sEemu44w8miOspg" name="spep_openPanel_trilineFlange"
+              checksum="3b45a6b01cae0899725ef33649bdcef8c0bbdec2">
+            <translation uuid="_b6LDYb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_1P1wENAREeegBeljWtWUww"/>
+            <handles uuid="_b6LDYr3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6LDY73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDZL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDZb3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDZr3sEemu44w8miOspg"
+                name="cutout" visualId="cutout">
+              <fields xsi:type="comp:Field" uuid="_b6LDZ73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_cutout_triline"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDaL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_cutout_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDab3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_cutout_triline"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDar3sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6LDa73sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind_screw_triline"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDbL3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6LDbb3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDbr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDb73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_screwRB_LB"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDcL3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6LDcb3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDcr3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_screwRB_LB"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDc73sEemu44w8miOspg"
+                name="svg4168" visualId="svg4168">
+              <fields xsi:type="comp:Field" uuid="_b6LDdL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_openPanel_triline"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+        </children>
+        <children uuid="_b6LDdb3sEemu44w8miOspg" name="n185_inverted"
+            visualEffects="_Qhq5oivUEeqJ7cfGAkHMWA">
+          <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+              uuid="_b6LDdr3sEemu44w8miOspg" variable="switch_bottom_panel_inverted">
+            <visualEffect uuid="_Qhq5oivUEeqJ7cfGAkHMWA"
+                targets="_b6LDdb3sEemu44w8miOspg" variable="switch_bottom_panel_inverted"/>
+          </facets>
+          <twoDElement xsi:type="comp:TwoDSVGImportFile"
+              uuid="_b6LDd73sEemu44w8miOspg" name="spep_openPanel_trilineFlange_inverted"
+              checksum="530f469b7b3b5ff0b145d96eac0e08df8594715d">
+            <translation uuid="_b6LDeb3sEemu44w8miOspg"/>
+            <file href="../../model.build#_D-engG0-EeiQq_1eIxAfpw"/>
+            <handles uuid="_b6LDer3sEemu44w8miOspg"
+                name="blindPanel" visualId="blindPanel">
+              <fields xsi:type="comp:Field" uuid="_b6LDe73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDfL3sEemu44w8miOspg"
+                  name="heightManipulation" fieldId="height"
+                  variableReference="depth_column_outside"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDfb3sEemu44w8miOspg"
+                  name="fillManipulation" fieldId="fill"
+                  variableReference="colour_fill_bottom"
+                  target="css"/>
+            </handles>
+            <handles uuid="_b6LDfr3sEemu44w8miOspg"
+                name="cutout" visualId="cutout">
+              <fields xsi:type="comp:Field" uuid="_b6LDf73sEemu44w8miOspg"
+                  name="widthManipulation" fieldId="width"
+                  variableReference="width_cutout_triline"
+                  target="xml"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDgL3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_cutout_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDgb3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_cutout_triline"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDgr3sEemu44w8miOspg"
+                name="screwRT" visualId="screwRT">
+              <fields xsi:type="comp:Field" uuid="_b6LDg73sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind_screw_triline"
+                  target="transform"/>
+            </handles>
+            <handles uuid="_b6LDhL3sEemu44w8miOspg"
+                name="screwRB" visualId="screwRB">
+              <fields xsi:type="comp:Field" uuid="_b6LDhb3sEemu44w8miOspg"
+                  name="move_xManipulation" fieldId="move_x"
+                  variableReference="move_x_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDhr3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDh73sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_screwRB_LB"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDiL3sEemu44w8miOspg"
+                name="screwLB" visualId="screwLB">
+              <fields xsi:type="comp:Field" uuid="_b6LDib3sEemu44w8miOspg"
+                  name="move_yManipulation" fieldId="move_y"
+                  variableReference="move_y_blind_screw_triline"
+                  target="transform"/>
+              <fields xsi:type="comp:Field" uuid="_b6LDir3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_screwRB_LB"
+                  target="xml"/>
+            </handles>
+            <handles uuid="_b6LDi73sEemu44w8miOspg"
+                name="svg4168" visualId="svg4168">
+              <fields xsi:type="comp:Field" uuid="_b6LDjL3sEemu44w8miOspg"
+                  name="displayManipulation" fieldId="display"
+                  variableReference="display_openPanel_triline"
+                  target="xml"/>
+            </handles>
+          </twoDElement>
+        </children>
+      </children>
+    </units>
+    <parentPlugs uuid="_b6LDjb3sEemu44w8miOspg" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_b6LDjr3sEemu44w8miOspg" name="flange_set_role"
+      pickOnSet="OFF" components="flange_set_n185, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_b6LDk73sEemu44w8miOspg"
+        geoUnit="_b6Kb4L3sEemu44w8miOspg"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_b6LDlL3sEemu44w8miOspg">
+      <chains uuid="_b6LDlb3sEemu44w8miOspg" name="panel_product_line"
+          chained="panel_panel_product_line" refVar="panel_product_line"/>
+      <chains uuid="_b6LDlr3sEemu44w8miOspg" name="cable_entry"
+          chained="panel_cable_entry" refVar="cable_entry"/>
+      <chains uuid="_b6LDl73sEemu44w8miOspg" name="cable_entry_rows"
+          chained="panel_cable_entry_rows" refVar="cable_entry_rows"/>
+      <chains uuid="_b6LDmL3sEemu44w8miOspg" name="panel_type"
+          chained="panel_panel_type" refVar="panel_type"/>
+      <chains uuid="_b6LDmb3sEemu44w8miOspg" name="cable_entry_ratio"
+          chained="panel_cable_entry_ratio" refVar="cable_entry_ratio"/>
+      <chains uuid="_b6LDmr3sEemu44w8miOspg" name="move_y_row1"
+          chained="move_y_row1" refVar="move_y_row1"/>
+      <chains uuid="_b6LDm73sEemu44w8miOspg" name="move_y_row2"
+          chained="move_y_row2" refVar="move_y_row2"/>
+      <chains uuid="_b6LDnL3sEemu44w8miOspg" name="open_blind"
+          chained="panel_open_blind" refVar="open_blind"/>
+      <chains uuid="_b6LDnr3sEemu44w8miOspg" name="column_type_toa"
+          chained="column_type" refVar="column_type_toa"/>
+      <chains uuid="_bhFC8MlcEemKm7vkrGPPHw" name="flange1_toa"
+          flow="IN" chained="flange1" refVar="flange1_toa"/>
+    </facets>
+    <domain uuid="_b6LDn73sEemu44w8miOspg" name="local"
+        visibility="300">
+      <typeSet uuid="_b6LDob3sEemu44w8miOspg" bitSet="65536"/>
+      <values uuid="_K91V8MD_Eemu09r_2o_X8w" name="flange_set_n185"
+          visibility="300">
+        <displayName uuid="_K91V8cD_Eemu09r_2o_X8w"/>
+      </values>
+      <values uuid="_M2EC4MD_Eemu09r_2o_X8w" name="NONE"
+          visibility="300">
+        <displayName uuid="_M2EC4cD_Eemu09r_2o_X8w"/>
+      </values>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_6P_TUIK5EeeH5Id_vDQOyQ.xml#_6P_TUIK5EeeH5Id_vDQOyQ"/>
+</comp:ComponentTemplate>

@@ -1,0 +1,1941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.datatools.enablement.oda.xml" name="updated" id="2">
+            <property name="FILELIST">C:\Users\aagreet.sinha\AppData\Local\Temp\Res3747189465946280721.tmp</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="datum" id="1156">
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">blockOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">rowOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Distribution_board</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">Ipk</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">Project</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">date</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">electrical_system</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">icc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">icw</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">rated_frequency</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">rated_impulse_withstand_voltage</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">rated_insulation_voltage</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">rated_voltage</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">updated</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">blockOrder</property>
+                    <property name="nativeName">blockOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">rowOrder</property>
+                    <property name="nativeName">rowOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Distribution_board</property>
+                    <property name="nativeName">Distribution_board</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">Ipk</property>
+                    <property name="nativeName">Ipk</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">Project</property>
+                    <property name="nativeName">Project</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">date</property>
+                    <property name="nativeName">date</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">electrical_system</property>
+                    <property name="nativeName">electrical_system</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">icc</property>
+                    <property name="nativeName">icc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">icw</property>
+                    <property name="nativeName">icw</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">number</property>
+                    <property name="nativeName">number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">rated_frequency</property>
+                    <property name="nativeName">rated_frequency</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">rated_impulse_withstand_voltage</property>
+                    <property name="nativeName">rated_impulse_withstand_voltage</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">rated_insulation_voltage</property>
+                    <property name="nativeName">rated_insulation_voltage</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">rated_voltage</property>
+                    <property name="nativeName">rated_voltage</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/reportexport/report/blocks/block/datatables/datatable/rows/row]#:#{blockOrder;STRING;../../../../@order},{rowOrder;STRING;/@order},{Distribution_board;STRING;/datum[@id="Distribution_board"]/@value},{Ipk;STRING;/datum[@id="Ipk"]/@value},{Project;STRING;/datum[@id="Project"]/@value},{date;STRING;/datum[@id="date"]/@value},{electrical_system;STRING;/datum[@id="electrical_system"]/@value},{icc;STRING;/datum[@id="icc"]/@value},{icw;STRING;/datum[@id="icw"]/@value},{number;STRING;/datum[@id="number"]/@value},{rated_frequency;STRING;/datum[@id="rated_frequency"]/@value},{rated_impulse_withstand_voltage;STRING;/datum[@id="rated_impulse_withstand_voltage"]/@value},{rated_insulation_voltage;STRING;/datum[@id="rated_insulation_voltage"]/@value},{rated_voltage;STRING;/datum[@id="rated_voltage"]/@value}]]></xml-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="parameter" id="1157">
+            <property name="dataSource">updated</property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/reportexport/report/blocks/block/parameters]#:#]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="NewSimpleMasterPage" id="4">
+            <page-header>
+                <grid id="336">
+                    <property name="height">0.5in</property>
+                    <column id="337"/>
+                    <row id="338">
+                        <property name="textAlign">right</property>
+                        <cell id="339">
+                            <image id="340">
+                                <property name="height">0.42105263157894735in</property>
+                                <property name="width">1.0947368421052632in</property>
+                                <property name="source">embed</property>
+                                <property name="imageName">ABB.png</property>
+                            </image>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table name="00_part1" id="295">
+            <property name="fontFamily">"ABBvoice"</property>
+            <property name="borderBottomStyle">none</property>
+            <property name="borderLeftStyle">none</property>
+            <property name="borderRightStyle">none</property>
+            <property name="borderTopStyle">none</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">date</property>
+                    <text-property name="displayName">date</text-property>
+                    <expression name="expression">dataSetRow["date"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Ipk</property>
+                    <text-property name="displayName">Ipk</text-property>
+                    <expression name="expression">dataSetRow["Ipk"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icc</property>
+                    <text-property name="displayName">icc</text-property>
+                    <expression name="expression">dataSetRow["icc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">electrical_system</property>
+                    <text-property name="displayName">electrical_system</text-property>
+                    <expression name="expression">dataSetRow["electrical_system"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Distribution_board</property>
+                    <text-property name="displayName">Distribution_board</text-property>
+                    <expression name="expression">dataSetRow["Distribution_board"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_insulation_voltage</property>
+                    <text-property name="displayName">rated_insulation_voltage</text-property>
+                    <expression name="expression">dataSetRow["rated_insulation_voltage"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">number</property>
+                    <text-property name="displayName">number</text-property>
+                    <expression name="expression">dataSetRow["number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_impulse_withstand_voltage</property>
+                    <text-property name="displayName">rated_impulse_withstand_voltage</text-property>
+                    <expression name="expression">dataSetRow["rated_impulse_withstand_voltage"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icw</property>
+                    <text-property name="displayName">icw</text-property>
+                    <expression name="expression">dataSetRow["icw"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_frequency</property>
+                    <text-property name="displayName">rated_frequency</text-property>
+                    <expression name="expression">dataSetRow["rated_frequency"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="308"/>
+            <column id="349"/>
+            <header>
+                <row id="296">
+                    <property name="height">0.010416666666666666in</property>
+                    <cell id="297"/>
+                    <cell id="342"/>
+                </row>
+            </header>
+            <detail>
+                <row id="329">
+                    <cell id="330">
+                        <image id="217">
+                            <property name="height">0.2631578947368421in</property>
+                            <property name="width">6.589473684210526in</property>
+                            <property name="source">embed</property>
+                            <property name="imageName">Line.png</property>
+                        </image>
+                    </cell>
+                    <cell id="343"/>
+                </row>
+                <row id="331">
+                    <cell id="332">
+                        <label id="226">
+                            <property name="style">Title</property>
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">24pt</property>
+                            <text-property name="text">ABB Design Verification</text-property>
+                        </label>
+                    </cell>
+                    <cell id="344"/>
+                </row>
+                <row id="504">
+                    <property name="height">0.13541666666666666in</property>
+                    <cell id="505"/>
+                    <cell id="506"/>
+                </row>
+                <row id="327">
+                    <cell id="328">
+                        <label id="507">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">PART 1</text-property>
+                        </label>
+                    </cell>
+                    <cell id="345"/>
+                </row>
+                <row id="300">
+                    <cell id="301">
+                        <text id="858">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<VALUE-OF>row["Project"]</VALUE-OF>]]></text-property>
+                        </text>
+                        <text id="857">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<VALUE-OF>row["Distribution_board"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="346">
+                        <text id="859">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Date: <VALUE-OF>row["date"]</VALUE-OF>]]></text-property>
+                        </text>
+                        <text id="860">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Number: <VALUE-OF>row["number"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="333">
+                    <property name="height">0.23958333333333334in</property>
+                    <cell id="334">
+                        <label id="232">
+                            <property name="style">Title3</property>
+                            <property name="fontSize">18pt</property>
+                            <property name="height">1.5cm</property>
+                            <text-property name="text"></text-property>
+                        </label>
+                    </cell>
+                    <cell id="347"/>
+                </row>
+                <row id="879">
+                    <cell id="880">
+                        <label id="1083">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Assembly manufacturer</text-property>
+                        </label>
+                    </cell>
+                    <cell id="881">
+                        <label id="1084">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">center</property>
+                            <text-property name="text">Company Stamp</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="1135">
+                    <property name="height">0.8645833333333334in</property>
+                    <cell id="1136">
+                        <grid id="1138">
+                            <property name="height">0.8541666666666666in</property>
+                            <column id="1139"/>
+                            <row id="1148">
+                                <property name="height">0.010416666666666666in</property>
+                                <cell id="1149"/>
+                            </row>
+                            <row id="1140">
+                                <cell id="1141">
+                                    <text id="1085">
+                                        <property name="fontFamily">"ABBvoice"</property>
+                                        <property name="contentType">html</property>
+                                        <text-property name="content"><![CDATA[<VALUE-OF>row["Project"]</VALUE-OF>]]></text-property>
+                                    </text>
+                                </cell>
+                            </row>
+                            <row id="1142">
+                                <cell id="1143">
+                                    <text id="1086">
+                                        <property name="fontFamily">"ABBvoice"</property>
+                                        <property name="contentType">html</property>
+                                        <text-property name="content"><![CDATA[<VALUE-OF>row["Distribution_board"]</VALUE-OF>]]></text-property>
+                                    </text>
+                                </cell>
+                            </row>
+                            <row id="1144">
+                                <cell id="1145">
+                                    <text id="1087">
+                                        <property name="fontFamily">"ABBvoice"</property>
+                                        <property name="contentType">auto</property>
+                                        <text-property name="content"><![CDATA[Cabinet system: System pro E power ]]></text-property>
+                                    </text>
+                                </cell>
+                            </row>
+                        </grid>
+                    </cell>
+                    <cell id="1137">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                    </cell>
+                </row>
+                <row id="882">
+                    <property name="height">0.16666666666666666in</property>
+                    <cell id="883"/>
+                    <cell id="884"/>
+                </row>
+                <row id="915">
+                    <cell id="916">
+                        <text id="1088">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">12pt</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[Low voltage switchgear and controlgear assembly]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="917"/>
+                </row>
+                <row id="912">
+                    <cell id="913">
+                        <text id="1089">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[Power switchgear and controlgear assemblies (PSC) - Design verification according to IEC EN 61439-2]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="914"/>
+                </row>
+                <row id="1106">
+                    <cell id="1107"/>
+                    <cell id="1108"/>
+                </row>
+                <row id="906">
+                    <cell id="907">
+                        <text id="1090">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[Nominal values of the Assembly]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="908"/>
+                </row>
+                <row id="903">
+                    <cell id="904"/>
+                    <cell id="905"/>
+                </row>
+                <row id="969">
+                    <cell id="970">
+                        <text id="1091">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Rated Volatge: <VALUE-OF>row["rated_volatge"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="971">
+                        <label id="1097">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">normal</property>
+                            <text-property name="text">Short circuit withstand strength</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="981">
+                    <cell id="982">
+                        <text id="1092">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Rated frequency: <VALUE-OF>row["rated_frequency"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="983">
+                        <text id="1100">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[IPK: <VALUE-OF>row["Ipk"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="993">
+                    <cell id="994">
+                        <text id="1093">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Electrical system: <VALUE-OF>row["electrical_system"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="995">
+                        <text id="1099">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[ICW: <VALUE-OF>row["icw"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1014">
+                    <cell id="1015">
+                        <text id="1094">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Rated current of the Assembly InA: <VALUE-OF>row["rating"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1016">
+                        <text id="1098">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[ICC: <VALUE-OF>row["icc"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1023">
+                    <cell id="1024">
+                        <text id="1095">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Rated insulation voltage (Ui): <VALUE-OF>row["rated_insulation_voltage"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1025"/>
+                </row>
+                <row id="1020">
+                    <cell id="1021">
+                        <text id="1096">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Rated impulse withstand voltage (Uimp): <VALUE-OF>row["rated_impulse_withstand_voltage"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1022"/>
+                </row>
+                <row id="1017">
+                    <property name="height">0.2708333333333333in</property>
+                    <cell id="1018"/>
+                    <cell id="1019"/>
+                </row>
+                <row id="1011">
+                    <cell id="1012">
+                        <label id="1116">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Design verification provided for (see part 2)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1013">
+                        <text id="1115">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Number: <VALUE-OF>row["number"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="1008">
+                    <property name="height">0.20833333333333334in</property>
+                    <cell id="1009"/>
+                    <cell id="1010"/>
+                </row>
+                <row id="1002">
+                    <cell id="1003">
+                        <label id="1110">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Design verification carried:</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1004"/>
+                </row>
+                <row id="999">
+                    <property name="height">0.9583333333333334in</property>
+                    <cell id="1000">
+                        <text id="1167">
+                            <property name="paddingTop">50pt</property>
+                            <property name="textAlign">center</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[.....................................................................................................................]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1001">
+                        <text id="1166">
+                            <property name="paddingTop">50pt</property>
+                            <property name="textAlign">center</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[.....................................................................................................................]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="984">
+                    <cell id="985">
+                        <label id="1111">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">7pt</property>
+                            <text-property name="text">(Place / Date)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="986">
+                        <label id="1112">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">7pt</property>
+                            <text-property name="text">(Name and Signature)</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="978">
+                    <property name="height">0.9270833333333334in</property>
+                    <cell id="979">
+                        <text id="1164">
+                            <property name="paddingTop">50pt</property>
+                            <property name="textAlign">center</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[.....................................................................................................................]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="980">
+                        <text id="1165">
+                            <property name="paddingTop">50pt</property>
+                            <property name="textAlign">center</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[.....................................................................................................................]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+                <row id="963">
+                    <cell id="964">
+                        <label id="1114">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">7pt</property>
+                            <text-property name="text">(Place / Date)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="965">
+                        <label id="1113">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">7pt</property>
+                            <text-property name="text">(Name and Signature)</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="304">
+                    <property name="height">0.13541666666666666in</property>
+                    <cell id="305"/>
+                    <cell id="348"/>
+                </row>
+            </footer>
+        </table>
+        <table name="01_part2" id="558">
+            <property name="fontFamily">"ABBvoice"</property>
+            <property name="fontSize">9pt</property>
+            <property name="borderBottomStyle">none</property>
+            <property name="borderLeftStyle">none</property>
+            <property name="borderRightStyle">none</property>
+            <property name="borderTopStyle">none</property>
+            <property name="masterPage">NewSimpleMasterPage</property>
+            <property name="pageBreakBefore">always</property>
+            <property name="canShrink">true</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">number</property>
+                    <text-property name="displayName">number</text-property>
+                    <expression name="expression">dataSetRow["number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Distribution_board</property>
+                    <text-property name="displayName">Distribution_board</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Distribution_board"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Ipk</property>
+                    <text-property name="displayName">Ipk</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Ipk"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Project</property>
+                    <text-property name="displayName">Project</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Project"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">date</property>
+                    <text-property name="displayName">date</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["date"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">electrical_system</property>
+                    <text-property name="displayName">electrical_system</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["electrical_system"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icc</property>
+                    <text-property name="displayName">icc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icw</property>
+                    <text-property name="displayName">icw</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icw"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_frequency</property>
+                    <text-property name="displayName">rated_frequency</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rated_frequency"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_impulse_withstand_voltage</property>
+                    <text-property name="displayName">rated_impulse_withstand_voltage</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rated_impulse_withstand_voltage"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_insulation_voltage</property>
+                    <text-property name="displayName">rated_insulation_voltage</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rated_insulation_voltage"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rated_voltage</property>
+                    <text-property name="displayName">rated_voltage</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rated_voltage"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="679">
+                <property name="width">0.7in</property>
+            </column>
+            <column id="680"/>
+            <column id="681"/>
+            <column id="682"/>
+            <header>
+                <row id="559">
+                    <property name="borderBottomStyle">none</property>
+                    <property name="borderLeftStyle">none</property>
+                    <property name="borderRightStyle">none</property>
+                    <property name="borderTopStyle">none</property>
+                    <property name="height">0.010416666666666666in</property>
+                    <cell id="560"/>
+                    <cell id="561"/>
+                    <cell id="562"/>
+                    <cell id="563"/>
+                </row>
+            </header>
+            <detail>
+                <row id="564">
+                    <property name="borderBottomStyle">none</property>
+                    <property name="borderLeftStyle">none</property>
+                    <property name="borderRightStyle">none</property>
+                    <property name="borderTopStyle">none</property>
+                    <cell id="565">
+                        <label id="683">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Part 2</text-property>
+                        </label>
+                    </cell>
+                    <cell id="566"/>
+                    <cell id="567"/>
+                    <cell id="568"/>
+                </row>
+                <row id="569">
+                    <property name="borderBottomStyle">none</property>
+                    <property name="borderLeftStyle">none</property>
+                    <property name="borderRightStyle">none</property>
+                    <property name="borderTopStyle">none</property>
+                    <cell id="570"/>
+                    <cell id="571"/>
+                    <cell id="572"/>
+                    <cell id="573"/>
+                </row>
+                <row id="574">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="575">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="685">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Par.</text-property>
+                        </label>
+                    </cell>
+                    <cell id="576">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="686">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Characteristic to be verified</text-property>
+                        </label>
+                    </cell>
+                    <cell id="577">
+                        <label id="687">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Verification through</text-property>
+                        </label>
+                    </cell>
+                    <cell id="578">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="688">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text"> Notes</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="579">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="580">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="689">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.2</text-property>
+                        </label>
+                    </cell>
+                    <cell id="581">
+                        <label id="690">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Resistance to corrosion</text-property>
+                        </label>
+                    </cell>
+                    <cell id="582">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="691">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="583">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="584">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="585">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="693">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.3.1</text-property>
+                        </label>
+                    </cell>
+                    <cell id="586">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="694">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Verification of thermal stability of enclosures</text-property>
+                        </label>
+                    </cell>
+                    <cell id="587">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="695">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Not required</text-property>
+                        </label>
+                    </cell>
+                    <cell id="588">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="696">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text"> Steel sheet enclosure.</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="589">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="590">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="697">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.3.2</text-property>
+                        </label>
+                    </cell>
+                    <cell id="591">
+                        <label id="698">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Verification of resistance of insulating materials to abnormal heat and fire due to internal electric effects</text-property>
+                        </label>
+                    </cell>
+                    <cell id="592">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="699">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="593"/>
+                </row>
+                <row id="594">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="595">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="701">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.4</text-property>
+                        </label>
+                    </cell>
+                    <cell id="596">
+                        <label id="702">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Resistance to ultra-violet (UV) radiation</text-property>
+                        </label>
+                    </cell>
+                    <cell id="597">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="723">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Not required</text-property>
+                        </label>
+                    </cell>
+                    <cell id="598"/>
+                </row>
+                <row id="599">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="600">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="705">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.5</text-property>
+                        </label>
+                    </cell>
+                    <cell id="601">
+                        <label id="706">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Lifting</text-property>
+                        </label>
+                    </cell>
+                    <cell id="602">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="774">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="603">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="604">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="605">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="709">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.6</text-property>
+                        </label>
+                    </cell>
+                    <cell id="606">
+                        <label id="710">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Mechanical impact</text-property>
+                        </label>
+                    </cell>
+                    <cell id="607">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="773">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="608">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="609">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <property name="height">1.625in</property>
+                    <cell id="610">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="712">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.2.7</text-property>
+                        </label>
+                    </cell>
+                    <cell id="611">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="713">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Marking</text-property>
+                        </label>
+                    </cell>
+                    <cell id="612">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="714">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ASSEMBLY&#13;
+manufacturer </text-property>
+                        </label>
+                    </cell>
+                    <cell id="613">
+                        <label id="715">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">The ASSEMBLY manufacturer shall provide each ASSEMBLY with one or more labels, marked in a durable manner and located in a place such that they are visible and legible when the ASSEMBLY is installed and in operation. Compliance is checked according to the test of 10.2.7 and by inspection. &#13;
+</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="614">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="615">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="717">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.3</text-property>
+                        </label>
+                    </cell>
+                    <cell id="616">
+                        <label id="718">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Degree of protection of ASSEMBLIES</text-property>
+                        </label>
+                    </cell>
+                    <cell id="617">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="769">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="618">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="619">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="620">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="778">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="borderBottomStyle">none</property>
+                            <property name="borderLeftStyle">none</property>
+                            <property name="borderRightStyle">none</property>
+                            <property name="borderTopStyle">none</property>
+                            <text-property name="text">10.5.2</text-property>
+                        </label>
+                    </cell>
+                    <cell id="621">
+                        <label id="724">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Clearances and creepage distances</text-property>
+                        </label>
+                    </cell>
+                    <cell id="622">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="770">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="623">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="624">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="625">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="779">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.5.3</text-property>
+                        </label>
+                    </cell>
+                    <cell id="626">
+                        <label id="727">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Effective earth continuity between the exposed conductive parts of the ASSEMBLY and the protective circuit</text-property>
+                        </label>
+                    </cell>
+                    <cell id="627">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="771">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="628">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="629">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="630">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="780">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.6</text-property>
+                        </label>
+                    </cell>
+                    <cell id="631">
+                        <label id="730">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Short-circuit withstand strength of the protective circuit</text-property>
+                        </label>
+                    </cell>
+                    <cell id="632">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="772">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="633"/>
+                </row>
+                <row id="634">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="635">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="781">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.7</text-property>
+                        </label>
+                    </cell>
+                    <cell id="636">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="733">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Incorporation of switching devices and components</text-property>
+                        </label>
+                    </cell>
+                    <cell id="637">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="777">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Design rules</text-property>
+                        </label>
+                    </cell>
+                    <cell id="638">
+                        <label id="735">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">ASSEMBLY manufacturer must observe the original manufacturer´s instructions of the cabinet system and switching devices and components.</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="639">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="640">
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <label id="782">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.8</text-property>
+                        </label>
+                    </cell>
+                    <cell id="641">
+                        <label id="736">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Internal electrical circuits and connections</text-property>
+                        </label>
+                    </cell>
+                    <cell id="642">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="776">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Design rules</text-property>
+                        </label>
+                    </cell>
+                    <cell id="643">
+                        <label id="738">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">The original parts/components must be assembled acc. to the original manufacturer´s instructions.</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="644">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="645">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="783">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.9.2</text-property>
+                        </label>
+                    </cell>
+                    <cell id="646">
+                        <label id="739">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Terminals for external conductors</text-property>
+                        </label>
+                    </cell>
+                    <cell id="647">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="740">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Design rules</text-property>
+                        </label>
+                    </cell>
+                    <cell id="648">
+                        <label id="741">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">The original parts/components must be assembled according to the original manufacturer´s instructions.</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="649">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="650">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="784">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.9.3</text-property>
+                        </label>
+                    </cell>
+                    <cell id="651">
+                        <label id="742">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Dielectric properties&#13;
+Power-frequency withstand voltage</text-property>
+                        </label>
+                    </cell>
+                    <cell id="652">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="768">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="653">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="654">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="655">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="785">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.3</text-property>
+                        </label>
+                    </cell>
+                    <cell id="656">
+                        <label id="745">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Dielectric properties&#13;
+Impulse withstand voltage</text-property>
+                        </label>
+                    </cell>
+                    <cell id="657">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="767">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="658">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="659">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="660">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="786">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.10</text-property>
+                        </label>
+                    </cell>
+                    <cell id="661">
+                        <label id="748">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Verification of temperature rise</text-property>
+                        </label>
+                    </cell>
+                    <cell id="662">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="766">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="663">
+                        <label id="750">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">Please read for more information the devices catalogue and manual</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="664">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="665">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="787">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.11</text-property>
+                        </label>
+                    </cell>
+                    <cell id="666">
+                        <label id="751">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Short-circuit withstand strength</text-property>
+                        </label>
+                    </cell>
+                    <cell id="667">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="765">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="668"/>
+                </row>
+                <row id="669">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="670">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="788">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.12</text-property>
+                        </label>
+                    </cell>
+                    <cell id="671">
+                        <label id="754">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Electromagnetic compatibility (EMC)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="672">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="775">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Not required</text-property>
+                        </label>
+                    </cell>
+                    <cell id="673">
+                        <label id="756">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="fontSize">9pt</property>
+                            <text-property name="text">Applicability for environmental conditions "A" and "B"</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="757">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">medium</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">medium</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">medium</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">medium</property>
+                    <cell id="758">
+                        <label id="789">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">10.13</text-property>
+                        </label>
+                    </cell>
+                    <cell id="759">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="762">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">Mechanical operation</text-property>
+                        </label>
+                    </cell>
+                    <cell id="760">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                        <label id="763">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <text-property name="text">ABB</text-property>
+                        </label>
+                    </cell>
+                    <cell id="761">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">medium</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">medium</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">medium</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">medium</property>
+                    </cell>
+                </row>
+                <row id="790">
+                    <property name="borderBottomStyle">none</property>
+                    <property name="borderLeftStyle">none</property>
+                    <property name="borderRightStyle">none</property>
+                    <property name="borderTopStyle">none</property>
+                    <cell id="791"/>
+                    <cell id="792"/>
+                    <cell id="793"/>
+                    <cell id="794"/>
+                </row>
+                <row id="795">
+                    <property name="borderBottomStyle">none</property>
+                    <property name="borderLeftStyle">none</property>
+                    <property name="borderRightStyle">none</property>
+                    <property name="borderTopStyle">none</property>
+                    <cell id="796"/>
+                    <cell id="797"/>
+                    <cell id="798"/>
+                    <cell id="799">
+                        <text id="861">
+                            <property name="fontFamily">"ABBvoice"</property>
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[Number: <VALUE-OF>row["number"]</VALUE-OF>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="674">
+                    <cell id="675"/>
+                    <cell id="676"/>
+                    <cell id="677"/>
+                    <cell id="678"/>
+                </row>
+            </footer>
+        </table>
+    </body>
+    <list-property name="images">
+        <structure>
+            <property name="name">Line.png</property>
+            <property name="type">image/png</property>
+            <property name="data">
+                iVBORw0KGgoAAAANSUhEUgAAAnIAAAAZCAIAAAA64FRyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+                YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACKSURBVHhe7dihDcBADARB919Q2nNIWOg++hkdN1zJswBA
+                RFYBICOrAJCRVQDIyCoAZGQVADKyCgAZWQWAjKwCQEZWASAjqwCQkVUAyMgqAGRkFQAysgoAGVkFgMzs
+                nNzznQGAG/xC2E5WAbiJJzAAZGQVADKyCgAZWQWAjKwCQEZWASAjqwAQ2X0BLFo9L39XCaQAAAAASUVO
+                RK5CYII=
+</property>
+        </structure>
+        <structure>
+            <property name="name">ABB.png</property>
+            <property name="type">image/png</property>
+            <property name="data">
+                iVBORw0KGgoAAAANSUhEUgAAAGgAAAAoCAIAAACdJiiaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+                YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS2SURBVGhD7Zo9a1RBFIbzUywECyGFYCFYCIJFIIVgIVgE
+                LAQLIYVgITZiEyzEJtiIjdiIjVZaaaWVVkmllVaCH6txjYkmPsmZXGfPzJw7d+ek8+Ut1nXmzdxn53t3
+                ZrtOf95/+HTgYGzeWbt8JX7n+4WLofQQfTl+Ig7JmmLfzp6T17z4cfXaz/sPaIAk2FKNzHr94aPxrdvy
+                +uvJU2uXFvnn5spqiMipFlyX2zkF9/nQ4T8fP4YK1RoKrjN/brx8R0IMDQUXm7pbo1EImlQtOD4HFZqC
+                w3SEUKFaU4MTj06fKT2bqAUc/nL0WLbrVYHbfP1GxeEsOB4v1KlWIzhMMyQqq0ZwmE6ztb4e4vZUBe7H
+                9RsqC2fB4aGjtR0c3nj+QtJStYPD46WbIW5P/eCATXdVQbgErmbeieUCbjQ3L2mpXMBhNSH0g+PDVBHi
+                Ejg6dqhZJxdwOB1NIi9wqlP3g2NtVhHiEjjMnBgqV8gL3MbLVxKo5AWOAiFxVz3g+BhZ9VWE2ADHnBjq
+                V8gLHA8vgUpe4MgJibvqAbf++Imq39kAx5wY6lfIC9yvp88kUMkLnOoNPeBK4xQb4HBp4KTyAvf77TsJ
+                VPICp7aoFjjWkdI4xTY4TkUhpU8u4PhfSUvlAg4OA1ZVGKv6sW1wn2ePlJY5JRdw+72PIyTE7ckCx2lG
+                1Y9tg8OlSUepHZy9FrWDG3ZyYMpQ9ZV7wTE/hixTjeDSvqDUCI6tdfYsVATXO1n2gkvnhawawfHMklNS
+                Izgm6+xTFMGl1yHKveBwzWVJ+1D9tnDeOCA3gsPsrtI5NA+ud5ziGnA8bUgsy2VxIIT2SKBSOzix6tp5
+                cNnrEOUacLj0PJ1cwOESOy9wzDxxvysO1f+ylQG3ubLKx9trppXx8h31ZuretZUCqkpqijEI1JtZc0aU
+                2E41jaQr0enUm1l3W58MONYR1Uuzrhyq2L4s8RqqYvaeEtvJa6h2loVIgytdW6auB2cfv3zBYXVodQcn
+                N7UaHJ1WlSu5Hpx9WeIOTl1Bu4OjJcRqcMZ1iHI9OGxclriDUx3cHRwNJnYCnHFtmXoQOGO0uoNT34u7
+                gwMRsRPgqK8KGR4EzrgscQcnQ6mTOzhM7AS4+sbhQeBwulEQ+YNbOC/Jon3vcYBQJWwPBaeep5M7OFol
+                ySJ3cHqOG9RX8VBwpcsSd3A/796TZJE7OJlD/4EzrkOYoWi3cvbkMJqbV3VjZy9L3MHt9z5OniKAs69D
+                VOc3tLMuzx5R1Tvz8KFcJF9w6Vf6vuAYNxMnh/HSTVUitnGjn8puaHpx5gsuva/3BafPqkbrB31Jiuyz
+                h9rWI0dw2R7tCA4U3Qe/Ay77K67O9kkzlb2LToeSFzhy0u6MvMDxUPH5ZwecfR0yaJyKWHdUSGw1ebuA
+                oy+UfnnqAg5qlAmJu5qxp/P6r0dj8TdUTmz1W7N2cOwH2BtJWqp2cEBIe88Ms6kqF5u/GgoOkT1a1aTZ
+                Ao5HUru2VI3gWA3y33LZw2qKcSqymxtPFlOAo4utXVrkDFczGqYAx0fLOYf9WnbSFM3wDIanGKcixo6K
+                ih2PLJYm9b+pd4qtrPJCzY81okoclTWApMG1v+zb3v4L89q/nw1HzTQAAAAASUVORK5CYII=
+</property>
+        </structure>
+    </list-property>
+</report>

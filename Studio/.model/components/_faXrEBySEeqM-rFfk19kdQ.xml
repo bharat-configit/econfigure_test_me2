@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_faXrEBySEeqM-rFfk19kdQ" name="device_XLP_NH1_trimcover">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_IjY20ByTEeqM-rFfk19kdQ"
+      name="display_xlp_trimcover" visibility="800">
+    <domain uuid="_IjY20RyTEeqM-rFfk19kdQ" name="local"
+        visibility="300">
+      <typeSet uuid="_IjY20hyTEeqM-rFfk19kdQ" bitSet="4"/>
+    </domain>
+    <domainGlobal href="../product_model.xml#_vslzMKGzEeakYckfWfj99g"/>
+  </variables>
+  <calculation uuid="_LWqPsByTEeqM-rFfk19kdQ" name="Calculation_Rules"
+      visibility="800">
+    <text>width_xlp_NH1_trimcover =209;</text>
+  </calculation>
+  <geometry uuid="_faXrERySEeqM-rFfk19kdQ" deletable="false"
+      name="root">
+    <units uuid="_kEnzsBySEeqM-rFfk19kdQ" name="geo_device_XLP_NH1_trimcover">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_sk82ABySEeqM-rFfk19kdQ" name="Interactive_SVG"
+          checksum="16e2fd25cffd76af8c5d793417ca3e4b65bb135e">
+        <translation uuid="_sk82ARySEeqM-rFfk19kdQ"/>
+        <file href="../../model.build#_6SBqABySEeqM-rFfk19kdQ"/>
+        <handles uuid="_E9NaUByTEeqM-rFfk19kdQ" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_E9NaURyTEeqM-rFfk19kdQ"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_xlp_trimcover"
+              target="xml"/>
+          <fields xsi:type="comp:Field" uuid="_HJvjUByTEeqM-rFfk19kdQ"
+              name="widthManipulation" fieldId="width"
+              variableReference="width_xlp_NH1_trimcover"
+              target="xml"/>
+        </handles>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_faXrEhySEeqM-rFfk19kdQ" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_faXrExySEeqM-rFfk19kdQ" value="device_XLP_NH1_trimcover"/>
+</comp:Component>

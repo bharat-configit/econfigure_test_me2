@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_AN5TAF4AEeaQA67lBIkuIw" name="flange_set_rbbs"
+    toaPrefix="flange_set" deleteMode="NEVER">
+  <variables xsi:type="comp:VariableGroup" uuid="_zJ9PkGR2EeaiteYSIqkzJA"
+      name="Internal" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_hqry4F4AEeaQA67lBIkuIw"
+        name="flange1" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_iq764PzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          priority="100"/>
+      <domain uuid="_hqsZ8F4AEeaQA67lBIkuIw" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFhKviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_zq6K8GOOEeaZOu5LTB6vUA"
+        name="flange3" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ltvkkPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_zq6K8mOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFkKviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_z8K6EGOOEeaZOu5LTB6vUA"
+        name="flange4" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_m2JXEPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_z8K6EmOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFlqviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0OvQwGOOEeaZOu5LTB6vUA"
+        name="flange5" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_ntoYsPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_0OvQwmOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFnKviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0a1zEGOOEeaZOu5LTB6vUA"
+        name="flange6" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_omFqsPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_0a1zEmOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFoqviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0lOeIGOOEeaZOu5LTB6vUA"
+        name="flange7" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_po8O0PzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_0lPFMWOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MFqKviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_0vRK8GOOEeaZOu5LTB6vUA"
+        name="flange8" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_qvmU4PzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_0vRK8mOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20Msc6viEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_043y4GOOEeaZOu5LTB6vUA"
+        name="flange9" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_rl7f8PzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_043y4mOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MseaviEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_1BlqAGOOEeaZOu5LTB6vUA"
+        name="flange10" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_sqDPYPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="OUT"/>
+      <domain uuid="_1BlqAmOOEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20Msf6viEeaK7oriseII_A" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_L_tPQISDEeakHp0aagACvw"
+        name="orientation" visibility="800" initValue="vertical">
+      <domain uuid="_L_tPQYSDEeakHp0aagACvw" name="local"
+          visibility="300">
+        <typeSet uuid="_20MshaviEeaK7oriseII_A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_8THXMJ80Eea5nZoP83oc6Q"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_XyhSMN8pEeawHbbvsBXvOw"
+        name="flange2" visibility="800" initValue="TZ107">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_jtjOcPzxEeasQN7JlWdnKg" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          priority="100"/>
+      <domain uuid="_Xyk8kd8pEeawHbbvsBXvOw" name="local"
+          visibility="300">
+        <typeSet uuid="_Xyk8kt8pEeawHbbvsBXvOw" bitSet="393231"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Xyk8k98pEeawHbbvsBXvOw"
+        name="switch1" visibility="800">
+      <domain uuid="_Xyk8lN8pEeawHbbvsBXvOw" name="local"
+          visibility="300">
+        <typeSet uuid="_Xyk8ld8pEeawHbbvsBXvOw" bitSet="10"/>
+        <values uuid="_XymxwN8pEeawHbbvsBXvOw" name="-1"
+            visibility="300">
+          <displayName uuid="_dcVgAv7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ZV1_0Lf_EeiVxeDD_jTICA"
+        name="delete_mode" visibility="800">
+      <domain uuid="_ZV1_1bf_EeiVxeDD_jTICA" name="local"
+          visibility="300">
+        <typeSet uuid="_ZV1_2Lf_EeiVxeDD_jTICA" bitSet="393217"/>
+        <values uuid="_ZV1_2bf_EeiVxeDD_jTICA" name="0"
+            visibility="300">
+          <displayName uuid="_dcVgB_7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_67VhMGR2EeaiteYSIqkzJA"
+      name="Svg" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_Ls0zUGR1EeaiteYSIqkzJA"
+        name="flange1_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_Ls0zUmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MsjKviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_egYY8GR1EeaiteYSIqkzJA"
+        name="flange3_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_egYY8mR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20MsmKviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_e8ftMGR1EeaiteYSIqkzJA"
+        name="flange4_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_e8ftMmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NThaviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_fZoVIGR1EeaiteYSIqkzJA"
+        name="flange5_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_fZoVImR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTi6viEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_f1ejoGR1EeaiteYSIqkzJA"
+        name="flange6_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_f1ejomR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTkaviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_gUR_gGR1EeaiteYSIqkzJA"
+        name="flange7_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_gUR_gmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTl6viEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_g_dDcGR1EeaiteYSIqkzJA"
+        name="flange8_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_g_dDcmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTnaviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hh1XwGR1EeaiteYSIqkzJA"
+        name="flange9_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_hh1XwmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTo6viEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_jnJecGR1EeaiteYSIqkzJA"
+        name="flange10_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_jnJecmR1EeaiteYSIqkzJA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTqaviEeaK7oriseII_A" bitSet="4"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_Xymxwd8pEeawHbbvsBXvOw"
+        name="flange2_svg" visibility="800" initValue="static_svgs/TWL_Flange_TZ107.svg">
+      <domain uuid="_XynY0N8pEeawHbbvsBXvOw" name="local"
+          visibility="300">
+        <typeSet uuid="_XynY0d8pEeawHbbvsBXvOw" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_pUvPoAfuEeihqagqSIju_g"
+        name="fill_open_blind_flange" visibility="800"
+        initValue="custom_grey_panel">
+      <domain uuid="_pUvPpQfuEeihqagqSIju_g" name="local"
+          visibility="300">
+        <typeSet uuid="_pUvPqAfuEeihqagqSIju_g" bitSet="131072"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Lg-BcBtfEeapHPoUarFNjg"/>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_5wXzIG9cEeaRX6ZGi7aaLg"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_NDnpMGObEeaZOu5LTB6vUA"
+        name="panel_cable_entry" visibility="800">
+      <facets xsi:type="comp:VariableCalculationConstraintFacet"
+          uuid="_qt1TwP-OEeeZ3OekOzgYOw" declared="true"/>
+      <domain uuid="_NDnpMWObEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTvKviEeaK7oriseII_A" bitSet="393226"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_AY1-EApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_OcuxMGObEeaZOu5LTB6vUA"
+        name="panel_cable_entry_rows" visibility="800">
+      <facets xsi:type="comp:VariableCalculationConstraintFacet"
+          uuid="_pyZmQP-OEeeZ3OekOzgYOw" declared="true"/>
+      <domain uuid="_OcuxMWObEeaZOu5LTB6vUA" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTwqviEeaK7oriseII_A" bitSet="393226"/>
+        <values uuid="_34Ef0PqoEeajGYWRaRk8xQ" name="2"
+            visibility="300">
+          <displayName uuid="_dcWG__7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+      <domainGlobal href="../product_model.xml#_ejhCYApXEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_pDdbkF7iEeaF3YSPBUql-Q"
+        name="panel_panel_product_line" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_UFBjsMqwEeeYkcLv0YT44w" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="IN" priority="170"/>
+      <domain uuid="_pDdbkl7iEeaF3YSPBUql-Q" name="local"
+          visibility="300">
+        <typeSet uuid="_20NTyKviEeaK7oriseII_A" bitSet="393220"/>
+        <values uuid="_pDdbk17iEeaF3YSPBUql-Q" deletable="false"
+            name="'spep'" visibility="300">
+          <displayName uuid="_dcWHBv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_pDdblF7iEeaF3YSPBUql-Q" deletable="false"
+            name="'triline'" visibility="300">
+          <displayName uuid="_dcWHCP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_pDdblV7iEeaF3YSPBUql-Q" deletable="false"
+            name="'twinline'" visibility="300">
+          <displayName uuid="_dcWHCv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_nB4nYKOBEeeKMt96HPuzrg" name=" NONE"
+            visibility="300">
+          <displayName uuid="_dcWHDP7nEeiskp2v5nXzHA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_bJkNcHQ0EeahONr4-ZFNMQ"
+        name="panel_panel_type" visibility="800">
+      <domain uuid="_bJkNcXQ0EeahONr4-ZFNMQ" name="local"
+          visibility="300">
+        <typeSet uuid="_20N6l6viEeaK7oriseII_A" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_PdgQEApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_hOfnsOI6EeaeNNH2bYOgCg"
+        name="switchboard_depth_toa" visibility="800">
+      <domain uuid="_hOg10OI6EeaeNNH2bYOgCg" name="local"
+          visibility="300">
+        <typeSet uuid="_hOiD8OI6EeaeNNH2bYOgCg" bitSet="393230"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_m0ILYP9CEearRL6Z9LV5qg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_IckJgPzxEeasQN7JlWdnKg"
+        name="panel_cable_entry_ratio" visibility="800">
+      <facets xsi:type="comp:VariableCalculationConstraintFacet"
+          uuid="_o_rI0P-OEeeZ3OekOzgYOw" declared="true"/>
+      <domain uuid="_IckJgfzxEeasQN7JlWdnKg" name="local"
+          visibility="300">
+        <typeSet uuid="_IckJgvzxEeasQN7JlWdnKg" bitSet="393231"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_AY1-EApYEeiG4KMrIZ27cw"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_HGKckGulEee3XesYpXh51Q"
+        name="move_y_row1" visibility="800">
+      <domain uuid="_HGM40GulEee3XesYpXh51Q" name="local"
+          visibility="300">
+        <typeSet uuid="_HGM40WulEee3XesYpXh51Q" bitSet="10"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_HGM40mulEee3XesYpXh51Q"
+        name="move_y_row2" visibility="800">
+      <domain uuid="_HGM402ulEee3XesYpXh51Q" name="local"
+          visibility="300">
+        <typeSet uuid="_HGM41GulEee3XesYpXh51Q" bitSet="10"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_n8wOAMquEeeYkcLv0YT44w"
+        name="column_width_toa" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_LgZ3QMqwEeeYkcLv0YT44w" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="IN" priority="150">
+        <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_n8wOAcquEeeYkcLv0YT44w" name="local"
+          visibility="300">
+        <typeSet uuid="_n8wOAsquEeeYkcLv0YT44w" bitSet="393226"/>
+        <values uuid="_t7SpAMquEeeYkcLv0YT44w" name="250"
+            visibility="300">
+          <displayName uuid="_dcWHJv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpAcquEeeYkcLv0YT44w" name="300"
+            visibility="300">
+          <displayName uuid="_dcWHKP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpAsquEeeYkcLv0YT44w" name="400"
+            visibility="300">
+          <displayName uuid="_dcWHKv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpA8quEeeYkcLv0YT44w" name="500"
+            visibility="300">
+          <displayName uuid="_dcWHLP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpBMquEeeYkcLv0YT44w" name="700"
+            visibility="300">
+          <displayName uuid="_dcWHLv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpBcquEeeYkcLv0YT44w" name="750"
+            visibility="300">
+          <displayName uuid="_dcWHMP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpBsquEeeYkcLv0YT44w" name="900"
+            visibility="300">
+          <displayName uuid="_dcWHMv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpB8quEeeYkcLv0YT44w" name="1000"
+            visibility="300">
+          <displayName uuid="_dcWHNP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpCMquEeeYkcLv0YT44w" name="1100"
+            visibility="300">
+          <displayName uuid="_dcWHNv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpCcquEeeYkcLv0YT44w" name="1250"
+            visibility="300">
+          <displayName uuid="_dcWHOP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_t7SpCsquEeeYkcLv0YT44w" name="?"
+            visibility="300">
+          <displayName uuid="_dcWHOv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_hKk2AAU8Eeqm0saACZ9t1g" name="650"
+            visibility="300">
+          <displayName uuid="_hKk2AQU8Eeqm0saACZ9t1g"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_cRNLEAfyEeihqagqSIju_g"
+        name="column_width_outside_toa" visibility="800"
+        initValue="599">
+      <domain uuid="_cRNLEQfyEeihqagqSIju_g" name="local"
+          visibility="300">
+        <typeSet uuid="_cRNLEgfyEeihqagqSIju_g" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_iTzmsAfyEeihqagqSIju_g"
+        name="column_depth_outside_toa" visibility="800"
+        initValue="599">
+      <domain uuid="_iTzmsQfyEeihqagqSIju_g" name="local"
+          visibility="300">
+        <typeSet uuid="_iTzmsgfyEeihqagqSIju_g" bitSet="393230"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_AUPFwDC2Eei3FYwSM87Srg"
+        name="panel_open_blind" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_0hauAH-QEeiTwvZCwUovrw" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" select="CLOSEST"
+          flow="IN">
+        <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_AUPFwTC2Eei3FYwSM87Srg" name="local"
+          visibility="300">
+        <typeSet uuid="_AUPFwjC2Eei3FYwSM87Srg" bitSet="393231"/>
+        <values uuid="_qJknoIAYEeiT9v_bxPyKSg" name="Open_blind_flange"
+            visibility="300">
+          <displayName uuid="_dcWHTP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_sODn4IAYEeiT9v_bxPyKSg" name="Open_flange"
+            visibility="300">
+          <displayName uuid="_dcWHTv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_uAf14IAYEeiT9v_bxPyKSg" name="Open+Aerated"
+            visibility="300">
+          <displayName uuid="_dcWHUP7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_RqYG8ImyEeiYhazrMjd8Lw" name="Aerated"
+            visibility="300">
+          <displayName uuid="_dcWHUv7nEeiskp2v5nXzHA"/>
+        </values>
+        <values uuid="_F3QewHvUEem7IZeAcTJktQ" name="Blind"
+            visibility="300">
+          <displayName uuid="_F3QewXvUEem7IZeAcTJktQ"/>
+        </values>
+        <values uuid="_IYdVAILLEemiaaHyHpAhNw" name="without panel"
+            visibility="300">
+          <displayName uuid="_IYdVAYLLEemiaaHyHpAhNw"/>
+        </values>
+        <values uuid="_aKvT8PDhEemtOvEkPNQ_AQ" name="Blind_flange"
+            visibility="300">
+          <displayName uuid="_aKvT8fDhEemtOvEkPNQ_AQ"/>
+        </values>
+        <values uuid="_LysVUBBnEeqZ3d2o4FdHEw" name="Blind_two_parts"
+            visibility="300">
+          <displayName uuid="_LysVURBnEeqZ3d2o4FdHEw"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_o5I3kLBJEei1rMrldW_SBw"
+        name="colour_fill" visibility="800" initValue="">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_O_opULBREei1rMrldW_SBw" declared="true"
+          model="_QI3mQF7iEeaF3YSPBUql-Q" flow="IN">
+        <priorities href="../product_model.xml#_2AZBYw3CEeCuJc61zSuWFg"/>
+      </facets>
+      <domain uuid="_o5I3l7BJEei1rMrldW_SBw" name="local"
+          visibility="300">
+        <typeSet uuid="_o5I3mrBJEei1rMrldW_SBw" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_Lg-BcBtfEeapHPoUarFNjg"/>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_ZXyaUJcLEemUMLTDics-ww"
+        name="switchboard_ip_protection_toa" visibility="800"
+        initValue="40">
+      <domain uuid="_ZXzBYpcLEemUMLTDics-ww" name="local"
+          visibility="300">
+        <typeSet uuid="_ZXzBZJcLEemUMLTDics-ww" bitSet="393218"/>
+        <values uuid="_ZXzBZZcLEemUMLTDics-ww" name="0"
+            visibility="300">
+          <displayName uuid="_ZXzBZ5cLEemUMLTDics-ww"
+              value="IP00"/>
+        </values>
+        <values uuid="_ZXzocJcLEemUMLTDics-ww" name="30"
+            visibility="300">
+          <displayName uuid="_ZXzocpcLEemUMLTDics-ww"
+              value="IP30"/>
+        </values>
+        <values uuid="_ZXzoc5cLEemUMLTDics-ww" name="31"
+            visibility="300">
+          <displayName uuid="_ZXzodZcLEemUMLTDics-ww"
+              value="IP31"/>
+        </values>
+        <values uuid="_ZXzodpcLEemUMLTDics-ww" name="40"
+            visibility="300">
+          <displayName uuid="_ZXzoeJcLEemUMLTDics-ww"
+              value="IP40"/>
+        </values>
+        <values uuid="_ZXzoeZcLEemUMLTDics-ww" name="41"
+            visibility="300">
+          <displayName uuid="_ZXzoe5cLEemUMLTDics-ww"
+              value="IP41"/>
+        </values>
+        <values uuid="_ZXzofJcLEemUMLTDics-ww" name="55"
+            visibility="300">
+          <displayName uuid="_ZXzofpcLEemUMLTDics-ww"
+              value="IP55"/>
+        </values>
+        <values uuid="_ZXzof5cLEemUMLTDics-ww" name="65"
+            visibility="300">
+          <displayName uuid="_ZXzogZcLEemUMLTDics-ww"
+              value="IP65"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_7x1D0J7mEem3srzBbh1n4Q"
+        name="column_type" visibility="800">
+      <domain uuid="_7x1D057mEem3srzBbh1n4Q" name="local"
+          visibility="300">
+        <typeSet uuid="_7x1D1Z7mEem3srzBbh1n4Q" bitSet="393220"/>
+      </domain>
+      <domainGlobal href="../product_model.xml#_OYNOcLKCEemh1aOjJa60HQ"/>
+    </children>
+  </variables>
+  <logic uuid="_QI3mQF7iEeaF3YSPBUql-Q" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_Q3fm0F7iEeaF3YSPBUql-Q"
+        name="flange_product_line_type1" visibility="800">
+      <columns uuid="_Z59BwNo9EeeBXa6ZQkrxZw" name="column_width_toa"
+          visibility="100" databaseAlias="column_width_toa">
+        <cells uuid="_cembcQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembcg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembcw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembdA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenChQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenChg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenChw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCiA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCiQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCig7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCiw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCjA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCjQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCjg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCjw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCkA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCkQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCkg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCkw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenClA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenClQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenClg7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenClw7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCmA7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCmQ7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCmg7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCmw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCnA7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCnQ7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCng7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCnw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCoA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCoQ7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCog7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCow7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCpA7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCpQ7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCpg7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCpw7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCqA7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCqQ7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCqg7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCqw7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCrA7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCrQ7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCrg7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCrw7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCsA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCsQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCsg7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCsw7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCtA7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCtQ7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCtg7GEeqjcLD7jNW-Mw" value="250"/>
+        <cells uuid="_cenCtw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCuA7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCuQ7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenCug7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCuw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCvA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCvQ7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCvg7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenCvw7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCwA7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCwQ7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCwg7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCww7GEeqjcLD7jNW-Mw" value="750"/>
+        <cells uuid="_cenCxA7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCxQ7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCxg7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCxw7GEeqjcLD7jNW-Mw" value="1000"/>
+        <cells uuid="_cenCyA7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCyQ7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCyg7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCyw7GEeqjcLD7jNW-Mw" value="1250"/>
+        <cells uuid="_cenCzA7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenCzQ7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenCzg7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenCzw7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC0A7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC0Q7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC0g7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC0w7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC1A7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC1Q7GEeqjcLD7jNW-Mw" value="600"/>
+        <cells uuid="_cenC1g7GEeqjcLD7jNW-Mw" value="600"/>
+        <cells uuid="_cenC1w7GEeqjcLD7jNW-Mw" value="600"/>
+        <cells uuid="_cenC2A7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenC2Q7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenC2g7GEeqjcLD7jNW-Mw" value="400"/>
+        <cells uuid="_cenC2w7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC3A7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC3Q7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC3g7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC3w7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC4A7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC4Q7GEeqjcLD7jNW-Mw" value="600"/>
+        <cells uuid="_cenC4g7GEeqjcLD7jNW-Mw" value="600"/>
+        <cells uuid="_cenC4w7GEeqjcLD7jNW-Mw" value="600"/>
+      </columns>
+      <columns uuid="_bSeT4No9EeeBXa6ZQkrxZw" name="switchboard_depth_toa"
+          visibility="100" databaseAlias="switchboard_depth_toa">
+        <cells uuid="_cembdg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembdw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembeA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cembeQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC5A7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC5Q7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC5g7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC5w7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC6A7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC6Q7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC6g7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC6w7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC7A7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC7Q7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC7g7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC7w7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC8A7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC8Q7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC8g7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC8w7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC9A7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenC9Q7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenC9g7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenC9w7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenC-A7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC-Q7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC-g7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenC-w7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenC_A7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenC_Q7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenC_g7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenC_w7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDAA7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDAQ7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDAg7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenDAw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDBA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDBQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDBg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDBw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDCA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDCQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDCg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDCw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDDA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDDQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDDg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDDw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenDEA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenDEQ7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenDEg7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDEw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDFA7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDFQ7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDFg7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDFw7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDGA7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDGQ7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenDGg7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDGw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDHA7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDHQ7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDHg7GEeqjcLD7jNW-Mw" value="200"/>
+        <cells uuid="_cenDHw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDIA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDIQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDIg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDIw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDJA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDJQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDJg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDJw7GEeqjcLD7jNW-Mw" value="300"/>
+        <cells uuid="_cenDKA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDKQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDKg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDKw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDLA7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDLQ7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDLg7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDLw7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDMA7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDMQ7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDMg7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDMw7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDNA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDNQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDNg7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDNw7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDOA7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDOQ7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDOg7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDOw7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDPA7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDPQ7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDPg7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDPw7GEeqjcLD7jNW-Mw" value="900"/>
+        <cells uuid="_cenDQA7GEeqjcLD7jNW-Mw" value="500"/>
+        <cells uuid="_cenDQQ7GEeqjcLD7jNW-Mw" value="700"/>
+        <cells uuid="_cenDQg7GEeqjcLD7jNW-Mw" value="900"/>
+      </columns>
+      <columns uuid="_S0MgUFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_cembew7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cembfA7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cembfQ7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cembfg7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDQw7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDRA7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDRQ7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDRg7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDRw7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDSA7GEeqjcLD7jNW-Mw" value="twinline"/>
+        <cells uuid="_cenDSQ7GEeqjcLD7jNW-Mw" value="spep"/>
+        <cells uuid="_cenDSg7GEeqjcLD7jNW-Mw" value="spep"/>
+        <cells uuid="_cenDSw7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDTA7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDTQ7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDTg7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDTw7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDUA7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDUQ7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDUg7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDUw7GEeqjcLD7jNW-Mw" value="triline"/>
+        <cells uuid="_cenDVA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDVQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDVg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDVw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDWA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDWQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDWg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDWw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDXA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDXQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDXg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDXw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDYA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDYQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDYg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDYw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDZA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDZQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDZg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDZw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDaA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDaQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDag7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDaw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDbA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDbQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDbg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenDbw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenDcA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDcQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDcg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDcw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDdA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDdQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDdg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDdw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDeA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDeQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDeg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDew7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDfA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDfQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDfg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDfw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDgA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDgQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDgg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDgw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDhA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDhQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDhg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDhw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDiA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDiQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDig7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDiw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDjA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDjQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDjg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDjw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDkA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDkQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDkg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDkw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDlA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDlQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDlg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDlw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDmA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDmQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDmg7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDmw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDnA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDnQ7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDng7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDnw7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDoA7GEeqjcLD7jNW-Mw" value="blind"/>
+        <cells uuid="_cenDoQ7GEeqjcLD7jNW-Mw" value="blind"/>
+      </columns>
+      <columns uuid="_S0NHYFKTEeebRqT2tNG43g" name="flange1"
+          visibility="100" databaseAlias="flange1">
+        <cells uuid="_cembgA7GEeqjcLD7jNW-Mw" value="TZ101"/>
+        <cells uuid="_cembgQ7GEeqjcLD7jNW-Mw" value="TZ102"/>
+        <cells uuid="_cembgg7GEeqjcLD7jNW-Mw" value="TZ103"/>
+        <cells uuid="_cembgw7GEeqjcLD7jNW-Mw" value="TZ104"/>
+        <cells uuid="_cenDog7GEeqjcLD7jNW-Mw" value="TZ105"/>
+        <cells uuid="_cenDow7GEeqjcLD7jNW-Mw" value="TZ107"/>
+        <cells uuid="_cenDpA7GEeqjcLD7jNW-Mw" value="TZ106"/>
+        <cells uuid="_cenDpQ7GEeqjcLD7jNW-Mw" value="TZ110"/>
+        <cells uuid="_cenDpg7GEeqjcLD7jNW-Mw" value="TZ111"/>
+        <cells uuid="_cenDpw7GEeqjcLD7jNW-Mw" value="TZ112"/>
+        <cells uuid="_cenDqA7GEeqjcLD7jNW-Mw" value="EV0114"/>
+        <cells uuid="_cenDqQ7GEeqjcLD7jNW-Mw" value="EV0116"/>
+        <cells uuid="_cenDqg7GEeqjcLD7jNW-Mw" value="RFGA15"/>
+        <cells uuid="_cenDqw7GEeqjcLD7jNW-Mw" value="RFKA15"/>
+        <cells uuid="_cenDrA7GEeqjcLD7jNW-Mw" value="RFMA15"/>
+        <cells uuid="_cenDrQ7GEeqjcLD7jNW-Mw" value="RFGA2"/>
+        <cells uuid="_cenDrg7GEeqjcLD7jNW-Mw" value="RFKA2"/>
+        <cells uuid="_cenDrw7GEeqjcLD7jNW-Mw" value="RFMA2"/>
+        <cells uuid="_cenDsA7GEeqjcLD7jNW-Mw" value="RFGA25"/>
+        <cells uuid="_cenDsQ7GEeqjcLD7jNW-Mw" value="RFKA25"/>
+        <cells uuid="_cenDsg7GEeqjcLD7jNW-Mw" value="RFMA25"/>
+        <cells uuid="_cenDsw7GEeqjcLD7jNW-Mw" value="PFCF2520"/>
+        <cells uuid="_cenDtA7GEeqjcLD7jNW-Mw" value="PFCF2530"/>
+        <cells uuid="_cenDtQ7GEeqjcLD7jNW-Mw" value="PFCF2550"/>
+        <cells uuid="_cenDtg7GEeqjcLD7jNW-Mw" value="PFCF2570"/>
+        <cells uuid="_cenDtw7GEeqjcLD7jNW-Mw" value="PFCF2590"/>
+        <cells uuid="_cenDuA7GEeqjcLD7jNW-Mw" value="PFCF3050"/>
+        <cells uuid="_cenDuQ7GEeqjcLD7jNW-Mw" value="PFCF3070"/>
+        <cells uuid="_cenDug7GEeqjcLD7jNW-Mw" value="PFCF3090"/>
+        <cells uuid="_cenDuw7GEeqjcLD7jNW-Mw" value="PFCF5020"/>
+        <cells uuid="_cenDvA7GEeqjcLD7jNW-Mw" value="PFCF3050"/>
+        <cells uuid="_cenDvQ7GEeqjcLD7jNW-Mw" value="PFCF5050"/>
+        <cells uuid="_cenDvg7GEeqjcLD7jNW-Mw" value="PFCF5070"/>
+        <cells uuid="_cenDvw7GEeqjcLD7jNW-Mw" value="PFCF5090"/>
+        <cells uuid="_cenDwA7GEeqjcLD7jNW-Mw" value="PFCF7520"/>
+        <cells uuid="_cenDwQ7GEeqjcLD7jNW-Mw" value="PFCF7530"/>
+        <cells uuid="_cenDwg7GEeqjcLD7jNW-Mw" value="PFCF7550"/>
+        <cells uuid="_cenDww7GEeqjcLD7jNW-Mw" value="PFCF7570"/>
+        <cells uuid="_cenDxA7GEeqjcLD7jNW-Mw" value="PFCF7590"/>
+        <cells uuid="_cenDxQ7GEeqjcLD7jNW-Mw" value="PFCF1030"/>
+        <cells uuid="_cenDxg7GEeqjcLD7jNW-Mw" value="PFCF1050"/>
+        <cells uuid="_cenDxw7GEeqjcLD7jNW-Mw" value="PFCF1070"/>
+        <cells uuid="_cenDyA7GEeqjcLD7jNW-Mw" value="PFCF1090"/>
+        <cells uuid="_cenDyQ7GEeqjcLD7jNW-Mw" value="PFCF6030"/>
+        <cells uuid="_cenDyg7GEeqjcLD7jNW-Mw" value="PFCF6050"/>
+        <cells uuid="_cenDyw7GEeqjcLD7jNW-Mw" value="PFCF6070"/>
+        <cells uuid="_cenDzA7GEeqjcLD7jNW-Mw" value="PFCF6090"/>
+        <cells uuid="_cenDzQ7GEeqjcLD7jNW-Mw" value="NONE"/>
+        <cells uuid="_cenDzg7GEeqjcLD7jNW-Mw" value="No"/>
+        <cells uuid="_cenDzw7GEeqjcLD7jNW-Mw" value="PFCF2520COL"/>
+        <cells uuid="_cenD0A7GEeqjcLD7jNW-Mw" value="PFCF2530COL"/>
+        <cells uuid="_cenD0Q7GEeqjcLD7jNW-Mw" value="PFCF2550COL"/>
+        <cells uuid="_cenD0g7GEeqjcLD7jNW-Mw" value="PFCF2570COL"/>
+        <cells uuid="_cenD0w7GEeqjcLD7jNW-Mw" value="PFCF2590COL"/>
+        <cells uuid="_cenD1A7GEeqjcLD7jNW-Mw" value="PFCF3050COL"/>
+        <cells uuid="_cenD1Q7GEeqjcLD7jNW-Mw" value="PFCF3070COL"/>
+        <cells uuid="_cenD1g7GEeqjcLD7jNW-Mw" value="PFCF3090COL"/>
+        <cells uuid="_cenD1w7GEeqjcLD7jNW-Mw" value="PFCF5020COL"/>
+        <cells uuid="_cenD2A7GEeqjcLD7jNW-Mw" value="PFCF5030COL"/>
+        <cells uuid="_cenD2Q7GEeqjcLD7jNW-Mw" value="PFCF5050COL"/>
+        <cells uuid="_cenD2g7GEeqjcLD7jNW-Mw" value="PFCF5070COL"/>
+        <cells uuid="_cenD2w7GEeqjcLD7jNW-Mw" value="PFCF5090COL"/>
+        <cells uuid="_cenD3A7GEeqjcLD7jNW-Mw" value="PFCF7520COL"/>
+        <cells uuid="_cenD3Q7GEeqjcLD7jNW-Mw" value="PFCF7530COL"/>
+        <cells uuid="_cenD3g7GEeqjcLD7jNW-Mw" value="PFCF7550COL"/>
+        <cells uuid="_cenD3w7GEeqjcLD7jNW-Mw" value="PFCF7570COL"/>
+        <cells uuid="_cenD4A7GEeqjcLD7jNW-Mw" value="PFCF7590COL"/>
+        <cells uuid="_cenD4Q7GEeqjcLD7jNW-Mw" value="PFCF1030COL"/>
+        <cells uuid="_cenD4g7GEeqjcLD7jNW-Mw" value="PFCF1050COL"/>
+        <cells uuid="_cenD4w7GEeqjcLD7jNW-Mw" value="PFCF1070COL"/>
+        <cells uuid="_cenD5A7GEeqjcLD7jNW-Mw" value="PFCF1090COL"/>
+        <cells uuid="_cenD5Q7GEeqjcLD7jNW-Mw" value="PFCF6030COL"/>
+        <cells uuid="_cenD5g7GEeqjcLD7jNW-Mw" value="PFCF6050COL"/>
+        <cells uuid="_cenD5w7GEeqjcLD7jNW-Mw" value="PFCF6070COL"/>
+        <cells uuid="_cenD6A7GEeqjcLD7jNW-Mw" value="PFCF6090COL"/>
+        <cells uuid="_cenD6Q7GEeqjcLD7jNW-Mw" value="PFCF4050"/>
+        <cells uuid="_cenD6g7GEeqjcLD7jNW-Mw" value="PFCF4070"/>
+        <cells uuid="_cenD6w7GEeqjcLD7jNW-Mw" value="PFCF4090"/>
+        <cells uuid="_cenD7A7GEeqjcLD7jNW-Mw" value="PFCF7050"/>
+        <cells uuid="_cenD7Q7GEeqjcLD7jNW-Mw" value="PFCF7070"/>
+        <cells uuid="_cenD7g7GEeqjcLD7jNW-Mw" value="PFCF7090"/>
+        <cells uuid="_cenD7w7GEeqjcLD7jNW-Mw" value="PFCF9050"/>
+        <cells uuid="_cenD8A7GEeqjcLD7jNW-Mw" value="PFCF9070"/>
+        <cells uuid="_cenD8Q7GEeqjcLD7jNW-Mw" value="PFCF9090"/>
+        <cells uuid="_cenD8g7GEeqjcLD7jNW-Mw" value="PFCF6050"/>
+        <cells uuid="_cenD8w7GEeqjcLD7jNW-Mw" value="PFCF6070"/>
+        <cells uuid="_cenD9A7GEeqjcLD7jNW-Mw" value="PFCF6090"/>
+        <cells uuid="_cenD9Q7GEeqjcLD7jNW-Mw" value="PFCF4050COL"/>
+        <cells uuid="_cenD9g7GEeqjcLD7jNW-Mw" value="PFCF4070COL"/>
+        <cells uuid="_cenD9w7GEeqjcLD7jNW-Mw" value="PFCF4090COL"/>
+        <cells uuid="_cenD-A7GEeqjcLD7jNW-Mw" value="PFCF7050COL"/>
+        <cells uuid="_cenD-Q7GEeqjcLD7jNW-Mw" value="PFCF7070COL"/>
+        <cells uuid="_cenD-g7GEeqjcLD7jNW-Mw" value="PFCF7090COL"/>
+        <cells uuid="_cenD-w7GEeqjcLD7jNW-Mw" value="PFCF9050COL"/>
+        <cells uuid="_cenD_A7GEeqjcLD7jNW-Mw" value="PFCF9070COL"/>
+        <cells uuid="_cenD_Q7GEeqjcLD7jNW-Mw" value="PFCF9090COL"/>
+        <cells uuid="_cenD_g7GEeqjcLD7jNW-Mw" value="PFCF6050COL"/>
+        <cells uuid="_cenD_w7GEeqjcLD7jNW-Mw" value="PFCF6070COL"/>
+        <cells uuid="_cenEAA7GEeqjcLD7jNW-Mw" value="PFCF6090COL"/>
+      </columns>
+      <columns uuid="_S0NHYVKTEeebRqT2tNG43g" name="switch1"
+          visibility="100" databaseAlias="switch1">
+        <cells uuid="_cembhQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cembhg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cembhw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cembiA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEAQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEAg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEAw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEBA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEBQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEBg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEBw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenECA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenECQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenECg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenECw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEDA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEDQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEDg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEDw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEEA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEEQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEEg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEEw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEFA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEFQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEFg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEFw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEGA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEGQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEGg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEGw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEHA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEHQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEHg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEHw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEIA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEIQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEIg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEIw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEJA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEJQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEJg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEJw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEKA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEKQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEKg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEKw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenELA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenELQ7GEeqjcLD7jNW-Mw" value="-1"/>
+        <cells uuid="_cenELg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenELw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEMA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEMQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEMg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEMw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenENA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenENQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenENg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenENw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEOA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEOQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEOg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEOw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEPA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEPQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEPg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEPw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEQA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEQQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEQg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEQw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenERA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenERQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenERg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenERw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenESA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenESQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenESg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenESw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenETA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenETQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenETg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenETw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEUA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEUQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEUg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEUw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEVA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEVQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEVg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEVw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEWA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEWQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEWg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEWw7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEXA7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEXQ7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEXg7GEeqjcLD7jNW-Mw" value="0"/>
+        <cells uuid="_cenEXw7GEeqjcLD7jNW-Mw" value="0"/>
+      </columns>
+      <columns uuid="_Jr3poLBREei1rMrldW_SBw" name="colour_fill"
+          visibility="100" databaseAlias="colour_fill">
+        <cells uuid="_cenCgQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCgg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenCgw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenChA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpkA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpkQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpkg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpkw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenplA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenplQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenplg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenplw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpmA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpmQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpmg7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpmw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpnA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpnQ7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpng7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpnw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpoA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpoQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpog7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpow7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenppA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenppQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenppg7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenppw7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpqA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpqQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpqg7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpqw7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenprA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenprQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenprg7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenprw7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpsA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpsQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpsg7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpsw7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenptA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenptQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenptg7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenptw7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpuA7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpuQ7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpug7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenpuw7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpvA7GEeqjcLD7jNW-Mw" value="?"/>
+        <cells uuid="_cenpvQ7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpvg7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpvw7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpwA7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpwQ7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpwg7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpww7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpxA7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpxQ7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpxg7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpxw7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpyA7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpyQ7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpyg7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpyw7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpzA7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpzQ7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpzg7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenpzw7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp0A7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp0Q7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp0g7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp0w7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp1A7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp1Q7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp1g7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp1w7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp2A7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp2Q7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp2g7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp2w7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp3A7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp3Q7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp3g7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp3w7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp4A7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp4Q7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp4g7GEeqjcLD7jNW-Mw" value="'#c5c7c4'"/>
+        <cells uuid="_cenp4w7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp5A7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp5Q7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp5g7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp5w7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp6A7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp6Q7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp6g7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp6w7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp7A7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp7Q7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+        <cells uuid="_cenp7g7GEeqjcLD7jNW-Mw" value="? without '#c5c7c4'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bJPz8GRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type3" visibility="800">
+      <columns uuid="_arZGEFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wEkZoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkZ4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkaIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkaYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkaoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEka4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkbIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkbYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkboaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkb4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkcIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wEkcYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wEkcoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkc4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkdIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkdYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkdoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkd4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkeIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkeYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkeoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEke4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wEkfIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wEkfYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_arZtIFKTEeebRqT2tNG43g" name="flange3"
+          visibility="100" databaseAlias="flange3">
+        <cells uuid="_5wEkf4aZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wEkgIaZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wEkgYaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wEkgoaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wEkg4aZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wEkhIaZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wEkhYaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wEkhoaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wEkh4aZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wEkiIaZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wEkiYaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wEkioaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wEki4aZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wEkjIaZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wEkjYaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wEkjoaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wEkj4aZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wEkkIaZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wEkkYaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wEkkoaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wEkk4aZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wEklIaZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wEklYaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wEkloaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_arZtIVKTEeebRqT2tNG43g" name="switch3"
+          visibility="100" databaseAlias="switch3">
+        <cells uuid="_5wEkmIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkmYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkmoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkm4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEknIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEknYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEknoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkn4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkoIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkoYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkooaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEko4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkpIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkpYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkpoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkp4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkqIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkqYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkqoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkq4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkrIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkrYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkroaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEkr4aZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bVGeoGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type4" visibility="800">
+      <columns uuid="_bggJIFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wEksoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEks4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEktIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEktYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEktoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkt4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkuIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkuYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkuoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEku4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wEkvIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wEkvYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wEkvoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkv4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkwIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkwYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkwoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkw4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkxIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkxYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkxoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wEkx4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wEkyIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wEkyYaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_bggJIVKTEeebRqT2tNG43g" name="flange4"
+          visibility="100" databaseAlias="flange4">
+        <cells uuid="_5wEky4aZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wEkzIaZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wEkzYaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wEkzoaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wEkz4aZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wEk0IaZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wEk0YaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wEk0oaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wEk04aZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wEk1IaZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wEk1YaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wEk1oaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wEk14aZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wEk2IaZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wEk2YaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wEk2oaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wEk24aZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wEk3IaZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wEk3YaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wEk3oaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wEk34aZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wEk4IaZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wEk4YaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wEk4oaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_bggJIlKTEeebRqT2tNG43g" name="switch4"
+          visibility="100" databaseAlias="switch4">
+        <cells uuid="_5wEk5IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk5YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk5oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk54aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk6IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk6YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk6oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk64aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk7IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk7YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk7oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk74aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk8IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk8YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk8oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk84aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk9IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk9YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk9oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk94aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk-IaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk-YaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk-oaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wEk-4aZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bbxHUGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type5" visibility="800">
+      <columns uuid="_cNM3EFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wFK4YaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK4oaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK44aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK5IaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK5YaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK5oaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK54aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK6IaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK6YaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK6oaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFK64aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFK7IaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFK7YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK7oaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK74aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK8IaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK8YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK8oaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK84aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK9IaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK9YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFK9oaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wFK94aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wFK-IaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_cNM3EVKTEeebRqT2tNG43g" name="flange5"
+          visibility="100" databaseAlias="flange5">
+        <cells uuid="_5wFK-oaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wFK-4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wFK_IaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wFK_YaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wFK_oaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wFK_4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wFLAIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wFLAYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wFLAoaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wFLA4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wFLBIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wFLBYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wFLBoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wFLB4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wFLCIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wFLCYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wFLCoaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wFLC4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wFLDIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wFLDYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wFLDoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wFLD4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wFLEIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wFLEYaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_cNM3ElKTEeebRqT2tNG43g" name="switch5"
+          visibility="100" databaseAlias="switch5">
+        <cells uuid="_5wFLE4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLFIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLFYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLFoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLF4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLGIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLGYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLGoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLG4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLHIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLHYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLHoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLH4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLIIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLIYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLIoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLI4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLJIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLJYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLJoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLJ4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLKIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLKYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLKoaZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bgt4wGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type6" visibility="800">
+      <columns uuid="_c89gEFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wFLLYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLLoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLL4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLMIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLMYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLMoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLM4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLNIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLNYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLNoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLN4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFLOIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFLOYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLOoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLO4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLPIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLPYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLPoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLP4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLQIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLQYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFLQoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wFLQ4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wFLRIaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_c89gEVKTEeebRqT2tNG43g" name="flange6"
+          visibility="100" databaseAlias="flange6">
+        <cells uuid="_5wFLRoaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wFLR4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wFLSIaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wFLSYaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wFLSoaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wFLS4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wFLTIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wFLTYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wFLToaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wFLT4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wFLUIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wFLUYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wFLUoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wFLU4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wFLVIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wFLVYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wFLVoaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wFLV4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wFLWIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wFLWYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wFLWoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wFLW4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wFLXIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wFLXYaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_c89gElKTEeebRqT2tNG43g" name="switch6"
+          visibility="100" databaseAlias="switch6">
+        <cells uuid="_5wFLX4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLYIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLYYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLYoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLY4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLZIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLZYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLZoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLZ4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLaIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLaYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLaoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLa4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLbIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLbYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLboaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLb4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLcIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLcYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLcoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLc4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLdIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLdYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFLdoaZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_blaLgGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type7" visibility="800">
+      <columns uuid="_dtygEFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wFLeYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLeoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLe4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLfIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLfYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLfoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFLf4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFx8IaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFx8YaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFx8oaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFx84aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFx9IaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFx9YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx9oaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx94aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx-IaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx-YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx-oaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx-4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx_IaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx_YaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFx_oaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wFx_4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wFyAIaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_dtygEVKTEeebRqT2tNG43g" name="flange7"
+          visibility="100" databaseAlias="flange7">
+        <cells uuid="_5wFyAoaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wFyA4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wFyBIaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wFyBYaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wFyBoaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wFyB4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wFyCIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wFyCYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wFyCoaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wFyC4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wFyDIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wFyDYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wFyDoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wFyD4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wFyEIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wFyEYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wFyEoaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wFyE4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wFyFIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wFyFYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wFyFoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wFyF4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wFyGIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wFyGYaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_dtygElKTEeebRqT2tNG43g" name="switch7"
+          visibility="100" databaseAlias="switch7">
+        <cells uuid="_5wFyG4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyHIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyHYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyHoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyH4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyIIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyIYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyIoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyI4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyJIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyJYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyJoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyJ4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyKIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyKYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyKoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyK4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyLIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyLYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyLoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyL4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyMIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyMYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyMoaZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bp97YGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type8" visibility="800">
+      <columns uuid="_edF2EFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wFyNYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyNoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyN4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyOIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyOYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyOoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyO4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyPIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyPYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyPoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyP4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFyQIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wFyQYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyQoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyQ4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyRIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyRYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyRoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFyR4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFySIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFySYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wFySoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wFyS4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wFyTIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wFyTYaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyToaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyT4aZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyUIaZEei0J7ssmq29HQ" value=""/>
+      </columns>
+      <columns uuid="_edF2EVKTEeebRqT2tNG43g" name="flange8"
+          visibility="100" databaseAlias="flange8">
+        <cells uuid="_5wFyUoaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wFyU4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wFyVIaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wFyVYaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wFyVoaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wFyV4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wFyWIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wFyWYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wFyWoaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wFyW4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wFyXIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wFyXYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wFyXoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wFyX4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wFyYIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wFyYYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wFyYoaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wFyY4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wFyZIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wFyZYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wFyZoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wFyZ4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wFyaIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wFyaYaZEei0J7ssmq29HQ" value="No"/>
+        <cells uuid="_5wFyaoaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFya4aZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFybIaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFybYaZEei0J7ssmq29HQ" value=""/>
+      </columns>
+      <columns uuid="_edF2ElKTEeebRqT2tNG43g" name="switch8"
+          visibility="100" databaseAlias="switch8">
+        <cells uuid="_5wFyb4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFycIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFycYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFycoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyc4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFydIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFydYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFydoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyd4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyeIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyeYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyeoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFye4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyfIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyfYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyfoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyf4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFygIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFygYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFygoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyg4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyhIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyhYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wFyhoaZEei0J7ssmq29HQ" value="-1"/>
+        <cells uuid="_5wFyh4aZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyiIaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyiYaZEei0J7ssmq29HQ" value=""/>
+        <cells uuid="_5wFyioaZEei0J7ssmq29HQ" value=""/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_buX6QGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type9" visibility="800">
+      <columns uuid="_fHgFAFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wFyjYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyjoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyj4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFykIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFykYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFykoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wFyk4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZAIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZAYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZAoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZA4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wGZBIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wGZBYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZBoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZB4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZCIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZCYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZCoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZC4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZDIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZDYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZDoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wGZD4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZEIaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_fHgFAVKTEeebRqT2tNG43g" name="flange9"
+          visibility="100" databaseAlias="flange9">
+        <cells uuid="_5wGZEoaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wGZE4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wGZFIaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wGZFYaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wGZFoaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wGZF4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wGZGIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wGZGYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wGZGoaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wGZG4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wGZHIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wGZHYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wGZHoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wGZH4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wGZIIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wGZIYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wGZIoaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wGZI4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wGZJIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wGZJYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wGZJoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wGZJ4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wGZKIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wGZKYaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_fHgFAlKTEeebRqT2tNG43g" name="switch9"
+          visibility="100" databaseAlias="switch9">
+        <cells uuid="_5wGZK4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZLIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZLYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZLoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZL4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZMIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZMYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZMoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZM4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZNIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZNYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZNoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZN4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZOIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZOYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZOoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZO4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZPIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZPYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZPoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZP4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZQIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZQYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZQoaZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_bytnsGRHEeaTfNQiYnQ6EA"
+        name="flange_product_line_type10" visibility="800">
+      <columns uuid="_fy1hAFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wGZRYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZRoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZR4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZSIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZSYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZSoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZS4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZTIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZTYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZToaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wGZT4aZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wGZUIaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wGZUYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZUoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZU4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZVIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZVYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZVoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZV4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZWIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZWYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wGZWoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wGZW4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZXIaZEei0J7ssmq29HQ" value="?"/>
+      </columns>
+      <columns uuid="_fy1hAVKTEeebRqT2tNG43g" name="flange10"
+          visibility="100" databaseAlias="flange10">
+        <cells uuid="_5wGZXoaZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wGZX4aZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wGZYIaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wGZYYaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wGZYoaZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wGZY4aZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wGZZIaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wGZZYaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wGZZoaZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wGZZ4aZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wGZaIaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wGZaYaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wGZaoaZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wGZa4aZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wGZbIaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wGZbYaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wGZboaZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wGZb4aZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wGZcIaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wGZcYaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wGZcoaZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wGZc4aZEei0J7ssmq29HQ" value="fixed"/>
+        <cells uuid="_5wGZdIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wGZdYaZEei0J7ssmq29HQ" value="No"/>
+      </columns>
+      <columns uuid="_fy1hAlKTEeebRqT2tNG43g" name="switch10"
+          visibility="100" databaseAlias="switch10">
+        <cells uuid="_5wGZd4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZeIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZeYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZeoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZe4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZfIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZfYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZfoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZf4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZgIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZgYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZgoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZg4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZhIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZhYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZhoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZh4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZiIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZiYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZioaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZi4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZjIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZjYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wGZjoaZEei0J7ssmq29HQ" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_XyutkN8pEeawHbbvsBXvOw"
+        name="flange_product_line_type2" visibility="800">
+      <columns uuid="_NqTqQP0JEeeT7vfQbs5jLw" name="column_width_toa"
+          visibility="100" databaseAlias="column_width_toa">
+        <cells uuid="_5wGZkYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZkoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZk4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZlIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZlYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZloaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZl4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZmIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZmYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZmoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZm4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZnIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZnYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZnoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZn4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZoIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZoYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZooaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZo4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZpIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZpYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZpoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZp4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZqIaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5wGZqYaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5wGZqoaZEei0J7ssmq29HQ" value="1250"/>
+        <cells uuid="_5wGZq4aZEei0J7ssmq29HQ" value="1250"/>
+      </columns>
+      <columns uuid="_LEHEEP0JEeeT7vfQbs5jLw" name="switchboard_depth_toa"
+          visibility="100" databaseAlias="switchboard_depth_toa">
+        <cells uuid="_5wGZrYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZroaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZr4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZsIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wGZsYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAEIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAEYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAEoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAE4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAFIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAFYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAFoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAF4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAGIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAGYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAGoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAG4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAHIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAHYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAHoaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAH4aZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAIIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAIYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAIoaZEei0J7ssmq29HQ" value="300"/>
+        <cells uuid="_5wHAI4aZEei0J7ssmq29HQ" value="500"/>
+        <cells uuid="_5wHAJIaZEei0J7ssmq29HQ" value="700"/>
+        <cells uuid="_5wHAJYaZEei0J7ssmq29HQ" value="900"/>
+      </columns>
+      <columns uuid="_aBSZIFKTEeebRqT2tNG43g" name="panel_panel_product_line"
+          visibility="100" databaseAlias="panel_panel_product_line">
+        <cells uuid="_5wHAJ4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAKIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAKYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAKoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAK4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHALIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHALYaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHALoaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAL4aZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAMIaZEei0J7ssmq29HQ" value="twinline"/>
+        <cells uuid="_5wHAMYaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wHAMoaZEei0J7ssmq29HQ" value="spep"/>
+        <cells uuid="_5wHAM4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHANIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHANYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHANoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAN4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAOIaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAOYaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAOoaZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAO4aZEei0J7ssmq29HQ" value="triline"/>
+        <cells uuid="_5wHAPIaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAPYaZEei0J7ssmq29HQ" value="?"/>
+        <cells uuid="_5wHAPoaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wHAP4aZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wHAQIaZEei0J7ssmq29HQ" value="blind"/>
+        <cells uuid="_5wHAQYaZEei0J7ssmq29HQ" value="blind"/>
+      </columns>
+      <columns uuid="_aBSZIVKTEeebRqT2tNG43g" name="flange2"
+          visibility="100" databaseAlias="flange2">
+        <cells uuid="_5wHAQ4aZEei0J7ssmq29HQ" value="TZ101"/>
+        <cells uuid="_5wHARIaZEei0J7ssmq29HQ" value="TZ102"/>
+        <cells uuid="_5wHARYaZEei0J7ssmq29HQ" value="TZ103"/>
+        <cells uuid="_5wHARoaZEei0J7ssmq29HQ" value="TZ104"/>
+        <cells uuid="_5wHAR4aZEei0J7ssmq29HQ" value="TZ105"/>
+        <cells uuid="_5wHASIaZEei0J7ssmq29HQ" value="TZ107"/>
+        <cells uuid="_5wHASYaZEei0J7ssmq29HQ" value="TZ106"/>
+        <cells uuid="_5wHASoaZEei0J7ssmq29HQ" value="TZ110"/>
+        <cells uuid="_5wHAS4aZEei0J7ssmq29HQ" value="TZ111"/>
+        <cells uuid="_5wHATIaZEei0J7ssmq29HQ" value="TZ112"/>
+        <cells uuid="_5wHATYaZEei0J7ssmq29HQ" value="EV0114"/>
+        <cells uuid="_5wHAToaZEei0J7ssmq29HQ" value="EV0116"/>
+        <cells uuid="_5wHAT4aZEei0J7ssmq29HQ" value="RFGA15"/>
+        <cells uuid="_5wHAUIaZEei0J7ssmq29HQ" value="RFKA15"/>
+        <cells uuid="_5wHAUYaZEei0J7ssmq29HQ" value="RFMA15"/>
+        <cells uuid="_5wHAUoaZEei0J7ssmq29HQ" value="RFGA2"/>
+        <cells uuid="_5wHAU4aZEei0J7ssmq29HQ" value="RFKA2"/>
+        <cells uuid="_5wHAVIaZEei0J7ssmq29HQ" value="RFMA2"/>
+        <cells uuid="_5wHAVYaZEei0J7ssmq29HQ" value="RFGA25"/>
+        <cells uuid="_5wHAVoaZEei0J7ssmq29HQ" value="RFKA25"/>
+        <cells uuid="_5wHAV4aZEei0J7ssmq29HQ" value="RFMA25"/>
+        <cells uuid="_5wHAWIaZEei0J7ssmq29HQ" value="NONE"/>
+        <cells uuid="_5wHAWYaZEei0J7ssmq29HQ" value="No"/>
+        <cells uuid="_5wHAWoaZEei0J7ssmq29HQ" value="PFCF6030"/>
+        <cells uuid="_5wHAW4aZEei0J7ssmq29HQ" value="PFCF6050"/>
+        <cells uuid="_5wHAXIaZEei0J7ssmq29HQ" value="PFCF6070"/>
+        <cells uuid="_5wHAXYaZEei0J7ssmq29HQ" value="PFCF6090"/>
+      </columns>
+      <columns uuid="_aBSZIlKTEeebRqT2tNG43g" name="switch2"
+          visibility="100" databaseAlias="switch2">
+        <cells uuid="_5wHAX4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAYIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAYYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAYoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAY4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAZIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAZYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAZoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAZ4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAaIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAaYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAaoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAa4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAbIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAbYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAboaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAb4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAcIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAcYaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAcoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAc4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAdIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAdYaZEei0J7ssmq29HQ" value="-1"/>
+        <cells uuid="_5wHAdoaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAd4aZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAeIaZEei0J7ssmq29HQ" value="0"/>
+        <cells uuid="_5wHAeYaZEei0J7ssmq29HQ" value="0"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_K33GAMqvEeeYkcLv0YT44w"
+        name="flanges_rbbs" visibility="800" expression="column_width_toa(400,500,900) -> !flange1(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange1(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600)  and !column_type(xline_hor)-> !flange1(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;column_width_toa(1100) and column_type(xline_hor)-> !flange1(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;&#xD;&#xA;column_width_toa(900) ->!flange2(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;column_width_toa(700) -> !flange2(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange2(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;column_width_toa(400,500) -> !flange2(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange3(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange3(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange3(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange4(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange4(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange4(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange5(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange5(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange5(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange6(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange6(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange6(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange7(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange7(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange7(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange8(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange8(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange8(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange9(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange9(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange9(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);&#xD;&#xA;&#xD;&#xA;column_width_toa(400,500) -> !flange10(RFGA25,RFKA25,RFMA25,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(700) -> !flange10(RFGA15,RFKA15,RFMA15,RFGA2,RFKA2,RFMA2);&#xD;&#xA;column_width_toa(1100,1250,600) -> !flange10(RFGA25,RFKA25,RFMA25,RFGA15,RFKA15,RFMA15);"/>
+    <children xsi:type="array:Expression" uuid="_H-8ZcH3rEei0_9vZemlqFA"
+        name="soft_flange1_other_flanges" visibility="800"
+        expression="panel_open_blind('Open_flange') ->SOFT.flange2=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange3=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange4=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange5=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange6=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange7=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange8=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange9=flange1;&#xD;&#xA;panel_open_blind('Open_flange')  ->SOFT.flange10=flange1;&#xD;&#xA;&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange1('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange2('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange3('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange4('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange5('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange6('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange7('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange8('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange9('NONE');&#xD;&#xA;panel_open_blind(Open_blind_flange) -> !SOFT.flange10('NONE');&#xD;&#xA;&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange1('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange2('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange3('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange4('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange5('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange6('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange7('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange8('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange9('NONE');&#xD;&#xA;panel_open_blind('Open+Aerated') -> !SOFT.flange10('NONE');&#xD;&#xA;&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange1('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange2('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange3('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange4('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange5('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange6('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange7('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange8('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange9('NONE');&#xD;&#xA;panel_open_blind('Blind_flange') -> !SOFT.flange10('NONE');&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+  </logic>
+  <calculation uuid="_4BcHUGODEeaZOu5LTB6vUA" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************product rules here*******************************************&#xD;
+//if (column_width_toa==1250 &amp;&amp; panel_panel_product_line==&quot;blind&quot;){&#xD;
+//flange2 = flange1;&#xD;
+//}&#xD;
+//***************************svg area - Start*******************************************&#xD;
+&#xD;
+if (panel_panel_product_line==&quot;triline&quot;) switch1_triline=0;&#xD;
+else switch1_triline=-1;&#xD;
+if (panel_panel_product_line==&quot;twinline&quot; || panel_panel_product_line==&quot;spep&quot;) switch1_twin_spep_flange=0;&#xD;
+else switch1_twin_spep_flange=-1;&#xD;
+&#xD;
+//Open_blind_flange&#xD;
+if (panel_panel_product_line==&quot;blind&quot;)  switch1_blind=0;&#xD;
+else switch1_blind=-1;&#xD;
+&#xD;
+if (flange1==&quot;NONE&quot;) fill_open_blind_flange=&quot;white&quot;;&#xD;
+else&#xD;
+{&#xD;
+                if(panel_panel_product_line==&quot;blind&quot;)  fill_open_blind_flange=colour_fill;&#xD;
+                else  fill_open_blind_flange=&quot;custom_grey_panel&quot;;&#xD;
+}&#xD;
+&#xD;
+width_cap=column_width_outside_toa-221;&#xD;
+height_cap=column_depth_outside_toa-221;&#xD;
+move_x_cap=(column_width_outside_toa-width_cap)/2;&#xD;
+move_y_cap=(column_depth_outside_toa-height_cap)/2;&#xD;
+&#xD;
+&#xD;
+if (panel_cable_entry_ratio>=1) switch1=0; else switch1=-1;&#xD;
+if (panel_cable_entry_ratio>=2) switch2=0; else switch2=-1;&#xD;
+if (panel_cable_entry_ratio>=3 ) switch3=0; else switch3=-1;&#xD;
+if (panel_cable_entry_ratio>=4) switch4=0; else switch4=-1;&#xD;
+if (panel_cable_entry_ratio>=5) switch5=0; else switch5=-1;&#xD;
+&#xD;
+if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>1) switch6=0; else switch6=-1;&#xD;
+if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>2) switch7=0; else switch7=-1;&#xD;
+if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>4) switch8=0; else switch8=-1;&#xD;
+if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>6) switch9=0; else switch9=-1;&#xD;
+if (panel_cable_entry_rows==2 &amp;&amp; panel_cable_entry>8) switch10=0; else switch10=-1;&#xD;
+&#xD;
+&#xD;
+if(panel_cable_entry>0){&#xD;
+                var multiply_width = 0;&#xD;
+                var multiply_height = 0;&#xD;
+                &#xD;
+                if (panel_cable_entry_ratio == 1)multiply_width = -1;&#xD;
+                if(switch5 == 0){&#xD;
+                                multiply_width = 3;&#xD;
+                }&#xD;
+                else if(switch4 == 0){&#xD;
+                                multiply_width = 2;                              &#xD;
+                }&#xD;
+                else if(switch3 == 0){&#xD;
+                                multiply_width = 1;                              &#xD;
+                }&#xD;
+                &#xD;
+                if(switch6 == -1){&#xD;
+                                multiply_height = 1;&#xD;
+                }&#xD;
+                cursor_width = 519 + 250*multiply_width;&#xD;
+                &#xD;
+                if (switchboard_depth_toa ==200 &amp;&amp; panel_panel_type==&quot;bottom&quot;){&#xD;
+                    move_x_row1=-63+67;&#xD;
+                    cursor_height = 135;&#xD;
+                } &#xD;
+                else {&#xD;
+                               move_x_row1=0;&#xD;
+                               cursor_height = 439 - 251*multiply_height;&#xD;
+                }&#xD;
+}&#xD;
+else{&#xD;
+                cursor_width = 0;&#xD;
+                cursor_height = 0;&#xD;
+}&#xD;
+&#xD;
+if (panel_panel_type==&quot;bottom&quot;) switch_cursor_bottom=0;&#xD;
+else switch_cursor_bottom=-1;&#xD;
+&#xD;
+if (panel_panel_type==&quot;top&quot;) {&#xD;
+                switch_cursor_top=0;&#xD;
+                }&#xD;
+else switch_cursor_top=-1;&#xD;
+&#xD;
+if (panel_panel_product_line==&quot;twinline&quot; &amp;&amp; panel_open_blind==&quot;Open_flange&quot;)&#xD;
+{&#xD;
+flange1_svg=&quot;static_svgs/TWL_Flange_&quot;+flange1+&quot;.svg&quot;;&#xD;
+flange2_svg=&quot;static_svgs/TWL_Flange_&quot;+flange2+&quot;.svg&quot;;&#xD;
+flange3_svg=&quot;static_svgs/TWL_Flange_&quot;+flange3+&quot;.svg&quot;;&#xD;
+flange4_svg=&quot;static_svgs/TWL_Flange_&quot;+flange4+&quot;.svg&quot;;&#xD;
+flange5_svg=&quot;static_svgs/TWL_Flange_&quot;+flange5+&quot;.svg&quot;;&#xD;
+flange6_svg=&quot;static_svgs/TWL_Flange_&quot;+flange6+&quot;.svg&quot;;&#xD;
+flange7_svg=&quot;static_svgs/TWL_Flange_&quot;+flange7+&quot;.svg&quot;;&#xD;
+flange8_svg=&quot;static_svgs/TWL_Flange_&quot;+flange8+&quot;.svg&quot;;&#xD;
+flange9_svg=&quot;static_svgs/TWL_Flange_&quot;+flange9+&quot;.svg&quot;;&#xD;
+flange10_svg=&quot;static_svgs/TWL_Flange_&quot;+flange10+&quot;.svg&quot;;&#xD;
+}&#xD;
+&#xD;
+else if (panel_panel_product_line==&quot;triline&quot; &amp;&amp; panel_open_blind == &quot;Open+Aerated&quot;)&#xD;
+{&#xD;
+flange1_svg=&quot;static_svgs/TRL_Flange_&quot;+flange1+&quot;.svg&quot;;&#xD;
+flange2_svg=&quot;static_svgs/TRL_Flange_&quot;+flange2+&quot;.svg&quot;;&#xD;
+flange3_svg=&quot;static_svgs/TRL_Flange_&quot;+flange3+&quot;.svg&quot;;&#xD;
+flange4_svg=&quot;static_svgs/TRL_Flange_&quot;+flange4+&quot;.svg&quot;;&#xD;
+flange5_svg=&quot;static_svgs/TRL_Flange_&quot;+flange5+&quot;.svg&quot;;&#xD;
+flange6_svg=&quot;static_svgs/TRL_Flange_&quot;+flange6+&quot;.svg&quot;;&#xD;
+flange7_svg=&quot;static_svgs/TRL_Flange_&quot;+flange7+&quot;.svg&quot;;&#xD;
+flange8_svg=&quot;static_svgs/TRL_Flange_&quot;+flange8+&quot;.svg&quot;;&#xD;
+flange9_svg=&quot;static_svgs/TRL_Flange_&quot;+flange9+&quot;.svg&quot;;&#xD;
+flange10_svg=&quot;static_svgs/TRL_Flange_&quot;+flange10+&quot;.svg&quot;;&#xD;
+}&#xD;
+&#xD;
+else if (panel_panel_product_line==&quot;triline&quot; &amp;&amp; panel_open_blind == &quot;Open_flange&quot;)&#xD;
+{&#xD;
+flange1_svg=&quot;static_svgs/TRL_Flange_&quot;+flange1+&quot;.svg&quot;;&#xD;
+flange2_svg=&quot;static_svgs/TRL_Flange_&quot;+flange2+&quot;.svg&quot;;&#xD;
+flange3_svg=&quot;static_svgs/TRL_Flange_&quot;+flange3+&quot;.svg&quot;;&#xD;
+flange4_svg=&quot;static_svgs/TRL_Flange_&quot;+flange4+&quot;.svg&quot;;&#xD;
+flange5_svg=&quot;static_svgs/TRL_Flange_&quot;+flange5+&quot;.svg&quot;;&#xD;
+flange6_svg=&quot;static_svgs/TRL_Flange_&quot;+flange6+&quot;.svg&quot;;&#xD;
+flange7_svg=&quot;static_svgs/TRL_Flange_&quot;+flange7+&quot;.svg&quot;;&#xD;
+flange8_svg=&quot;static_svgs/TRL_Flange_&quot;+flange8+&quot;.svg&quot;;&#xD;
+flange9_svg=&quot;static_svgs/TRL_Flange_&quot;+flange9+&quot;.svg&quot;;&#xD;
+flange10_svg=&quot;static_svgs/TRL_Flange_&quot;+flange10+&quot;.svg&quot;;&#xD;
+}&#xD;
+else if (panel_panel_product_line==&quot;triline&quot; &amp;&amp; panel_open_blind == &quot;Blind_flange&quot;)&#xD;
+{&#xD;
+flange1_svg=&quot;static_svgs/TRL_Flange_&quot;+flange1+&quot;.svg&quot;;&#xD;
+flange2_svg=&quot;static_svgs/TRL_Flange_&quot;+flange2+&quot;.svg&quot;;&#xD;
+flange3_svg=&quot;static_svgs/TRL_Flange_&quot;+flange3+&quot;.svg&quot;;&#xD;
+flange4_svg=&quot;static_svgs/TRL_Flange_&quot;+flange4+&quot;.svg&quot;;&#xD;
+flange5_svg=&quot;static_svgs/TRL_Flange_&quot;+flange5+&quot;.svg&quot;;&#xD;
+flange6_svg=&quot;static_svgs/TRL_Flange_&quot;+flange6+&quot;.svg&quot;;&#xD;
+flange7_svg=&quot;static_svgs/TRL_Flange_&quot;+flange7+&quot;.svg&quot;;&#xD;
+flange8_svg=&quot;static_svgs/TRL_Flange_&quot;+flange8+&quot;.svg&quot;;&#xD;
+flange9_svg=&quot;static_svgs/TRL_Flange_&quot;+flange9+&quot;.svg&quot;;&#xD;
+flange10_svg=&quot;static_svgs/TRL_Flange_&quot;+flange10+&quot;.svg&quot;;&#xD;
+}&#xD;
+&#xD;
+else&#xD;
+{&#xD;
+                flange1_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange2_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange3_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange4_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange5_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange6_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange7_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange8_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange9_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+                flange10_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;     &#xD;
+}&#xD;
+&#xD;
+//else flange1_svg=&quot;static_svgs/TWL_Flange_NONE.svg&quot;;&#xD;
+&#xD;
+move_y_row1_cursor_top=move_y_row1;&#xD;
+&#xD;
+&#xD;
+if (cursor_height == 439){&#xD;
+                move_y_row1_cursor_bottom=move_y_row1-250;&#xD;
+}&#xD;
+else move_y_row1_cursor_bottom=move_y_row1;&#xD;
+&#xD;
+                rotation_flange = 0;&#xD;
+                switch_box_rotate_flange=-1;&#xD;
+                switch_box_flange=0;&#xD;
+&#xD;
+if (column_type==&quot;breaker_rbbs&quot; &amp;&amp; rating==6300 &amp;&amp; main_busbar_type==&quot;shifted&quot; &amp;&amp; busbar_number_of_poles==&quot;4FS&quot; ){&#xD;
+                move_x_triline_flange=90;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                flange2_triline=290;&#xD;
+                width_box_triline=1210;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+else if (column_width_toa==500 ) {&#xD;
+                move_x_triline_flange=107;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                width_box_triline=425;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+else if (column_width_toa==600 ) {&#xD;
+                move_x_triline_flange=91;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                width_box_triline=525;&#xD;
+                height_box_triline=250;//250;&#xD;
+} &#xD;
+&#xD;
+else if (column_width_toa==1250) {&#xD;
+                move_x_triline_flange=90;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                flange2_triline=290;&#xD;
+                width_box_triline=1210;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+else if (switchboard_depth_toa==300) {&#xD;
+                move_x_triline_flange=107;&#xD;
+                move_y_triline_flange=227;//113.5;&#xD;
+                width_box_triline=386;&#xD;
+                height_box_triline=250.8;//220;&#xD;
+}&#xD;
+else if (column_width_toa==400) {&#xD;
+                move_x_triline_flange=57.5;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                width_box_triline=425;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+else if (column_width_toa==900) {&#xD;
+                move_x_triline_flange=60;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                width_box_triline=920;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+                flange2_triline=0;&#xD;
+}&#xD;
+else if (column_width_toa==700) {&#xD;
+                move_x_triline_flange=92.5;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                width_box_triline=655;&#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+else if (column_width_toa==1100 &amp;&amp; column_type==&quot;xline_hor&quot; ) {&#xD;
+                //move_x_triline_flange=90;&#xD;
+                //move_y_triline_flange=90;//45;&#xD;
+                //flange2_triline=150;         &#xD;
+                width_box_triline=400;       &#xD;
+                height_box_triline=250.8;//250;&#xD;
+                //move_x_triline_flange = 812;        &#xD;
+                move_x_triline_flange = 812;        &#xD;
+                move_y_triline_flange=425;&#xD;
+                move_x_triline_box=812;&#xD;
+                rotation_flange = 90;&#xD;
+                height_box_triline=250;//250;&#xD;
+                switch_box_rotate_flange=0;&#xD;
+                switch_box_flange=-1;&#xD;
+                &#xD;
+}&#xD;
+else if (column_width_toa==1100) {&#xD;
+                move_x_triline_flange=90;&#xD;
+                move_y_triline_flange=90;//45;&#xD;
+                flange2_triline=150;&#xD;
+                width_box_triline=1070;     &#xD;
+                height_box_triline=250.8;//250;&#xD;
+}&#xD;
+&#xD;
+//***************************svg area - End*******************************************&#xD;
+//Inversion of top panel for rbbs when open blind =open+aerated********************************&#xD;
+var move_y_triline_temp=move_y_triline_flange;&#xD;
+if(panel_open_blind==&quot;Open+Aerated&quot; &amp;&amp; panel_panel_type==&quot;top&quot;) {&#xD;
+                move_y_triline_flange=column_depth_outside_toa - 220.8 -( move_y_triline_temp);&#xD;
+                &#xD;
+               &#xD;
+}&#xD;
+&#xD;
+if(panel_open_blind==&quot;Blind_flange&quot; &amp;&amp; panel_panel_type==&quot;top&quot;) {&#xD;
+                move_y_triline_flange=column_depth_outside_toa - 220.8 -( move_y_triline_temp);&#xD;
+                }&#xD;
+//*******************************************************************************************************&#xD;
+</text>
+  </calculation>
+  <cursorTwoD uuid="_mWM3kIFyEea6KeeaLHeOFw" name="Cursor"
+      twoDElementsColor="_dCaJEAfzEeihqagqSIju_g _hOu4QeI6EeaeNNH2bYOgCg _hOvfUeI6EeaeNNH2bYOgCg _1LifUGdOEem3S_va9Uw62Q _xqndoGdLEem3S_va9Uw62Q">
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_AN5TAV4AEeaQA67lBIkuIw" deletable="false"
+      name="root">
+    <units uuid="_ezsBcG_kEeaTgoEC9KMIXw" name="flange1_triline"
+        visualEffects="_Q1AuTivUEeqJ7cfGAkHMWA" order="2">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_hOxUgOI6EeaeNNH2bYOgCg" variable="switch1_triline">
+        <visualEffect uuid="_Q1AuTivUEeqJ7cfGAkHMWA"
+            targets="_ezsBcG_kEeaTgoEC9KMIXw" variable="switch1_triline"/>
+      </facets>
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_RF0aAFZkEeeaW_LgsrMUpQ" variable="move_y_triline_flange">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4qR561p6Eei01OQ0VFIZlw"
+            z="1.0"/>
+      </facets>
+      <children uuid="_CPJEQHAjEeaucax1vsZ3SA" name="Geo_Unit"
+          visualEffects="_Q1AuZSvUEeqJ7cfGAkHMWA" position="(-20,0,-15)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_UHfbQFZkEeeaW_LgsrMUpQ" variable="move_x_triline_flange">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qR57lp6Eei01OQ0VFIZlw"
+              x="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_K0kkoGdMEem3S_va9Uw62Q" variable="switch_box_flange">
+          <visualEffect uuid="_Q1AuZSvUEeqJ7cfGAkHMWA"
+              targets="_CPJEQHAjEeaucax1vsZ3SA" variable="switch_box_flange"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_1LifUGdOEem3S_va9Uw62Q"
+            name="Box_triline1" height="0.0" width="0.0"
+            cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw"
+            strokeWidth="10">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_1LifUmdOEem3S_va9Uw62Q" heightDynamic="height_box_triline"
+              widthDynamic="width_box_triline"/>
+          <translation uuid="_1LifU2dOEem3S_va9Uw62Q"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#N65562"/>
+        </twoDElement>
+      </children>
+      <children uuid="_6i7SkODhEee7feTVWipziA" name="Geo_Unit_moving_top_triline">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_6i7SkeDhEee7feTVWipziA" variable="move_x_triline_flange">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qR59lp6Eei01OQ0VFIZlw"
+              x="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitRotationJointFacet"
+            uuid="_0r75kGdLEem3S_va9Uw62Q" variable="rotation_flange">
+          <vector xsi:type="appl:Coordinate3D" uuid="_0r75kWdLEem3S_va9Uw62Q"
+              y="1.0"/>
+        </facets>
+        <children uuid="_6i7SkuDhEee7feTVWipziA" name="Geo_Unit_row_triline">
+          <children uuid="_6i7SlODhEee7feTVWipziA" name="Geo_flange1_triline"
+              visualEffects="_Q1AuiCvUEeqJ7cfGAkHMWA"
+              order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_6i7SleDhEee7feTVWipziA" variable="switch1_triline">
+              <visualEffect uuid="_Q1AuiCvUEeqJ7cfGAkHMWA"
+                  targets="_6i7SlODhEee7feTVWipziA"
+                  variable="switch1_triline"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6i7SluDhEee7feTVWipziA"
+                name="flange1_svg_triline">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_6i7Sl-DhEee7feTVWipziA" fileDynamic="flange1_svg"/>
+              <translation uuid="_4qR5_lp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_6i7SmODhEee7feTVWipziA" name="Geo_flange2_triline"
+              visualEffects="_Q1AumSvUEeqJ7cfGAkHMWA"
+              position="(389,0,0)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_6i7SmeDhEee7feTVWipziA" variable="switch2">
+              <visualEffect uuid="_Q1AumSvUEeqJ7cfGAkHMWA"
+                  targets="_6i7SmODhEee7feTVWipziA"
+                  variable="switch2"/>
+            </facets>
+            <facets xsi:type="comp:GeoUnitLineJointFacet"
+                uuid="_mLWnIOF-EeeUgI6wZQOotQ" variable="flange2_triline">
+              <vector xsi:type="appl:Coordinate3D" uuid="_4qR6A1p6Eei01OQ0VFIZlw"
+                  x="1.0"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6i7SmuDhEee7feTVWipziA"
+                name="flange2_svg_triline">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_6i7Sm-DhEee7feTVWipziA" fileDynamic="flange2_svg"/>
+              <translation uuid="_4qR6Blp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_6i7SnODhEee7feTVWipziA" name="Geo_flange3_triline"
+              visualEffects="_Q1AusCvUEeqJ7cfGAkHMWA"
+              position="(563,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_6i7SneDhEee7feTVWipziA" variable="switch3">
+              <visualEffect uuid="_Q1AusCvUEeqJ7cfGAkHMWA"
+                  targets="_6i7SnODhEee7feTVWipziA"
+                  variable="switch3"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6i7SnuDhEee7feTVWipziA"
+                name="flange3_svg_triline">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_6i7Sn-DhEee7feTVWipziA" fileDynamic="flange3_svg"/>
+              <translation uuid="_4qR6DFp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_6i7SoODhEee7feTVWipziA" name="Geo_flange4_triline"
+              visualEffects="_Q1AuwSvUEeqJ7cfGAkHMWA"
+              position="(813,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_6i7SoeDhEee7feTVWipziA" variable="switch4">
+              <visualEffect uuid="_Q1AuwSvUEeqJ7cfGAkHMWA"
+                  targets="_6i7SoODhEee7feTVWipziA"
+                  variable="switch4"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6i7SouDhEee7feTVWipziA"
+                name="flange4_svg_triline">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_6i7So-DhEee7feTVWipziA" fileDynamic="flange4_svg"/>
+              <translation uuid="_4qSg81p6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_6i7SpODhEee7feTVWipziA" name="Geo_flange5_triline"
+              visualEffects="_Q1DHmSvUEeqJ7cfGAkHMWA"
+              position="(1063,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_6i7SpeDhEee7feTVWipziA" variable="switch5">
+              <visualEffect uuid="_Q1DHmSvUEeqJ7cfGAkHMWA"
+                  targets="_6i7SpODhEee7feTVWipziA"
+                  variable="switch5"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6i7SpuDhEee7feTVWipziA"
+                name="flange5_svg_triline">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_6i7Sp-DhEee7feTVWipziA" fileDynamic="flange5_svg"/>
+              <translation uuid="_4qSg-Vp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+        </children>
+      </children>
+      <children uuid="_xqm2kGdLEem3S_va9Uw62Q" name="Geo_Unit_xlh"
+          visualEffects="_Q1DHtivUEeqJ7cfGAkHMWA" position="(-20,0,17)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_xqm2kWdLEem3S_va9Uw62Q" variable="move_x_triline_box">
+          <vector xsi:type="appl:Coordinate3D" uuid="_xqm2k2dLEem3S_va9Uw62Q"
+              x="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitRotationJointFacet"
+            uuid="_2tbQMGdLEem3S_va9Uw62Q" variable="rotation_flange">
+          <vector xsi:type="appl:Coordinate3D" uuid="_2tbQMWdLEem3S_va9Uw62Q"
+              y="1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_GJFF4GdMEem3S_va9Uw62Q" variable="switch_box_rotate_flange">
+          <visualEffect uuid="_Q1DHtivUEeqJ7cfGAkHMWA"
+              targets="_xqm2kGdLEem3S_va9Uw62Q" variable="switch_box_rotate_flange"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_xqndoGdLEem3S_va9Uw62Q"
+            name="Box_triline_xlh" height="0.0" width="0.0"
+            cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw"
+            strokeWidth="10">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_xqndomdLEem3S_va9Uw62Q" heightDynamic="height_box_triline"
+              widthDynamic="width_box_triline"/>
+          <translation uuid="_xqndo2dLEem3S_va9Uw62Q"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#N65562"/>
+        </twoDElement>
+      </children>
+    </units>
+    <units uuid="_DU6tgHQpEeahONr4-ZFNMQ" name="flange_twinline_spep"
+        visualEffects="_Q1DHzSvUEeqJ7cfGAkHMWA">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_hOzwxuI6EeaeNNH2bYOgCg" variable="switch1_twin_spep_flange">
+        <visualEffect uuid="_Q1DHzSvUEeqJ7cfGAkHMWA"
+            targets="_DU6tgHQpEeahONr4-ZFNMQ" variable="switch1_twin_spep_flange"/>
+      </facets>
+      <children uuid="_COm40HRBEeaGEr9s0U2JUQ" name="Geo_Unit_moving_top">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_HGd-kmulEee3XesYpXh51Q" variable="move_x_row1">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qSg_1p6Eei01OQ0VFIZlw"
+              x="1.0"/>
+        </facets>
+        <children uuid="_PwpvQHRGEeaGEr9s0U2JUQ" name="Geo_Unit_row_1">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_HGd-kGulEee3XesYpXh51Q" variable="move_y_row1">
+            <vector xsi:type="appl:Coordinate3D" uuid="_4qShAlp6Eei01OQ0VFIZlw"
+                z="1.0"/>
+          </facets>
+          <children uuid="_Iwe3wF4DEeaQA67lBIkuIw" name="Geo_flange1"
+              visualEffects="_Q1DH5CvUEeqJ7cfGAkHMWA"
+              position="(63,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20PIt6viEeaK7oriseII_A" variable="switch1_twin_spep_flange">
+              <visualEffect uuid="_Q1DH5CvUEeqJ7cfGAkHMWA"
+                  targets="_Iwe3wF4DEeaQA67lBIkuIw"
+                  variable="switch1_twin_spep_flange"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_yuLBcGOEEeaZOu5LTB6vUA"
+                name="flange1_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20PIuaviEeaK7oriseII_A" fileDynamic="flange1_svg"/>
+              <translation uuid="_4qShB1p6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_5LhfYGOEEeaZOu5LTB6vUA" name="Geo_flange2"
+              visualEffects="_Q1DH9SvUEeqJ7cfGAkHMWA"
+              position="(313,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_XzOc0d8pEeawHbbvsBXvOw" variable="switch2">
+              <visualEffect uuid="_Q1DH9SvUEeqJ7cfGAkHMWA"
+                  targets="_5LhfYGOEEeaZOu5LTB6vUA"
+                  variable="switch2"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_6BKt8GOEEeaZOu5LTB6vUA"
+                name="flange2_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_XzOc0N8pEeawHbbvsBXvOw" fileDynamic="flange2_svg"/>
+              <translation uuid="_4qShDVp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_SbeKkGOOEeaZOu5LTB6vUA" name="Geo_flange3"
+              visualEffects="_Q1DIBivUEeqJ7cfGAkHMWA"
+              position="(563,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20PIv6viEeaK7oriseII_A" variable="switch3">
+              <visualEffect uuid="_Q1DIBivUEeqJ7cfGAkHMWA"
+                  targets="_SbeKkGOOEeaZOu5LTB6vUA"
+                  variable="switch3"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_SbeKkWOOEeaZOu5LTB6vUA"
+                name="flange3_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20PIwaviEeaK7oriseII_A" fileDynamic="flange3_svg"/>
+              <translation uuid="_4qShE1p6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_T1Oy0GOOEeaZOu5LTB6vUA" name="Geo_flange4"
+              visualEffects="_Q1DIFyvUEeqJ7cfGAkHMWA"
+              position="(813,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20PvwaviEeaK7oriseII_A" variable="switch4">
+              <visualEffect uuid="_Q1DIFyvUEeqJ7cfGAkHMWA"
+                  targets="_T1Oy0GOOEeaZOu5LTB6vUA"
+                  variable="switch4"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_T1Oy0WOOEeaZOu5LTB6vUA"
+                name="flange4_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pvw6viEeaK7oriseII_A" fileDynamic="flange4_svg"/>
+              <translation uuid="_4qShGVp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_UsUL0GOOEeaZOu5LTB6vUA" name="Geo_flange5"
+              visualEffects="_Q1DIKCvUEeqJ7cfGAkHMWA"
+              position="(1063,0,92)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20PvxaviEeaK7oriseII_A" variable="switch5">
+              <visualEffect uuid="_Q1DIKCvUEeqJ7cfGAkHMWA"
+                  targets="_UsUL0GOOEeaZOu5LTB6vUA"
+                  variable="switch5"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_UsUL0WOOEeaZOu5LTB6vUA"
+                name="flange5_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pvx6viEeaK7oriseII_A" fileDynamic="flange5_svg"/>
+              <translation uuid="_4qShH1p6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+        </children>
+        <children uuid="_SfD2QHRGEeaGEr9s0U2JUQ" name="Geo_Unit_row_2">
+          <facets xsi:type="comp:GeoUnitLineJointFacet"
+              uuid="_HGd-kWulEee3XesYpXh51Q" variable="move_y_row2">
+            <vector xsi:type="appl:Coordinate3D" uuid="_4qShI1p6Eei01OQ0VFIZlw"
+                z="1.0"/>
+          </facets>
+          <children uuid="_VYKlMGOOEeaZOu5LTB6vUA" name="Geo_flange6"
+              visualEffects="_Q1DIPyvUEeqJ7cfGAkHMWA"
+              position="(63,0,342)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20Pvy6viEeaK7oriseII_A" variable="switch6">
+              <visualEffect uuid="_Q1DIPyvUEeqJ7cfGAkHMWA"
+                  targets="_VYKlMGOOEeaZOu5LTB6vUA"
+                  variable="switch6"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_VYKlMWOOEeaZOu5LTB6vUA"
+                name="flange6_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20PvzaviEeaK7oriseII_A" fileDynamic="flange6_svg"/>
+              <translation uuid="_4qShKFp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_WFV0QGOOEeaZOu5LTB6vUA" name="Geo_flange7"
+              visualEffects="_Q1DIUCvUEeqJ7cfGAkHMWA"
+              position="(313,0,342)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20Pvz6viEeaK7oriseII_A" variable="switch7">
+              <visualEffect uuid="_Q1DIUCvUEeqJ7cfGAkHMWA"
+                  targets="_WFV0QGOOEeaZOu5LTB6vUA"
+                  variable="switch7"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_WFV0QWOOEeaZOu5LTB6vUA"
+                name="flange7_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pv0aviEeaK7oriseII_A" fileDynamic="flange7_svg"/>
+              <translation uuid="_4qShLlp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_W_ZBsGOOEeaZOu5LTB6vUA" name="Geo_flange8"
+              visualEffects="_Q1DIYSvUEeqJ7cfGAkHMWA"
+              position="(563,0,342)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20Pv06viEeaK7oriseII_A" variable="switch8">
+              <visualEffect uuid="_Q1DIYSvUEeqJ7cfGAkHMWA"
+                  targets="_W_ZBsGOOEeaZOu5LTB6vUA"
+                  variable="switch8"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_W_ZBsWOOEeaZOu5LTB6vUA"
+                name="flange8_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pv1aviEeaK7oriseII_A" fileDynamic="flange8_svg"/>
+              <translation uuid="_4qShNFp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_XwS6MGOOEeaZOu5LTB6vUA" name="Geo_flange9"
+              visualEffects="_Q1DIcivUEeqJ7cfGAkHMWA"
+              position="(813,0,342)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20Pv16viEeaK7oriseII_A" variable="switch9">
+              <visualEffect uuid="_Q1DIcivUEeqJ7cfGAkHMWA"
+                  targets="_XwS6MGOOEeaZOu5LTB6vUA"
+                  variable="switch9"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_XwS6MWOOEeaZOu5LTB6vUA"
+                name="flange9_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pv2aviEeaK7oriseII_A" fileDynamic="flange9_svg"/>
+              <translation uuid="_4qShOlp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+          <children uuid="_YtKyIGOOEeaZOu5LTB6vUA" name="Geo_flange10"
+              visualEffects="_Q1DIgyvUEeqJ7cfGAkHMWA"
+              position="(1063,0,342)" order="2">
+            <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+                uuid="_20Pv26viEeaK7oriseII_A" variable="switch10">
+              <visualEffect uuid="_Q1DIgyvUEeqJ7cfGAkHMWA"
+                  targets="_YtKyIGOOEeaZOu5LTB6vUA"
+                  variable="switch10"/>
+            </facets>
+            <twoDElement xsi:type="comp:TwoDSVG" uuid="_YtKyIWOOEeaZOu5LTB6vUA"
+                name="flange10_svg">
+              <facets xsi:type="comp:TwoDDynamicFileFacet"
+                  uuid="_20Pv3aviEeaK7oriseII_A" fileDynamic="flange10_svg"/>
+              <translation uuid="_4qShQFp6Eei01OQ0VFIZlw"/>
+              <file href="../../model.build#_jqC68GOEEeaZOu5LTB6vUA"/>
+            </twoDElement>
+          </children>
+        </children>
+      </children>
+      <children uuid="_hOu4QOI6EeaeNNH2bYOgCg" name="cursor_bottom"
+          visualEffects="_Q1DIlCvUEeqJ7cfGAkHMWA" position="(40,0,70)">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_hOzJsOI6EeaeNNH2bYOgCg" variable="switch_cursor_bottom">
+          <visualEffect uuid="_Q1DIlCvUEeqJ7cfGAkHMWA"
+              targets="_hOu4QOI6EeaeNNH2bYOgCg" variable="switch_cursor_bottom"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_hOzwwOI6EeaeNNH2bYOgCg" variable="move_y_row1_cursor_bottom">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qShRVp6Eei01OQ0VFIZlw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_hOu4QeI6EeaeNNH2bYOgCg"
+            name="Box_bottom" height="365.0" width="515.0"
+            cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw"
+            strokeWidth="10">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_hOx7kOI6EeaeNNH2bYOgCg" heightDynamic="cursor_height"
+              widthDynamic="cursor_width"/>
+          <translation uuid="_4qShSFp6Eei01OQ0VFIZlw"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#N65562"/>
+        </twoDElement>
+      </children>
+      <children uuid="_hOvfUOI6EeaeNNH2bYOgCg" name="cursor_top"
+          visualEffects="_Q1DIsSvUEeqJ7cfGAkHMWA" position="(40,0,70)">
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_hOzwxOI6EeaeNNH2bYOgCg" variable="switch_cursor_top">
+          <visualEffect uuid="_Q1DIsSvUEeqJ7cfGAkHMWA"
+              targets="_hOvfUOI6EeaeNNH2bYOgCg" variable="switch_cursor_top"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_hOzwxeI6EeaeNNH2bYOgCg" variable="move_y_row1_cursor_top">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qShTlp6Eei01OQ0VFIZlw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_hOvfUeI6EeaeNNH2bYOgCg"
+            name="Box_top" height="365.0" width="515.0"
+            cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw"
+            strokeWidth="10">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_hOzwweI6EeaeNNH2bYOgCg" heightDynamic="cursor_height"
+              widthDynamic="cursor_width"/>
+          <translation uuid="_4qShUVp6Eei01OQ0VFIZlw"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#N65562"/>
+        </twoDElement>
+      </children>
+    </units>
+    <units uuid="_ZFndAAfrEeihqagqSIju_g" name="flange1_blind"
+        visualEffects="_Q1DIzivUEeqJ7cfGAkHMWA">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_UUas8AftEeihqagqSIju_g" variable="switch1_blind">
+        <visualEffect uuid="_Q1DIzivUEeqJ7cfGAkHMWA"
+            targets="_ZFndAAfrEeihqagqSIju_g" variable="switch1_blind"/>
+      </facets>
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_fonWUAfzEeihqagqSIju_g" variable="move_x_cap">
+        <vector xsi:type="appl:Coordinate3D" uuid="_4qShV1p6Eei01OQ0VFIZlw"
+            x="1.0"/>
+      </facets>
+      <children uuid="_ZkNj4AfzEeihqagqSIju_g" name="flange1_blind_y">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_gqNWMAfzEeihqagqSIju_g" variable="move_y_cap">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4qShWlp6Eei01OQ0VFIZlw"
+              z="1.0"/>
+        </facets>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_dCaJEAfzEeihqagqSIju_g"
+            name="Box_blind_cursor" order="1" height="826.0"
+            width="1128.0" cursorsUsingMeForColor="_mWM3kIFyEea6KeeaLHeOFw"
+            strokeWidth="10">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_kEJGcAfzEeihqagqSIju_g" heightDynamic="height_cap"
+              widthDynamic="width_cap"/>
+          <translation uuid="_4qShXVp6Eei01OQ0VFIZlw"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#N65562"/>
+        </twoDElement>
+        <twoDElement xsi:type="comp:TwoDBox" uuid="_4R0VIAf9EeihqagqSIju_g"
+            name="Box_open_blind_flange_visual">
+          <facets xsi:type="comp:TwoDDynamicSizeFacet"
+              uuid="_-Fx30Af9EeihqagqSIju_g" heightDynamic="height_cap"
+              widthDynamic="width_cap"/>
+          <facets xsi:type="comp:TwoDDynamicBgColorFacet"
+              uuid="_PtsUQAf_EeihqagqSIju_g" bgColorDynamic="fill_open_blind_flange"/>
+          <translation uuid="_4qShY1p6Eei01OQ0VFIZlw"/>
+          <bgColor href="../product_model.xml#N65562"/>
+          <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+        </twoDElement>
+      </children>
+    </units>
+    <parentPlugs uuid="_AN5TAl4AEeaQA67lBIkuIw" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_dcZKSv7nEeiskp2v5nXzHA" value="Flanges"/>
+</comp:Component>

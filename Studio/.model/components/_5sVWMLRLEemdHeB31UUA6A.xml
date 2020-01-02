@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_5sVWMLRLEemdHeB31UUA6A" name="device_XT7M"
+    componentClass="LINK" toaPrefix="device">
+  <variables xsi:type="comp:VariableGroup" uuid="_5saOsLRLEemdHeB31UUA6A"
+      name="SVG" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saOsbRLEemdHeB31UUA6A"
+        name="height" visibility="800">
+      <facets xsi:type="comp:VariableCalculationConstraintFacet"
+          uuid="_5saOtLRLEemdHeB31UUA6A" declared="true"/>
+      <domain uuid="_5saOtbRLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saOt7RLEemdHeB31UUA6A" bitSet="393226"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saOuLRLEemdHeB31UUA6A"
+        name="width" visibility="800">
+      <domain uuid="_5saOu7RLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saOvbRLEemdHeB31UUA6A" bitSet="393226"/>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:VariableGroup" uuid="_5saOvrRLEemdHeB31UUA6A"
+      name="External" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saOv7RLEemdHeB31UUA6A"
+        name="device_command" visibility="800">
+      <domain uuid="_5saOwrRLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saOxLRLEemdHeB31UUA6A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saOxbRLEemdHeB31UUA6A"
+        name="device_poles" visibility="800">
+      <domain uuid="_5saOyLRLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saOyrRLEemdHeB31UUA6A" bitSet="393220"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saOy7RLEemdHeB31UUA6A"
+        name="delete_without_confirm" visibility="800"
+        initValue="1">
+      <domain uuid="_5saOzrRLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saO0LRLEemdHeB31UUA6A" bitSet="393217"/>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_5saO0bRLEemdHeB31UUA6A"
+        name="delete_mode" visibility="800" initValue="0">
+      <domain uuid="_5saO1LRLEemdHeB31UUA6A" name="local"
+          visibility="300">
+        <typeSet uuid="_5saO1rRLEemdHeB31UUA6A" bitSet="393217"/>
+        <values uuid="_5saO17RLEemdHeB31UUA6A" name="0"
+            visibility="300">
+          <displayName uuid="_5saO2bRLEemdHeB31UUA6A"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <logic uuid="_5saO2rRLEemdHeB31UUA6A" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_5X20oAwnEeq0j8ItwMp0Aw"
+        name="frame_size_restriction" visibility="800"
+        expression="frame_size(XT7M);&#xD;&#xA;device_type(XT7M);"/>
+  </logic>
+  <calculation uuid="_5saO3LRLEemdHeB31UUA6A" name="Calculation_Rules"
+      visibility="800">
+    <text>//***************************svg area - Start*******************************************&#xD;
+//width&#xD;
+if (number_of_poles==&quot;4&quot;) width=140;&#xD;
+else width=105;&#xD;
+	&#xD;
+//height&#xD;
+//if (POL==&quot;4&quot; &amp;&amp; RC_INST != &quot;Unassigned&quot;) height=236;&#xD;
+//else if (RCINST==&quot;valPlugable&quot;) height=182;&#xD;
+//else&#xD;
+ height=160;&#xD;
+ &#xD;
+// height_rearbreaker1 = height;&#xD;
+ &#xD;
+// RL_Base_width=width-5;&#xD;
+ &#xD;
+//RDA_movex=width-2.5-27.5-45/2-(49.5+76/2);&#xD;
+//operationGroup_move_x=width-2.5-26-114;&#xD;
+//RL_drive_move_x=width-2.5-27.5-45-65;&#xD;
+//RL_move_x=width-2.5-RL_Base_width-2.5;&#xD;
+//PathP3_PathP4_move_x=width-2.5-135-2.5;&#xD;
+// RC_Sel_move_x=width-3-134-3;&#xD;
+ &#xD;
+if (device_command==&quot;motorized&quot;)&#xD;
+{&#xD;
+	//visiblity_RLDrive=&quot;hidden&quot;;&#xD;
+	//visiblity_motorDrive=&quot;visible&quot;;&#xD;
+		//visiblity_pathP4=&quot;hidden&quot;;&#xD;
+	//visiblity_pathp3=&quot;hidden&quot;;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	if (number_of_poles==&quot;4&quot;)&#xD;
+{&#xD;
+	//visiblity_pathP4=&quot;visible&quot;;&#xD;
+	//visiblity_pathp3=&quot;hidden&quot;;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	//visiblity_pathP4=&quot;hidden&quot;;&#xD;
+	//visiblity_pathp3=&quot;visible&quot;;&#xD;
+}	&#xD;
+	//visiblity_motorDrive=&quot;hidden&quot;;&#xD;
+	//visiblity_RLDrive=&quot;visible&quot;;&#xD;
+}&#xD;
+//visiblity_Rotary_Drive_Axle=&quot;hidden&quot;;&#xD;
+ //visiblity_Rotary_Drive=&quot;hidden&quot;;&#xD;
+//visiblity_operationGroup=&quot;hidden&quot;;&#xD;
+//visiblity_RC_Sel=&quot;hidden&quot;;&#xD;
+&#xD;
+if(device_command == &quot;motorized&quot;) {&#xD;
+	move_x_flanges = RL_drive_move_x + 42.5 - 7.25;&#xD;
+	move_y_flanges = 32 - 18.25;&#xD;
+}&#xD;
+else {&#xD;
+	move_x_flanges = RL_move_x + 2.5 - 8;&#xD;
+	move_y_flanges = 56 - 18.5;&#xD;
+}&#xD;
+//visiblity_motorDrive=&quot;visible&quot;;&#xD;
+	//visiblity_RLDrive=&quot;hidden&quot;;</text>
+  </calculation>
+  <template href="_PETQIOSsEee2N5b2jkRSMA.xml#_PETQIOSsEee2N5b2jkRSMA"/>
+  <cursorTwoD uuid="_5saO3bRLEemdHeB31UUA6A" name="Cursor_XT7M">
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_5saO3rRLEemdHeB31UUA6A" deletable="false"
+      name="root">
+    <units uuid="_5saO37RLEemdHeB31UUA6A" name="device">
+      <twoDElement xsi:type="comp:TwoDSVGImportFile"
+          uuid="_5saO4LRLEemdHeB31UUA6A" name="XT7M_svg"
+          checksum="0c13c3aee76cc9b1c0c0ad41bb7ce2bad0ce18f2">
+        <translation uuid="_5saO4rRLEemdHeB31UUA6A"/>
+        <file href="../../model.build#_Rc8rsLRMEemdHeB31UUA6A"/>
+        <handles uuid="_5saPALRLEemdHeB31UUA6A" name="svg2"
+            visualId="svg2">
+          <fields xsi:type="comp:Field" uuid="_5saPAbRLEemdHeB31UUA6A"
+              name="displayManipulation" fieldId="display"
+              variableReference="display_device" target="xml"/>
+        </handles>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_5saPBLRLEemdHeB31UUA6A"
+          name="Box_XT7M" order="1" strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_5saPBrRLEemdHeB31UUA6A" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_5saPB7RLEemdHeB31UUA6A" scaleDynamic="show_box"/>
+        <translation uuid="_5saPCLRLEemdHeB31UUA6A"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_5saPCbRLEemdHeB31UUA6A"
+          name="Box_XT7M_highlighter" strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_5saPC7RLEemdHeB31UUA6A" heightDynamic="height"
+            widthDynamic="width"/>
+        <facets xsi:type="comp:TwoDDynamicScaleFacet"
+            uuid="_5saPDLRLEemdHeB31UUA6A" scaleDynamic="scale_highlighter"/>
+        <translation uuid="_5saPDbRLEemdHeB31UUA6A"/>
+        <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+        <color href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      </twoDElement>
+    </units>
+    <parentPlugs uuid="_5saPDrRLEemdHeB31UUA6A" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_5saPD7RLEemdHeB31UUA6A" value="Circuit Breaker Device"/>
+</comp:Component>

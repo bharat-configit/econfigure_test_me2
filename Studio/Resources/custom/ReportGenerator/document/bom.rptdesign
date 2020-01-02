@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <text-property name="title">Bom</text-property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.datatools.enablement.oda.xml" name="updated" id="2">
+            <property name="FILELIST">C:\Users\Sej\AppData\Local\Temp\Res5334262392664696001.tmp</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="datum" id="67">
+            <list-property name="columnHints"/>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">blockOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">rowOrder</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Order</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">Title</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">accessories</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">artNo</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">column_name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">column_number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">descr</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">element_position</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">gross_sum</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">instructionManualLink1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">instructionManualLink2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">link</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">price</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">priceSum</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">productId</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">qty</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">real_qty</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">unit_of_measure</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">weight</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">updated</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">blockOrder</property>
+                    <property name="nativeName">blockOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">rowOrder</property>
+                    <property name="nativeName">rowOrder</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Order</property>
+                    <property name="nativeName">Order</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">Title</property>
+                    <property name="nativeName">Title</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">accessories</property>
+                    <property name="nativeName">accessories</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">artNo</property>
+                    <property name="nativeName">artNo</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">column_name</property>
+                    <property name="nativeName">column_name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">column_number</property>
+                    <property name="nativeName">column_number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">descr</property>
+                    <property name="nativeName">descr</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">element_position</property>
+                    <property name="nativeName">element_position</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">gross_sum</property>
+                    <property name="nativeName">gross_sum</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">instructionManualLink1</property>
+                    <property name="nativeName">instructionManualLink1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">instructionManualLink2</property>
+                    <property name="nativeName">instructionManualLink2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">link</property>
+                    <property name="nativeName">link</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">price</property>
+                    <property name="nativeName">price</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">priceSum</property>
+                    <property name="nativeName">priceSum</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">productId</property>
+                    <property name="nativeName">productId</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">qty</property>
+                    <property name="nativeName">qty</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">real_qty</property>
+                    <property name="nativeName">real_qty</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">unit_of_measure</property>
+                    <property name="nativeName">unit_of_measure</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">weight</property>
+                    <property name="nativeName">weight</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/reportexport/report/blocks/block/datatables/datatable/rows/row]#:#{blockOrder;STRING;../../../../@order},{rowOrder;STRING;/@order},{Order;STRING;/datum[@id="Order"]/@value},{Title;STRING;/datum[@id="Title"]/@value},{accessories;STRING;/datum[@id="accessories"]/@value},{artNo;STRING;/datum[@id="artNo"]/@value},{column_name;STRING;/datum[@id="column_name"]/@value},{column_number;STRING;/datum[@id="column_number"]/@value},{descr;STRING;/datum[@id="descr"]/@value},{element_position;STRING;/datum[@id="element_position"]/@value},{gross_sum;STRING;/datum[@id="gross_sum"]/@value},{instructionManualLink1;STRING;/datum[@id="instructionManualLink1"]/@value},{instructionManualLink2;STRING;/datum[@id="instructionManualLink2"]/@value},{link;STRING;/datum[@id="link"]/@value},{price;STRING;/datum[@id="price"]/@value},{priceSum;STRING;/datum[@id="priceSum"]/@value},{productId;STRING;/datum[@id="productId"]/@value},{qty;STRING;/datum[@id="qty"]/@value},{real_qty;STRING;/datum[@id="real_qty"]/@value},{unit_of_measure;STRING;/datum[@id="unit_of_measure"]/@value},{weight;STRING;/datum[@id="weight"]/@value}]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="NewSimpleMasterPage" id="4"/>
+    </page-setup>
+    <body>
+        <table name="bom_kit" id="33">
+            <property name="masterPage">NewSimpleMasterPage</property>
+            <property name="dataSet">datum</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">blockOrder</property>
+                    <text-property name="displayName">blockOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["blockOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">rowOrder</property>
+                    <text-property name="displayName">rowOrder</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["rowOrder"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Order</property>
+                    <text-property name="displayName">Order</text-property>
+                    <expression name="expression">dataSetRow["Order"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">productId</property>
+                    <text-property name="displayName">productId</text-property>
+                    <expression name="expression">dataSetRow["productId"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">accessories</property>
+                    <text-property name="displayName">accessories</text-property>
+                    <expression name="expression">dataSetRow["accessories"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">artNo</property>
+                    <text-property name="displayName">artNo</text-property>
+                    <expression name="expression">dataSetRow["artNo"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">column_name</property>
+                    <text-property name="displayName">column_name</text-property>
+                    <expression name="expression">dataSetRow["column_name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">link</property>
+                    <text-property name="displayName">link</text-property>
+                    <expression name="expression">dataSetRow["link"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Title</property>
+                    <text-property name="displayName">Title</text-property>
+                    <expression name="expression">dataSetRow["Title"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">weight</property>
+                    <text-property name="displayName">weight</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["weight"]</expression>
+                    <property name="dataType">decimal</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">element_position</property>
+                    <text-property name="displayName">element_position</text-property>
+                    <expression name="expression">dataSetRow["element_position"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">descr</property>
+                    <text-property name="displayName">descr</text-property>
+                    <expression name="expression">dataSetRow["descr"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">gross_sum</property>
+                    <text-property name="displayName">gross_sum</text-property>
+                    <expression name="expression">dataSetRow["gross_sum"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">real_qty</property>
+                    <text-property name="displayName">real_qty</text-property>
+                    <expression name="expression">dataSetRow["real_qty"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">price</property>
+                    <text-property name="displayName">price</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["price"]</expression>
+                    <property name="dataType">decimal</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">qty</property>
+                    <text-property name="displayName">qty</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qty"]</expression>
+                    <property name="dataType">integer</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">instructionManualLink2</property>
+                    <text-property name="displayName">instructionManualLink2</text-property>
+                    <expression name="expression">dataSetRow["instructionManualLink2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">column_number</property>
+                    <text-property name="displayName">column_number</text-property>
+                    <expression name="expression">dataSetRow["column_number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">unit_of_measure</property>
+                    <text-property name="displayName">unit_of_measure</text-property>
+                    <expression name="expression">dataSetRow["unit_of_measure"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">priceSum</property>
+                    <text-property name="displayName">priceSum</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["priceSum"]</expression>
+                    <property name="dataType">decimal</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">instructionManualLink1</property>
+                    <text-property name="displayName">instructionManualLink1</text-property>
+                    <expression name="expression">dataSetRow["instructionManualLink1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Aggregation</property>
+                    <text-property name="displayName">priceSum</text-property>
+                    <property name="dataType">float</property>
+                    <property name="aggregateFunction">SUM</property>
+                    <list-property name="arguments">
+                        <structure>
+                            <property name="name">Expression</property>
+                            <expression name="value" type="javascript">dataSetRow["priceSum"]</expression>
+                        </structure>
+                    </list-property>
+                    <property name="allowExport">true</property>
+                </structure>
+            </list-property>
+            <property name="pageBreakInterval">0</property>
+            <list-property name="sort">
+                <structure>
+                    <expression name="key" type="javascript">row["column_number"]</expression>
+                    <property name="direction">asc</property>
+                    <property name="strength">-1</property>
+                </structure>
+            </list-property>
+            <column id="62"/>
+            <column id="63"/>
+            <column id="64"/>
+            <column id="65"/>
+            <column id="66"/>
+            <column id="465"/>
+            <column id="469"/>
+            <column id="473"/>
+            <column id="477"/>
+            <column id="481"/>
+            <column id="496"/>
+            <column id="504"/>
+            <column id="500"/>
+            <column id="508"/>
+            <column id="512"/>
+            <header>
+                <row id="34">
+                    <cell id="35">
+                        <text id="452">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Column Name</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="37">
+                        <text id="453">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Column No</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="39">
+                        <text id="454">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Class</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="41">
+                        <text id="458">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Product ID</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="43">
+                        <text id="459">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Type Code</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="462">
+                        <text id="482">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Position</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="466">
+                        <text id="483">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Quantity</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="470">
+                        <text id="484">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>UOM</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="474">
+                        <text id="488">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Description</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="478">
+                        <text id="489">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Weight</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="493">
+                        <text id="513">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Price</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="501">
+                        <text id="514">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Price Sum</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="497">
+                        <text id="519">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>ABB Product</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="505">
+                        <text id="520">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Instruction Manual 1</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="509">
+                        <text id="521">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>Instruction Manual 2</B>]]></text-property>
+                        </text>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="45">
+                    <cell id="46">
+                        <data id="455">
+                            <property name="resultSetColumn">column_name</property>
+                        </data>
+                    </cell>
+                    <cell id="48">
+                        <data id="456">
+                            <property name="resultSetColumn">column_number</property>
+                        </data>
+                    </cell>
+                    <cell id="50">
+                        <data id="457">
+                            <property name="resultSetColumn">Title</property>
+                        </data>
+                    </cell>
+                    <cell id="52">
+                        <data id="460">
+                            <property name="resultSetColumn">productId</property>
+                        </data>
+                    </cell>
+                    <cell id="54">
+                        <data id="461">
+                            <property name="resultSetColumn">artNo</property>
+                        </data>
+                    </cell>
+                    <cell id="463">
+                        <data id="485">
+                            <property name="resultSetColumn">element_position</property>
+                        </data>
+                    </cell>
+                    <cell id="467">
+                        <data id="486">
+                            <structure name="numberFormat">
+                                <property name="category">General Number</property>
+                                <property name="pattern">General Number</property>
+                            </structure>
+                            <property name="resultSetColumn">qty</property>
+                        </data>
+                    </cell>
+                    <cell id="471">
+                        <data id="487">
+                            <property name="resultSetColumn">unit_of_measure</property>
+                        </data>
+                    </cell>
+                    <cell id="475">
+                        <data id="491">
+                            <property name="resultSetColumn">descr</property>
+                        </data>
+                    </cell>
+                    <cell id="479">
+                        <data id="492">
+                            <structure name="numberFormat">
+                                <property name="category">General Number</property>
+                                <property name="pattern">General Number</property>
+                            </structure>
+                            <property name="resultSetColumn">weight</property>
+                        </data>
+                    </cell>
+                    <cell id="494">
+                        <data id="515">
+                            <structure name="numberFormat">
+                                <property name="category">General Number</property>
+                                <property name="pattern">General Number</property>
+                            </structure>
+                            <property name="resultSetColumn">price</property>
+                        </data>
+                    </cell>
+                    <cell id="502">
+                        <data id="516">
+                            <structure name="numberFormat">
+                                <property name="category">General Number</property>
+                                <property name="pattern">General Number</property>
+                            </structure>
+                            <property name="resultSetColumn">priceSum</property>
+                        </data>
+                    </cell>
+                    <cell id="498">
+                        <data id="524">
+                            <property name="color">#0000FF</property>
+                            <property name="textUnderline">underline</property>
+                            <list-property name="visibility">
+                                <structure>
+                                    <property name="format">all</property>
+                                    <expression name="valueExpr" type="javascript">row["link"]==""</expression>
+                                </structure>
+                            </list-property>
+                            <property name="resultSetColumn">productId</property>
+                            <list-property name="action">
+                                <structure>
+                                    <property name="linkType">hyperlink</property>
+                                    <property name="toolTip">row["link"]</property>
+                                    <expression name="uri" type="javascript">row["link"]</expression>
+                                    <property name="targetWindow">_self</property>
+                                </structure>
+                            </list-property>
+                        </data>
+                    </cell>
+                    <cell id="506">
+                        <data id="523">
+                            <property name="color">blue</property>
+                            <property name="textUnderline">underline</property>
+                            <list-property name="visibility">
+                                <structure>
+                                    <property name="format">all</property>
+                                    <expression name="valueExpr" type="javascript">row["instructionManualLink1"] == "";</expression>
+                                </structure>
+                            </list-property>
+                            <property name="resultSetColumn">productId</property>
+                            <list-property name="action">
+                                <structure>
+                                    <property name="linkType">hyperlink</property>
+                                    <property name="toolTip">row["instructionManualLink1"]</property>
+                                    <expression name="uri" type="javascript">row["instructionManualLink1"]</expression>
+                                    <property name="targetWindow">_self</property>
+                                </structure>
+                            </list-property>
+                        </data>
+                    </cell>
+                    <cell id="510">
+                        <data id="522">
+                            <property name="color">blue</property>
+                            <property name="textUnderline">underline</property>
+                            <list-property name="visibility">
+                                <structure>
+                                    <property name="format">all</property>
+                                    <expression name="valueExpr" type="javascript">row["instructionManualLink2"] == "";</expression>
+                                </structure>
+                            </list-property>
+                            <property name="resultSetColumn">productId</property>
+                            <list-property name="action">
+                                <structure>
+                                    <property name="linkType">hyperlink</property>
+                                    <property name="toolTip">row["instructionManualLink2"]</property>
+                                    <expression name="uri" type="javascript">row["instructionManualLink2"]</expression>
+                                    <property name="targetWindow">_self</property>
+                                </structure>
+                            </list-property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="56">
+                    <cell id="57"/>
+                    <cell id="58"/>
+                    <cell id="59"/>
+                    <cell id="60"/>
+                    <cell id="61"/>
+                    <cell id="464"/>
+                    <cell id="468"/>
+                    <cell id="472"/>
+                    <cell id="476"/>
+                    <cell id="480"/>
+                    <cell id="495">
+                        <text id="517">
+                            <property name="contentType">html</property>
+                            <text-property name="content"><![CDATA[<B>
+Total Gross Price €:
+</B>]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="503">
+                        <data id="518">
+                            <structure name="numberFormat">
+                                <property name="category">General Number</property>
+                                <property name="pattern">General Number</property>
+                            </structure>
+                            <property name="resultSetColumn">Aggregation</property>
+                        </data>
+                    </cell>
+                    <cell id="499"/>
+                    <cell id="507"/>
+                    <cell id="511"/>
+                </row>
+            </footer>
+        </table>
+    </body>
+</report>

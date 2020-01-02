@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_PsylcPpEEemU9PMrJLqQSg" name="column_ext_cable_compartment50_rbbs_backup"
+    componentClass="LINK" cluster="true" toaPrefix="column.rbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Ps-zvfpEEemU9PMrJLqQSg"
+      name="delete_mode" visibility="800" initValue="0">
+    <domain uuid="_Ps-zwPpEEemU9PMrJLqQSg" name="local"
+        visibility="300">
+      <typeSet uuid="_Ps-zwvpEEemU9PMrJLqQSg" bitSet="393231"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Ps-zw_pEEemU9PMrJLqQSg"
+      name="connection" visibility="800">
+    <domain uuid="_Ps-zxvpEEemU9PMrJLqQSg" name="local"
+        visibility="300">
+      <typeSet uuid="_Ps-zyPpEEemU9PMrJLqQSg" bitSet="393220"/>
+      <values uuid="_Ps-zyfpEEemU9PMrJLqQSg" deletable="false"
+          name="bottom" visibility="300">
+        <displayName uuid="_Ps-zy_pEEemU9PMrJLqQSg"
+            value="Bottom"/>
+      </values>
+      <values uuid="_Ps-zzPpEEemU9PMrJLqQSg" deletable="false"
+          name="none" visibility="300">
+        <displayName uuid="_Ps-zzvpEEemU9PMrJLqQSg"
+            value="None"/>
+      </values>
+      <values uuid="_Ps-zz_pEEemU9PMrJLqQSg" deletable="false"
+          name="top" visibility="300">
+        <displayName uuid="_Ps-z0fpEEemU9PMrJLqQSg"
+            value="Top"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Ps-z0vpEEemU9PMrJLqQSg"
+      name="offset" visibility="800" initValue="No">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_Ps-z1fpEEemU9PMrJLqQSg" declared="true"
+        select="CLOSEST" priority="2000">
+      <priorities href="../product_model.xml#_qKNGgAr4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_Ps-z1vpEEemU9PMrJLqQSg" name="local"
+        visibility="300">
+      <typeSet uuid="_Ps-z2PpEEemU9PMrJLqQSg" bitSet="393220"/>
+      <values uuid="_Ps-z2fpEEemU9PMrJLqQSg" deletable="false"
+          name="Yes" visibility="300">
+        <displayName uuid="_Ps-z2_pEEemU9PMrJLqQSg"
+            value="Yes"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Ps-z3PpEEemU9PMrJLqQSg"
+      name="is_set_by_completer" visibility="800" initValue="false">
+    <domain uuid="_Ps-z3_pEEemU9PMrJLqQSg" name="local"
+        visibility="300">
+      <typeSet uuid="_Ps-z4fpEEemU9PMrJLqQSg" bitSet="393220"/>
+      <values uuid="_Ps-z4vpEEemU9PMrJLqQSg" name="true"
+          visibility="300">
+        <displayName uuid="_Ps-z5PpEEemU9PMrJLqQSg"/>
+      </values>
+      <values uuid="_Ps-z5fpEEemU9PMrJLqQSg" name="false"
+          visibility="300">
+        <displayName uuid="_Ps-z5_pEEemU9PMrJLqQSg"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_E_sz0PpIEemU9PMrJLqQSg"
+      name="column_type" visibility="800">
+    <domain uuid="_E_sz0fpIEemU9PMrJLqQSg" name="local"
+        visibility="300">
+      <typeSet uuid="_E_sz0vpIEemU9PMrJLqQSg" bitSet="393220"/>
+      <values uuid="_E_sz0_pIEemU9PMrJLqQSg" deletable="false"
+          name="breaker_rbbs" visibility="300">
+        <displayName uuid="_E_sz1PpIEemU9PMrJLqQSg"
+            value="Breaker Column"/>
+      </values>
+      <values uuid="_E_sz1fpIEemU9PMrJLqQSg" deletable="false"
+          name="cable_compartment" visibility="300">
+        <displayName uuid="_E_sz1vpIEemU9PMrJLqQSg"
+            value="External Cable Compartment"/>
+      </values>
+      <values uuid="_E_sz1_pIEemU9PMrJLqQSg" deletable="false"
+          name="cable_compartment_50" visibility="300">
+        <displayName uuid="_E_sz2PpIEemU9PMrJLqQSg"
+            value="External Cable Compartment 50"/>
+      </values>
+      <values uuid="_E_sz2fpIEemU9PMrJLqQSg" deletable="false"
+          name="column_central_earthing_point" visibility="300">
+        <displayName uuid="_E_sz2vpIEemU9PMrJLqQSg"
+            value="Central Earthing Point"/>
+      </values>
+      <values uuid="_E_sz2_pIEemU9PMrJLqQSg" deletable="false"
+          name="column_offset_rbbs" visibility="300">
+        <displayName uuid="_E_sz3PpIEemU9PMrJLqQSg"
+            value="Offset"/>
+      </values>
+      <values uuid="_E_sz3fpIEemU9PMrJLqQSg" deletable="false"
+          name="combiline_rbbs" visibility="300">
+        <displayName uuid="_E_sz3vpIEemU9PMrJLqQSg"
+            value="CombiLine Column"/>
+      </values>
+      <values uuid="_E_sz3_pIEemU9PMrJLqQSg" deletable="false"
+          name="inline" visibility="300">
+        <displayName uuid="_E_sz4PpIEemU9PMrJLqQSg"
+            value="Inline Column"/>
+      </values>
+      <values uuid="_E_sz4fpIEemU9PMrJLqQSg" deletable="false"
+          name="xline_hor" visibility="300">
+        <displayName uuid="_E_sz4vpIEemU9PMrJLqQSg"
+            value="X Line Horizontal Column"/>
+      </values>
+      <values uuid="_E_sz4_pIEemU9PMrJLqQSg" deletable="false"
+          name="xline_hor50" visibility="300">
+        <displayName uuid="_E_sz5PpIEemU9PMrJLqQSg"
+            value="X Line Horizontal50 Column"/>
+      </values>
+      <values uuid="_E_sz5fpIEemU9PMrJLqQSg" deletable="false"
+          name="xline_ver" visibility="300">
+        <displayName uuid="_E_sz5vpIEemU9PMrJLqQSg"
+            value="X Line Vertical Column"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_Ps-z6PpEEemU9PMrJLqQSg" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_Ps-z6fpEEemU9PMrJLqQSg"
+        name="Expression" visibility="800" expression="SOFT.width_column_external(400);&#xD;&#xA;offset(Yes);&#xD;&#xA;&#xD;&#xA;connection(none);&#xD;&#xA;&#xD;&#xA;//width_column(300);"/>
+    <children xsi:type="array:Expression" uuid="_Ps_ZwPpEEemU9PMrJLqQSg"
+        name="column_type" visibility="800" expression="column_type(cable_compartment_50);"/>
+  </logic>
+  <template href="_icHToIpTEeiOxKLEoqGITw.xml#_icHToIpTEeiOxKLEoqGITw"/>
+  <cursorTwoD uuid="_Ps_ZwfpEEemU9PMrJLqQSg" name="Cursor">
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="_QCEvcG5LEemUHvFbr0AMqw.xml#_QDRCrW5LEemUHvFbr0AMqw"/>
+    <twoDElementsColor xsi:type="comp:TwoDBox" href="_QCEvcG5LEemUHvFbr0AMqw.xml#_QDWh525LEemUHvFbr0AMqw"/>
+    <onColorBg href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+    <twoDElementsBgColor xsi:type="comp:TwoDBox" href="_QCEvcG5LEemUHvFbr0AMqw.xml#_QDWh525LEemUHvFbr0AMqw"/>
+  </cursorTwoD>
+  <geometry uuid="_Ps_ZwvpEEemU9PMrJLqQSg" deletable="false"
+      name="root">
+    <parentPlugs uuid="_Ps_Zw_pEEemU9PMrJLqQSg" name="ParentPlug"/>
+  </geometry>
+  <displayName uuid="_Ps_ZxPpEEemU9PMrJLqQSg" value="External Cable Compartment 50"/>
+</comp:Component>

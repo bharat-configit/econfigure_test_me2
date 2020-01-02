@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Jks7kBwfEeqdwJpYVu86pQ" name="HPCB_S800"
+    componentClass="LINK" toaPrefix="device">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_fPIzECW0Eeq74_qBm38QaA"
+      name="inserterbar_menu" visibility="800">
+    <domain uuid="_fPIzESW0Eeq74_qBm38QaA" name="local"
+        visibility="300">
+      <typeSet uuid="_fPIzEiW0Eeq74_qBm38QaA" bitSet="393231"/>
+      <values uuid="_kUrwkCW0Eeq74_qBm38QaA" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_kUrwkSW0Eeq74_qBm38QaA"
+            value="device_XT1"/>
+      </values>
+      <values uuid="_laMnICW0Eeq74_qBm38QaA" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_laMnISW0Eeq74_qBm38QaA"
+            value="device_XT3"/>
+      </values>
+      <values uuid="_mxSV4CW0Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_mxSV4SW0Eeq74_qBm38QaA"
+            value="device_MCB_tbbs"/>
+      </values>
+      <values uuid="_oa8bUCW0Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_oa8bUSW0Eeq74_qBm38QaA"
+            value="HPCB_S800"/>
+      </values>
+    </domain>
+  </variables>
+  <template href="_UfnxABwfEeqdwJpYVu86pQ.xml#_UfnxABwfEeqdwJpYVu86pQ"/>
+  <geometry uuid="_Jks7kRwfEeqdwJpYVu86pQ" deletable="false"
+      name="root">
+    <units uuid="_4akgwCW0Eeq74_qBm38QaA" name="Geo_Unit_device_link">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_7_1-UCW0Eeq74_qBm38QaA" variable="width_s800">
+        <vector xsi:type="appl:Coordinate3D" uuid="_7_1-USW0Eeq74_qBm38QaA"
+            x="1.0"/>
+      </facets>
+    </units>
+    <parentPlugs uuid="_Jks7khwfEeqdwJpYVu86pQ" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_skzMoCW0Eeq74_qBm38QaA" name="nextLink"
+      public="false" type="LINKINSUBLINK" components="NONE, device_XT1, device_XT3, device_MCB_tbbs, HPCB_S800, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_skzMrCW0Eeq74_qBm38QaA"
+        geoUnit="_4akgwCW0Eeq74_qBm38QaA" type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_uxrT8iW0Eeq74_qBm38QaA"/>
+    <domain uuid="_skzMoSW0Eeq74_qBm38QaA" name="local"
+        visibility="300">
+      <typeSet uuid="_skzMoiW0Eeq74_qBm38QaA" bitSet="65536"/>
+      <values uuid="_skzMoyW0Eeq74_qBm38QaA" name="NONE"
+          visibility="300">
+        <displayName uuid="_skzMpCW0Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_1EyQsCW0Eeq74_qBm38QaA" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_1EyQsSW0Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_1EyQsiW0Eeq74_qBm38QaA" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_1EyQsyW0Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_1EyQtCW0Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_1EyQtSW0Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_1EyQtiW0Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_1EyQtyW0Eeq74_qBm38QaA"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_FGR-YCW1Eeq74_qBm38QaA" name="prevLink"
+      public="false" type="LINKINSUBLINK" components="NONE, device_XT1, device_XT3, device_MCB_tbbs, HPCB_S800, "
+      lineInsertVariable="true">
+    <facets xsi:type="comp:PlugFacet" uuid="_FGR-bCW1Eeq74_qBm38QaA"
+        gender="MALE" rotation="180.0" type="plugForLinkConnection"/>
+    <facets xsi:type="comp:TwinRoleFacet" uuid="_HXnvESW1Eeq74_qBm38QaA"/>
+    <domain uuid="_FGR-YSW1Eeq74_qBm38QaA" name="local"
+        visibility="300">
+      <typeSet uuid="_FGR-YiW1Eeq74_qBm38QaA" bitSet="65536"/>
+      <values uuid="_FGR-YyW1Eeq74_qBm38QaA" name="NONE"
+          visibility="300">
+        <displayName uuid="_FGR-ZCW1Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_IEmJoCW1Eeq74_qBm38QaA" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_IEmJoSW1Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_IEmJoiW1Eeq74_qBm38QaA" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_IEmJoyW1Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_IEmJpCW1Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_IEmJpSW1Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_IEmJpiW1Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_IEmJpyW1Eeq74_qBm38QaA"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_Jks7kxwfEeqdwJpYVu86pQ" value="HPCB"/>
+</comp:Component>

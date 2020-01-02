@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_HEv2MMg9EeeWI_GtWqZv_w" name="column_empty_tbbs"
+    componentClass="LINK" cluster="true" toaPrefix="column.tbbs">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2g7A0MbPEei3IMlP04sCow"
+      name="kit_width" visibility="800">
+    <domain uuid="_2hEx0cbPEei3IMlP04sCow" name="local"
+        visibility="300">
+      <typeSet uuid="_2hEx1MbPEei3IMlP04sCow" bitSet="393230"/>
+      <values uuid="_2hEx1cbPEei3IMlP04sCow" deletable="false"
+          name="300" visibility="300">
+        <displayName uuid="_bHLmVf7nEeiskp2v5nXzHA"/>
+      </values>
+      <values uuid="_2hEx1sbPEei3IMlP04sCow" deletable="false"
+          name="400" visibility="300">
+        <displayName uuid="_bHLmV_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx18bPEei3IMlP04sCow" deletable="false"
+          name="600" visibility="300">
+        <displayName uuid="_bHLmWf7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2MbPEei3IMlP04sCow" deletable="false"
+          name="800" visibility="300">
+        <displayName uuid="_bHLmW_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2cbPEei3IMlP04sCow" deletable="false"
+          name="1000" visibility="300">
+        <displayName uuid="_bHLmXf7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+      <values uuid="_2hEx2sbPEei3IMlP04sCow" deletable="false"
+          name="1250" visibility="300">
+        <displayName uuid="_bHLmX_7nEeiskp2v5nXzHA"
+            value=""/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_xIkc4BA2Eeqs38vs_ErRFw"
+      name="drag_sensor_visual" visibility="800">
+    <domain uuid="_xIkc4RA2Eeqs38vs_ErRFw" name="local"
+        visibility="300">
+      <typeSet uuid="_xIkc4hA2Eeqs38vs_ErRFw" bitSet="10"/>
+      <values uuid="_xIkc4xA2Eeqs38vs_ErRFw" deletable="false"
+          name="-1" visibility="300">
+        <displayName uuid="_xIkc5BA2Eeqs38vs_ErRFw"/>
+      </values>
+      <values uuid="_xIkc5RA2Eeqs38vs_ErRFw" deletable="false"
+          name="0" visibility="300">
+        <displayName uuid="_xIkc5hA2Eeqs38vs_ErRFw"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_D8RbwBzVEeqdwJpYVu86pQ"
+      name="height_column_outside" visibility="800">
+    <facets xsi:type="comp:VariableCalculationConstraintFacet"
+        uuid="_FfwAsBzVEeqdwJpYVu86pQ" declared="true"/>
+    <domain uuid="_D8RbwRzVEeqdwJpYVu86pQ" name="local"
+        visibility="300">
+      <typeSet uuid="_D8RbwhzVEeqdwJpYVu86pQ" bitSet="10"/>
+    </domain>
+  </variables>
+  <logic uuid="_vP_bENsVEeeMOsgsRY5GHw" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:Expression" uuid="_I8KNkOxJEeev8fdGrgVCtQ"
+        name="column_type" visibility="800" expression="column_type(empty_tbbs);&#xD;&#xA;!kit_width(300);&#xD;&#xA;column_type(empty_tbbs)->column_ext_rear_cable_compartment(column_ext_rear_cable_compartment_tbbs);&#xD;&#xA;column_type(empty_tbbs)->column_ext_lateral_cable_compartment(column_ext_lateral_cable_compartment_tbbs);&#xD;&#xA;"/>
+    <children xsi:type="array:Expression" uuid="_E_8B4JS5EeiGtZxI-ASvmg"
+        name="frame_type" visibility="800" expression="//!frame_type(space_saving);&#xD;&#xA;frame_type(fixed);"/>
+  </logic>
+  <calculation uuid="_tNO5INsVEeeMOsgsRY5GHw" name="Calculation_Rules"
+      visibility="800">
+    <text>resize_height = height_column_outside/2;&#xD;
+&#xD;
+section_width_ui = kit_width + internal_lateral_cable_container_width;&#xD;
+&#xD;
+if (no_of_kits_acb == 0 &amp;&amp; no_of_kits_din_rail == 0 &amp;&amp; no_of_kits_mccb == 0)&#xD;
+{&#xD;
+	drag_sensor_visual = 0;&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	drag_sensor_visual = -1;&#xD;
+} </text>
+  </calculation>
+  <template href="_9psd0JScEeiGtZxI-ASvmg.xml#_9psd0JScEeiGtZxI-ASvmg"/>
+  <geometry uuid="_HE53Zcg9EeeWI_GtWqZv_w" deletable="false"
+      name="root">
+    <units uuid="_F6eZ4A9YEeqISpIeEtmiXA" name="rack_cursor_emptytbbs"
+        order="100"/>
+    <units uuid="_MaH94A9YEeqISpIeEtmiXA" name="resize_x_width"
+        position="(100,0,0)">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_MaH94Q9YEeqISpIeEtmiXA" variable="section_width_ui">
+        <vector xsi:type="appl:Coordinate3D" uuid="_MaH94w9YEeqISpIeEtmiXA"
+            x="1.0"/>
+      </facets>
+      <children uuid="_MaH95A9YEeqISpIeEtmiXA" name="resize_x_height"
+          visualEffects="_RF8DhyvUEeqJ7cfGAkHMWA" position="(0,0,-25)">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_MaH95Q9YEeqISpIeEtmiXA" variable="resize_height">
+          <vector xsi:type="appl:Coordinate3D" uuid="_MaH95w9YEeqISpIeEtmiXA"
+              z="-1.0"/>
+        </facets>
+        <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+            uuid="_ubLpkBA2Eeqs38vs_ErRFw" variable="drag_sensor_visual">
+          <visualEffect uuid="_RF8DhyvUEeqJ7cfGAkHMWA"
+              targets="_MaH95A9YEeqISpIeEtmiXA" variable="drag_sensor_visual"/>
+        </facets>
+      </children>
+    </units>
+  </geometry>
+  <viewerControls uuid="_mAy2EA9YEeqISpIeEtmiXA">
+    <controls xsi:type="comp:DragSensor" uuid="_mgvhcA9YEeqISpIeEtmiXA"
+        name="Drag_Sensor_x" geoUnit="_MaH95A9YEeqISpIeEtmiXA">
+      <twoDElement xsi:type="comp:TwoDBox" href="../product_model.xml#_EhIO8NPcEemKe4dBywbV3A"/>
+      <standardColor href="../product_model.xml#_kmR84K7eEeW5hd6joCsoGQ"/>
+      <errorColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+      <visual href="../product_model.xml#_A4FEoNPcEemKe4dBywbV3A"/>
+      <hoverColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+      <dragColor href="../product_model.xml#_IBz3sce6EeK1ILHtYeZxPw"/>
+      <groups uuid="_rTFPEA9YEeqISpIeEtmiXA" key="">
+        <variables uuid="_rTFPEQ9YEeqISpIeEtmiXA" step="50.0"
+            variable="kit_width"/>
+      </groups>
+    </controls>
+  </viewerControls>
+  <displayName uuid="_bHLmZv7nEeiskp2v5nXzHA" value="Empty Section"/>
+</comp:Component>

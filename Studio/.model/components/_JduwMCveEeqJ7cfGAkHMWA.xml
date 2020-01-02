@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ComponentTemplate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_JduwMCveEeqJ7cfGAkHMWA"
+    name="template_column_combiline_empty">
+  <logic uuid="_We12ECveEeqJ7cfGAkHMWA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_W6vH4CveEeqJ7cfGAkHMWA"
+        name="Table_Relation" visibility="800">
+      <columns uuid="_W6vH4SveEeqJ7cfGAkHMWA" name="column_type"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_W6vH4iveEeqJ7cfGAkHMWA" value="'combiline_empty'"/>
+        <cells uuid="_W6vH4yveEeqJ7cfGAkHMWA" value="'empty'"/>
+      </columns>
+      <columns uuid="_W6vH5CveEeqJ7cfGAkHMWA" name="kit_frames_combiline_role"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_W6vu8CveEeqJ7cfGAkHMWA" value="'kit_frames_empty'"/>
+        <cells uuid="_W6vu8SveEeqJ7cfGAkHMWA" value="'NONE'"/>
+      </columns>
+    </children>
+  </logic>
+  <template href="_ZBLEML3mEemu44w8miOspg.xml#_ZBLEML3mEemu44w8miOspg"/>
+  <geometry uuid="_JduwMSveEeqJ7cfGAkHMWA" deletable="false"
+      name="root">
+    <units uuid="_iB-iECveEeqJ7cfGAkHMWA" name="column_front_view"
+        visualEffects="_j3hHYSveEeqJ7cfGAkHMWA">
+      <facets xsi:type="comp:GeoUnitTwoDSwitchFacet"
+          uuid="_j3hHYCveEeqJ7cfGAkHMWA" variable="switch_front_view">
+        <visualEffect uuid="_j3hHYSveEeqJ7cfGAkHMWA"
+            targets="_iB-iECveEeqJ7cfGAkHMWA" variable="switch_front_view"/>
+      </facets>
+      <children uuid="_nmSfMCveEeqJ7cfGAkHMWA" name="kit_frames_geo"
+          position="(50,0,-57)" order="2"/>
+    </units>
+    <parentPlugs uuid="_JduwMiveEeqJ7cfGAkHMWA" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_STyK4CveEeqJ7cfGAkHMWA" name="kit_frames_combiline_role"
+      initValue="NONE" components="NONE, kit_frames_empty, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_STyK5SveEeqJ7cfGAkHMWA"
+        geoUnit="_nmSfMCveEeqJ7cfGAkHMWA"/>
+    <domain uuid="_STyK5iveEeqJ7cfGAkHMWA" name="local"
+        visibility="300">
+      <typeSet uuid="_STyK6CveEeqJ7cfGAkHMWA" bitSet="65536"/>
+      <values uuid="_STyK6SveEeqJ7cfGAkHMWA" name="NONE"
+          visibility="300">
+        <displayName uuid="_STyK6yveEeqJ7cfGAkHMWA"/>
+      </values>
+      <values uuid="_STyK7CveEeqJ7cfGAkHMWA" name="kit_frames_empty"
+          visibility="300">
+        <displayName uuid="_STyK7iveEeqJ7cfGAkHMWA"/>
+      </values>
+    </domain>
+  </roles>
+  <componentsUsingMe xsi:type="comp:Component" href="_0SgrECuaEeqPAP4J7KmR-w.xml#_0SgrECuaEeqPAP4J7KmR-w"/>
+</comp:ComponentTemplate>

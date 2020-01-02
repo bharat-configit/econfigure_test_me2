@@ -1,0 +1,668 @@
+<behaviors>
+  <actionBehavior trigger="general">
+    <alwaysTrueCondition />
+    <completerAction completerid="frame_completer" order="99" />
+  </actionBehavior>
+  
+  <constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width">
+		<value width="1">250</value>
+		<value width="2">500</value>
+		<value width="3">750</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_height">
+		<value height="1">150</value>
+		<value height="2">300</value>
+		<value height="3">450</value>
+		<value height="4">600</value>
+		<value height="5">750</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_npebusbarsystem_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_terminal_row">
+		<value height="1">0</value>
+		<value height="2">1</value>
+		<value height="3">2</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_npebusbarsystem_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="restrict_current" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_busbar_current_ui">
+		<value height="1">250</value>
+		<value height="1">320</value>
+		<value height="2">440</value>
+		<value height="2">630</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_measuringinstruments_combilineN</toa>
+		</toaCondition>
+			
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="1">1</value>
+		<value width="2">4</value>
+				</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	
+	
+	
+	
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_terminal_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_installation_orientation">
+		<value height="1">Horizontal</value>
+		<value height="2">Vertical</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_mountingplate_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_adjustability">
+		<value height="1">Stepless</value>
+		<value height="2">Fixed</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_40_60mm_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_type_ui">
+		<value height="3">Universaluse</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_40_60mm_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="vertical_yes" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_type_ui">
+		<value height="18">Selectivemainciruitbreaker</value>
+		
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_40_60mm_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="vertical_yes" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_type_ui">
+		<value height="2">Selectivemainciruitbreaker</value>
+		
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_UniversalSwitchDisconnector_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_rated_continuous_current_ui">
+		<value width="1" height="2">250</value>
+		<value width="2" height="3">630</value>
+		<value width="2" height="4">800</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_metermountingplate_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_count_new" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_meter_type">
+		<value height="2">eHZ</value>
+		<value height="5">3.HZ</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_metermountingplate_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_count_new" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_meter_type">
+		<value height="2">eHZ</value>
+		<value height="3">3.HZ</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+			<toaCondition>
+				<toa>kit.combilineN.kit_metermountingplate_combilineN</toa>
+			</toaCondition>
+			<variableCondition varid="mandatory_new" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value height="3">1</value>
+		<value height="5">2</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_switchdisconnectorOT_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="rated_current">
+		<value width="1" height="2">160</value>
+		<value width="1" height="2">200</value>
+		<value width="1" height="2">250</value>
+		<value width="2" height="3">400</value>
+		<value width="2" height="3">630</value>
+		<value width="2" height="4">800</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_smissLineTP_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_installation_orientation_ui">
+		<value height="2">Horizontal</value>
+		<value height="3">Vertical</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_smissLineTP_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="vertical_yes" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_socket_base_length">
+		<value width="1" height="3">1x22</value>
+		<value width="1" height="4">1x30</value>
+		<value width="1" height="5">1x38</value>
+		<value width="2" height="3">2x22</value>
+		<value width="2" height="4">2x30</value>
+		<value width="2" height="5">2x38</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_smissLineTP_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="vertical_yes" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_socket_base_length">
+		<value width="2" height="2">2x22</value>
+		<value width="3" height="2">2x36</value>
+		<value width="2" height="3">3x22</value>
+		<value width="3" height="3">3x36</value>
+		<value width="2" height="4">4x22</value>
+		<value width="3" height="4">4x36</value>
+		<value width="2" height="5">5x22</value>
+		<value width="3" height="5">5x36</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="mounting_restriction" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="rated_current">
+		<value width="1" height="2">160</value>
+		<value width="1" height="2">250</value>
+		<value width="1" height="3">320</value>
+		<value width="1" height="3">400</value>
+		<value width="2" height="3">630</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="mounting_restriction" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="rated_current">
+		<value width="1" height="2">100</value>
+		<value width="1" height="2">160</value>
+		<value width="1" height="2">250</value>
+		<value width="2" height="3">400</value>
+		<value width="2" height="3">630</value>
+		<value width="2" height="4">800</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="width_ui">
+		<value width="1">250</value>
+		<value width="2">500</value>
+		
+		<value width="3">750</value>
+	
+		
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	
+	
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="device_type_ui">
+		<value height="2">XT1</value>
+		<value height="2">XT2</value>
+		<value height="2">XT3</value>
+		<value height="3">XT4</value>
+		<value height="3">T4</value>
+		<value height="3">T5</value>
+		<value height="4">T6</value>
+		
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_check" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width">
+		<value width="1">250</value>
+		
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_check" operator="EQUAL_TO" value="2" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width">
+		<value width="1">250</value>
+		<value width="2">500</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_check" operator="EQUAL_TO" value="3" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width">
+		
+		<value width="2">500</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_breaker_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_check" operator="EQUAL_TO" value="4" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width">
+		
+		<value width="1">250</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+
+
+
+<constraintBehavior>
+<compoundCondition>
+<toaCondition>
+<toa>kit.combilineN.kit_breaker_combilineN</toa>
+</toaCondition>
+<variableCondition varid="restrict_equipment" operator="EQUAL_TO" value="1" />
+</compoundCondition>
+
+<sizeDependentVariableConstraint varid="module_module_equipment">
+<value width="1" height="3">withoutdevices</value>
+<value width="2" height="3">withdevices</value>
+
+</sizeDependentVariableConstraint> 
+</constraintBehavior>	
+
+
+
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="vertical_yes" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_busbar_current_ui">
+		<value height="3">850</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_height">
+		<value height="3">450</value>
+		<value height="2">300</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_busbarsystem_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_width_ui">
+		<value width="1">250</value>
+		<value width="2">500</value>
+		<value width="3">750</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="0" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="1" height="2">1</value>
+		<value width="1" height="2">2</value>
+		<value width="2" height="2">4</value>
+		<value width="1" height="4">4</value>
+		<value width="3" height="2">6</value>
+		<value width="2" height="4">8</value>
+		<value width="3" height="4">12</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="0" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="1" height="3">1</value>
+		<value width="2" height="3">2</value>
+		<value width="1" height="5">2</value>
+		<value width="3" height="3">3</value>
+		<value width="2" height="5">4</value>
+		<value width="3" height="5">6</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="device_type_ui">
+		<value height="5">InLineIIZHBM</value>
+		<value height="5">InLineIIZLBM</value>
+		<value height="6">InLineIIZHBM+EFM</value>
+		</sizeDependentVariableConstraint>
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="1" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="1" height="5">4</value>
+		<value width="2" height="5">8</value>
+		<value width="3" height="5">12</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="1" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="2" height="5">4</value>
+		<value width="3" height="5">6</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="2" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="0" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="1" height="5">4</value>
+		<value width="2" height="5">8</value>
+		<value width="3" height="5">12</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="device_type_rack" operator="EQUAL_TO" value="2" />
+		<variableCondition varid="device_size_rack" operator="EQUAL_TO" value="1" />
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_count">
+		<value width="2" height="5">4</value>
+		<value width="3" height="5">6</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="cabinet_section_depth_new" operator="EQUAL_TO" value="0" />	
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_size">
+		<value width="2" height="18">NH00NH3</value>
+		
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="cabinet_section_depth_new" operator="EQUAL_TO" value="1" />
+		
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_size">
+		<value width="1" height="3">NH00NH3</value>
+		
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="cabinet_section_depth_NH1" operator="EQUAL_TO" value="0" />	
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_size">
+		<value width="1" height="2">NH1</value>
+		
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="cabinet_section_depth_NH1" operator="EQUAL_TO" value="1" />
+		
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_size">
+		<value width="1" height="5">NH1</value>
+		
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+
+	
+	<constraintBehavior>
+		<compoundCondition>
+		<toaCondition>
+			<toa>kit.combilineN.kit_fuseswitchdisconnector_combilineN</toa>
+		</toaCondition>
+		<variableCondition varid="dev_type" operator="EQUAL_TO" value="1" />
+		
+		</compoundCondition>
+		
+		<sizeDependentVariableConstraint varid="module_device_size">
+		<value width="1">NH00</value>
+		<value width="2">NH1</value>
+		</sizeDependentVariableConstraint>	
+	</constraintBehavior>
+	
+	
+</behaviors>

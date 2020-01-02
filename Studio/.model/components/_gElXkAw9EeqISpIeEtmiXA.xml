@@ -1,0 +1,3881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:array="http://virtubuil.com/schemas/array.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_gElXkAw9EeqISpIeEtmiXA" name="kit_MCCB_bora"
+    toaPrefix="kit.bora">
+  <variables xsi:type="comp:VariableGroup" uuid="_mGXo8Aw_EeqISpIeEtmiXA"
+      name="Internal Variables" visibility="800">
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPJ6YAw_EeqISpIeEtmiXA"
+        name="accessory" visibility="800">
+      <domain uuid="_oPJ6Yww_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPJ6ZQw_EeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_oPJ6Zgw_EeqISpIeEtmiXA" name="NA"
+            visibility="300">
+          <displayName uuid="_oPJ6aAw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPJ6aQw_EeqISpIeEtmiXA" name="RC"
+            visibility="300">
+          <displayName uuid="_oPJ6aww_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPKhcAw_EeqISpIeEtmiXA"
+        name="number_of_breakers" visibility="800">
+      <domain uuid="_oPKhcww_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPKhdQw_EeqISpIeEtmiXA" bitSet="393218"/>
+        <values uuid="_oPKhdgw_EeqISpIeEtmiXA" name="1"
+            visibility="300">
+          <displayName uuid="_oPKheAw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKheQw_EeqISpIeEtmiXA" name="3"
+            visibility="300">
+          <displayName uuid="_oPKheww_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhfAw_EeqISpIeEtmiXA" name="4"
+            visibility="300">
+          <displayName uuid="_oPKhfgw_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPKhkgw_EeqISpIeEtmiXA"
+        name="device_type_mccb" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_FijdQBz6EeqxxopifWNoDA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA">
+        <priorities href="../product_model.xml#_sXxTABqMEeqvUPsKQoz7dA"/>
+      </facets>
+      <domain uuid="_oPKhlQw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPKhlww_EeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_oPKhmAw_EeqISpIeEtmiXA" name="Tmax XT1"
+            visibility="300">
+          <displayName uuid="_oPKhmgw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhmww_EeqISpIeEtmiXA" name="Tmax XT2"
+            visibility="300">
+          <displayName uuid="_oPKhnQw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhngw_EeqISpIeEtmiXA" name="Tmax XT3"
+            visibility="300">
+          <displayName uuid="_oPKhoAw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhoQw_EeqISpIeEtmiXA" name="Tmax XT4"
+            visibility="300">
+          <displayName uuid="_oPKhoww_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhpAw_EeqISpIeEtmiXA" name="Tmax XT5"
+            visibility="300">
+          <displayName uuid="_oPKhpgw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhpww_EeqISpIeEtmiXA" name="Tmax XT6"
+            visibility="300">
+          <displayName uuid="_oPKhqQw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhqgw_EeqISpIeEtmiXA" name="Tmax T5"
+            visibility="300">
+          <displayName uuid="_oPKhrAw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPKhrQw_EeqISpIeEtmiXA" name="Tmax T6"
+            visibility="300">
+          <displayName uuid="_oPKhrww_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPLIkgw_EeqISpIeEtmiXA"
+        name="device_version" visibility="800">
+      <domain uuid="_oPLIlQw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPLIlww_EeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_oPLImAw_EeqISpIeEtmiXA" name="Fixed"
+            visibility="300">
+          <displayName uuid="_oPLImgw_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPLIpgw_EeqISpIeEtmiXA"
+        name="installation_type" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_KTXg4Bz6EeqxxopifWNoDA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA">
+        <priorities href="../product_model.xml#_qKNGgAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_oPLIqQw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPLIqww_EeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_oPLIrAw_EeqISpIeEtmiXA" name="Horizontal"
+            visibility="300">
+          <displayName uuid="_oPLIrgw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPLIrww_EeqISpIeEtmiXA" name="Vertical"
+            visibility="300">
+          <displayName uuid="_oPLIsQw_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPLvnww_EeqISpIeEtmiXA"
+        name="number_of_poles" visibility="800">
+      <domain uuid="_oPLvogw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPLvpAw_EeqISpIeEtmiXA" bitSet="393218"/>
+        <values uuid="_oPLvpQw_EeqISpIeEtmiXA" name="3"
+            visibility="300">
+          <displayName uuid="_oPLvpww_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPLvqAw_EeqISpIeEtmiXA" name="4"
+            visibility="300">
+          <displayName uuid="_oPLvqgw_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPLvugw_EeqISpIeEtmiXA"
+        name="kit_rating" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_DullQBz6EeqxxopifWNoDA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA">
+        <priorities href="../product_model.xml#_w5YdABqMEeqvUPsKQoz7dA"/>
+      </facets>
+      <domain uuid="_oPLvvQw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPLvvww_EeqISpIeEtmiXA" bitSet="393218"/>
+        <values uuid="_oPLvwAw_EeqISpIeEtmiXA" name="160"
+            visibility="300">
+          <displayName uuid="_oPLvwgw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPLvwww_EeqISpIeEtmiXA" name="250"
+            visibility="300">
+          <displayName uuid="_oPLvxQw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPLvxgw_EeqISpIeEtmiXA" name="630"
+            visibility="300">
+          <displayName uuid="_oPLvyAw_EeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_oPLvyQw_EeqISpIeEtmiXA" name="800"
+            visibility="300">
+          <displayName uuid="_oPLvyww_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_oPMWtww_EeqISpIeEtmiXA"
+        name="device_terminals" visibility="800">
+      <domain uuid="_oPMWugw_EeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_oPMWvAw_EeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_oPMWvQw_EeqISpIeEtmiXA" name="Front"
+            visibility="300">
+          <displayName uuid="_oPMWvww_EeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_IVe9oAxAEeqISpIeEtmiXA"
+        name="kit_height" visibility="800" initValue="150">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_NoCIABG0EeqpQ7BwvNK0zw" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA">
+        <priorities href="../product_model.xml#_oa4d8Ar4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_IVe9oQxAEeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_IVe9ogxAEeqISpIeEtmiXA" bitSet="393218"/>
+        <values uuid="_KD184AxAEeqISpIeEtmiXA" name="150"
+            visibility="300">
+          <displayName uuid="_KD184QxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_KYR70AxAEeqISpIeEtmiXA" name="200"
+            visibility="300">
+          <displayName uuid="_KYR70QxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_KsVgQAxAEeqISpIeEtmiXA" name="300"
+            visibility="300">
+          <displayName uuid="_KsVgQQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_LAyGQAxAEeqISpIeEtmiXA" name="350"
+            visibility="300">
+          <displayName uuid="_LAyGQQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_LWepcAxAEeqISpIeEtmiXA" name="400"
+            visibility="300">
+          <displayName uuid="_LWepcQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_M2Dl0AxAEeqISpIeEtmiXA" name="450"
+            visibility="300">
+          <displayName uuid="_M2Dl0QxAEeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_N3tQEAxAEeqISpIeEtmiXA"
+        name="kit_width" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_xxloAAxBEeqISpIeEtmiXA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA">
+        <priorities href="../product_model.xml#_hF2xIAr4EeiIhNml5PFaCg"/>
+      </facets>
+      <domain uuid="_N3tQEQxAEeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_N3tQEgxAEeqISpIeEtmiXA" bitSet="393218"/>
+        <values uuid="_QNcYYAxAEeqISpIeEtmiXA" name="400"
+            visibility="300">
+          <displayName uuid="_QNcYYQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_Qf1I4AxAEeqISpIeEtmiXA" name="600"
+            visibility="300">
+          <displayName uuid="_Qf1I4QxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_QwroUAxAEeqISpIeEtmiXA" name="800"
+            visibility="300">
+          <displayName uuid="_QwroUQxAEeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_SL_IsAxAEeqISpIeEtmiXA"
+        name="article_type" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_0D63AAxBEeqISpIeEtmiXA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA"/>
+      <domain uuid="_SL_IsQxAEeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_SL_IsgxAEeqISpIeEtmiXA" bitSet="393231"/>
+        <values uuid="_VsW4IAxAEeqISpIeEtmiXA" name="QB1H62000"
+            visibility="300">
+          <displayName uuid="_VsW4IgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4IwxAEeqISpIeEtmiXA" name="QB2H62000"
+            visibility="300">
+          <displayName uuid="_VsW4JQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4JgxAEeqISpIeEtmiXA" name="QB5H63000"
+            visibility="300">
+          <displayName uuid="_VsW4KAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4KQxAEeqISpIeEtmiXA" name="QB6H64000"
+            visibility="300">
+          <displayName uuid="_VsW4KwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4LAxAEeqISpIeEtmiXA" name="QB5H630TM"
+            visibility="300">
+          <displayName uuid="_VsW4LgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4LwxAEeqISpIeEtmiXA" name="QB6H640TM"
+            visibility="300">
+          <displayName uuid="_VsW4MQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4MgxAEeqISpIeEtmiXA" name="QB1H82000"
+            visibility="300">
+          <displayName uuid="_VsW4NAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4NQxAEeqISpIeEtmiXA" name="QB2H82000"
+            visibility="300">
+          <displayName uuid="_VsW4NwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4OAxAEeqISpIeEtmiXA" name="QB3H82000"
+            visibility="300">
+          <displayName uuid="_VsW4OgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4OwxAEeqISpIeEtmiXA" name="QB4H82000"
+            visibility="300">
+          <displayName uuid="_VsW4PQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4PgxAEeqISpIeEtmiXA" name="QB5H83000"
+            visibility="300">
+          <displayName uuid="_VsW4QAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4QQxAEeqISpIeEtmiXA" name="QB6H84000"
+            visibility="300">
+          <displayName uuid="_VsW4QwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4RAxAEeqISpIeEtmiXA" name="QB5H830TM"
+            visibility="300">
+          <displayName uuid="_VsW4RgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4RwxAEeqISpIeEtmiXA" name="QB6H840TM"
+            visibility="300">
+          <displayName uuid="_VsW4SQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4SgxAEeqISpIeEtmiXA" name="QB1H61500"
+            visibility="300">
+          <displayName uuid="_VsW4TAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4TQxAEeqISpIeEtmiXA" name="QB3H62000"
+            visibility="300">
+          <displayName uuid="_VsW4TwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4UAxAEeqISpIeEtmiXA" name="QB4H62000"
+            visibility="300">
+          <displayName uuid="_VsW4UgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4UwxAEeqISpIeEtmiXA" name="QB1H81500"
+            visibility="300">
+          <displayName uuid="_VsW4VQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4VgxAEeqISpIeEtmiXA" name="QB1V43000"
+            visibility="300">
+          <displayName uuid="_VsW4WAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4WQxAEeqISpIeEtmiXA" name="QB2V43000"
+            visibility="300">
+          <displayName uuid="_VsW4WwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4XAxAEeqISpIeEtmiXA" name="QB3V43000"
+            visibility="300">
+          <displayName uuid="_VsW4XgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4XwxAEeqISpIeEtmiXA" name="QB4V43000"
+            visibility="300">
+          <displayName uuid="_VsW4YQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4YgxAEeqISpIeEtmiXA" name="QB5V44500"
+            visibility="300">
+          <displayName uuid="_VsW4ZAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsW4ZQxAEeqISpIeEtmiXA" name="QB5V445TM"
+            visibility="300">
+          <displayName uuid="_VsW4ZwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfMAxAEeqISpIeEtmiXA" name="QB1V63000"
+            visibility="300">
+          <displayName uuid="_VsXfMgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfMwxAEeqISpIeEtmiXA" name="QB2V63000"
+            visibility="300">
+          <displayName uuid="_VsXfNQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfNgxAEeqISpIeEtmiXA" name="QB3V63000"
+            visibility="300">
+          <displayName uuid="_VsXfOAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfOQxAEeqISpIeEtmiXA" name="QB4V63000"
+            visibility="300">
+          <displayName uuid="_VsXfOwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfPAxAEeqISpIeEtmiXA" name="QB5V64500"
+            visibility="300">
+          <displayName uuid="_VsXfPgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfPwxAEeqISpIeEtmiXA" name="QB6V64500"
+            visibility="300">
+          <displayName uuid="_VsXfQQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfQgxAEeqISpIeEtmiXA" name="QB5V645TM"
+            visibility="300">
+          <displayName uuid="_VsXfRAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfRQxAEeqISpIeEtmiXA" name="QB6V645TM"
+            visibility="300">
+          <displayName uuid="_VsXfRwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfSAxAEeqISpIeEtmiXA" name="QB1V83000"
+            visibility="300">
+          <displayName uuid="_VsXfSgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfSwxAEeqISpIeEtmiXA" name="QB2V83000"
+            visibility="300">
+          <displayName uuid="_VsXfTQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfTgxAEeqISpIeEtmiXA" name="QB3V83000"
+            visibility="300">
+          <displayName uuid="_VsXfUAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfUQxAEeqISpIeEtmiXA" name="QB4V83000"
+            visibility="300">
+          <displayName uuid="_VsXfUwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfVAxAEeqISpIeEtmiXA" name="QB5V84500"
+            visibility="300">
+          <displayName uuid="_VsXfVgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfVwxAEeqISpIeEtmiXA" name="QB6V84500"
+            visibility="300">
+          <displayName uuid="_VsXfWQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfWgxAEeqISpIeEtmiXA" name="QB5V845TM"
+            visibility="300">
+          <displayName uuid="_VsXfXAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfXQxAEeqISpIeEtmiXA" name="QB6V845TM"
+            visibility="300">
+          <displayName uuid="_VsXfXwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfYAxAEeqISpIeEtmiXA" name="QB1V430RC"
+            visibility="300">
+          <displayName uuid="_VsXfYgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfYwxAEeqISpIeEtmiXA" name="QB2V435RC"
+            visibility="300">
+          <displayName uuid="_VsXfZQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfZgxAEeqISpIeEtmiXA" name="QB3V435RC"
+            visibility="300">
+          <displayName uuid="_VsXfaAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfaQxAEeqISpIeEtmiXA" name="QB4V435RC"
+            visibility="300">
+          <displayName uuid="_VsXfawxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfbAxAEeqISpIeEtmiXA" name="QB5V445RC"
+            visibility="300">
+          <displayName uuid="_VsXfbgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfbwxAEeqISpIeEtmiXA" name="QB5V445TR"
+            visibility="300">
+          <displayName uuid="_VsXfcQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfcgxAEeqISpIeEtmiXA" name="QB1V630RC"
+            visibility="300">
+          <displayName uuid="_VsXfdAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfdQxAEeqISpIeEtmiXA" name="QB2V635RC"
+            visibility="300">
+          <displayName uuid="_VsXfdwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfeAxAEeqISpIeEtmiXA" name="QB3V635RC"
+            visibility="300">
+          <displayName uuid="_VsXfegxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfewxAEeqISpIeEtmiXA" name="QB4V635RC"
+            visibility="300">
+          <displayName uuid="_VsXffQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXffgxAEeqISpIeEtmiXA" name="QB5V645RC"
+            visibility="300">
+          <displayName uuid="_VsXfgAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfgQxAEeqISpIeEtmiXA" name="QB5V645TR"
+            visibility="300">
+          <displayName uuid="_VsXfgwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfhAxAEeqISpIeEtmiXA" name="QB1V830RC"
+            visibility="300">
+          <displayName uuid="_VsXfhgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfhwxAEeqISpIeEtmiXA" name="QB2V835RC"
+            visibility="300">
+          <displayName uuid="_VsXfiQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfigxAEeqISpIeEtmiXA" name="QB3V835RC"
+            visibility="300">
+          <displayName uuid="_VsXfjAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfjQxAEeqISpIeEtmiXA" name="QB4V835RC"
+            visibility="300">
+          <displayName uuid="_VsXfjwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfkAxAEeqISpIeEtmiXA" name="QB5V845RC"
+            visibility="300">
+          <displayName uuid="_VsXfkgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfkwxAEeqISpIeEtmiXA" name="QB5V845TR"
+            visibility="300">
+          <displayName uuid="_VsXflQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXflgxAEeqISpIeEtmiXA" name="QB1V63003"
+            visibility="300">
+          <displayName uuid="_VsXfmAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfmQxAEeqISpIeEtmiXA" name="QB2V63003"
+            visibility="300">
+          <displayName uuid="_VsXfmwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfnAxAEeqISpIeEtmiXA" name="QB3V63003"
+            visibility="300">
+          <displayName uuid="_VsXfngxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfnwxAEeqISpIeEtmiXA" name="QB4V63003"
+            visibility="300">
+          <displayName uuid="_VsXfoQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfogxAEeqISpIeEtmiXA" name="QB1V83004"
+            visibility="300">
+          <displayName uuid="_VsXfpAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfpQxAEeqISpIeEtmiXA" name="QB2V83004"
+            visibility="300">
+          <displayName uuid="_VsXfpwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfqAxAEeqISpIeEtmiXA" name="QB3V83004"
+            visibility="300">
+          <displayName uuid="_VsXfqgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_VsXfqwxAEeqISpIeEtmiXA" name="QB4V83004"
+            visibility="300">
+          <displayName uuid="_VsXfrQxAEeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_XuXzMAxAEeqISpIeEtmiXA"
+        name="product_id" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_06UTgAxBEeqISpIeEtmiXA" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT"/>
+      <domain uuid="_XuXzMQxAEeqISpIeEtmiXA" name="local"
+          visibility="300">
+        <typeSet uuid="_XuXzMgxAEeqISpIeEtmiXA" bitSet="393220"/>
+        <values uuid="_bU2xsAxAEeqISpIeEtmiXA" name="1SZE980040B0330"
+            visibility="300">
+          <displayName uuid="_d5RPMQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xswxAEeqISpIeEtmiXA" name="1SZE980040B0340"
+            visibility="300">
+          <displayName uuid="_d5RPMwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xtgxAEeqISpIeEtmiXA" name="1SZE980040B0350"
+            visibility="300">
+          <displayName uuid="_d5RPNQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xuQxAEeqISpIeEtmiXA" name="1SZE980040B0360"
+            visibility="300">
+          <displayName uuid="_d5RPNwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xvAxAEeqISpIeEtmiXA" name="1SZE980040B0370"
+            visibility="300">
+          <displayName uuid="_d5RPOQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xvwxAEeqISpIeEtmiXA" name="1SZE980040B0380"
+            visibility="300">
+          <displayName uuid="_d5RPOwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xwgxAEeqISpIeEtmiXA" name="1SZE980040B0390"
+            visibility="300">
+          <displayName uuid="_d5RPPQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xxQxAEeqISpIeEtmiXA" name="1SZE980040B0400"
+            visibility="300">
+          <displayName uuid="_d5RPPwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xyAxAEeqISpIeEtmiXA" name="1SZE980040B0410"
+            visibility="300">
+          <displayName uuid="_d5RPQQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xywxAEeqISpIeEtmiXA" name="1SZE980040B0420"
+            visibility="300">
+          <displayName uuid="_d5RPQwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2xzgxAEeqISpIeEtmiXA" name="1SZE980040B0430"
+            visibility="300">
+          <displayName uuid="_d5RPRQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2x0QxAEeqISpIeEtmiXA" name="1SZE980040B0440"
+            visibility="300">
+          <displayName uuid="_d5RPRwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2x1AxAEeqISpIeEtmiXA" name="1SZE980040B0450"
+            visibility="300">
+          <displayName uuid="_d5RPSQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2x1wxAEeqISpIeEtmiXA" name="1SZE980040B0460"
+            visibility="300">
+          <displayName uuid="_d5RPSwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2x2gxAEeqISpIeEtmiXA" name="1SZE980040B0470"
+            visibility="300">
+          <displayName uuid="_d5RPTQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_bU2x3QxAEeqISpIeEtmiXA" name="1SZE980040B0480"
+            visibility="300">
+          <displayName uuid="_d5RPTwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPUAxAEeqISpIeEtmiXA" name="1SZE980040B0010"
+            visibility="300">
+          <displayName uuid="_d5RPUgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPUwxAEeqISpIeEtmiXA" name="1SZE980040B0020"
+            visibility="300">
+          <displayName uuid="_d5RPVQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPVgxAEeqISpIeEtmiXA" name="1SZE980040B0030"
+            visibility="300">
+          <displayName uuid="_d5RPWAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPWQxAEeqISpIeEtmiXA" name="1SZE980040B0040"
+            visibility="300">
+          <displayName uuid="_d5RPWwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPXAxAEeqISpIeEtmiXA" name="1SZE980040B0050"
+            visibility="300">
+          <displayName uuid="_d5RPXgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPXwxAEeqISpIeEtmiXA" name="1SZE980040B0070"
+            visibility="300">
+          <displayName uuid="_d5RPYQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPYgxAEeqISpIeEtmiXA" name="1SZE980040B0090"
+            visibility="300">
+          <displayName uuid="_d5RPZAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPZQxAEeqISpIeEtmiXA" name="1SZE980040B0100"
+            visibility="300">
+          <displayName uuid="_d5RPZwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPaAxAEeqISpIeEtmiXA" name="1SZE980040B0110"
+            visibility="300">
+          <displayName uuid="_d5RPagxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPawxAEeqISpIeEtmiXA" name="1SZE980040B0120"
+            visibility="300">
+          <displayName uuid="_d5RPbQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPbgxAEeqISpIeEtmiXA" name="1SZE980040B0130"
+            visibility="300">
+          <displayName uuid="_d5RPcAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPcQxAEeqISpIeEtmiXA" name="1SZE980040B0140"
+            visibility="300">
+          <displayName uuid="_d5RPcwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPdAxAEeqISpIeEtmiXA" name="1SZE980040B0150"
+            visibility="300">
+          <displayName uuid="_d5RPdgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPdwxAEeqISpIeEtmiXA" name="1SZE980040B0160"
+            visibility="300">
+          <displayName uuid="_d5RPeQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPegxAEeqISpIeEtmiXA" name="1SZE980040B0170"
+            visibility="300">
+          <displayName uuid="_d5RPfAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPfQxAEeqISpIeEtmiXA" name="1SZE980040B0180"
+            visibility="300">
+          <displayName uuid="_d5RPfwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPgAxAEeqISpIeEtmiXA" name="1SZE980040B0190"
+            visibility="300">
+          <displayName uuid="_d5RPggxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPgwxAEeqISpIeEtmiXA" name="1SZE980040B0200"
+            visibility="300">
+          <displayName uuid="_d5RPhQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPhgxAEeqISpIeEtmiXA" name="1SZE980040B0210"
+            visibility="300">
+          <displayName uuid="_d5RPiAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPiQxAEeqISpIeEtmiXA" name="1SZE980040B0220"
+            visibility="300">
+          <displayName uuid="_d5RPiwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPjAxAEeqISpIeEtmiXA" name="1SZE980040B0230"
+            visibility="300">
+          <displayName uuid="_d5RPjgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPjwxAEeqISpIeEtmiXA" name="1SZE980040B0240"
+            visibility="300">
+          <displayName uuid="_d5RPkQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPkgxAEeqISpIeEtmiXA" name="1SZE980040B0490"
+            visibility="300">
+          <displayName uuid="_d5RPlAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPlQxAEeqISpIeEtmiXA" name="1SZE980040B0500"
+            visibility="300">
+          <displayName uuid="_d5RPlwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPmAxAEeqISpIeEtmiXA" name="1SZE980040B0510"
+            visibility="300">
+          <displayName uuid="_d5RPmgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPmwxAEeqISpIeEtmiXA" name="1SZE980040B0520"
+            visibility="300">
+          <displayName uuid="_d5RPnQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPngxAEeqISpIeEtmiXA" name="1SZE980040B0530"
+            visibility="300">
+          <displayName uuid="_d5RPoAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPoQxAEeqISpIeEtmiXA" name="1SZE980040B0540"
+            visibility="300">
+          <displayName uuid="_d5RPowxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPpAxAEeqISpIeEtmiXA" name="1SZE980040B0550"
+            visibility="300">
+          <displayName uuid="_d5RPpgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPpwxAEeqISpIeEtmiXA" name="1SZE980040B0560"
+            visibility="300">
+          <displayName uuid="_d5RPqQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPqgxAEeqISpIeEtmiXA" name="1SZE980040B0570"
+            visibility="300">
+          <displayName uuid="_d5RPrAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPrQxAEeqISpIeEtmiXA" name="1SZE980040B0580"
+            visibility="300">
+          <displayName uuid="_d5RPrwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPsAxAEeqISpIeEtmiXA" name="1SZE980040B0590"
+            visibility="300">
+          <displayName uuid="_d5RPsgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPswxAEeqISpIeEtmiXA" name="1SZE980040B0610"
+            visibility="300">
+          <displayName uuid="_d5RPtQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPtgxAEeqISpIeEtmiXA" name="1SZE980040B0620"
+            visibility="300">
+          <displayName uuid="_d5RPuAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPuQxAEeqISpIeEtmiXA" name="1SZE980040B0630"
+            visibility="300">
+          <displayName uuid="_d5RPuwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPvAxAEeqISpIeEtmiXA" name="1SZE980040B0640"
+            visibility="300">
+          <displayName uuid="_d5RPvgxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPvwxAEeqISpIeEtmiXA" name="1SZE980040B0650"
+            visibility="300">
+          <displayName uuid="_d5RPwQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPwgxAEeqISpIeEtmiXA" name="1SZE980040B0660"
+            visibility="300">
+          <displayName uuid="_d5RPxAxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPxQxAEeqISpIeEtmiXA" name="1SZE980040B0680"
+            visibility="300">
+          <displayName uuid="_d5RPxwxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPyAxAEeqISpIeEtmiXA" name="1SZE980040B0250"
+            visibility="300">
+          <displayName uuid="_d5RPygxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPywxAEeqISpIeEtmiXA" name="1SZE980040B0260"
+            visibility="300">
+          <displayName uuid="_d5RPzQxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RPzgxAEeqISpIeEtmiXA" name="1SZE980040B0270"
+            visibility="300">
+          <displayName uuid="_d5RP0AxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RP0QxAEeqISpIeEtmiXA" name="1SZE980040B0280"
+            visibility="300">
+          <displayName uuid="_d5RP0wxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RP1AxAEeqISpIeEtmiXA" name="1SZE980040B0290"
+            visibility="300">
+          <displayName uuid="_d5RP1gxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RP1wxAEeqISpIeEtmiXA" name="1SZE980040B0300"
+            visibility="300">
+          <displayName uuid="_d5RP2QxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RP2gxAEeqISpIeEtmiXA" name="1SZE980040B0310"
+            visibility="300">
+          <displayName uuid="_d5RP3AxAEeqISpIeEtmiXA"/>
+        </values>
+        <values uuid="_d5RP3QxAEeqISpIeEtmiXA" name="1SZE980040B0320"
+            visibility="300">
+          <displayName uuid="_d5RP3wxAEeqISpIeEtmiXA"/>
+        </values>
+      </domain>
+    </children>
+    <children xsi:type="comp:DeclaredVariable" uuid="_y92bMCV5EeqfZulI6S5wjQ"
+        name="device_type_mccb1" visibility="800">
+      <facets xsi:type="array:VariableLogicConstraintFacet"
+          uuid="_y94QYSV5EeqfZulI6S5wjQ" declared="true"
+          model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT">
+        <priorities href="../product_model.xml#_uh030Nn2EemGR-M9uNhqfw"/>
+      </facets>
+      <domain uuid="_y94QYiV5EeqfZulI6S5wjQ" name="local"
+          visibility="300">
+        <typeSet uuid="_y94QZCV5EeqfZulI6S5wjQ" bitSet="393220"/>
+        <values uuid="_y94QZSV5EeqfZulI6S5wjQ" name="XT1"
+            visibility="300">
+          <displayName uuid="_y94QZyV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvECV5EeqfZulI6S5wjQ" name="XT2"
+            visibility="300">
+          <displayName uuid="_y-IvEiV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvEyV5EeqfZulI6S5wjQ" name="XT3"
+            visibility="300">
+          <displayName uuid="_y-IvFSV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvFiV5EeqfZulI6S5wjQ" name="XT4"
+            visibility="300">
+          <displayName uuid="_y-IvGCV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvGSV5EeqfZulI6S5wjQ" name="XT5"
+            visibility="300">
+          <displayName uuid="_y-IvGyV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvHCV5EeqfZulI6S5wjQ" name="XT6"
+            visibility="300">
+          <displayName uuid="_y-IvHiV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvHyV5EeqfZulI6S5wjQ" name="T5"
+            visibility="300">
+          <displayName uuid="_y-IvISV5EeqfZulI6S5wjQ"/>
+        </values>
+        <values uuid="_y-IvIiV5EeqfZulI6S5wjQ" name="T6"
+            visibility="300">
+          <displayName uuid="_y-IvJCV5EeqfZulI6S5wjQ"/>
+        </values>
+      </domain>
+    </children>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_fb8Q8AxCEeqISpIeEtmiXA"
+      name="width" visibility="800">
+    <domain uuid="_fb8Q8QxCEeqISpIeEtmiXA" name="local"
+        visibility="300">
+      <typeSet uuid="_fb8Q8gxCEeqISpIeEtmiXA" bitSet="393218"/>
+      <values uuid="_JAKK8AxDEeqISpIeEtmiXA" name="1"
+          visibility="300">
+        <displayName uuid="_JAKK8gxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_JAKK8wxDEeqISpIeEtmiXA" name="2"
+          visibility="300">
+        <displayName uuid="_JAKK9QxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_JAKK9gxDEeqISpIeEtmiXA" name="3"
+          visibility="300">
+        <displayName uuid="_JAKK-AxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_JAKK-QxDEeqISpIeEtmiXA" name="4"
+          visibility="300">
+        <displayName uuid="_JAKK-wxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_JAKK_AxDEeqISpIeEtmiXA" name="5"
+          visibility="300">
+        <displayName uuid="_JAKK_gxDEeqISpIeEtmiXA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_g9gxYAxCEeqISpIeEtmiXA"
+      name="height" visibility="800">
+    <domain uuid="_g9gxYQxCEeqISpIeEtmiXA" name="local"
+        visibility="300">
+      <typeSet uuid="_g9gxYgxCEeqISpIeEtmiXA" bitSet="393218"/>
+      <values uuid="_CZEiMAxDEeqISpIeEtmiXA" name="1"
+          visibility="300">
+        <displayName uuid="_CZEiMQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_CkcrwAxDEeqISpIeEtmiXA" name="2"
+          visibility="300">
+        <displayName uuid="_CkcrwQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_CtX-QAxDEeqISpIeEtmiXA" name="3"
+          visibility="300">
+        <displayName uuid="_CtX-QQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_C4JD0AxDEeqISpIeEtmiXA" name="4"
+          visibility="300">
+        <displayName uuid="_C4JD0QxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_DAw0UAxDEeqISpIeEtmiXA" name="5"
+          visibility="300">
+        <displayName uuid="_DAw0UQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_DqHTUAxDEeqISpIeEtmiXA" name="6"
+          visibility="300">
+        <displayName uuid="_DqHTUQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_D6R2QAxDEeqISpIeEtmiXA" name="7"
+          visibility="300">
+        <displayName uuid="_D6R2QQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_EDI3UAxDEeqISpIeEtmiXA" name="8"
+          visibility="300">
+        <displayName uuid="_EDI3UQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_EMrN0AxDEeqISpIeEtmiXA" name="9"
+          visibility="300">
+        <displayName uuid="_EMrN0QxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_EYWSUAxDEeqISpIeEtmiXA" name="10"
+          visibility="300">
+        <displayName uuid="_EYWSUQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_EiV70AxDEeqISpIeEtmiXA" name="11"
+          visibility="300">
+        <displayName uuid="_EiV70QxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_ErROUAxDEeqISpIeEtmiXA" name="12"
+          visibility="300">
+        <displayName uuid="_ErROUQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_E3UtUAxDEeqISpIeEtmiXA" name="13"
+          visibility="300">
+        <displayName uuid="_E3UtUQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_FTUFwAxDEeqISpIeEtmiXA" name="14"
+          visibility="300">
+        <displayName uuid="_FTUFwQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_FddgQAxDEeqISpIeEtmiXA" name="15"
+          visibility="300">
+        <displayName uuid="_FddgQQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_FphmUAxDEeqISpIeEtmiXA" name="16"
+          visibility="300">
+        <displayName uuid="_FphmUQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_GIuDwAxDEeqISpIeEtmiXA" name="17"
+          visibility="300">
+        <displayName uuid="_GIuDwQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_GlGdwAxDEeqISpIeEtmiXA" name="18"
+          visibility="300">
+        <displayName uuid="_GlGdwQxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_HH5o0AxDEeqISpIeEtmiXA" name="19"
+          visibility="300">
+        <displayName uuid="_HH5o0QxDEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_HTMS0AxDEeqISpIeEtmiXA" name="20"
+          visibility="300">
+        <displayName uuid="_HTMS0QxDEeqISpIeEtmiXA"/>
+      </values>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_Qxn84A9IEeqISpIeEtmiXA"
+      name="section_width_int" visibility="800">
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_i4m3wBG2EeqpQ7BwvNK0zw" declared="true"
+        model="_po7mMAw-EeqISpIeEtmiXA">
+      <priorities href="../product_model.xml#_bgJs4Ar4EeiIhNml5PFaCg"/>
+    </facets>
+    <domain uuid="_Qxn84Q9IEeqISpIeEtmiXA" name="local"
+        visibility="300">
+      <typeSet uuid="_Qxn84g9IEeqISpIeEtmiXA" bitSet="393218"/>
+      <values uuid="_R89uoA9IEeqISpIeEtmiXA" name="0"
+          visibility="300">
+        <displayName uuid="_R89uoQ9IEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_SI8VIA9IEeqISpIeEtmiXA" name="600"
+          visibility="300">
+        <displayName uuid="_SI8VIQ9IEeqISpIeEtmiXA"/>
+      </values>
+      <values uuid="_Say6IA9IEeqISpIeEtmiXA" name="800"
+          visibility="300">
+        <displayName uuid="_Say6IQ9IEeqISpIeEtmiXA"/>
+      </values>
+    </domain>
+  </variables>
+  <logic uuid="_po7mMAw-EeqISpIeEtmiXA" name="Logic_Rules"
+      visibility="800">
+    <children xsi:type="array:TableRelation" uuid="_qMXDYAw-EeqISpIeEtmiXA"
+        name="Table_Relation" visibility="800">
+      <columns uuid="_RzbCQAxBEeqISpIeEtmiXA" name="kit_rating"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD5wDAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wDQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wDgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wDwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wEAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wEQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wEgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wEwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wFAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wFQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wFgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wFwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wGAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wGQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wGgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wGwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wHAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wHQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wHgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wHwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wIAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wIQxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wIgxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wIwxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wJAxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wJQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wJgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wJwxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wKAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wKQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wKgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wKwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wLAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wLQxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wLgxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wLwxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wMAxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wMQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wMgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wMwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wNAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wNQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wNgxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wNwxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wOAxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wOQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wOgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wOwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wPAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wPQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD5wPgxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wPwxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wQAxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wQQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wQgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wQwxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wRAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wRQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wRgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wRwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wSAxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wSQxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wSgxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wSwxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wTAxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wTQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wTgxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wTwxBEeqISpIeEtmiXA" value="630"/>
+        <cells uuid="_kD5wUAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wUQxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD5wUgxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wUwxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD5wVAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD6XEAxBEeqISpIeEtmiXA" value="160"/>
+        <cells uuid="_kD6XEQxBEeqISpIeEtmiXA" value="250"/>
+        <cells uuid="_kD6XEgxBEeqISpIeEtmiXA" value="250"/>
+      </columns>
+      <columns uuid="_TRqh4AxBEeqISpIeEtmiXA" name="device_type_mccb"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6XEwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XFAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XFQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XFgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XFwxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XGAxBEeqISpIeEtmiXA" value="'Tmax XT6'"/>
+        <cells uuid="_kD6XGQxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XGgxBEeqISpIeEtmiXA" value="'Tmax T6'"/>
+        <cells uuid="_kD6XGwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XHAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XHQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XHgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XHwxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XIAxBEeqISpIeEtmiXA" value="'Tmax XT6'"/>
+        <cells uuid="_kD6XIQxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XIgxBEeqISpIeEtmiXA" value="'Tmax T6'"/>
+        <cells uuid="_kD6XIwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XJAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XJQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XJgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XJwxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XKAxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XKQxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XKgxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XKwxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XLAxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XLQxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XLgxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XLwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XMAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XMQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XMgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XMwxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XNAxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XNQxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XNgxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XNwxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XOAxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XOQxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XOgxBEeqISpIeEtmiXA" value="'Tmax XT6'"/>
+        <cells uuid="_kD6XOwxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XPAxBEeqISpIeEtmiXA" value="'Tmax T6'"/>
+        <cells uuid="_kD6XPQxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XPgxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XPwxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XQAxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XQQxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XQgxBEeqISpIeEtmiXA" value="'Tmax XT6'"/>
+        <cells uuid="_kD6XQwxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XRAxBEeqISpIeEtmiXA" value="'Tmax T6'"/>
+        <cells uuid="_kD6XRQxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XRgxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XRwxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XSAxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XSQxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XSgxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XSwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XTAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XTQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XTgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XTwxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XUAxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XUQxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XUgxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XUwxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XVAxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XVQxBEeqISpIeEtmiXA" value="'Tmax XT5'"/>
+        <cells uuid="_kD6XVgxBEeqISpIeEtmiXA" value="'Tmax T5'"/>
+        <cells uuid="_kD6XVwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XWAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XWQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XWgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+        <cells uuid="_kD6XWwxBEeqISpIeEtmiXA" value="'Tmax XT1'"/>
+        <cells uuid="_kD6XXAxBEeqISpIeEtmiXA" value="'Tmax XT2'"/>
+        <cells uuid="_kD6XXQxBEeqISpIeEtmiXA" value="'Tmax XT3'"/>
+        <cells uuid="_kD6XXgxBEeqISpIeEtmiXA" value="'Tmax XT4'"/>
+      </columns>
+      <columns uuid="_UMaS4AxBEeqISpIeEtmiXA" name="installation_type"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6XXwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XYAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XYQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XYgxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XYwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XZAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XZQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XZgxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XZwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XaAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XaQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XagxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XawxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XbAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XbQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XbgxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XbwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XcAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XcQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XcgxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XcwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XdAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XdQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XdgxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XdwxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XeAxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XeQxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XegxBEeqISpIeEtmiXA" value="'Horizontal'"/>
+        <cells uuid="_kD6XewxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XfAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XfQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XfgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XfwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XgAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XgQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XggxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XgwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XhAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XhQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XhgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XhwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XiAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XiQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XigxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XiwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XjAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XjQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XjgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XjwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XkAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XkQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XkgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XkwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XlAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XlQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XlgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XlwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XmAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XmQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XmgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XmwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XnAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XnQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XngxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XnwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XoAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XoQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XogxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XowxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XpAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XpQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XpgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XpwxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XqAxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XqQxBEeqISpIeEtmiXA" value="'Vertical'"/>
+        <cells uuid="_kD6XqgxBEeqISpIeEtmiXA" value="'Vertical'"/>
+      </columns>
+      <columns uuid="_WAAXcAxBEeqISpIeEtmiXA" name="device_version"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6XqwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XrAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XrQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XrgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XrwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XsAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XsQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XsgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XswxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XtAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XtQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XtgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XtwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XuAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XuQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XugxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XuwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XvAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XvQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XvgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XvwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XwAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XwQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XwgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XwwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XxAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XxQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XxgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XxwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XyAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XyQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XygxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XywxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XzAxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XzQxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XzgxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6XzwxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X0AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X0QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X0gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X0wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X1AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X1QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X1gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X1wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X2AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X2QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X2gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X2wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X3AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X3QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X3gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X3wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X4AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X4QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X4gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X4wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X5AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X5QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X5gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X5wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X6AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X6QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X6gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X6wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X7AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X7QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X7gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X7wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X8AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X8QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X8gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X8wxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X9AxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X9QxBEeqISpIeEtmiXA" value="'Fixed'"/>
+        <cells uuid="_kD6X9gxBEeqISpIeEtmiXA" value="'Fixed'"/>
+      </columns>
+      <columns uuid="_W9pEYAxBEeqISpIeEtmiXA" name="accessory"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6X9wxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X-AxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X-QxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X-gxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X-wxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X_AxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X_QxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X_gxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6X_wxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YAAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YAQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YAgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YAwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YBAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YBQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YBgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YBwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YCAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YCQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YCgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YCwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YDAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YDQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YDgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YDwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YEAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YEQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YEgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YEwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YFAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YFQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YFgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YFwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YGAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YGQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YGgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YGwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YHAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YHQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YHgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YHwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YIAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YIQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YIgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YIwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YJAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YJQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YJgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YJwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YKAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YKQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YKgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YKwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YLAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YLQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YLgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YLwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YMAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YMQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YMgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YMwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YNAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YNQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YNgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YNwxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YOAxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YOQxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YOgxBEeqISpIeEtmiXA" value="'RC'"/>
+        <cells uuid="_kD6YOwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YPAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YPQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YPgxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YPwxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YQAxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YQQxBEeqISpIeEtmiXA" value="'NA'"/>
+        <cells uuid="_kD6YQgxBEeqISpIeEtmiXA" value="'NA'"/>
+      </columns>
+      <columns uuid="_YRM-AAxBEeqISpIeEtmiXA" name="number_of_breakers"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6YQwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YRAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YRQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YRgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YRwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YSAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YSQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YSgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YSwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YTAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YTQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YTgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YTwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YUAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YUQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YUgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YUwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YVAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YVQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YVgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YVwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YWAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YWQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YWgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YWwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YXAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YXQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YXgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YXwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YYAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YYQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YYgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YYwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YZAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YZQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YZgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YZwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YaAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YaQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YagxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YawxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YbAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YbQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YbgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YbwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YcAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YcQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YcgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YcwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YdAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YdQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YdgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YdwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YeAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YeQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YegxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YewxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YfAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YfQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YfgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YfwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YgAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YgQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YggxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YgwxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YhAxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YhQxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YhgxBEeqISpIeEtmiXA" value="1"/>
+        <cells uuid="_kD6YhwxBEeqISpIeEtmiXA" value="3"/>
+        <cells uuid="_kD6YiAxBEeqISpIeEtmiXA" value="3"/>
+        <cells uuid="_kD6YiQxBEeqISpIeEtmiXA" value="3"/>
+        <cells uuid="_kD6YigxBEeqISpIeEtmiXA" value="3"/>
+        <cells uuid="_kD6YiwxBEeqISpIeEtmiXA" value="4"/>
+        <cells uuid="_kD6YjAxBEeqISpIeEtmiXA" value="4"/>
+        <cells uuid="_kD6YjQxBEeqISpIeEtmiXA" value="4"/>
+        <cells uuid="_kD6YjgxBEeqISpIeEtmiXA" value="4"/>
+      </columns>
+      <columns uuid="_ZW9FIAxBEeqISpIeEtmiXA" name="device_terminals"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6YjwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YkAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YkQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YkgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YkwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YlAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YlQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YlgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YlwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YmAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YmQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YmgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YmwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YnAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YnQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YngxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YnwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YoAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YoQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YogxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YowxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YpAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YpQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YpgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YpwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YqAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YqQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YqgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YqwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YrAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YrQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YrgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YrwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YsAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YsQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YsgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YswxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YtAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YtQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YtgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YtwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YuAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YuQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YugxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YuwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YvAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YvQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YvgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YvwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YwAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YwQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YwgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YwwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YxAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YxQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YxgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YxwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YyAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YyQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YygxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YywxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YzAxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YzQxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YzgxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6YzwxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y0AxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y0QxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y0gxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y0wxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y1AxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y1QxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y1gxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y1wxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y2AxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y2QxBEeqISpIeEtmiXA" value="'Front'"/>
+        <cells uuid="_kD6Y2gxBEeqISpIeEtmiXA" value="'Front'"/>
+      </columns>
+      <columns uuid="_aVyE4AxBEeqISpIeEtmiXA" name="number_of_poles"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6Y2wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y3AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y3QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y3gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y3wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y4AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y4QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y4gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y4wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y5AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y5QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y5gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y5wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y6AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y6QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y6gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y6wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y7AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y7QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y7gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y7wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y8AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y8QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y8gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y8wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y9AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y9QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y9gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y9wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y-AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y-QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y-gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y-wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y_AxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y_QxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y_gxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6Y_wxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZAAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZAQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZAgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZAwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZBAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZBQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZBgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZBwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZCAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZCQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZCgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZCwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZDAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZDQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZDgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZDwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZEAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZEQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZEgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZEwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZFAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZFQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZFgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZFwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZGAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZGQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZGgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZGwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZHAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZHQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZHgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZHwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZIAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZIQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZIgxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZIwxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZJAxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZJQxBEeqISpIeEtmiXA" value="3,4"/>
+        <cells uuid="_kD6ZJgxBEeqISpIeEtmiXA" value="3,4"/>
+      </columns>
+      <columns uuid="_bdD2AAxBEeqISpIeEtmiXA" name="kit_width"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6ZJwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZKAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZKQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZKgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZKwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZLAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZLQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZLgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZLwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZMAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZMQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZMgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZMwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZNAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZNQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZNgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZNwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZOAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZOQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZOgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZOwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZPAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZPQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZPgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZPwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZQAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZQQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZQgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZQwxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZRAxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZRQxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZRgxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZRwxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZSAxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZSQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZSgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZSwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZTAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZTQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZTgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZTwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZUAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZUQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZUgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZUwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZVAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZVQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZVgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZVwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZWAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZWQxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZWgxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZWwxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZXAxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZXQxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZXgxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZXwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZYAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZYQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZYgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZYwxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZZAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZZQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZZgxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZZwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZaAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZaQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZagxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZawxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZbAxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZbQxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZbgxBEeqISpIeEtmiXA" value="600"/>
+        <cells uuid="_kD6ZbwxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZcAxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZcQxBEeqISpIeEtmiXA" value="800"/>
+        <cells uuid="_kD6ZcgxBEeqISpIeEtmiXA" value="800"/>
+      </columns>
+      <columns uuid="_cPagAAxBEeqISpIeEtmiXA" name="kit_height"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6ZcwxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZdAxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZdQxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZdgxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZdwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZeAxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZeQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZegxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZewxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZfAxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZfQxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZfgxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZfwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZgAxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZgQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZggxBEeqISpIeEtmiXA" value="400"/>
+        <cells uuid="_kD6ZgwxBEeqISpIeEtmiXA" value="150"/>
+        <cells uuid="_kD6ZhAxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZhQxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZhgxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZhwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZiAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZiQxBEeqISpIeEtmiXA" value="150"/>
+        <cells uuid="_kD6ZigxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZiwxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZjAxBEeqISpIeEtmiXA" value="200"/>
+        <cells uuid="_kD6ZjQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZjgxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZjwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZkAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZkQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZkgxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZkwxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZlAxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZlQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZlgxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZlwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZmAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZmQxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZmgxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZmwxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZnAxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZnQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZngxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZnwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZoAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZoQxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZogxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZowxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZpAxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZpQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZpgxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZpwxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZqAxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZqQxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZqgxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZqwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZrAxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZrQxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZrgxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZrwxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZsAxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZsQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZsgxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZswxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZtAxBEeqISpIeEtmiXA" value="350"/>
+        <cells uuid="_kD6ZtQxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZtgxBEeqISpIeEtmiXA" value="450"/>
+        <cells uuid="_kD6ZtwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZuAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZuQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZugxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZuwxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZvAxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZvQxBEeqISpIeEtmiXA" value="300"/>
+        <cells uuid="_kD6ZvgxBEeqISpIeEtmiXA" value="300"/>
+      </columns>
+      <columns uuid="_cwelsAxBEeqISpIeEtmiXA" name="article_type"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6ZvwxBEeqISpIeEtmiXA" value="'QB1H62000'"/>
+        <cells uuid="_kD6ZwAxBEeqISpIeEtmiXA" value="'QB2H62000'"/>
+        <cells uuid="_kD6ZwQxBEeqISpIeEtmiXA" value="'QB3H62000'"/>
+        <cells uuid="_kD6ZwgxBEeqISpIeEtmiXA" value="'QB4H62000'"/>
+        <cells uuid="_kD6ZwwxBEeqISpIeEtmiXA" value="'QB5H63000'"/>
+        <cells uuid="_kD6ZxAxBEeqISpIeEtmiXA" value="'QB6H64000'"/>
+        <cells uuid="_kD6ZxQxBEeqISpIeEtmiXA" value="'QB5H630TM'"/>
+        <cells uuid="_kD6ZxgxBEeqISpIeEtmiXA" value="'QB6H640TM'"/>
+        <cells uuid="_kD6ZxwxBEeqISpIeEtmiXA" value="'QB1H82000'"/>
+        <cells uuid="_kD6ZyAxBEeqISpIeEtmiXA" value="'QB2H82000'"/>
+        <cells uuid="_kD6ZyQxBEeqISpIeEtmiXA" value="'QB3H82000'"/>
+        <cells uuid="_kD6ZygxBEeqISpIeEtmiXA" value="'QB4H82000'"/>
+        <cells uuid="_kD6ZywxBEeqISpIeEtmiXA" value="'QB5H83000'"/>
+        <cells uuid="_kD6ZzAxBEeqISpIeEtmiXA" value="'QB6H84000'"/>
+        <cells uuid="_kD6ZzQxBEeqISpIeEtmiXA" value="'QB5H830TM'"/>
+        <cells uuid="_kD6ZzgxBEeqISpIeEtmiXA" value="'QB6H840TM'"/>
+        <cells uuid="_kD6ZzwxBEeqISpIeEtmiXA" value="'QB1H61500'"/>
+        <cells uuid="_kD6Z0AxBEeqISpIeEtmiXA" value="'QB2H62000'"/>
+        <cells uuid="_kD6Z0QxBEeqISpIeEtmiXA" value="'QB3H62000'"/>
+        <cells uuid="_kD6Z0gxBEeqISpIeEtmiXA" value="'QB4H62000'"/>
+        <cells uuid="_kD6Z0wxBEeqISpIeEtmiXA" value="'QB5H63000'"/>
+        <cells uuid="_kD6Z1AxBEeqISpIeEtmiXA" value="'QB5H630TM'"/>
+        <cells uuid="_kD6Z1QxBEeqISpIeEtmiXA" value="'QB1H81500'"/>
+        <cells uuid="_kD6Z1gxBEeqISpIeEtmiXA" value="'QB2H82000'"/>
+        <cells uuid="_kD6Z1wxBEeqISpIeEtmiXA" value="'QB3H82000'"/>
+        <cells uuid="_kD6Z2AxBEeqISpIeEtmiXA" value="'QB4H82000'"/>
+        <cells uuid="_kD6Z2QxBEeqISpIeEtmiXA" value="'QB5H83000'"/>
+        <cells uuid="_kD6Z2gxBEeqISpIeEtmiXA" value="'QB5H830TM'"/>
+        <cells uuid="_kD6Z2wxBEeqISpIeEtmiXA" value="'QB1V43000'"/>
+        <cells uuid="_kD6Z3AxBEeqISpIeEtmiXA" value="'QB2V43000'"/>
+        <cells uuid="_kD6Z3QxBEeqISpIeEtmiXA" value="'QB3V43000'"/>
+        <cells uuid="_kD6Z3gxBEeqISpIeEtmiXA" value="'QB4V43000'"/>
+        <cells uuid="_kD6Z3wxBEeqISpIeEtmiXA" value="'QB5V44500'"/>
+        <cells uuid="_kD6Z4AxBEeqISpIeEtmiXA" value="'QB5V445TM'"/>
+        <cells uuid="_kD6Z4QxBEeqISpIeEtmiXA" value="'QB1V63000'"/>
+        <cells uuid="_kD6Z4gxBEeqISpIeEtmiXA" value="'QB2V63000'"/>
+        <cells uuid="_kD6Z4wxBEeqISpIeEtmiXA" value="'QB3V63000'"/>
+        <cells uuid="_kD6Z5AxBEeqISpIeEtmiXA" value="'QB4V63000'"/>
+        <cells uuid="_kD6Z5QxBEeqISpIeEtmiXA" value="'QB5V64500'"/>
+        <cells uuid="_kD6Z5gxBEeqISpIeEtmiXA" value="'QB6V64500'"/>
+        <cells uuid="_kD6Z5wxBEeqISpIeEtmiXA" value="'QB5V645TM'"/>
+        <cells uuid="_kD6Z6AxBEeqISpIeEtmiXA" value="'QB6V645TM'"/>
+        <cells uuid="_kD6Z6QxBEeqISpIeEtmiXA" value="'QB1V83000'"/>
+        <cells uuid="_kD6Z6gxBEeqISpIeEtmiXA" value="'QB2V83000'"/>
+        <cells uuid="_kD6Z6wxBEeqISpIeEtmiXA" value="'QB3V83000'"/>
+        <cells uuid="_kD6Z7AxBEeqISpIeEtmiXA" value="'QB4V83000'"/>
+        <cells uuid="_kD6Z7QxBEeqISpIeEtmiXA" value="'QB5V84500'"/>
+        <cells uuid="_kD6Z7gxBEeqISpIeEtmiXA" value="'QB6V84500'"/>
+        <cells uuid="_kD6Z7wxBEeqISpIeEtmiXA" value="'QB5V845TM'"/>
+        <cells uuid="_kD6Z8AxBEeqISpIeEtmiXA" value="'QB6V845TM'"/>
+        <cells uuid="_kD6Z8QxBEeqISpIeEtmiXA" value="'QB1V430RC'"/>
+        <cells uuid="_kD6Z8gxBEeqISpIeEtmiXA" value="'QB2V435RC'"/>
+        <cells uuid="_kD6Z8wxBEeqISpIeEtmiXA" value="'QB3V435RC'"/>
+        <cells uuid="_kD6Z9AxBEeqISpIeEtmiXA" value="'QB4V435RC'"/>
+        <cells uuid="_kD6Z9QxBEeqISpIeEtmiXA" value="'QB5V445RC'"/>
+        <cells uuid="_kD6Z9gxBEeqISpIeEtmiXA" value="'QB5V445TR'"/>
+        <cells uuid="_kD6Z9wxBEeqISpIeEtmiXA" value="'QB1V630RC'"/>
+        <cells uuid="_kD6Z-AxBEeqISpIeEtmiXA" value="'QB2V635RC'"/>
+        <cells uuid="_kD6Z-QxBEeqISpIeEtmiXA" value="'QB3V635RC'"/>
+        <cells uuid="_kD6Z-gxBEeqISpIeEtmiXA" value="'QB4V635RC'"/>
+        <cells uuid="_kD6Z-wxBEeqISpIeEtmiXA" value="'QB5V645RC'"/>
+        <cells uuid="_kD6Z_AxBEeqISpIeEtmiXA" value="'QB5V645TR'"/>
+        <cells uuid="_kD6Z_QxBEeqISpIeEtmiXA" value="'QB1V830RC'"/>
+        <cells uuid="_kD6Z_gxBEeqISpIeEtmiXA" value="'QB2V835RC'"/>
+        <cells uuid="_kD6Z_wxBEeqISpIeEtmiXA" value="'QB3V835RC'"/>
+        <cells uuid="_kD6aAAxBEeqISpIeEtmiXA" value="'QB4V835RC'"/>
+        <cells uuid="_kD6aAQxBEeqISpIeEtmiXA" value="'QB5V845RC'"/>
+        <cells uuid="_kD6aAgxBEeqISpIeEtmiXA" value="'QB5V845TR'"/>
+        <cells uuid="_kD6aAwxBEeqISpIeEtmiXA" value="'QB1V63003'"/>
+        <cells uuid="_kD6aBAxBEeqISpIeEtmiXA" value="'QB2V63003'"/>
+        <cells uuid="_kD6aBQxBEeqISpIeEtmiXA" value="'QB3V63003'"/>
+        <cells uuid="_kD6aBgxBEeqISpIeEtmiXA" value="'QB4V63003'"/>
+        <cells uuid="_kD6aBwxBEeqISpIeEtmiXA" value="'QB1V83004'"/>
+        <cells uuid="_kD6aCAxBEeqISpIeEtmiXA" value="'QB2V83004'"/>
+        <cells uuid="_kD6aCQxBEeqISpIeEtmiXA" value="'QB3V83004'"/>
+        <cells uuid="_kD6aCgxBEeqISpIeEtmiXA" value="'QB4V83004'"/>
+      </columns>
+      <columns uuid="_dWvUcAxBEeqISpIeEtmiXA" name="product_id"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_kD6aCwxBEeqISpIeEtmiXA" value="'1SZE980040B0330'"/>
+        <cells uuid="_kD6aDAxBEeqISpIeEtmiXA" value="'1SZE980040B0340'"/>
+        <cells uuid="_kD6aDQxBEeqISpIeEtmiXA" value="'1SZE980040B0350'"/>
+        <cells uuid="_kD6aDgxBEeqISpIeEtmiXA" value="'1SZE980040B0360'"/>
+        <cells uuid="_kD6aDwxBEeqISpIeEtmiXA" value="'1SZE980040B0370'"/>
+        <cells uuid="_kD6aEAxBEeqISpIeEtmiXA" value="'1SZE980040B0380'"/>
+        <cells uuid="_kD6aEQxBEeqISpIeEtmiXA" value="'1SZE980040B0390'"/>
+        <cells uuid="_kD6aEgxBEeqISpIeEtmiXA" value="'1SZE980040B0400'"/>
+        <cells uuid="_kD6aEwxBEeqISpIeEtmiXA" value="'1SZE980040B0410'"/>
+        <cells uuid="_kD6aFAxBEeqISpIeEtmiXA" value="'1SZE980040B0420'"/>
+        <cells uuid="_kD6aFQxBEeqISpIeEtmiXA" value="'1SZE980040B0430'"/>
+        <cells uuid="_kD6aFgxBEeqISpIeEtmiXA" value="'1SZE980040B0440'"/>
+        <cells uuid="_kD6aFwxBEeqISpIeEtmiXA" value="'1SZE980040B0450'"/>
+        <cells uuid="_kD6aGAxBEeqISpIeEtmiXA" value="'1SZE980040B0460'"/>
+        <cells uuid="_kD6aGQxBEeqISpIeEtmiXA" value="'1SZE980040B0470'"/>
+        <cells uuid="_kD6aGgxBEeqISpIeEtmiXA" value="'1SZE980040B0480'"/>
+        <cells uuid="_kD6aGwxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aHAxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aHQxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aHgxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aHwxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aIAxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aIQxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aIgxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aIwxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aJAxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aJQxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aJgxBEeqISpIeEtmiXA" value="?"/>
+        <cells uuid="_kD6aJwxBEeqISpIeEtmiXA" value="'1SZE980040B0010'"/>
+        <cells uuid="_kD6aKAxBEeqISpIeEtmiXA" value="'1SZE980040B0020'"/>
+        <cells uuid="_kD6aKQxBEeqISpIeEtmiXA" value="'1SZE980040B0030'"/>
+        <cells uuid="_kD6aKgxBEeqISpIeEtmiXA" value="'1SZE980040B0040'"/>
+        <cells uuid="_kD6aKwxBEeqISpIeEtmiXA" value="'1SZE980040B0050'"/>
+        <cells uuid="_kD6aLAxBEeqISpIeEtmiXA" value="'1SZE980040B0070'"/>
+        <cells uuid="_kD6aLQxBEeqISpIeEtmiXA" value="'1SZE980040B0090'"/>
+        <cells uuid="_kD6aLgxBEeqISpIeEtmiXA" value="'1SZE980040B0100'"/>
+        <cells uuid="_kD6aLwxBEeqISpIeEtmiXA" value="'1SZE980040B0110'"/>
+        <cells uuid="_kD6aMAxBEeqISpIeEtmiXA" value="'1SZE980040B0120'"/>
+        <cells uuid="_kD6aMQxBEeqISpIeEtmiXA" value="'1SZE980040B0130'"/>
+        <cells uuid="_kD6aMgxBEeqISpIeEtmiXA" value="'1SZE980040B0140'"/>
+        <cells uuid="_kD6aMwxBEeqISpIeEtmiXA" value="'1SZE980040B0150'"/>
+        <cells uuid="_kD6aNAxBEeqISpIeEtmiXA" value="'1SZE980040B0160'"/>
+        <cells uuid="_kD6aNQxBEeqISpIeEtmiXA" value="'1SZE980040B0170'"/>
+        <cells uuid="_kD6aNgxBEeqISpIeEtmiXA" value="'1SZE980040B0180'"/>
+        <cells uuid="_kD6aNwxBEeqISpIeEtmiXA" value="'1SZE980040B0190'"/>
+        <cells uuid="_kD6aOAxBEeqISpIeEtmiXA" value="'1SZE980040B0200'"/>
+        <cells uuid="_kD6aOQxBEeqISpIeEtmiXA" value="'1SZE980040B0210'"/>
+        <cells uuid="_kD6aOgxBEeqISpIeEtmiXA" value="'1SZE980040B0220'"/>
+        <cells uuid="_kD6aOwxBEeqISpIeEtmiXA" value="'1SZE980040B0230'"/>
+        <cells uuid="_kD6aPAxBEeqISpIeEtmiXA" value="'1SZE980040B0240'"/>
+        <cells uuid="_kD6aPQxBEeqISpIeEtmiXA" value="'1SZE980040B0490'"/>
+        <cells uuid="_kD6aPgxBEeqISpIeEtmiXA" value="'1SZE980040B0500'"/>
+        <cells uuid="_kD6aPwxBEeqISpIeEtmiXA" value="'1SZE980040B0510'"/>
+        <cells uuid="_kD6aQAxBEeqISpIeEtmiXA" value="'1SZE980040B0520'"/>
+        <cells uuid="_kD6aQQxBEeqISpIeEtmiXA" value="'1SZE980040B0530'"/>
+        <cells uuid="_kD6aQgxBEeqISpIeEtmiXA" value="'1SZE980040B0540'"/>
+        <cells uuid="_kD6aQwxBEeqISpIeEtmiXA" value="'1SZE980040B0550'"/>
+        <cells uuid="_kD6aRAxBEeqISpIeEtmiXA" value="'1SZE980040B0560'"/>
+        <cells uuid="_kD6aRQxBEeqISpIeEtmiXA" value="'1SZE980040B0570'"/>
+        <cells uuid="_kD6aRgxBEeqISpIeEtmiXA" value="'1SZE980040B0580'"/>
+        <cells uuid="_kD6aRwxBEeqISpIeEtmiXA" value="'1SZE980040B0590'"/>
+        <cells uuid="_kD6aSAxBEeqISpIeEtmiXA" value="'1SZE980040B0610'"/>
+        <cells uuid="_kD6aSQxBEeqISpIeEtmiXA" value="'1SZE980040B0620'"/>
+        <cells uuid="_kD6aSgxBEeqISpIeEtmiXA" value="'1SZE980040B0630'"/>
+        <cells uuid="_kD6aSwxBEeqISpIeEtmiXA" value="'1SZE980040B0640'"/>
+        <cells uuid="_kD6aTAxBEeqISpIeEtmiXA" value="'1SZE980040B0650'"/>
+        <cells uuid="_kD6aTQxBEeqISpIeEtmiXA" value="'1SZE980040B0660'"/>
+        <cells uuid="_kD6aTgxBEeqISpIeEtmiXA" value="'1SZE980040B0680'"/>
+        <cells uuid="_kD6aTwxBEeqISpIeEtmiXA" value="'1SZE980040B0250'"/>
+        <cells uuid="_kD6aUAxBEeqISpIeEtmiXA" value="'1SZE980040B0260'"/>
+        <cells uuid="_kD6aUQxBEeqISpIeEtmiXA" value="'1SZE980040B0270'"/>
+        <cells uuid="_kD6aUgxBEeqISpIeEtmiXA" value="'1SZE980040B0280'"/>
+        <cells uuid="_kD6aUwxBEeqISpIeEtmiXA" value="'1SZE980040B0290'"/>
+        <cells uuid="_kD6aVAxBEeqISpIeEtmiXA" value="'1SZE980040B0300'"/>
+        <cells uuid="_kD6aVQxBEeqISpIeEtmiXA" value="'1SZE980040B0310'"/>
+        <cells uuid="_kD6aVgxBEeqISpIeEtmiXA" value="'1SZE980040B0320'"/>
+      </columns>
+    </children>
+    <children xsi:type="array:Expression" uuid="_Mpg4AA9IEeqISpIeEtmiXA"
+        name="Expression" visibility="800" expression="kit_width=section_width_int;&#xD;&#xA;SOFT.kit_height(150);&#xD;&#xA;number_of_breakers(1)->device2('NONE') and device3('NONE') and device4('NONE');&#xD;&#xA;number_of_breakers(3)->!device2('NONE') and !device3('NONE');&#xD;&#xA;number_of_breakers(4)->!device2('NONE') and !device3('NONE') and !device4('NONE');"/>
+    <children xsi:type="array:TableRelation" uuid="_1gySkBdCEeqTUeDkeR0mqw"
+        name="device_insertion" visibility="800">
+      <columns uuid="_7eoxEBdCEeqTUeDkeR0mqw" name="device_type_mccb"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_aNOtUSMgEeq4ru_gFUwNRw" value="'Tmax T5'"/>
+        <cells uuid="_aNOtUiMgEeq4ru_gFUwNRw" value="'Tmax T6'"/>
+        <cells uuid="_aNOtUyMgEeq4ru_gFUwNRw" value="? without 'Tmax T5','Tmax T6','Tmax XT1','Tmax XT2','Tmax XT3','Tmax XT4','Tmax XT5'"/>
+        <cells uuid="_aNOtVCMgEeq4ru_gFUwNRw" value="'Tmax XT1'"/>
+        <cells uuid="_aNOtVSMgEeq4ru_gFUwNRw" value="'Tmax XT2'"/>
+        <cells uuid="_aNOtViMgEeq4ru_gFUwNRw" value="'Tmax XT3'"/>
+        <cells uuid="_aNOtVyMgEeq4ru_gFUwNRw" value="'Tmax XT4'"/>
+        <cells uuid="_aNOtWCMgEeq4ru_gFUwNRw" value="'Tmax XT5'"/>
+        <cells uuid="_aNOtWSMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j8CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j9SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j-iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE00CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE01SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl0CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl1SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hT2KsCMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hUBJ0CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_iRjwICMgEeq4ru_gFUwNRw" value=""/>
+      </columns>
+      <columns uuid="_8QnAkBdCEeqTUeDkeR0mqw" name="device"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_aNOtWyMgEeq4ru_gFUwNRw" value="'device_T5'"/>
+        <cells uuid="_aNOtXCMgEeq4ru_gFUwNRw" value="'device_T6'"/>
+        <cells uuid="_aNOtXSMgEeq4ru_gFUwNRw" value="'NONE'"/>
+        <cells uuid="_aNOtXiMgEeq4ru_gFUwNRw" value="'device_XT1'"/>
+        <cells uuid="_aNOtXyMgEeq4ru_gFUwNRw" value="'device_XT2'"/>
+        <cells uuid="_aNOtYCMgEeq4ru_gFUwNRw" value="'device_XT3'"/>
+        <cells uuid="_aNOtYSMgEeq4ru_gFUwNRw" value="'device_XT4'"/>
+        <cells uuid="_aNOtYiMgEeq4ru_gFUwNRw" value="'device_XT5'"/>
+        <cells uuid="_aNOtYyMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j8SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j9iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j-yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE00SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE01iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl0SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl1iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hT2KsSMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hUBJ0SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_iRjwISMgEeq4ru_gFUwNRw" value=""/>
+      </columns>
+      <columns uuid="_VSRPMCMgEeq4ru_gFUwNRw" name="device2"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_aNOtZSMgEeq4ru_gFUwNRw" value="'NONE','device_T5'"/>
+        <cells uuid="_aNOtZiMgEeq4ru_gFUwNRw" value="'NONE','device_T6'"/>
+        <cells uuid="_aNOtZyMgEeq4ru_gFUwNRw" value="'NONE'"/>
+        <cells uuid="_aNOtaCMgEeq4ru_gFUwNRw" value="'NONE','device_XT1'"/>
+        <cells uuid="_aNOtaSMgEeq4ru_gFUwNRw" value="'NONE','device_XT2'"/>
+        <cells uuid="_aNOtaiMgEeq4ru_gFUwNRw" value="'NONE','device_XT3'"/>
+        <cells uuid="_aNOtayMgEeq4ru_gFUwNRw" value="'NONE','device_XT4'"/>
+        <cells uuid="_aNOtbCMgEeq4ru_gFUwNRw" value="'NONE','device_XT5'"/>
+        <cells uuid="_aNOtbSMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j8iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j9yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j_CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE00iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE01yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl0iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl1yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hT2KsiMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hUBJ0iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_iRjwIiMgEeq4ru_gFUwNRw" value=""/>
+      </columns>
+      <columns uuid="_WANTQCMgEeq4ru_gFUwNRw" name="device3"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_aNOtbyMgEeq4ru_gFUwNRw" value="'NONE','device_T5'"/>
+        <cells uuid="_aNOtcCMgEeq4ru_gFUwNRw" value="'NONE','device_T6'"/>
+        <cells uuid="_aNOtcSMgEeq4ru_gFUwNRw" value="'NONE'"/>
+        <cells uuid="_aNOtciMgEeq4ru_gFUwNRw" value="'NONE','device_XT1'"/>
+        <cells uuid="_aNOtcyMgEeq4ru_gFUwNRw" value="'NONE','device_XT2'"/>
+        <cells uuid="_aNOtdCMgEeq4ru_gFUwNRw" value="'NONE','device_XT3'"/>
+        <cells uuid="_aNOtdSMgEeq4ru_gFUwNRw" value="'NONE','device_XT4'"/>
+        <cells uuid="_aNOtdiMgEeq4ru_gFUwNRw" value="'NONE','device_XT5'"/>
+        <cells uuid="_aNOtdyMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j8yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j-CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j_SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE00yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE02CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl0yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl2CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hT2KsyMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hUBJ0yMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_iRjwIyMgEeq4ru_gFUwNRw" value=""/>
+      </columns>
+      <columns uuid="_Wr8X4CMgEeq4ru_gFUwNRw" name="device4"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_aNOteSMgEeq4ru_gFUwNRw" value="'NONE','device_T5'"/>
+        <cells uuid="_aNOteiMgEeq4ru_gFUwNRw" value="'NONE','device_T6'"/>
+        <cells uuid="_aNOteyMgEeq4ru_gFUwNRw" value="'NONE'"/>
+        <cells uuid="_aNOtfCMgEeq4ru_gFUwNRw" value="'NONE','device_XT1'"/>
+        <cells uuid="_aNOtfSMgEeq4ru_gFUwNRw" value="'NONE','device_XT2'"/>
+        <cells uuid="_aNOtfiMgEeq4ru_gFUwNRw" value="'NONE','device_XT3'"/>
+        <cells uuid="_aNOtfyMgEeq4ru_gFUwNRw" value="'NONE','device_XT4'"/>
+        <cells uuid="_aNOtgCMgEeq4ru_gFUwNRw" value="'NONE','device_XT5'"/>
+        <cells uuid="_aNOtgSMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j9CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j-SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_fW6j_iMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE01CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxE02SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl1CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_gxOl2SMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hT2KtCMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_hUBJ1CMgEeq4ru_gFUwNRw" value=""/>
+        <cells uuid="_iRjwJCMgEeq4ru_gFUwNRw" value=""/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_T7vyYBzkEeqsMdsyDwvKIw"
+        name="Show Kits" visibility="800">
+      <columns uuid="_T7vyYRzkEeqsMdsyDwvKIw" name="world_show_kits_toa"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_T7vyYhzkEeqsMdsyDwvKIw" value="1"/>
+        <cells uuid="_T7vyYxzkEeqsMdsyDwvKIw" value="0"/>
+      </columns>
+      <columns uuid="_T7vyZBzkEeqsMdsyDwvKIw" name="switch_kit"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_T7vyZRzkEeqsMdsyDwvKIw" value="0"/>
+        <cells uuid="_T7vyZhzkEeqsMdsyDwvKIw" value="-1"/>
+      </columns>
+    </children>
+    <children xsi:type="array:TableRelation" uuid="_XED98CWGEeqfZulI6S5wjQ"
+        name="Table_Relation1" visibility="800">
+      <columns uuid="_YD8toCWGEeqfZulI6S5wjQ" name="number_of_breakers"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_cKiIgCWGEeqfZulI6S5wjQ" value="1"/>
+        <cells uuid="_cfHRYCWGEeqfZulI6S5wjQ" value="3"/>
+        <cells uuid="_cjFycCWGEeqfZulI6S5wjQ" value="4"/>
+        <cells uuid="_c85ZkCWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKkCWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKlSWGEeqfZulI6S5wjQ" value=""/>
+      </columns>
+      <columns uuid="_ZURtECWGEeqfZulI6S5wjQ" name="device"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_cKiIgSWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_cfHRYSWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_cjFycSWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_c85ZkSWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKkSWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKliWGEeqfZulI6S5wjQ" value=""/>
+      </columns>
+      <columns uuid="_adafYCWGEeqfZulI6S5wjQ" name="device2"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_cKiIgiWGEeqfZulI6S5wjQ" value="'NONE'"/>
+        <cells uuid="_cfHRYiWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_cjFyciWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_c85ZkiWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKkiWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKlyWGEeqfZulI6S5wjQ" value=""/>
+      </columns>
+      <columns uuid="_bIv7YCWGEeqfZulI6S5wjQ" name="device3"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_cKiIgyWGEeqfZulI6S5wjQ" value="'NONE'"/>
+        <cells uuid="_cfHRYyWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_cjFycyWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_c85ZkyWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKkyWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKmCWGEeqfZulI6S5wjQ" value=""/>
+      </columns>
+      <columns uuid="_bsrH0CWGEeqfZulI6S5wjQ" name="device4"
+          visibility="100" databaseAlias="Table_Column">
+        <cells uuid="_cKiIhCWGEeqfZulI6S5wjQ" value="'NONE'"/>
+        <cells uuid="_cfHRZCWGEeqfZulI6S5wjQ" value="'NONE'"/>
+        <cells uuid="_cjFydCWGEeqfZulI6S5wjQ" value="'device_T5','device_T6','device_XT1','device_XT2','device_XT3','device_XT4','device_XT5'"/>
+        <cells uuid="_c85ZlCWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKlCWGEeqfZulI6S5wjQ" value=""/>
+        <cells uuid="_c9DKmSWGEeqfZulI6S5wjQ" value=""/>
+      </columns>
+    </children>
+  </logic>
+  <calculation uuid="_uP4SAA9FEeqISpIeEtmiXA" name="Calculation_Rules"
+      visibility="800">
+    <text>//MCCB Kit - Multiple Devices (3-NA) - SVG implementation&#xD;
+visibility_QB1V63003=&quot;hidden&quot;;&#xD;
+visibility_QB2V63003=&quot;hidden&quot;;&#xD;
+visibility_QB3V63003=&quot;hidden&quot;;&#xD;
+visibility_QB4V63003=&quot;hidden&quot;;&#xD;
+visibility_KeySlot_Kit_MCCB_Ver_W600_wo_RC_3=&quot;hidden&quot;;&#xD;
+&#xD;
+if(installation_type==&quot;Vertical&quot; &amp;&amp; kit_width==600 &amp;&amp; number_of_breakers==3)&#xD;
+{&#xD;
+	visibility_KeySlot_Kit_MCCB_Ver_W600_wo_RC_3=&quot;visible&quot;;&#xD;
+&#xD;
+if(article_type==&quot;QB1V63003&quot;) {visibility_QB1V63003=&quot;visible&quot;;}&#xD;
+else {visibility_QB1V63003=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB2V63003&quot;) {visibility_QB2V63003=&quot;visible&quot;;}&#xD;
+else {visibility_QB2V63003=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB3V63003&quot;) {visibility_QB3V63003=&quot;visible&quot;;}&#xD;
+else {visibility_QB3V63003=&quot;hidden&quot;;  }&#xD;
+&#xD;
+if(article_type==&quot;QB4V63003&quot;) {visibility_QB4V63003=&quot;visible&quot;;}&#xD;
+else {visibility_QB4V63003=&quot;hidden&quot;; }&#xD;
+&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	visibility_KeySlot_Kit_MCCB_Ver_W600_wo_RC_3=&quot;hidden&quot;;&#xD;
+}&#xD;
+&#xD;
+//MCCB Kit - Multiple Devices (4-NA) - SVG implementation&#xD;
+visibility_QB1V83004=&quot;hidden&quot;;&#xD;
+visibility_QB2V83004=&quot;hidden&quot;;&#xD;
+visibility_QB3V83004=&quot;hidden&quot;;&#xD;
+visibility_QB4V83004=&quot;hidden&quot;;&#xD;
+visibility_KeySlot_Kit_MCCB_Ver_W800_wo_RC_4=&quot;hidden&quot;;&#xD;
+&#xD;
+if(installation_type==&quot;Vertical&quot; &amp;&amp; kit_width==800 &amp;&amp; number_of_breakers==4)&#xD;
+{&#xD;
+	visibility_KeySlot_Kit_MCCB_Ver_W800_wo_RC_4=&quot;visible&quot;;&#xD;
+&#xD;
+if(article_type==&quot;QB1V83004&quot;) {visibility_QB1V83004=&quot;visible&quot;;}&#xD;
+else {visibility_QB1V83004=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB2V83004&quot;) {visibility_QB2V83004=&quot;visible&quot;; }&#xD;
+else {visibility_QB2V83004=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB3V83004&quot;) {visibility_QB3V83004=&quot;visible&quot;;}&#xD;
+else {visibility_QB3V83004=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB4V83004&quot;) {visibility_QB4V83004=&quot;visible&quot;;}&#xD;
+else {visibility_QB4V83004=&quot;hidden&quot;;}&#xD;
+&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	visibility_KeySlot_Kit_MCCB_Ver_W800_wo_RC_4=&quot;hidden&quot;;&#xD;
+}&#xD;
+&#xD;
+//MCCB Kit - Vertical - SVG implementation - w/o RC, for 1 Device&#xD;
+visibility_QB1V83000=&quot;hidden&quot;;&#xD;
+visibility_QB2V83000=&quot;hidden&quot;;&#xD;
+visibility_QB3V83000=&quot;hidden&quot;;&#xD;
+visibility_QB4V83000=&quot;hidden&quot;;&#xD;
+visibility_QB5V84500=&quot;hidden&quot;;&#xD;
+visibility_QB6V84500=&quot;hidden&quot;;&#xD;
+visibility_QB5V845TM=&quot;hidden&quot;;&#xD;
+visibility_QB6V845TM=&quot;hidden&quot;;&#xD;
+visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;&#xD;
+&#xD;
+if(kit_width==800) &#xD;
+{&#xD;
+	if(kit_height==300) &#xD;
+	{&#xD;
+		move_y_Kit_MCCB_Ver_W800_wo_RC_1=kit_height-375;&#xD;
+	}&#xD;
+	else if(kit_height==450)&#xD;
+	{&#xD;
+		move_y_Kit_MCCB_Ver_W800_wo_RC_1=kit_height-450;&#xD;
+	}&#xD;
+}&#xD;
+&#xD;
+if(installation_type==&quot;Vertical&quot; &amp;&amp; kit_width==800 &amp;&amp; number_of_breakers==1)&#xD;
+{&#xD;
+if(article_type==&quot;QB1V83000&quot;) {visibility_QB1V83000=&quot;visible&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;;}&#xD;
+else {visibility_QB1V83000=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB2V83000&quot;) {visibility_QB2V83000=&quot;visible&quot;;visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;; }&#xD;
+else {visibility_QB2V83000=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB3V83000&quot;) {visibility_QB3V83000=&quot;visible&quot;;visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;; }&#xD;
+else {visibility_QB3V83000=&quot;hidden&quot;;visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB4V83000&quot;) {visibility_QB4V83000=&quot;visible&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;;}&#xD;
+else {visibility_QB4V83000=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB5V84500&quot;) {visibility_QB5V84500=&quot;visible&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;;}&#xD;
+else {visibility_QB5V84500=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB6V84500&quot;) {visibility_QB6V84500=&quot;visible&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;;}&#xD;
+else {visibility_QB6V84500=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB5V845TM&quot;) {visibility_QB5V845TM=&quot;visible&quot;;visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;; }&#xD;
+else {visibility_QB5V845TM=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+&#xD;
+if(article_type==&quot;QB6V845TM&quot;) {visibility_QB6V845TM=&quot;visible&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;visible&quot;;}&#xD;
+else {visibility_QB6V845TM=&quot;hidden&quot;; visibility_Kit_MCCB_Ver_W800_wo_RC_1=&quot;hidden&quot;;}&#xD;
+}&#xD;
+&#xD;
+&#xD;
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------//&#xD;
+&#xD;
+width_center=kit_width/2;&#xD;
+height_center=kit_height/2;&#xD;
+if(device_type_mccb==&quot;Tmax T5&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;) {&#xD;
+	move_x_device=width_center-50;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T5&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;) {&#xD;
+	move_x_device=width_center-75;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T6&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;) {&#xD;
+	move_x_device=width_center-125;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T6&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;) {&#xD;
+	move_x_device=width_center-85;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+	&#xD;
+if(device_type_mccb==&quot;Tmax T5&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Horizontal&quot;) {&#xD;
+	move_x_device=width_center+100;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T5&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Horizontal&quot;) {&#xD;
+	move_x_device=width_center+125;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T6&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Horizontal&quot;) {&#xD;
+	move_x_device=width_center+75;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax T6&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Horizontal&quot;) {&#xD;
+	move_x_device=width_center+135;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+	&#xD;
+if(installation_type==&quot;Horizontal&quot;) rotate_device=-90;&#xD;
+else rotate_device=0;&#xD;
+&#xD;
+/*  XT4 Device */&#xD;
+if(device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center-45;&#xD;
+	move_y_device=height_center-130;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center-75;&#xD;
+	move_y_device=height_center-130;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Horizontal&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center+15;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Horizontal&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center+15;&#xD;
+	move_y_device=height_center-200;&#xD;
+	}&#xD;
+	else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==3) {&#xD;
+	move_x_device=50;&#xD;
+    move_y_device=height_center-125;&#xD;
+	move_x_device2=200;&#xD;
+	move_y_device2=height_center-125;&#xD;
+	move_x_device3=400;&#xD;
+	move_y_device3=height_center-125;&#xD;
+	}&#xD;
+	else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==3) {&#xD;
+	move_x_device=50;&#xD;
+    move_y_device=height_center-125;&#xD;
+	move_x_device2=200;&#xD;
+	move_y_device2=height_center-125;&#xD;
+	move_x_device3=400;&#xD;
+	move_y_device3=height_center-125;&#xD;
+	}&#xD;
+	else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==4) {&#xD;
+	move_x_device=50;&#xD;
+    move_y_device=height_center-125;&#xD;
+	move_x_device2=200;&#xD;
+	move_y_device2=height_center-125;&#xD;
+	move_x_device3=400;&#xD;
+	move_y_device3=height_center-125;&#xD;
+	move_x_device4=600;&#xD;
+	move_y_device4=height_center-100;&#xD;
+	}&#xD;
+	else if (device_type_mccb==&quot;Tmax XT4&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==4) {&#xD;
+	move_x_device=50;&#xD;
+    move_y_device=height_center-125;&#xD;
+	move_x_device2=200;&#xD;
+	move_y_device2=height_center-125;&#xD;
+	move_x_device3=400;&#xD;
+	move_y_device3=height_center-125;&#xD;
+	move_x_device4=600;&#xD;
+	move_y_device4=height_center-125;&#xD;
+	}&#xD;
+	&#xD;
+	&#xD;
+	&#xD;
+	/* XT5 Device */&#xD;
+if(device_type_mccb==&quot;Tmax XT5&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center-45;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT5&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Vertical&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center-55;&#xD;
+	move_y_device=height_center-150;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT5&quot; &amp;&amp; number_of_poles==4 &amp;&amp; installation_type==&quot;Horizontal&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center+80;&#xD;
+	move_y_device=height_center-180;&#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT5&quot; &amp;&amp; number_of_poles==3 &amp;&amp; installation_type==&quot;Horizontal&quot;&amp;&amp; number_of_breakers==1) {&#xD;
+	move_x_device=width_center+80;&#xD;
+	move_y_device=height_center-180;&#xD;
+	}&#xD;
+	&#xD;
+	&#xD;
+	&#xD;
+/* Horizontal SVG implementation for below codes&#xD;
+ &#xD;
+QB1H82000	BREAKERS COVERS Horizontal	Tmax XT1 3/4p Hor W800 H200&#xD;
+QB2H82000	BREAKERS COVERS Horizontal	Tmax XT2 3/4p Hor W800 H200&#xD;
+QB3H82000	BREAKERS COVERS Horizontal	Tmax XT3 3/4p Hor W800 H200&#xD;
+QB4H82000	BREAKERS COVERS Horizontal	Tmax XT4 3/4p Hor W800 H200&#xD;
+QB5H83000	BREAKERS COVERS Horizontal	Tmax XT5 3/4p Hor W800 H300&#xD;
+QB6H84000	BREAKERS COVERS Horizontal	Tmax XT6 3/4p Hor W800 H400&#xD;
+QB5H830TM	BREAKERS COVERS Horizontal	Tmax T5 3/4p Hor W800 H300&#xD;
+QB6H840TM	BREAKERS COVERS Horizontal	Tmax T6 3/4p Hor W800 H400&#xD;
+&#xD;
+*/&#xD;
+visibility_QB1H82000_XT1=&quot;hidden&quot;;&#xD;
+visibility_QB2H82000_XT2=&quot;hidden&quot;;&#xD;
+visibility_QB3H82000_XT3=&quot;hidden&quot;;&#xD;
+visibility_QB4H82000_XT4=&quot;hidden&quot;;&#xD;
+visibility_QB5H83000_XT5=&quot;hidden&quot;;&#xD;
+visibility_QB5H830TM_T5=&quot;hidden&quot;;&#xD;
+visibility_QB6H84000_XT6=&quot;hidden&quot;;&#xD;
+visibility_QB6H840TM_T6=&quot;hidden&quot;;&#xD;
+visibility_key_slot_h=&quot;hidden&quot;;&#xD;
+move_y_key_slot_h=0;&#xD;
+&#xD;
+if(installation_type==&quot;Horizontal&quot;)&#xD;
+{&#xD;
+	visibility_key_slot_h=&quot;visible&quot;;&#xD;
+	&#xD;
+if(article_type==&quot;QB1H81500&quot; || article_type==&quot;QB1H62000&quot; || article_type==&quot;QB1H61500&quot; || article_type==&quot;QB2H62000&quot; || article_type==&quot;QB3H62000&quot; || article_type==&quot;QB5H630TM&quot; || article_type==&quot;QB6H640TM&quot; ) visibility_key_slot_h=&quot;hidden&quot;;&#xD;
+&#xD;
+if(article_type==&quot;QB1H82000&quot;) {visibility_QB1H82000_XT1=&quot;visible&quot;; move_y_key_slot_h=-100; }&#xD;
+else {visibility_QB1H82000_XT1=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB2H82000&quot;) {visibility_QB2H82000_XT2=&quot;visible&quot;; move_y_key_slot_h=-100; }&#xD;
+else {visibility_QB2H82000_XT2=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB3H82000&quot;) {visibility_QB3H82000_XT3=&quot;visible&quot;; move_y_key_slot_h=-100;}&#xD;
+else {visibility_QB3H82000_XT3=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB4H82000&quot;) {visibility_QB4H82000_XT4=&quot;visible&quot;; move_y_key_slot_h=-100; }&#xD;
+else {visibility_QB4H82000_XT4=&quot;hidden&quot;;  }&#xD;
+&#xD;
+if(article_type==&quot;QB5H83000&quot;) {visibility_QB5H83000_XT5=&quot;visible&quot;; move_y_key_slot_h=-50; }&#xD;
+else {visibility_QB5H83000_XT5=&quot;hidden&quot;;  }&#xD;
+&#xD;
+if(article_type==&quot;QB5H830TM&quot;) {visibility_QB5H830TM_T5=&quot;visible&quot;; move_y_key_slot_h=-50; }&#xD;
+else {visibility_QB5H830TM_T5=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB6H84000&quot;) {visibility_QB6H84000_XT6=&quot;visible&quot;; move_y_key_slot_h=0; }&#xD;
+else {visibility_QB6H84000_XT6=&quot;hidden&quot;; }&#xD;
+&#xD;
+if(article_type==&quot;QB6H840TM&quot;) {visibility_QB6H840TM_T6=&quot;visible&quot;; move_y_key_slot_h=0; }&#xD;
+else {visibility_QB6H840TM_T6=&quot;hidden&quot;;  }&#xD;
+&#xD;
+if(section_width_int==600 || section_width_int==400)&#xD;
+{&#xD;
+	&#xD;
+	visibility_key_slot_h=&quot;hidden&quot;;&#xD;
+}&#xD;
+&#xD;
+&#xD;
+}&#xD;
+else&#xD;
+{&#xD;
+	visibility_key_slot_h=&quot;hidden&quot;;&#xD;
+}&#xD;
+&#xD;
+&#xD;
+// Device integration XT1, XT2, XT3&#xD;
+&#xD;
+if (device_type_mccb==&quot;Tmax XT1&quot;)&#xD;
+		{&#xD;
+			if(installation_type==&quot;Vertical&quot;)&#xD;
+				{&#xD;
+					if( number_of_poles==3)&#xD;
+					{&#xD;
+						 if( number_of_breakers==1)&#xD;
+							 {&#xD;
+							 	if(accessory==&quot;NA&quot;)&#xD;
+								 { move_x_device=width_center-40;&#xD;
+				 				   move_y_device=height_center-113;&#xD;
+				 				 }&#xD;
+				 				else &#xD;
+				 				{ move_x_device=width_center-50;&#xD;
+				 				  move_y_device=height_center-125;				 					&#xD;
+				 				} &#xD;
+				 			 }&#xD;
+						else  if( number_of_breakers==3)&#xD;
+							 {&#xD;
+				 			move_x_device=width_center-200;&#xD;
+						    move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-30;&#xD;
+							 move_y_device2=height_center-125;&#xD;
+							 move_x_device3=width_center+130;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+							 }&#xD;
+			   			else &#xD;
+							 {&#xD;
+				 			move_x_device=width_center-270;&#xD;
+							 move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-120;&#xD;
+				 			move_y_device2=height_center-125;&#xD;
+				 			move_x_device3=width_center+30;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+				 			move_x_device4=width_center+180;&#xD;
+				 			move_y_device4=height_center-125;&#xD;
+							 }&#xD;
+			 			}&#xD;
+				else &#xD;
+						{&#xD;
+				 			if( number_of_breakers==1)&#xD;
+								 {&#xD;
+				 					if(accessory==&quot;NA&quot;)&#xD;
+									 { 	move_x_device=width_center-51;&#xD;
+				 				   		move_y_device=height_center-113;&#xD;
+				 					 }&#xD;
+				 				   else &#xD;
+				 					{ move_x_device=width_center-50;&#xD;
+				 				      move_y_device=height_center-124;				 					&#xD;
+				 					} &#xD;
+								 }&#xD;
+							else  if( number_of_breakers==3)&#xD;
+								 {&#xD;
+				 					move_x_device=width_center-200;&#xD;
+						    		move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-30;&#xD;
+							 		move_y_device2=height_center-125;&#xD;
+							 		move_x_device3=width_center+130;&#xD;
+							 		move_y_device3=height_center-125;&#xD;
+								 }&#xD;
+			  				 else &#xD;
+								 {&#xD;
+				 					move_x_device=width_center-270;&#xD;
+									 move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-120;&#xD;
+				 					move_y_device2=height_center-125;&#xD;
+				 					move_x_device3=width_center+30;&#xD;
+									 move_y_device3=height_center-125;&#xD;
+				 					move_x_device4=width_center+180;&#xD;
+				 					move_y_device4=height_center-125;&#xD;
+								 }&#xD;
+		  				  }&#xD;
+				}&#xD;
+			else &#xD;
+		  	{&#xD;
+		  			 if(kit_height==150)&#xD;
+		    	     {&#xD;
+		    	    	move_x_device=width_center+170;&#xD;
+			   	   		 move_y_device=height_center;&#xD;
+			   	    }&#xD;
+			   	    else&#xD;
+			   	    {&#xD;
+		    	    	move_x_device=width_center+180;&#xD;
+			   	   		 move_y_device=height_center;			   	    	&#xD;
+			   	    } &#xD;
+		   } &#xD;
+	}&#xD;
+&#xD;
+else if (device_type_mccb==&quot;Tmax XT2&quot;)&#xD;
+		{&#xD;
+			if(installation_type==&quot;Vertical&quot;)&#xD;
+				{&#xD;
+					if( number_of_poles==3)&#xD;
+					{&#xD;
+						 if( number_of_breakers==1)&#xD;
+							 {&#xD;
+							 	if(kit_height==300)&#xD;
+								 { move_x_device=width_center-47;&#xD;
+				 				   move_y_device=height_center-118;&#xD;
+				 				 }&#xD;
+				 				else &#xD;
+				 				{ move_x_device=width_center-53;&#xD;
+				 				   move_y_device=height_center-120;				 					&#xD;
+				 				} &#xD;
+				 			 }&#xD;
+				 			 &#xD;
+						else  if( number_of_breakers==3)&#xD;
+							 {&#xD;
+				 			move_x_device=width_center-200;&#xD;
+						    move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-30;&#xD;
+							 move_y_device2=height_center-125;&#xD;
+							 move_x_device3=width_center+130;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+							 }&#xD;
+			   			else &#xD;
+							 {&#xD;
+				 			move_x_device=width_center-270;&#xD;
+							 move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-120;&#xD;
+				 			move_y_device2=height_center-125;&#xD;
+				 			move_x_device3=width_center+30;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+				 			move_x_device4=width_center+180;&#xD;
+				 			move_y_device4=height_center-125;&#xD;
+							 }&#xD;
+			 			}&#xD;
+				else &#xD;
+						{&#xD;
+				 			if( number_of_breakers==1)&#xD;
+								 {&#xD;
+				 					if(kit_height==300)&#xD;
+								 { move_x_device=width_center-58;&#xD;
+				 				   move_y_device=height_center-118;&#xD;
+				 				 }&#xD;
+				 				else &#xD;
+				 				{ move_x_device=width_center-53;&#xD;
+				 				   move_y_device=height_center-120;				 					&#xD;
+				 				} &#xD;
+								 }&#xD;
+							else  if( number_of_breakers==3)&#xD;
+								 {&#xD;
+				 					move_x_device=width_center-200;&#xD;
+						    		move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-30;&#xD;
+							 		move_y_device2=height_center-125;&#xD;
+							 		move_x_device3=width_center+130;&#xD;
+							 		move_y_device3=height_center-125;&#xD;
+								 }&#xD;
+			  				 else &#xD;
+								 {&#xD;
+				 					move_x_device=width_center-270;&#xD;
+									 move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-120;&#xD;
+				 					move_y_device2=height_center-125;&#xD;
+				 					move_x_device3=width_center+30;&#xD;
+									 move_y_device3=height_center-125;&#xD;
+				 					move_x_device4=width_center+180;&#xD;
+				 					move_y_device4=height_center-125;&#xD;
+								 }&#xD;
+		  				  }&#xD;
+				}&#xD;
+			else&#xD;
+			{ &#xD;
+		  		if(number_of_poles==3)&#xD;
+		    	     {&#xD;
+		    	    	move_x_device=width_center+188;&#xD;
+			   	   		 move_y_device=height_center;&#xD;
+			   	    }&#xD;
+			   	    else&#xD;
+			   	    {&#xD;
+		    	    	move_x_device=width_center+188;&#xD;
+			   	   		 move_y_device=height_center;			   	    	&#xD;
+			   	    }&#xD;
+		     } &#xD;
+	}&#xD;
+else if (device_type_mccb==&quot;Tmax XT3&quot;)&#xD;
+		{&#xD;
+			if(installation_type==&quot;Vertical&quot;)&#xD;
+				{&#xD;
+					if( number_of_poles==3)&#xD;
+					{&#xD;
+						 if( number_of_breakers==1)&#xD;
+							 {&#xD;
+							 	if(kit_height==300)&#xD;
+								 { move_x_device=width_center-53;&#xD;
+				 				   move_y_device=height_center-125;&#xD;
+				 				 }&#xD;
+				 				else &#xD;
+				 				{ move_x_device=width_center-53;&#xD;
+				 				   move_y_device=height_center-120;				 					&#xD;
+				 				} &#xD;
+				 			 }&#xD;
+				 			 &#xD;
+						else  if( number_of_breakers==3)&#xD;
+							 {&#xD;
+				 			move_x_device=width_center-200;&#xD;
+						    move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-30;&#xD;
+							 move_y_device2=height_center-125;&#xD;
+							 move_x_device3=width_center+130;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+							 }&#xD;
+			   			else &#xD;
+							 {&#xD;
+				 			move_x_device=width_center-270;&#xD;
+							 move_y_device=height_center-125;&#xD;
+				 			move_x_device2=width_center-120;&#xD;
+				 			move_y_device2=height_center-125;&#xD;
+				 			move_x_device3=width_center+30;&#xD;
+							 move_y_device3=height_center-125;&#xD;
+				 			move_x_device4=width_center+180;&#xD;
+				 			move_y_device4=height_center-125;&#xD;
+							 }&#xD;
+			 			}&#xD;
+				else &#xD;
+						{&#xD;
+				 			if( number_of_breakers==1)&#xD;
+								 {&#xD;
+				 					if(kit_height==300)&#xD;
+								 { move_x_device=width_center-70;&#xD;
+				 				   move_y_device=height_center-125;&#xD;
+				 				 }&#xD;
+				 				else &#xD;
+				 				{ move_x_device=width_center-53;&#xD;
+				 				   move_y_device=height_center-120;				 					&#xD;
+				 				} &#xD;
+								 }&#xD;
+							else  if( number_of_breakers==3)&#xD;
+								 {&#xD;
+				 					move_x_device=width_center-200;&#xD;
+						    		move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-30;&#xD;
+							 		move_y_device2=height_center-125;&#xD;
+							 		move_x_device3=width_center+130;&#xD;
+							 		move_y_device3=height_center-125;&#xD;
+								 }&#xD;
+			  				 else &#xD;
+								 {&#xD;
+				 					move_x_device=width_center-270;&#xD;
+									 move_y_device=height_center-125;&#xD;
+				 					move_x_device2=width_center-120;&#xD;
+				 					move_y_device2=height_center-125;&#xD;
+				 					move_x_device3=width_center+30;&#xD;
+									 move_y_device3=height_center-125;&#xD;
+				 					move_x_device4=width_center+180;&#xD;
+				 					move_y_device4=height_center-125;&#xD;
+								 }&#xD;
+		  				  }&#xD;
+				}&#xD;
+			else&#xD;
+			{ &#xD;
+		  		if(number_of_poles==3)&#xD;
+		    	     {&#xD;
+		    	    	 move_x_device=width_center+185;&#xD;
+			   	   		 move_y_device=height_center;&#xD;
+			   	    }&#xD;
+			   	    else&#xD;
+			   	    {&#xD;
+		    	    	move_x_device=width_center+185;&#xD;
+			   	   		 move_y_device=height_center;			   	    	&#xD;
+			   	    }&#xD;
+		     } &#xD;
+	}&#xD;
+	&#xD;
+&#xD;
+ &#xD;
+ &#xD;
+</text>
+  </calculation>
+  <template href="_wf1bEA9IEeqISpIeEtmiXA.xml#_wf1bEA9IEeqISpIeEtmiXA"/>
+  <cursorTwoD uuid="_j_QV0BXfEeqTUeDkeR0mqw" name="Cursor"
+      twoDElementsColor="_b37CURXfEeqTUeDkeR0mqw" twoDElementsBgColor="_b37CURXfEeqTUeDkeR0mqw">
+    <facets xsi:type="comp:CursorTwoDColorFacet" uuid="_j_QV0RXfEeqTUeDkeR0mqw"
+        geoUnit="_b37CUBXfEeqTUeDkeR0mqw" cursorType="DRAGANDDROP">
+      <visual href="../product_model.xml#_dC8PcA9GEeqISpIeEtmiXA"/>
+    </facets>
+    <onColorBg href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+    <onColor href="../product_model.xml#_42WaIce5EeK1ILHtYeZxPw"/>
+  </cursorTwoD>
+  <geometry uuid="_gElXkQw9EeqISpIeEtmiXA" deletable="false"
+      name="root">
+    <units uuid="_b37CUBXfEeqTUeDkeR0mqw" name="cursor"
+        position="(0,0,-50)">
+      <twoDElement xsi:type="comp:TwoDBox" uuid="_b37CURXfEeqTUeDkeR0mqw"
+          name="Box" cursorsUsingMeForBgColor="_j_QV0BXfEeqTUeDkeR0mqw"
+          cursorsUsingMeForColor="_j_QV0BXfEeqTUeDkeR0mqw"
+          strokeWidth="10">
+        <facets xsi:type="comp:TwoDDynamicSizeFacet"
+            uuid="_b37CUxXfEeqTUeDkeR0mqw" heightDynamic="cursor_height"
+            widthDynamic="cursor_width"/>
+        <translation uuid="_b37CVBXfEeqTUeDkeR0mqw"/>
+        <bgColor href="../product_model.xml#_Yoadkce6EeK1ILHtYeZxPw"/>
+        <color href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      </twoDElement>
+    </units>
+    <units uuid="_nrhL4BdCEeqTUeDkeR0mqw" name="device_x"
+        order="2">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_1ingsBz3EeqxxopifWNoDA" variable="move_x_device">
+        <vector xsi:type="appl:Coordinate3D" uuid="_1ingsRz3EeqxxopifWNoDA"
+            x="1.0"/>
+      </facets>
+      <facets xsi:type="comp:GeoUnitRotationJointFacet"
+          uuid="_NINqQBz-EeqxxopifWNoDA" variable="rotate_device">
+        <vector xsi:type="appl:Coordinate3D" uuid="_NINqQRz-EeqxxopifWNoDA"
+            y="1.0"/>
+      </facets>
+      <children uuid="_sL18cBdCEeqTUeDkeR0mqw" name="device_y">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_unuDwBz6EeqxxopifWNoDA" variable="move_y_device">
+          <vector xsi:type="appl:Coordinate3D" uuid="_unuDwRz6EeqxxopifWNoDA"
+              z="1.0"/>
+        </facets>
+      </children>
+    </units>
+    <units uuid="_YJwV0BziEeqsMdsyDwvKIw" name="Geo_Unit"
+        order="1">
+      <children uuid="_ZjizQBziEeqsMdsyDwvKIw" name="Kit_MCCB_Vertical"
+          position="(38.5,0,-50)" order="1">
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_bY39MBziEeqsMdsyDwvKIw" name="Kit_MCCB_Ver_W800_wo_RC_1"
+            checksum="80523adc252a43d9f6d3928dc4732376930c97c2">
+          <translation uuid="_bY39MRziEeqsMdsyDwvKIw"/>
+          <file href="../../model.build#_UOQJkBziEeqsMdsyDwvKIw"/>
+          <handles uuid="_sYSEoBziEeqsMdsyDwvKIw" name="FrontPanel_300X800_QB1V83000_XT1"
+              visualId="FrontPanel_300X800_QB1V83000_XT1">
+            <fields xsi:type="comp:Field" uuid="_sYSEoRziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB1V83000"
+                target="css"/>
+          </handles>
+          <handles uuid="_veGmEBziEeqsMdsyDwvKIw" name="FrontPanel_300X800_QB2V83000_XT2"
+              visualId="FrontPanel_300X800_QB2V83000_XT2">
+            <fields xsi:type="comp:Field" uuid="_veGmERziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB2V83000"
+                target="css"/>
+          </handles>
+          <handles uuid="_x0U2kBziEeqsMdsyDwvKIw" name="FrontPanel_300X800_QB3V83000_XT3"
+              visualId="FrontPanel_300X800_QB3V83000_XT3">
+            <fields xsi:type="comp:Field" uuid="_x0U2kRziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB3V83000"
+                target="css"/>
+          </handles>
+          <handles uuid="_1P5lkBziEeqsMdsyDwvKIw" name="FrontPanel_300X800_QB4V83000_XT4"
+              visualId="FrontPanel_300X800_QB4V83000_XT4">
+            <fields xsi:type="comp:Field" uuid="_1P5lkRziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB4V83000"
+                target="css"/>
+          </handles>
+          <handles uuid="_39KdEBziEeqsMdsyDwvKIw" name="FrontPanel_450X800_QB5V84500_XT5"
+              visualId="FrontPanel_450X800_QB5V84500_XT5">
+            <fields xsi:type="comp:Field" uuid="_39KdERziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB5V84500"
+                target="css"/>
+          </handles>
+          <handles uuid="_7JFmgBziEeqsMdsyDwvKIw" name="FrontPanel_450X800_QB6V84500_XT6"
+              visualId="FrontPanel_450X800_QB6V84500_XT6">
+            <fields xsi:type="comp:Field" uuid="_7JFmgRziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB6V84500"
+                target="css"/>
+          </handles>
+          <handles uuid="_9CA3ABziEeqsMdsyDwvKIw" name="FrontPanel_450X800_QB5V845TM_T5"
+              visualId="FrontPanel_450X800_QB5V845TM_T5">
+            <fields xsi:type="comp:Field" uuid="_9CA3ARziEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB5V845TM"
+                target="css"/>
+          </handles>
+          <handles uuid="_AAIN8BzjEeqsMdsyDwvKIw" name="FrontPanel_450X800_QB6V845TM_T6"
+              visualId="FrontPanel_450X800_QB6V845TM_T6">
+            <fields xsi:type="comp:Field" uuid="_AAIN8RzjEeqsMdsyDwvKIw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB6V845TM"
+                target="css"/>
+          </handles>
+          <handles uuid="_C-BicBzjEeqsMdsyDwvKIw" name="KeySlot_01"
+              visualId="KeySlot_01">
+            <fields xsi:type="comp:Field" uuid="_J4OUcBzjEeqsMdsyDwvKIw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_Kit_MCCB_Ver_W800_wo_RC_1"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_d3V-oCiyEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_Kit_MCCB_Ver_W800_wo_RC_1"
+                target="css"/>
+          </handles>
+          <handles uuid="_FEAXgBzjEeqsMdsyDwvKIw" name="KeySlot_02"
+              visualId="KeySlot_02">
+            <fields xsi:type="comp:Field" uuid="_J4OUcRzjEeqsMdsyDwvKIw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_Kit_MCCB_Ver_W800_wo_RC_1"
+                target="transform"/>
+            <fields xsi:type="comp:Field" uuid="_d3V-oSiyEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_Kit_MCCB_Ver_W800_wo_RC_1"
+                target="css"/>
+          </handles>
+        </twoDElement>
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_4k2qcCivEeqPbcemTjvEtw" name="Kit_MCCB_Ver_W600_wo_RC_3"
+            order="5" checksum="2d5aa98a19a46a2878ba0176d4aa6cc00b23fc79">
+          <translation uuid="_4k2qcSivEeqPbcemTjvEtw"/>
+          <file href="../../model.build#_qdK38CMmEeq4ru_gFUwNRw"/>
+          <handles uuid="_FC5fgCiwEeqPbcemTjvEtw" name="FrontPanel_300X600_QB1V63003_XT1"
+              visualId="FrontPanel_300X600_QB1V63003_XT1">
+            <fields xsi:type="comp:Field" uuid="_FC5fgSiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB1V63003"
+                target="css"/>
+          </handles>
+          <handles uuid="_POV_0CiwEeqPbcemTjvEtw" name="FrontPanel_300X600_QB2V63003_XT2"
+              visualId="FrontPanel_300X600_QB2V63003_XT2">
+            <fields xsi:type="comp:Field" uuid="_POV_0SiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB2V63003"
+                target="css"/>
+          </handles>
+          <handles uuid="_RU744CiwEeqPbcemTjvEtw" name="FrontPanel_300X600_QB3V63003_XT3"
+              visualId="FrontPanel_300X600_QB3V63003_XT3">
+            <fields xsi:type="comp:Field" uuid="_RU744SiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB3V63003"
+                target="css"/>
+          </handles>
+          <handles uuid="_ToyK0CiwEeqPbcemTjvEtw" name="FrontPanel_300X600_QB4V63003_XT4"
+              visualId="FrontPanel_300X600_QB4V63003_XT4">
+            <fields xsi:type="comp:Field" uuid="_ToyK0SiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB4V63003"
+                target="css"/>
+          </handles>
+          <handles uuid="_WpQ5QCiwEeqPbcemTjvEtw" name="KeySlot_01"
+              visualId="KeySlot_01">
+            <fields xsi:type="comp:Field" uuid="_WpQ5QSiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_KeySlot_Kit_MCCB_Ver_W600_wo_RC_3"
+                target="css"/>
+          </handles>
+          <handles uuid="_WpQ5QiiwEeqPbcemTjvEtw" name="KeySlot_02"
+              visualId="KeySlot_02">
+            <fields xsi:type="comp:Field" uuid="_WpQ5QyiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_KeySlot_Kit_MCCB_Ver_W600_wo_RC_3"
+                target="css"/>
+          </handles>
+        </twoDElement>
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_cY_cMCiwEeqPbcemTjvEtw" name="Kit_MCCB_Ver_W800_wo_RC_4"
+            order="5" checksum="fe160506553c4eef5050a99d8990e73224a8c7c0">
+          <translation uuid="_cY_cMSiwEeqPbcemTjvEtw"/>
+          <file href="../../model.build#_qdLfACMmEeq4ru_gFUwNRw"/>
+          <handles uuid="_huVJMCiwEeqPbcemTjvEtw" name="KeySlot_01"
+              visualId="KeySlot_01">
+            <fields xsi:type="comp:Field" uuid="_huVJMSiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_KeySlot_Kit_MCCB_Ver_W800_wo_RC_4"
+                target="css"/>
+          </handles>
+          <handles uuid="_huVJMiiwEeqPbcemTjvEtw" name="KeySlot_02"
+              visualId="KeySlot_02">
+            <fields xsi:type="comp:Field" uuid="_huVJMyiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_KeySlot_Kit_MCCB_Ver_W800_wo_RC_4"
+                target="css"/>
+          </handles>
+          <handles uuid="_lqUdoCiwEeqPbcemTjvEtw" name="FrontPanel_300X800_QB1V83004_XT1"
+              visualId="FrontPanel_300X800_QB1V83004_XT1">
+            <fields xsi:type="comp:Field" uuid="_lqUdoSiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB1V83004"
+                target="css"/>
+          </handles>
+          <handles uuid="_pLznYCiwEeqPbcemTjvEtw" name="FrontPanel_300X800_QB2V83004_XT2"
+              visualId="FrontPanel_300X800_QB2V83004_XT2">
+            <fields xsi:type="comp:Field" uuid="_pLznYSiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB2V83004"
+                target="css"/>
+          </handles>
+          <handles uuid="_q6ORACiwEeqPbcemTjvEtw" name="FrontPanel_300X800_QB3V83004_XT3"
+              visualId="FrontPanel_300X800_QB3V83004_XT3">
+            <fields xsi:type="comp:Field" uuid="_q6ORASiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB3V83004"
+                target="css"/>
+          </handles>
+          <handles uuid="_ssEpICiwEeqPbcemTjvEtw" name="FrontPanel_300X800_QB4V83004_XT4"
+              visualId="FrontPanel_300X800_QB4V83004_XT4">
+            <fields xsi:type="comp:Field" uuid="_ssEpISiwEeqPbcemTjvEtw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB4V83004"
+                target="css"/>
+          </handles>
+        </twoDElement>
+      </children>
+      <children uuid="_ireSwB_wEeqtlq6dumZViw" name="Kit_MCCB_Horizontal_1"
+          position="(38.5,0,-50)">
+        <twoDElement xsi:type="comp:TwoDSVGImportFile"
+            uuid="_qxDSwB_wEeqtlq6dumZViw" name="Interactive_SVG_horizontal_1"
+            checksum="aef93ff97cdb6f6917628aa0ac33bdc800bd75a3">
+          <translation uuid="_qxDSwR_wEeqtlq6dumZViw"/>
+          <file href="../../model.build#_BIlp0BWbEeqVeZUDTw4Whw"/>
+          <handles uuid="_AfFFcB_xEeqtlq6dumZViw" name="FrontPanel_200X800_QB1H82000_XT1"
+              visualId="FrontPanel_200X800_QB1H82000_XT1">
+            <fields xsi:type="comp:Field" uuid="_AfFFcR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB1H82000_XT1"
+                target="css"/>
+          </handles>
+          <handles uuid="_D9GEcB_xEeqtlq6dumZViw" name="FrontPanel_200X800_QB2H82000_XT2"
+              visualId="FrontPanel_200X800_QB2H82000_XT2">
+            <fields xsi:type="comp:Field" uuid="_D9GEcR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB2H82000_XT2"
+                target="css"/>
+          </handles>
+          <handles uuid="_HVj1EB_xEeqtlq6dumZViw" name="FrontPanel_200X800_QB3H82000_XT3"
+              visualId="FrontPanel_200X800_QB3H82000_XT3">
+            <fields xsi:type="comp:Field" uuid="_HVj1ER_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB3H82000_XT3"
+                target="css"/>
+          </handles>
+          <handles uuid="_K836AB_xEeqtlq6dumZViw" name="FrontPanel_200X800_QB4H82000_XT4"
+              visualId="FrontPanel_200X800_QB4H82000_XT4">
+            <fields xsi:type="comp:Field" uuid="_K836AR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB4H82000_XT4"
+                target="css"/>
+          </handles>
+          <handles uuid="_NqsyMB_xEeqtlq6dumZViw" name="FrontPanel_400X800_QB5H83000_XT5"
+              visualId="FrontPanel_400X800_QB5H83000_XT5">
+            <fields xsi:type="comp:Field" uuid="_NqsyMR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB5H83000_XT5"
+                target="css"/>
+          </handles>
+          <handles uuid="_RW5XIB_xEeqtlq6dumZViw" name="FrontPanel_400X800_QB5H830TM_T5"
+              visualId="FrontPanel_400X800_QB5H830TM_T5">
+            <fields xsi:type="comp:Field" uuid="_RW5XIR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB5H830TM_T5"
+                target="css"/>
+          </handles>
+          <handles uuid="_U58AEB_xEeqtlq6dumZViw" name="FrontPanel_400X800_QB6H84000_XT6"
+              visualId="FrontPanel_400X800_QB6H84000_XT6">
+            <fields xsi:type="comp:Field" uuid="_U58AER_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB6H84000_XT6"
+                target="css"/>
+          </handles>
+          <handles uuid="_Z9k5EB_xEeqtlq6dumZViw" name="FrontPanel_400X800_QB6H840TM_T6"
+              visualId="FrontPanel_400X800_QB6H840TM_T6">
+            <fields xsi:type="comp:Field" uuid="_Z9k5ER_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_QB6H840TM_T6"
+                target="css"/>
+          </handles>
+          <handles uuid="_eaxdIB_xEeqtlq6dumZViw" name="KeySlot_01"
+              visualId="KeySlot_01">
+            <fields xsi:type="comp:Field" uuid="_eaxdIR_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_key_slot_h"
+                target="css"/>
+            <fields xsi:type="comp:Field" uuid="_hA-qYB_xEeqtlq6dumZViw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_key_slot_h"
+                target="transform"/>
+          </handles>
+          <handles uuid="_eaxdIh_xEeqtlq6dumZViw" name="KeySlot_02"
+              visualId="KeySlot_02">
+            <fields xsi:type="comp:Field" uuid="_eaxdIx_xEeqtlq6dumZViw"
+                name="visibilityManipulation" fieldId="visibility"
+                variableReference="visibility_key_slot_h"
+                target="css"/>
+            <fields xsi:type="comp:Field" uuid="_hA-qYR_xEeqtlq6dumZViw"
+                name="move_yManipulation" fieldId="move_y"
+                variableReference="move_y_key_slot_h"
+                target="transform"/>
+          </handles>
+        </twoDElement>
+      </children>
+    </units>
+    <units uuid="_j0RK8CMeEeq4ru_gFUwNRw" name="device_x2"
+        order="2">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_y7wHcCMeEeq4ru_gFUwNRw" variable="move_x_device2">
+        <vector xsi:type="appl:Coordinate3D" uuid="_y7wHcSMeEeq4ru_gFUwNRw"
+            x="1.0"/>
+      </facets>
+      <children uuid="_rSzZECMeEeq4ru_gFUwNRw" name="device_y2">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_4WJ6oCMeEeq4ru_gFUwNRw" variable="move_y_device2">
+          <vector xsi:type="appl:Coordinate3D" uuid="_4WJ6oSMeEeq4ru_gFUwNRw"
+              z="1.0"/>
+        </facets>
+      </children>
+    </units>
+    <units uuid="_kSzhECMeEeq4ru_gFUwNRw" name="device_x3"
+        order="3">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="_5lwfICWAEeqfZulI6S5wjQ" variable="move_x_device3">
+        <vector xsi:type="appl:Coordinate3D" uuid="_5l5pECWAEeqfZulI6S5wjQ"
+            x="1.0"/>
+      </facets>
+      <children uuid="_tamzECMeEeq4ru_gFUwNRw" name="device_y3">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_9p8IcCMeEeq4ru_gFUwNRw" variable="move_y_device3">
+          <vector xsi:type="appl:Coordinate3D" uuid="_9p8IcSMeEeq4ru_gFUwNRw"
+              z="1.0"/>
+        </facets>
+      </children>
+    </units>
+    <units uuid="_ks3m4CMeEeq4ru_gFUwNRw" name="device_x4"
+        order="2">
+      <facets xsi:type="comp:GeoUnitLineJointFacet"
+          uuid="__vuJMCMeEeq4ru_gFUwNRw" variable="move_x_device4">
+        <vector xsi:type="appl:Coordinate3D" uuid="__vuJMSMeEeq4ru_gFUwNRw"
+            x="1.0"/>
+      </facets>
+      <children uuid="_vYQykCMeEeq4ru_gFUwNRw" name="device_y4">
+        <facets xsi:type="comp:GeoUnitLineJointFacet"
+            uuid="_Dot0ACMfEeq4ru_gFUwNRw" variable="move_y_device4">
+          <vector xsi:type="appl:Coordinate3D" uuid="_Dot0ASMfEeq4ru_gFUwNRw"
+              z="1.0"/>
+        </facets>
+      </children>
+    </units>
+    <parentPlugs uuid="_gElXkgw9EeqISpIeEtmiXA" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_csFp4BdCEeqTUeDkeR0mqw" name="device"
+      toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_csFp7BdCEeqTUeDkeR0mqw"
+        geoUnit="_sL18cBdCEeqTUeDkeR0mqw"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_4WK_UByoEeqTcoOIGGLY9g">
+      <chains uuid="_7BL0EByoEeqTcoOIGGLY9g" name="number_of_poles"
+          value="" chained="kit_number_of_poles" refVar="number_of_poles"/>
+      <chains uuid="_GdIS8BypEeqTcoOIGGLY9g" name="kit_rating"
+          value="" chained="frame_size_current_chain"
+          refVar="kit_rating"/>
+    </facets>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_r_TJICWDEeqfZulI6S5wjQ" declared="true"
+        model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT"/>
+    <domain uuid="_csFp4RdCEeqTUeDkeR0mqw" name="local"
+        visibility="300">
+      <typeSet uuid="_csFp4hdCEeqTUeDkeR0mqw" bitSet="65536"/>
+      <values uuid="_csFp4xdCEeqTUeDkeR0mqw" name="NONE"
+          visibility="300">
+        <displayName uuid="_csFp5BdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_MBdCEeqTUeDkeR0mqw" name="device_XT2"
+          visibility="300">
+        <displayName uuid="_gA1_MRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_MhdCEeqTUeDkeR0mqw" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_gA1_MxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_NBdCEeqTUeDkeR0mqw" name="device_XT4"
+          visibility="300">
+        <displayName uuid="_gA1_NRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_NhdCEeqTUeDkeR0mqw" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_gA1_NxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_OBdCEeqTUeDkeR0mqw" name="device_OT630_800"
+          visibility="300">
+        <displayName uuid="_gA1_ORdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_OhdCEeqTUeDkeR0mqw" name="device_XT5"
+          visibility="300">
+        <displayName uuid="_gA1_OxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_PBdCEeqTUeDkeR0mqw" name="device_inline_NH00_EFM"
+          visibility="300">
+        <displayName uuid="_gA1_PRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_PhdCEeqTUeDkeR0mqw" name="device_XT7"
+          visibility="300">
+        <displayName uuid="_gA1_PxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_QBdCEeqTUeDkeR0mqw" name="device_T5_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_QRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_QhdCEeqTUeDkeR0mqw" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_gA1_QxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_RBdCEeqTUeDkeR0mqw" name="device_E22"
+          visibility="300">
+        <displayName uuid="_gA1_RRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_RhdCEeqTUeDkeR0mqw" name="device_E18"
+          visibility="300">
+        <displayName uuid="_gA1_RxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_SBdCEeqTUeDkeR0mqw" name="device_XLP2"
+          visibility="300">
+        <displayName uuid="_gA1_SRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ShdCEeqTUeDkeR0mqw" name="device_XLP1"
+          visibility="300">
+        <displayName uuid="_gA1_SxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_TBdCEeqTUeDkeR0mqw" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_gA1_TRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ThdCEeqTUeDkeR0mqw" name="device_E12"
+          visibility="300">
+        <displayName uuid="_gA1_TxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_UBdCEeqTUeDkeR0mqw" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_gA1_URdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_UhdCEeqTUeDkeR0mqw" name="device_inline_nh12_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_UxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_VBdCEeqTUeDkeR0mqw" name="device_nh0_450"
+          visibility="300">
+        <displayName uuid="_gA1_VRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_VhdCEeqTUeDkeR0mqw" name="device_busbarsystem"
+          visibility="300">
+        <displayName uuid="_gA1_VxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_WBdCEeqTUeDkeR0mqw" name="device_T6"
+          visibility="300">
+        <displayName uuid="_gA1_WRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_WhdCEeqTUeDkeR0mqw" name="device_T5"
+          visibility="300">
+        <displayName uuid="_gA1_WxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_XBdCEeqTUeDkeR0mqw" name="device_T4"
+          visibility="300">
+        <displayName uuid="_gA1_XRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_XhdCEeqTUeDkeR0mqw" name="device_T7"
+          visibility="300">
+        <displayName uuid="_gA1_XxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_YBdCEeqTUeDkeR0mqw" name="device_OT315_400"
+          visibility="300">
+        <displayName uuid="_gA1_YRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_YhdCEeqTUeDkeR0mqw" name="device_InLine2_NH00"
+          visibility="300">
+        <displayName uuid="_gA1_YxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ZBdCEeqTUeDkeR0mqw" name="device_inline_NH1_EFM"
+          visibility="300">
+        <displayName uuid="_gA1_ZRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ZhdCEeqTUeDkeR0mqw" name="device_OT160_250"
+          visibility="300">
+        <displayName uuid="_gA1_ZxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_aBdCEeqTUeDkeR0mqw" name="device_E42"
+          visibility="300">
+        <displayName uuid="_gA1_aRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ahdCEeqTUeDkeR0mqw" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_gA1_axdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_bBdCEeqTUeDkeR0mqw" name="device_T6_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_bRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_bhdCEeqTUeDkeR0mqw" name="device_OT160M"
+          visibility="300">
+        <displayName uuid="_gA1_bxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_cBdCEeqTUeDkeR0mqw" name="device_InLine2_NH3"
+          visibility="300">
+        <displayName uuid="_gA1_cRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_chdCEeqTUeDkeR0mqw" name="device_InLine2_NH2"
+          visibility="300">
+        <displayName uuid="_gA1_cxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_dBdCEeqTUeDkeR0mqw" name="device_InLine2_NH1"
+          visibility="300">
+        <displayName uuid="_gA1_dRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_dhdCEeqTUeDkeR0mqw" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_gA1_dxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_eBdCEeqTUeDkeR0mqw" name="device_efen_jean_wohner"
+          visibility="300">
+        <displayName uuid="_gA1_eRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ehdCEeqTUeDkeR0mqw" name="device_XLP00"
+          visibility="300">
+        <displayName uuid="_gA1_exdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_fBdCEeqTUeDkeR0mqw" name="device_compensator_200"
+          visibility="300">
+        <displayName uuid="_gA1_fRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_fhdCEeqTUeDkeR0mqw" name="device_inline_nh00_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_fxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_gBdCEeqTUeDkeR0mqw" name="XT1_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_gRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_ghdCEeqTUeDkeR0mqw" name="device_E62"
+          visibility="300">
+        <displayName uuid="_gA1_gxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_hBdCEeqTUeDkeR0mqw" name="XT3_combiline"
+          visibility="300">
+        <displayName uuid="_gA1_hRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_hhdCEeqTUeDkeR0mqw" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_gA1_hxdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_gA1_iBdCEeqTUeDkeR0mqw" name="device_XT7M"
+          visibility="300">
+        <displayName uuid="_gA1_iRdCEeqTUeDkeR0mqw"/>
+      </values>
+      <values uuid="_E3qqtCW3Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_E3qqtSW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_O3nrqyW3Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_O3nrrCW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_RaPuRiirEeqPbcemTjvEtw" name="device_OT200"
+          visibility="300">
+        <displayName uuid="_RaPuRyirEeqPbcemTjvEtw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_VaXtMCMeEeq4ru_gFUwNRw" name="device3"
+      toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_VaXtPCMeEeq4ru_gFUwNRw"
+        geoUnit="_tamzECMeEeq4ru_gFUwNRw"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_vCEDoCMfEeq4ru_gFUwNRw">
+      <chains uuid="_vpJ40CMfEeq4ru_gFUwNRw" name="number_of_poles"
+          value="" chained="kit_number_of_poles" refVar="number_of_poles"/>
+      <chains uuid="_vpJ40SMfEeq4ru_gFUwNRw" name="kit_rating"
+          value="" chained="frame_size_current_chain"
+          refVar="kit_rating"/>
+    </facets>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_t8TBUCWDEeqfZulI6S5wjQ" declared="true"
+        model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT"/>
+    <domain uuid="_VaXtMSMeEeq4ru_gFUwNRw" name="local"
+        visibility="300">
+      <typeSet uuid="_VaXtMiMeEeq4ru_gFUwNRw" bitSet="65536"/>
+      <values uuid="_VaXtMyMeEeq4ru_gFUwNRw" name="NONE"
+          visibility="300">
+        <displayName uuid="_VaXtNCMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiICMeEeq4ru_gFUwNRw" name="device_XT2"
+          visibility="300">
+        <displayName uuid="_gAdiISMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiIiMeEeq4ru_gFUwNRw" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_gAdiIyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiJCMeEeq4ru_gFUwNRw" name="device_XT4"
+          visibility="300">
+        <displayName uuid="_gAdiJSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiJiMeEeq4ru_gFUwNRw" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_gAdiJyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiKCMeEeq4ru_gFUwNRw" name="device_OT630_800"
+          visibility="300">
+        <displayName uuid="_gAdiKSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiKiMeEeq4ru_gFUwNRw" name="device_XT5"
+          visibility="300">
+        <displayName uuid="_gAdiKyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiLCMeEeq4ru_gFUwNRw" name="device_inline_NH00_EFM"
+          visibility="300">
+        <displayName uuid="_gAdiLSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiLiMeEeq4ru_gFUwNRw" name="device_XT7"
+          visibility="300">
+        <displayName uuid="_gAdiLyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiMCMeEeq4ru_gFUwNRw" name="device_T5_combiline"
+          visibility="300">
+        <displayName uuid="_gAdiMSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiMiMeEeq4ru_gFUwNRw" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_gAdiMyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiNCMeEeq4ru_gFUwNRw" name="device_E22"
+          visibility="300">
+        <displayName uuid="_gAdiNSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiNiMeEeq4ru_gFUwNRw" name="device_E18"
+          visibility="300">
+        <displayName uuid="_gAdiNyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiOCMeEeq4ru_gFUwNRw" name="device_XLP2"
+          visibility="300">
+        <displayName uuid="_gAdiOSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiOiMeEeq4ru_gFUwNRw" name="device_XLP1"
+          visibility="300">
+        <displayName uuid="_gAdiOyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiPCMeEeq4ru_gFUwNRw" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_gAdiPSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiPiMeEeq4ru_gFUwNRw" name="device_E12"
+          visibility="300">
+        <displayName uuid="_gAdiPyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiQCMeEeq4ru_gFUwNRw" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_gAdiQSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiQiMeEeq4ru_gFUwNRw" name="device_inline_nh12_combiline"
+          visibility="300">
+        <displayName uuid="_gAdiQyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiRCMeEeq4ru_gFUwNRw" name="device_nh0_450"
+          visibility="300">
+        <displayName uuid="_gAdiRSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiRiMeEeq4ru_gFUwNRw" name="device_busbarsystem"
+          visibility="300">
+        <displayName uuid="_gAdiRyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiSCMeEeq4ru_gFUwNRw" name="device_T6"
+          visibility="300">
+        <displayName uuid="_gAdiSSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiSiMeEeq4ru_gFUwNRw" name="device_T5"
+          visibility="300">
+        <displayName uuid="_gAdiSyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiTCMeEeq4ru_gFUwNRw" name="device_T4"
+          visibility="300">
+        <displayName uuid="_gAdiTSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiTiMeEeq4ru_gFUwNRw" name="device_T7"
+          visibility="300">
+        <displayName uuid="_gAdiTyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiUCMeEeq4ru_gFUwNRw" name="device_OT315_400"
+          visibility="300">
+        <displayName uuid="_gAdiUSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiUiMeEeq4ru_gFUwNRw" name="device_InLine2_NH00"
+          visibility="300">
+        <displayName uuid="_gAdiUyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiVCMeEeq4ru_gFUwNRw" name="device_inline_NH1_EFM"
+          visibility="300">
+        <displayName uuid="_gAdiVSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiViMeEeq4ru_gFUwNRw" name="device_OT160_250"
+          visibility="300">
+        <displayName uuid="_gAdiVyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiWCMeEeq4ru_gFUwNRw" name="device_E42"
+          visibility="300">
+        <displayName uuid="_gAdiWSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiWiMeEeq4ru_gFUwNRw" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_gAdiWyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiXCMeEeq4ru_gFUwNRw" name="device_T6_combiline"
+          visibility="300">
+        <displayName uuid="_gAdiXSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiXiMeEeq4ru_gFUwNRw" name="device_OT160M"
+          visibility="300">
+        <displayName uuid="_gAdiXyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiYCMeEeq4ru_gFUwNRw" name="device_InLine2_NH3"
+          visibility="300">
+        <displayName uuid="_gAdiYSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiYiMeEeq4ru_gFUwNRw" name="device_InLine2_NH2"
+          visibility="300">
+        <displayName uuid="_gAdiYyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiZCMeEeq4ru_gFUwNRw" name="device_InLine2_NH1"
+          visibility="300">
+        <displayName uuid="_gAdiZSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiZiMeEeq4ru_gFUwNRw" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_gAdiZyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiaCMeEeq4ru_gFUwNRw" name="device_efen_jean_wohner"
+          visibility="300">
+        <displayName uuid="_gAdiaSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiaiMeEeq4ru_gFUwNRw" name="device_XLP00"
+          visibility="300">
+        <displayName uuid="_gAdiayMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdibCMeEeq4ru_gFUwNRw" name="device_compensator_200"
+          visibility="300">
+        <displayName uuid="_gAdibSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdibiMeEeq4ru_gFUwNRw" name="device_inline_nh00_combiline"
+          visibility="300">
+        <displayName uuid="_gAdibyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdicCMeEeq4ru_gFUwNRw" name="XT1_combiline"
+          visibility="300">
+        <displayName uuid="_gAdicSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdiciMeEeq4ru_gFUwNRw" name="device_E62"
+          visibility="300">
+        <displayName uuid="_gAdicyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdidCMeEeq4ru_gFUwNRw" name="XT3_combiline"
+          visibility="300">
+        <displayName uuid="_gAdidSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdidiMeEeq4ru_gFUwNRw" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_gAdidyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_gAdieCMeEeq4ru_gFUwNRw" name="device_XT7M"
+          visibility="300">
+        <displayName uuid="_gAdieSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_E3qsbSW3Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_E3qsbiW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_O3ntaSW3Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_O3ntaiW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_RaPwBCirEeqPbcemTjvEtw" name="device_OT200"
+          visibility="300">
+        <displayName uuid="_RaPwBSirEeqPbcemTjvEtw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_WHHecCMeEeq4ru_gFUwNRw" name="device2"
+      toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_WHHefCMeEeq4ru_gFUwNRw"
+        geoUnit="_rSzZECMeEeq4ru_gFUwNRw"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_r-JmsCMfEeq4ru_gFUwNRw">
+      <chains uuid="_tmQM8CMfEeq4ru_gFUwNRw" name="number_of_poles"
+          value="" chained="kit_number_of_poles" refVar="number_of_poles"/>
+      <chains uuid="_tmQM8SMfEeq4ru_gFUwNRw" name="kit_rating"
+          value="" chained="frame_size_current_chain"
+          refVar="kit_rating"/>
+    </facets>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_pqt3YCWDEeqfZulI6S5wjQ" declared="true"
+        model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT"/>
+    <domain uuid="_WHHecSMeEeq4ru_gFUwNRw" name="local"
+        visibility="300">
+      <typeSet uuid="_WHHeciMeEeq4ru_gFUwNRw" bitSet="65536"/>
+      <values uuid="_WHHecyMeEeq4ru_gFUwNRw" name="NONE"
+          visibility="300">
+        <displayName uuid="_WHHedCMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fllkACMeEeq4ru_gFUwNRw" name="device_XT2"
+          visibility="300">
+        <displayName uuid="_fllkASMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_YCMeEeq4ru_gFUwNRw" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_fly_YSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_YiMeEeq4ru_gFUwNRw" name="device_XT4"
+          visibility="300">
+        <displayName uuid="_fly_YyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_ZCMeEeq4ru_gFUwNRw" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_fly_ZSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_ZiMeEeq4ru_gFUwNRw" name="device_OT630_800"
+          visibility="300">
+        <displayName uuid="_fly_ZyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_aCMeEeq4ru_gFUwNRw" name="device_XT5"
+          visibility="300">
+        <displayName uuid="_fly_aSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_aiMeEeq4ru_gFUwNRw" name="device_inline_NH00_EFM"
+          visibility="300">
+        <displayName uuid="_fly_ayMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_bCMeEeq4ru_gFUwNRw" name="device_XT7"
+          visibility="300">
+        <displayName uuid="_fly_bSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_biMeEeq4ru_gFUwNRw" name="device_T5_combiline"
+          visibility="300">
+        <displayName uuid="_fly_byMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_cCMeEeq4ru_gFUwNRw" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_fly_cSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_ciMeEeq4ru_gFUwNRw" name="device_E22"
+          visibility="300">
+        <displayName uuid="_fly_cyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_dCMeEeq4ru_gFUwNRw" name="device_E18"
+          visibility="300">
+        <displayName uuid="_fly_dSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_diMeEeq4ru_gFUwNRw" name="device_XLP2"
+          visibility="300">
+        <displayName uuid="_fly_dyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_eCMeEeq4ru_gFUwNRw" name="device_XLP1"
+          visibility="300">
+        <displayName uuid="_fly_eSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_eiMeEeq4ru_gFUwNRw" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_fly_eyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_fCMeEeq4ru_gFUwNRw" name="device_E12"
+          visibility="300">
+        <displayName uuid="_fly_fSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_fiMeEeq4ru_gFUwNRw" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_fly_fyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_gCMeEeq4ru_gFUwNRw" name="device_inline_nh12_combiline"
+          visibility="300">
+        <displayName uuid="_fly_gSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_giMeEeq4ru_gFUwNRw" name="device_nh0_450"
+          visibility="300">
+        <displayName uuid="_fly_gyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_hCMeEeq4ru_gFUwNRw" name="device_busbarsystem"
+          visibility="300">
+        <displayName uuid="_fly_hSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_hiMeEeq4ru_gFUwNRw" name="device_T6"
+          visibility="300">
+        <displayName uuid="_fly_hyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_iCMeEeq4ru_gFUwNRw" name="device_T5"
+          visibility="300">
+        <displayName uuid="_fly_iSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_iiMeEeq4ru_gFUwNRw" name="device_T4"
+          visibility="300">
+        <displayName uuid="_fly_iyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_jCMeEeq4ru_gFUwNRw" name="device_T7"
+          visibility="300">
+        <displayName uuid="_fly_jSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_jiMeEeq4ru_gFUwNRw" name="device_OT315_400"
+          visibility="300">
+        <displayName uuid="_fly_jyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_kCMeEeq4ru_gFUwNRw" name="device_InLine2_NH00"
+          visibility="300">
+        <displayName uuid="_fly_kSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_kiMeEeq4ru_gFUwNRw" name="device_inline_NH1_EFM"
+          visibility="300">
+        <displayName uuid="_fly_kyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_lCMeEeq4ru_gFUwNRw" name="device_OT160_250"
+          visibility="300">
+        <displayName uuid="_fly_lSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_liMeEeq4ru_gFUwNRw" name="device_E42"
+          visibility="300">
+        <displayName uuid="_fly_lyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_mCMeEeq4ru_gFUwNRw" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_fly_mSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_miMeEeq4ru_gFUwNRw" name="device_T6_combiline"
+          visibility="300">
+        <displayName uuid="_fly_myMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_nCMeEeq4ru_gFUwNRw" name="device_OT160M"
+          visibility="300">
+        <displayName uuid="_fly_nSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_niMeEeq4ru_gFUwNRw" name="device_InLine2_NH3"
+          visibility="300">
+        <displayName uuid="_fly_nyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_oCMeEeq4ru_gFUwNRw" name="device_InLine2_NH2"
+          visibility="300">
+        <displayName uuid="_fly_oSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_oiMeEeq4ru_gFUwNRw" name="device_InLine2_NH1"
+          visibility="300">
+        <displayName uuid="_fly_oyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_pCMeEeq4ru_gFUwNRw" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_fly_pSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_piMeEeq4ru_gFUwNRw" name="device_efen_jean_wohner"
+          visibility="300">
+        <displayName uuid="_fly_pyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_qCMeEeq4ru_gFUwNRw" name="device_XLP00"
+          visibility="300">
+        <displayName uuid="_fly_qSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_qiMeEeq4ru_gFUwNRw" name="device_compensator_200"
+          visibility="300">
+        <displayName uuid="_fly_qyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_rCMeEeq4ru_gFUwNRw" name="device_inline_nh00_combiline"
+          visibility="300">
+        <displayName uuid="_fly_rSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_riMeEeq4ru_gFUwNRw" name="XT1_combiline"
+          visibility="300">
+        <displayName uuid="_fly_ryMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_sCMeEeq4ru_gFUwNRw" name="device_E62"
+          visibility="300">
+        <displayName uuid="_fly_sSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_siMeEeq4ru_gFUwNRw" name="XT3_combiline"
+          visibility="300">
+        <displayName uuid="_fly_syMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_tCMeEeq4ru_gFUwNRw" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_fly_tSMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_fly_tiMeEeq4ru_gFUwNRw" name="device_XT7M"
+          visibility="300">
+        <displayName uuid="_fly_tyMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_E3quKCW3Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_E3quKSW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_O3nvKSW3Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_O3nvKiW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_RaPx1CirEeqPbcemTjvEtw" name="device_OT200"
+          visibility="300">
+        <displayName uuid="_RaPx1SirEeqPbcemTjvEtw"/>
+      </values>
+    </domain>
+  </roles>
+  <roles uuid="_WwqxwCMeEeq4ru_gFUwNRw" name="device4"
+      toas="device, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_WwqxzCMeEeq4ru_gFUwNRw"
+        geoUnit="_vYQykCMeEeq4ru_gFUwNRw"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_xLaVwCMfEeq4ru_gFUwNRw">
+      <chains uuid="_xwGXMCMfEeq4ru_gFUwNRw" name="number_of_poles"
+          value="" chained="kit_number_of_poles" refVar="number_of_poles"/>
+      <chains uuid="_xwGXMSMfEeq4ru_gFUwNRw" name="kit_rating"
+          value="" chained="frame_size_current_chain"
+          refVar="kit_rating"/>
+    </facets>
+    <facets xsi:type="array:VariableLogicConstraintFacet"
+        uuid="_viqiMCWDEeqfZulI6S5wjQ" declared="true"
+        model="_po7mMAw-EeqISpIeEtmiXA" flow="OUT"/>
+    <domain uuid="_WwqxwSMeEeq4ru_gFUwNRw" name="local"
+        visibility="300">
+      <typeSet uuid="_WwqxwiMeEeq4ru_gFUwNRw" bitSet="65536"/>
+      <values uuid="_WwqxwyMeEeq4ru_gFUwNRw" name="NONE"
+          visibility="300">
+        <displayName uuid="_WwqxxCMeEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuoCMfEeq4ru_gFUwNRw" name="device_XT2"
+          visibility="300">
+        <displayName uuid="_wKiuoSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuoiMfEeq4ru_gFUwNRw" name="device_XT1"
+          visibility="300">
+        <displayName uuid="_wKiuoyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiupCMfEeq4ru_gFUwNRw" name="device_XT4"
+          visibility="300">
+        <displayName uuid="_wKiupSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiupiMfEeq4ru_gFUwNRw" name="device_XT3"
+          visibility="300">
+        <displayName uuid="_wKiupyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuqCMfEeq4ru_gFUwNRw" name="device_OT630_800"
+          visibility="300">
+        <displayName uuid="_wKiuqSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuqiMfEeq4ru_gFUwNRw" name="device_XT5"
+          visibility="300">
+        <displayName uuid="_wKiuqyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiurCMfEeq4ru_gFUwNRw" name="device_inline_NH00_EFM"
+          visibility="300">
+        <displayName uuid="_wKiurSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuriMfEeq4ru_gFUwNRw" name="device_XT7"
+          visibility="300">
+        <displayName uuid="_wKiuryMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiusCMfEeq4ru_gFUwNRw" name="device_T5_combiline"
+          visibility="300">
+        <displayName uuid="_wKiusSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiusiMfEeq4ru_gFUwNRw" name="device_compensator_100"
+          visibility="300">
+        <displayName uuid="_wKiusyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiutCMfEeq4ru_gFUwNRw" name="device_E22"
+          visibility="300">
+        <displayName uuid="_wKiutSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiutiMfEeq4ru_gFUwNRw" name="device_E18"
+          visibility="300">
+        <displayName uuid="_wKiutyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuuCMfEeq4ru_gFUwNRw" name="device_XLP2"
+          visibility="300">
+        <displayName uuid="_wKiuuSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuuiMfEeq4ru_gFUwNRw" name="device_XLP1"
+          visibility="300">
+        <displayName uuid="_wKiuuyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuvCMfEeq4ru_gFUwNRw" name="device_SlimLine_200_XR2"
+          visibility="300">
+        <displayName uuid="_wKiuvSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuviMfEeq4ru_gFUwNRw" name="device_E12"
+          visibility="300">
+        <displayName uuid="_wKiuvyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuwCMfEeq4ru_gFUwNRw" name="device_SlimLine_200_XR3"
+          visibility="300">
+        <displayName uuid="_wKiuwSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuwiMfEeq4ru_gFUwNRw" name="device_inline_nh12_combiline"
+          visibility="300">
+        <displayName uuid="_wKiuwyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuxCMfEeq4ru_gFUwNRw" name="device_nh0_450"
+          visibility="300">
+        <displayName uuid="_wKiuxSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuxiMfEeq4ru_gFUwNRw" name="device_busbarsystem"
+          visibility="300">
+        <displayName uuid="_wKiuxyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuyCMfEeq4ru_gFUwNRw" name="device_T6"
+          visibility="300">
+        <displayName uuid="_wKiuySMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuyiMfEeq4ru_gFUwNRw" name="device_T5"
+          visibility="300">
+        <displayName uuid="_wKiuyyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuzCMfEeq4ru_gFUwNRw" name="device_T4"
+          visibility="300">
+        <displayName uuid="_wKiuzSMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiuziMfEeq4ru_gFUwNRw" name="device_T7"
+          visibility="300">
+        <displayName uuid="_wKiuzyMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu0CMfEeq4ru_gFUwNRw" name="device_OT315_400"
+          visibility="300">
+        <displayName uuid="_wKiu0SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu0iMfEeq4ru_gFUwNRw" name="device_InLine2_NH00"
+          visibility="300">
+        <displayName uuid="_wKiu0yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu1CMfEeq4ru_gFUwNRw" name="device_inline_NH1_EFM"
+          visibility="300">
+        <displayName uuid="_wKiu1SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu1iMfEeq4ru_gFUwNRw" name="device_OT160_250"
+          visibility="300">
+        <displayName uuid="_wKiu1yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu2CMfEeq4ru_gFUwNRw" name="device_E42"
+          visibility="300">
+        <displayName uuid="_wKiu2SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu2iMfEeq4ru_gFUwNRw" name="device_compensator_50"
+          visibility="300">
+        <displayName uuid="_wKiu2yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu3CMfEeq4ru_gFUwNRw" name="device_T6_combiline"
+          visibility="300">
+        <displayName uuid="_wKiu3SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu3iMfEeq4ru_gFUwNRw" name="device_OT160M"
+          visibility="300">
+        <displayName uuid="_wKiu3yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu4CMfEeq4ru_gFUwNRw" name="device_InLine2_NH3"
+          visibility="300">
+        <displayName uuid="_wKiu4SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu4iMfEeq4ru_gFUwNRw" name="device_InLine2_NH2"
+          visibility="300">
+        <displayName uuid="_wKiu4yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu5CMfEeq4ru_gFUwNRw" name="device_InLine2_NH1"
+          visibility="300">
+        <displayName uuid="_wKiu5SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu5iMfEeq4ru_gFUwNRw" name="device_SlimLine_50"
+          visibility="300">
+        <displayName uuid="_wKiu5yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu6CMfEeq4ru_gFUwNRw" name="device_efen_jean_wohner"
+          visibility="300">
+        <displayName uuid="_wKiu6SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu6iMfEeq4ru_gFUwNRw" name="device_XLP00"
+          visibility="300">
+        <displayName uuid="_wKiu6yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu7CMfEeq4ru_gFUwNRw" name="device_compensator_200"
+          visibility="300">
+        <displayName uuid="_wKiu7SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu7iMfEeq4ru_gFUwNRw" name="device_inline_nh00_combiline"
+          visibility="300">
+        <displayName uuid="_wKiu7yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu8CMfEeq4ru_gFUwNRw" name="XT1_combiline"
+          visibility="300">
+        <displayName uuid="_wKiu8SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu8iMfEeq4ru_gFUwNRw" name="device_E62"
+          visibility="300">
+        <displayName uuid="_wKiu8yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu9CMfEeq4ru_gFUwNRw" name="XT3_combiline"
+          visibility="300">
+        <displayName uuid="_wKiu9SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu9iMfEeq4ru_gFUwNRw" name="device_SlimLine_100"
+          visibility="300">
+        <displayName uuid="_wKiu9yMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_wKiu-CMfEeq4ru_gFUwNRw" name="device_XT7M"
+          visibility="300">
+        <displayName uuid="_wKiu-SMfEeq4ru_gFUwNRw"/>
+      </values>
+      <values uuid="_E3qv4yW3Eeq74_qBm38QaA" name="HPCB_S800"
+          visibility="300">
+        <displayName uuid="_E3qv5CW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_O3nw6SW3Eeq74_qBm38QaA" name="device_MCB_tbbs"
+          visibility="300">
+        <displayName uuid="_O3nw6iW3Eeq74_qBm38QaA"/>
+      </values>
+      <values uuid="_RaZbpiirEeqPbcemTjvEtw" name="device_OT200"
+          visibility="300">
+        <displayName uuid="_RaZbpyirEeqPbcemTjvEtw"/>
+      </values>
+    </domain>
+  </roles>
+  <displayName uuid="_gElXkww9EeqISpIeEtmiXA" value="MCCB"/>
+</comp:Component>
